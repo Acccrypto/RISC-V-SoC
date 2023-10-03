@@ -1,0 +1,4 @@
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM bank[22:0] (in view: work.poly_bank(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock poly_bank|clk with period 10.00ns. Please declare a user-defined clock on port clk.

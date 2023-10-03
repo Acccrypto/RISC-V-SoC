@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>IHC_SUBSYSTEM</header>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between IHC_APB_0:APBmslave4:PWDATAS[0-31] and E51_IRQ_AGGREGATOR_0:APB_SLAVE:pwdata[0-9] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_0:APBmslave4</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between IHC_APB_0:APBmslave9:PWDATAS[0-31] and U54_1_IRQ_AGGREGATOR:APB_SLAVE:pwdata[0-9] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_0:APBmslave9</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between IHC_APB_0:APBmslave14:PWDATAS[0-31] and U54_2_IRQ_AGGREGATOR:APB_SLAVE:pwdata[0-9] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_0:APBmslave14</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between IHC_APB_1:APBmslave3:PWDATAS[0-31] and U54_3_IRQ_AGGREGATOR:APB_SLAVE:pwdata[0-9] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave3</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between IHC_APB_1:APBmslave8:PWDATAS[0-31] and U54_4_IRQ_AGGREGATOR:APB_SLAVE:pwdata[0-9] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave8</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin IHC_APB_1:APBmslave9</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave9</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin IHC_APB_1:APBmslave10</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave10</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin IHC_APB_1:APBmslave11</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave11</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin IHC_APB_1:APBmslave12</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave12</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin IHC_APB_1:APBmslave13</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave13</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin IHC_APB_1:APBmslave14</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave14</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin IHC_APB_1:APBmslave15</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/IHC_SUBSYSTEM/pins/IHC_APB_1:APBmslave15</crossprobe>
+  </drc>
+</drcreport>

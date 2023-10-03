@@ -1,0 +1,94 @@
+Jitter Estimation Report
+========================
+
+Date           : Tue Sep 12 21:41:06 2023
+Libero version : 2022.2.0.10
+Design         : MPFS_ICICLE_KIT_BASE_DESIGN
+Family         : PolarFireSoC
+Die            : MPFS250T_ES
+Speed grade    : STD
+Data state     : Production
+
+
+System Jitter Calculation
+-------------------------
+
+Worst aggressor based on load:    REF_CLK_50MHz
+System jitter (worst aggressor):  0.008 ns
+
+
+Jitter Calculation per Clock Domain
+-----------------------------------
+
+Clock: CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) Master Clock jitter:                          0.600 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.600 ns
+
+
+Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) RC Oscillator jitter:                         0.600 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.600 ns
+
+
+Clock: CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: REF_CLK_PAD_P
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) Input jitter:                                 0.000 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.008 ns
+
+
+Clock: REF_CLK_50MHz
+
+ (1) System jitter (worst aggressor):              0.008 ns
+ (2) Input jitter:                                 0.000 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.008 ns
+
+

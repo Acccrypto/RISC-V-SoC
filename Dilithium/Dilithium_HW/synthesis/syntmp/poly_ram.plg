@@ -1,0 +1,12 @@
+@P:  Worst Slack : 7.439
+@P:  poly_ram|clk - Estimated Frequency : 390.5 MHz
+@P:  poly_ram|clk - Requested Frequency : 100.0 MHz
+@P:  poly_ram|clk - Estimated Period : 2.561
+@P:  poly_ram|clk - Requested Period : 10.000
+@P:  poly_ram|clk - Slack : 7.439
+@P: poly_ram Part : mpfs250tfcg1152std
+@P: poly_ram Register bits  : 14 
+@P: poly_ram DSP Blocks  : 0
+@P: poly_ram I/O primitives : 220
+@P: poly_ram RAM64x12 :  11
+@P:  CPU Time : 0h:00m:03s

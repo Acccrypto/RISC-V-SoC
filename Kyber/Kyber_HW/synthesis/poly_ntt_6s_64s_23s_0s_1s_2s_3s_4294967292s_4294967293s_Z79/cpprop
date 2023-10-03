@@ -1,0 +1,9 @@
+n work poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79 verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 18.9062;
+av .compile_point_starttime_stamp "Mon Mar  6 14:53:19 2023";
+av .compile_point_endtime_stamp "Mon Mar  6 14:53:38 2023";
+av .compile_point_realtime_used 19.025;

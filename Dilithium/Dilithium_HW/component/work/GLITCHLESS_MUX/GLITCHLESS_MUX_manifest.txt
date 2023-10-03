@@ -1,0 +1,18 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Mon Dec 12 18:35:15 2022
+Project   :  F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE
+Component :  GLITCHLESS_MUX
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX_0/GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX.v
+    F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/SgCore/PF_NGMUX/1.0.101/ICB_NGMUX_syn_comps.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/Actel/SgCore/PF_NGMUX/1.0.101/ICB_NGMUX_pre_comps.v
+

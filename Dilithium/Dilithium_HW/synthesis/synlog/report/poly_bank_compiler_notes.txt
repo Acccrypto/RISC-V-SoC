@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_bank.v":21:7:21:15|Synthesizing module poly_bank in library work.
+@N: CL134 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_bank.v":36:4:36:9|Found RAM bank, depth=64, width=23
+@N|Running in 64-bit mode
+

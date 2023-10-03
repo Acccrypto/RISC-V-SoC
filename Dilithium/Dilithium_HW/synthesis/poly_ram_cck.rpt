@@ -1,0 +1,292 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+
+# Written on Thu Mar  2 18:54:43 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "poly_ram"
+Constraint File(s):      "F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\designer\poly_ram\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting         Ending           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------
+poly_ram|clk     poly_ram|clk     |     10.000           |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:addr0[0]
+p:addr0[1]
+p:addr0[2]
+p:addr0[3]
+p:addr0[4]
+p:addr0[5]
+p:addr1[0]
+p:addr1[1]
+p:addr1[2]
+p:addr1[3]
+p:addr1[4]
+p:addr1[5]
+p:addr2[0]
+p:addr2[1]
+p:addr2[2]
+p:addr2[3]
+p:addr2[4]
+p:addr2[5]
+p:addr3[0]
+p:addr3[1]
+p:addr3[2]
+p:addr3[3]
+p:addr3[4]
+p:addr3[5]
+p:bank0_index[0]
+p:bank0_index[1]
+p:bank1_index[0]
+p:bank1_index[1]
+p:bank2_index[0]
+p:bank2_index[1]
+p:bank3_index[0]
+p:bank3_index[1]
+p:din0[0]
+p:din0[1]
+p:din0[2]
+p:din0[3]
+p:din0[4]
+p:din0[5]
+p:din0[6]
+p:din0[7]
+p:din0[8]
+p:din0[9]
+p:din0[10]
+p:din0[11]
+p:din0[12]
+p:din0[13]
+p:din0[14]
+p:din0[15]
+p:din0[16]
+p:din0[17]
+p:din0[18]
+p:din0[19]
+p:din0[20]
+p:din0[21]
+p:din0[22]
+p:din1[0]
+p:din1[1]
+p:din1[2]
+p:din1[3]
+p:din1[4]
+p:din1[5]
+p:din1[6]
+p:din1[7]
+p:din1[8]
+p:din1[9]
+p:din1[10]
+p:din1[11]
+p:din1[12]
+p:din1[13]
+p:din1[14]
+p:din1[15]
+p:din1[16]
+p:din1[17]
+p:din1[18]
+p:din1[19]
+p:din1[20]
+p:din1[21]
+p:din1[22]
+p:din2[0]
+p:din2[1]
+p:din2[2]
+p:din2[3]
+p:din2[4]
+p:din2[5]
+p:din2[6]
+p:din2[7]
+p:din2[8]
+p:din2[9]
+p:din2[10]
+p:din2[11]
+p:din2[12]
+p:din2[13]
+p:din2[14]
+p:din2[15]
+p:din2[16]
+p:din2[17]
+p:din2[18]
+p:din2[19]
+p:din2[20]
+p:din2[21]
+p:din2[22]
+p:din3[0]
+p:din3[1]
+p:din3[2]
+p:din3[3]
+p:din3[4]
+p:din3[5]
+p:din3[6]
+p:din3[7]
+p:din3[8]
+p:din3[9]
+p:din3[10]
+p:din3[11]
+p:din3[12]
+p:din3[13]
+p:din3[14]
+p:din3[15]
+p:din3[16]
+p:din3[17]
+p:din3[18]
+p:din3[19]
+p:din3[20]
+p:din3[21]
+p:din3[22]
+p:dout0[0]
+p:dout0[1]
+p:dout0[2]
+p:dout0[3]
+p:dout0[4]
+p:dout0[5]
+p:dout0[6]
+p:dout0[7]
+p:dout0[8]
+p:dout0[9]
+p:dout0[10]
+p:dout0[11]
+p:dout0[12]
+p:dout0[13]
+p:dout0[14]
+p:dout0[15]
+p:dout0[16]
+p:dout0[17]
+p:dout0[18]
+p:dout0[19]
+p:dout0[20]
+p:dout0[21]
+p:dout0[22]
+p:dout1[0]
+p:dout1[1]
+p:dout1[2]
+p:dout1[3]
+p:dout1[4]
+p:dout1[5]
+p:dout1[6]
+p:dout1[7]
+p:dout1[8]
+p:dout1[9]
+p:dout1[10]
+p:dout1[11]
+p:dout1[12]
+p:dout1[13]
+p:dout1[14]
+p:dout1[15]
+p:dout1[16]
+p:dout1[17]
+p:dout1[18]
+p:dout1[19]
+p:dout1[20]
+p:dout1[21]
+p:dout1[22]
+p:dout2[0]
+p:dout2[1]
+p:dout2[2]
+p:dout2[3]
+p:dout2[4]
+p:dout2[5]
+p:dout2[6]
+p:dout2[7]
+p:dout2[8]
+p:dout2[9]
+p:dout2[10]
+p:dout2[11]
+p:dout2[12]
+p:dout2[13]
+p:dout2[14]
+p:dout2[15]
+p:dout2[16]
+p:dout2[17]
+p:dout2[18]
+p:dout2[19]
+p:dout2[20]
+p:dout2[21]
+p:dout2[22]
+p:dout3[0]
+p:dout3[1]
+p:dout3[2]
+p:dout3[3]
+p:dout3[4]
+p:dout3[5]
+p:dout3[6]
+p:dout3[7]
+p:dout3[8]
+p:dout3[9]
+p:dout3[10]
+p:dout3[11]
+p:dout3[12]
+p:dout3[13]
+p:dout3[14]
+p:dout3[15]
+p:dout3[16]
+p:dout3[17]
+p:dout3[18]
+p:dout3[19]
+p:dout3[20]
+p:dout3[21]
+p:dout3[22]
+p:rst
+p:sel
+p:wen
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

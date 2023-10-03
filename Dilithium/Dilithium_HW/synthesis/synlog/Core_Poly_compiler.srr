@@ -1,0 +1,509 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4252:13:4252:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4436:13:4436:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4477:13:4477:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4503:13:4503:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4520:13:4520:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4597:13:4597:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":5361:13:5361:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6171:13:6171:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6280:13:6280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6318:13:6318:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6391:13:6391:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":7280:13:7280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":8337:13:8337:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":9296:13:9296:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10032:13:10032:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10747:13:10747:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10781:13:10781:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10817:13:10817:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10864:13:10864:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10898:13:10898:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":11764:13:11764:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12807:13:12807:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12819:15:12819:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\address_generator.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\conflict_free_memory_map.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\arbiter.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bank_in.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_in.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_out.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_ram.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_ROM.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_address_generator.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module Core_Poly
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000000010
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = delay_2s_4s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_2s_4s .......
+Finished optimization stage 1 on delay_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000000010
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = delay_2s_2s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_2s_2s .......
+Finished optimization stage 1 on delay_2s_2s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":21:7:21:9|Synthesizing module fsm in library work.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":198:25:198:29|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":199:25:199:29|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":200:25:200:29|Removing redundant assignment.
+Running optimization stage 1 on fsm .......
+@W: CL265 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Removing unused bit 2 of b_reg[2:0]. Either assign all bits or reduce the width of the signal.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Register bit e_reg[2] is always 0.
+@W: CL260 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Pruning register bit 2 of e_reg[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on fsm (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\address_generator.v":21:7:21:23|Synthesizing module address_generator in library work.
+Running optimization stage 1 on address_generator .......
+Finished optimization stage 1 on address_generator (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_address_generator.v":21:7:21:26|Synthesizing module tf_address_generator in library work.
+Running optimization stage 1 on tf_address_generator .......
+Finished optimization stage 1 on tf_address_generator (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\conflict_free_memory_map.v":21:7:21:30|Synthesizing module conflict_free_memory_map in library work.
+Running optimization stage 1 on conflict_free_memory_map .......
+Finished optimization stage 1 on conflict_free_memory_map (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\arbiter.v":21:7:21:13|Synthesizing module arbiter in library work.
+Running optimization stage 1 on arbiter .......
+Finished optimization stage 1 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bank_in.v":21:7:21:21|Synthesizing module network_bank_in in library work.
+
+	addr_width=32'b00000000000000000000000000000110
+   Generated name = network_bank_in_6s
+Running optimization stage 1 on network_bank_in_6s .......
+Finished optimization stage 1 on network_bank_in_6s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=34'b0000000000000000000000000000011000
+	DELAY=32'b00000000000000000000000000000110
+   Generated name = delay_6s_Z1
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_6s_Z1 .......
+Finished optimization stage 1 on delay_6s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=34'b0000000000000000000000000000011000
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = delay_4s_Z2
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_4s_Z2 .......
+Finished optimization stage 1 on delay_4s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v":21:7:21:15|Synthesizing module poly_bank in library work.
+
+	addr_width=32'b00000000000000000000000000000110
+	depth=32'b00000000000000000000000001000000
+	data_width=32'b00000000000000000000000000010111
+   Generated name = poly_bank_6s_64s_23s
+Running optimization stage 1 on poly_bank_6s_64s_23s .......
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v":36:4:36:9|Found RAM bank, depth=64, width=23
+Finished optimization stage 1 on poly_bank_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_in.v":21:7:21:19|Synthesizing module network_bf_in in library work.
+
+	data_width=32'b00000000000000000000000000010111
+   Generated name = network_bf_in_23s
+Running optimization stage 1 on network_bf_in_23s .......
+Finished optimization stage 1 on network_bf_in_23s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	DELAY=32'b00000000000000000000000000000110
+   Generated name = delay_8s_6s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_8s_6s .......
+Finished optimization stage 1 on delay_8s_6s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = delay_8s_4s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_8s_4s .......
+Finished optimization stage 1 on delay_8s_4s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_out.v":21:7:21:20|Synthesizing module network_bf_out in library work.
+
+	data_width=32'b00000000000000000000000000010111
+   Generated name = network_bf_out_23s
+Running optimization stage 1 on network_bf_out_23s .......
+Finished optimization stage 1 on network_bf_out_23s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_ram.v":21:7:21:14|Synthesizing module poly_ram in library work.
+
+	addr_width=32'b00000000000000000000000000000110
+	depth=32'b00000000000000000000000001000000
+	data_width=32'b00000000000000000000000000010111
+   Generated name = poly_ram_6s_64s_23s
+Running optimization stage 1 on poly_ram_6s_64s_23s .......
+Finished optimization stage 1 on poly_ram_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_ROM.v":21:7:21:12|Synthesizing module tf_ROM in library work.
+
+	data_width=32'b00000000000000000000000001000101
+   Generated name = tf_ROM_69s
+Running optimization stage 1 on tf_ROM_69s .......
+Finished optimization stage 1 on tf_ROM_69s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":22:7:22:13|Synthesizing module mult_rd in library work.
+Running optimization stage 1 on mult_rd .......
+Finished optimization stage 1 on mult_rd (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":110:7:110:12|Synthesizing module add_rd in library work.
+Running optimization stage 1 on add_rd .......
+Finished optimization stage 1 on add_rd (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":128:7:128:12|Synthesizing module sub_rd in library work.
+Running optimization stage 1 on sub_rd .......
+Finished optimization stage 1 on sub_rd (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":98:7:98:15|Synthesizing module mult_half in library work.
+Running optimization stage 1 on mult_half .......
+Finished optimization stage 1 on mult_half (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v":21:7:21:14|Synthesizing module poly_mul in library work.
+
+	data_width=32'b00000000000000000000000000010111
+	w4=23'b10010010101111000000010
+   Generated name = poly_mul_23s_4808194
+Running optimization stage 1 on poly_mul_23s_4808194 .......
+Finished optimization stage 1 on poly_mul_23s_4808194 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":21:7:21:17|Synthesizing module polyvec_ram in library work.
+
+	addr_width=32'b00000000000000000000000000001001
+	depth=32'b00000000000000000000001000000000
+	data_width=32'b00000000000000000000000000010111
+   Generated name = polyvec_ram_9s_512s_23s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":37:4:37:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on polyvec_ram_9s_512s_23s .......
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank3, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank2, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank1, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank0, depth=512, width=23
+Finished optimization stage 1 on polyvec_ram_9s_512s_23s (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":21:7:21:15|Synthesizing module Core_Poly in library work.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":295:31:295:40|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":454:37:454:46|Removing redundant assignment.
+@W: CG133 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":205:8:205:8|Object i is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":206:8:206:8|Object j is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":207:8:207:21|Object mem_byte_index is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on Core_Poly .......
+@W: CL271 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":591:4:591:9|Pruning unused bits 31 to 9 of conf_reg[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[0] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[1] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[0] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[1] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":722:4:722:9|Register bit pram1_sel[1] is always 0.
+@W: CL260 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":722:4:722:9|Pruning register bit 1 of pram1_sel[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on Core_Poly (CPU Time 0h:00m:00s, Memory Used current: 116MB peak: 121MB)
+Running optimization stage 2 on Core_Poly .......
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":608:4:608:9|Trying to extract state machine for register CS.
+Extracted state machine for register CS
+State machine has 10 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+@W: CL246 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":81:42:81:52|Input port bits 30 to 23 of S_AXI_WDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":52:23:52:34|Input S_AXI_AWSIZE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":58:16:58:27|Input S_AXI_AWLOCK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":61:23:61:35|Input S_AXI_AWCACHE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":65:23:65:34|Input S_AXI_AWPROT is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":68:23:68:33|Input S_AXI_AWQOS is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":71:23:71:36|Input S_AXI_AWREGION is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":85:46:85:56|Input S_AXI_WSTRB is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":116:23:116:34|Input S_AXI_ARSIZE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":122:16:122:27|Input S_AXI_ARLOCK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":125:23:125:35|Input S_AXI_ARCACHE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":129:23:129:34|Input S_AXI_ARPROT is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":132:23:132:33|Input S_AXI_ARQOS is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":135:23:135:36|Input S_AXI_ARREGION is unused.
+Finished optimization stage 2 on Core_Poly (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 134MB)
+Running optimization stage 2 on polyvec_ram_9s_512s_23s .......
+Finished optimization stage 2 on polyvec_ram_9s_512s_23s (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 134MB)
+Running optimization stage 2 on poly_mul_23s_4808194 .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v":49:4:49:9|Found sequential shift t32 with address depth of 3 words and data bit width of 23.
+Finished optimization stage 2 on poly_mul_23s_4808194 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 134MB)
+Running optimization stage 2 on mult_half .......
+Finished optimization stage 2 on mult_half (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 134MB)
+Running optimization stage 2 on sub_rd .......
+Finished optimization stage 2 on sub_rd (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 134MB)
+Running optimization stage 2 on add_rd .......
+Finished optimization stage 2 on add_rd (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 134MB)
+Running optimization stage 2 on mult_rd .......
+Finished optimization stage 2 on mult_rd (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on tf_ROM_69s .......
+Finished optimization stage 2 on tf_ROM_69s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on poly_ram_6s_64s_23s .......
+Finished optimization stage 2 on poly_ram_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on network_bf_out_23s .......
+Finished optimization stage 2 on network_bf_out_23s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on delay_8s_4s .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 8.
+Finished optimization stage 2 on delay_8s_4s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on delay_8s_6s .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[5].level_buf with address depth of 6 words and data bit width of 8.
+Finished optimization stage 2 on delay_8s_6s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on network_bf_in_23s .......
+Finished optimization stage 2 on network_bf_in_23s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on poly_bank_6s_64s_23s .......
+Finished optimization stage 2 on poly_bank_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on delay_4s_Z2 .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 24.
+Finished optimization stage 2 on delay_4s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on delay_6s_Z1 .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[5].level_buf with address depth of 6 words and data bit width of 24.
+Finished optimization stage 2 on delay_6s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on network_bank_in_6s .......
+Finished optimization stage 2 on network_bank_in_6s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on arbiter .......
+Finished optimization stage 2 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on conflict_free_memory_map .......
+Finished optimization stage 2 on conflict_free_memory_map (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on tf_address_generator .......
+@W: CL246 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_address_generator.v":23:21:23:24|Input port bits 2 to 1 of conf[2:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on tf_address_generator (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+Running optimization stage 2 on address_generator .......
+Finished optimization stage 2 on address_generator (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+Running optimization stage 2 on fsm .......
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":77:4:77:9|Trying to extract state machine for register CS.
+Extracted state machine for register CS
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL260 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Pruning register bit 1 of e_reg[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Pruning register bit 1 of b_reg[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on fsm (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+Running optimization stage 2 on delay_2s_2s .......
+Finished optimization stage 2 on delay_2s_2s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+Running optimization stage 2 on delay_2s_4s .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 2.
+Finished optimization stage 2 on delay_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 129MB peak: 134MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+
+Process completed successfully.
+# Tue May 16 19:30:43 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 16 19:30:43 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\Core_Poly_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+
+Process completed successfully.
+# Tue May 16 19:30:43 2023
+
+###########################################################]

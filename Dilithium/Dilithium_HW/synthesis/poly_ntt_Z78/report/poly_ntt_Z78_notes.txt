@@ -1,0 +1,138 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":21:7:21:12|Found compile point of type hard on View view:work.tf_ROM_69s(verilog) 
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ntt.v":22:7:22:14|Found compile point of type hard on View view:work.poly_ntt_Z78(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.poly_ntt_Z78(verilog) 
+@N: MF106 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ntt.v":22:7:22:14|Mapping Compile point view:work.poly_ntt_Z78(verilog) because 
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0] (in view: work.poly_ntt_Z78(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0] (in view: work.poly_ntt_Z78(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0] (in view: work.poly_ntt_Z78(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0] (in view: work.poly_ntt_Z78(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0]
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":184:4:184:9|Found counter in view:work.fsm(verilog) instance k_reg[5:0] 
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":184:4:184:9|Found counter in view:work.fsm(verilog) instance j_reg[5:0] 
+@N: MF179 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":59:27:59:47|Found 32 by 32 bit equality operator ('==') k_reg18 (in view: work.fsm(verilog))
+@N: MF179 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":59:27:59:47|Found 32 by 32 bit equality operator ('==') j_reg17 (in view: work.fsm(verilog))
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_4.gen_delay\[3\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":57:26:57:33|Replicating instance poly_mul_0.un1_t013_or_345 (in view: work.poly_ntt_Z78(verilog)) with 32 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ntt.v":112:4:112:9|Replicating instance CS_rep[8] (in view: work.poly_ntt_Z78(verilog)) with 276 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.add_rd_0.mr1_m1_e (in view: work.poly_ntt_Z78(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.ar0_dina_sn_m1 (in view: work.poly_ntt_Z78(verilog)) with 189 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ntt.v":112:4:112:9|Replicating instance CS[4] (in view: work.poly_ntt_Z78(verilog)) with 191 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":64:8:64:9|Replicating instance poly_mul_0.add_rd_0.c1_sn_N_6_mux_i (in view: work.poly_ntt_Z78(verilog)) with 258 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.ar0_dinb_ss0_0 (in view: work.poly_ntt_Z78(verilog)) with 348 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o3 (in view: work.poly_ntt_Z78(verilog)) with 452 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":64:8:64:9|Replicating instance poly_mul_0.add_rd_0.c1_sn_N_6_mux_i_fast (in view: work.poly_ntt_Z78(verilog)) with 22 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.ar0_dinb_ss0_0_fast (in view: work.poly_ntt_Z78(verilog)) with 68 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o3_fast (in view: work.poly_ntt_Z78(verilog)) with 88 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.ar0_dinb_ss0_0_rep1 (in view: work.poly_ntt_Z78(verilog)) with 71 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o3_rep1 (in view: work.poly_ntt_Z78(verilog)) with 90 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":57:26:57:33|Replicating instance poly_mul_0.un1_t013_or_345 (in view: work.poly_ntt_Z78(verilog)) with 18 loads 2 times to improve timing.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[0] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[1] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[2] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[3] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[4] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[5] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[6] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[7] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[8] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[9] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[10] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[11] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[12] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[13] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[14] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[15] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[16] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[17] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[18] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[19] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[20] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[21] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank0_bank0_0_0_OLDA[22] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[0] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[1] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[2] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[3] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[4] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[5] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[6] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[7] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[8] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[9] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[10] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[11] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[12] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[13] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[14] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[15] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[16] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[17] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[18] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[19] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[20] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[21] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank1_bank1_0_0_OLDA[22] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[0] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[1] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[2] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[3] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[4] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[5] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[6] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[7] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[8] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[9] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[10] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[11] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[12] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[13] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[14] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[15] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[16] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[17] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[18] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[19] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[20] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[21] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank2_bank2_0_0_OLDA[22] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[0] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[1] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[2] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[3] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[4] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[5] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[6] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[7] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[8] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[9] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[10] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[11] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[12] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[13] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[14] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[15] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[16] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[17] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[18] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[19] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[20] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[21] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance polyvec_ram_0.bank3_bank3_0_0_OLDA[22] (in view: work.poly_ntt_Z78(verilog)) because it does not drive other instances.
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 8.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

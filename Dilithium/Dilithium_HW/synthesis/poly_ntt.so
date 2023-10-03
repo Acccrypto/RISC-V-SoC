@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>poly_ntt</design>
+	<target_verilog>F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\poly_ntt.vm</target_verilog>
+</SynplifyOutput>

@@ -1,0 +1,7 @@
+Path 1
+  From: FIC_0_PERIPHERALS_1/poly_ntt_0/bitrev:Q
+  To:   Probe_Insert0
+  Delay (ns):             15.648
+  Arrival (ns):           15.648
+
+

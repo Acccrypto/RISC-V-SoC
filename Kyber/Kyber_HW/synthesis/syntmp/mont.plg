@@ -1,0 +1,11 @@
+@P:  Worst Slack : -2.327
+@P:  mont|clk - Estimated Frequency : 81.1 MHz
+@P:  mont|clk - Requested Frequency : 100.0 MHz
+@P:  mont|clk - Estimated Period : 12.327
+@P:  mont|clk - Requested Period : 10.000
+@P:  mont|clk - Slack : -2.327
+@P: mont Part : mpfs250tfcg1152std
+@P: mont Register bits  : 115 
+@P: mont DSP Blocks  : 10
+@P: mont I/O primitives : 70
+@P:  CPU Time : 0h:00m:08s

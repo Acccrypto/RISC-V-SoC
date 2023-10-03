@@ -1,0 +1,39 @@
+Resource Usage Report for mult_rd 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           27 uses
+CFG2           2 uses
+CFG3           22 uses
+
+Carry cells:
+ARI1            376 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            98 uses
+
+DSP Blocks:    3 of 784 (0%)
+ MACC_PA:         3 Mults
+
+I/O ports: 71
+I/O primitives: 71
+INBUF          48 uses
+OUTBUF         23 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    427
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 108; LUTs = 108;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  98 + 0 + 0 + 108 = 206;
+Total number of LUTs after P&R:  427 + 0 + 0 + 108 = 535;
+

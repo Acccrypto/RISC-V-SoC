@@ -1,0 +1,1593 @@
+#Build: Synplify Pro (R) S-2021.09M-SP1, Build 150R, Jun 14 2022
+#install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-DD7N7QM
+
+# Tue May 16 19:30:34 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4252:13:4252:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4436:13:4436:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4477:13:4477:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4503:13:4503:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4520:13:4520:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4597:13:4597:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":5361:13:5361:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6171:13:6171:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6280:13:6280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6318:13:6318:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6391:13:6391:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":7280:13:7280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":8337:13:8337:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":9296:13:9296:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10032:13:10032:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10747:13:10747:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10781:13:10781:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10817:13:10817:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10864:13:10864:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10898:13:10898:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":11764:13:11764:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12807:13:12807:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12819:15:12819:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\address_generator.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\conflict_free_memory_map.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\arbiter.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bank_in.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_in.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_out.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_ram.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_ROM.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_address_generator.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module Core_Poly
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000000010
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = delay_2s_4s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_2s_4s .......
+Finished optimization stage 1 on delay_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000000010
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = delay_2s_2s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_2s_2s .......
+Finished optimization stage 1 on delay_2s_2s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":21:7:21:9|Synthesizing module fsm in library work.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":198:25:198:29|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":199:25:199:29|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":200:25:200:29|Removing redundant assignment.
+Running optimization stage 1 on fsm .......
+@W: CL265 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Removing unused bit 2 of b_reg[2:0]. Either assign all bits or reduce the width of the signal.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Register bit e_reg[2] is always 0.
+@W: CL260 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Pruning register bit 2 of e_reg[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on fsm (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\address_generator.v":21:7:21:23|Synthesizing module address_generator in library work.
+Running optimization stage 1 on address_generator .......
+Finished optimization stage 1 on address_generator (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_address_generator.v":21:7:21:26|Synthesizing module tf_address_generator in library work.
+Running optimization stage 1 on tf_address_generator .......
+Finished optimization stage 1 on tf_address_generator (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\conflict_free_memory_map.v":21:7:21:30|Synthesizing module conflict_free_memory_map in library work.
+Running optimization stage 1 on conflict_free_memory_map .......
+Finished optimization stage 1 on conflict_free_memory_map (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\arbiter.v":21:7:21:13|Synthesizing module arbiter in library work.
+Running optimization stage 1 on arbiter .......
+Finished optimization stage 1 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bank_in.v":21:7:21:21|Synthesizing module network_bank_in in library work.
+
+	addr_width=32'b00000000000000000000000000000110
+   Generated name = network_bank_in_6s
+Running optimization stage 1 on network_bank_in_6s .......
+Finished optimization stage 1 on network_bank_in_6s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=34'b0000000000000000000000000000011000
+	DELAY=32'b00000000000000000000000000000110
+   Generated name = delay_6s_Z1
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_6s_Z1 .......
+Finished optimization stage 1 on delay_6s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=34'b0000000000000000000000000000011000
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = delay_4s_Z2
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_4s_Z2 .......
+Finished optimization stage 1 on delay_4s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v":21:7:21:15|Synthesizing module poly_bank in library work.
+
+	addr_width=32'b00000000000000000000000000000110
+	depth=32'b00000000000000000000000001000000
+	data_width=32'b00000000000000000000000000010111
+   Generated name = poly_bank_6s_64s_23s
+Running optimization stage 1 on poly_bank_6s_64s_23s .......
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v":36:4:36:9|Found RAM bank, depth=64, width=23
+Finished optimization stage 1 on poly_bank_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_in.v":21:7:21:19|Synthesizing module network_bf_in in library work.
+
+	data_width=32'b00000000000000000000000000010111
+   Generated name = network_bf_in_23s
+Running optimization stage 1 on network_bf_in_23s .......
+Finished optimization stage 1 on network_bf_in_23s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	DELAY=32'b00000000000000000000000000000110
+   Generated name = delay_8s_6s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_8s_6s .......
+Finished optimization stage 1 on delay_8s_6s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = delay_8s_4s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_8s_4s .......
+Finished optimization stage 1 on delay_8s_4s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_out.v":21:7:21:20|Synthesizing module network_bf_out in library work.
+
+	data_width=32'b00000000000000000000000000010111
+   Generated name = network_bf_out_23s
+Running optimization stage 1 on network_bf_out_23s .......
+Finished optimization stage 1 on network_bf_out_23s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_ram.v":21:7:21:14|Synthesizing module poly_ram in library work.
+
+	addr_width=32'b00000000000000000000000000000110
+	depth=32'b00000000000000000000000001000000
+	data_width=32'b00000000000000000000000000010111
+   Generated name = poly_ram_6s_64s_23s
+Running optimization stage 1 on poly_ram_6s_64s_23s .......
+Finished optimization stage 1 on poly_ram_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_ROM.v":21:7:21:12|Synthesizing module tf_ROM in library work.
+
+	data_width=32'b00000000000000000000000001000101
+   Generated name = tf_ROM_69s
+Running optimization stage 1 on tf_ROM_69s .......
+Finished optimization stage 1 on tf_ROM_69s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":22:7:22:13|Synthesizing module mult_rd in library work.
+Running optimization stage 1 on mult_rd .......
+Finished optimization stage 1 on mult_rd (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":110:7:110:12|Synthesizing module add_rd in library work.
+Running optimization stage 1 on add_rd .......
+Finished optimization stage 1 on add_rd (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":128:7:128:12|Synthesizing module sub_rd in library work.
+Running optimization stage 1 on sub_rd .......
+Finished optimization stage 1 on sub_rd (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":98:7:98:15|Synthesizing module mult_half in library work.
+Running optimization stage 1 on mult_half .......
+Finished optimization stage 1 on mult_half (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 104MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v":21:7:21:14|Synthesizing module poly_mul in library work.
+
+	data_width=32'b00000000000000000000000000010111
+	w4=23'b10010010101111000000010
+   Generated name = poly_mul_23s_4808194
+Running optimization stage 1 on poly_mul_23s_4808194 .......
+Finished optimization stage 1 on poly_mul_23s_4808194 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":21:7:21:17|Synthesizing module polyvec_ram in library work.
+
+	addr_width=32'b00000000000000000000000000001001
+	depth=32'b00000000000000000000001000000000
+	data_width=32'b00000000000000000000000000010111
+   Generated name = polyvec_ram_9s_512s_23s
+@W: CG532 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":37:4:37:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on polyvec_ram_9s_512s_23s .......
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank3, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank2, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank1, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank0, depth=512, width=23
+Finished optimization stage 1 on polyvec_ram_9s_512s_23s (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":21:7:21:15|Synthesizing module Core_Poly in library work.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":295:31:295:40|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":454:37:454:46|Removing redundant assignment.
+@W: CG133 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":205:8:205:8|Object i is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":206:8:206:8|Object j is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":207:8:207:21|Object mem_byte_index is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on Core_Poly .......
+@W: CL271 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":591:4:591:9|Pruning unused bits 31 to 9 of conf_reg[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[0] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[1] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[0] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[1] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":722:4:722:9|Register bit pram1_sel[1] is always 0.
+@W: CL260 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":722:4:722:9|Pruning register bit 1 of pram1_sel[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on Core_Poly (CPU Time 0h:00m:00s, Memory Used current: 116MB peak: 121MB)
+Running optimization stage 2 on Core_Poly .......
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":608:4:608:9|Trying to extract state machine for register CS.
+Extracted state machine for register CS
+State machine has 10 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+@W: CL246 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":81:42:81:52|Input port bits 30 to 23 of S_AXI_WDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":52:23:52:34|Input S_AXI_AWSIZE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":58:16:58:27|Input S_AXI_AWLOCK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":61:23:61:35|Input S_AXI_AWCACHE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":65:23:65:34|Input S_AXI_AWPROT is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":68:23:68:33|Input S_AXI_AWQOS is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":71:23:71:36|Input S_AXI_AWREGION is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":85:46:85:56|Input S_AXI_WSTRB is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":116:23:116:34|Input S_AXI_ARSIZE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":122:16:122:27|Input S_AXI_ARLOCK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":125:23:125:35|Input S_AXI_ARCACHE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":129:23:129:34|Input S_AXI_ARPROT is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":132:23:132:33|Input S_AXI_ARQOS is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":135:23:135:36|Input S_AXI_ARREGION is unused.
+Finished optimization stage 2 on Core_Poly (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 134MB)
+Running optimization stage 2 on polyvec_ram_9s_512s_23s .......
+Finished optimization stage 2 on polyvec_ram_9s_512s_23s (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 134MB)
+Running optimization stage 2 on poly_mul_23s_4808194 .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v":49:4:49:9|Found sequential shift t32 with address depth of 3 words and data bit width of 23.
+Finished optimization stage 2 on poly_mul_23s_4808194 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 134MB)
+Running optimization stage 2 on mult_half .......
+Finished optimization stage 2 on mult_half (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 134MB)
+Running optimization stage 2 on sub_rd .......
+Finished optimization stage 2 on sub_rd (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 134MB)
+Running optimization stage 2 on add_rd .......
+Finished optimization stage 2 on add_rd (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 134MB)
+Running optimization stage 2 on mult_rd .......
+Finished optimization stage 2 on mult_rd (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on tf_ROM_69s .......
+Finished optimization stage 2 on tf_ROM_69s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on poly_ram_6s_64s_23s .......
+Finished optimization stage 2 on poly_ram_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on network_bf_out_23s .......
+Finished optimization stage 2 on network_bf_out_23s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on delay_8s_4s .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 8.
+Finished optimization stage 2 on delay_8s_4s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on delay_8s_6s .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[5].level_buf with address depth of 6 words and data bit width of 8.
+Finished optimization stage 2 on delay_8s_6s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on network_bf_in_23s .......
+Finished optimization stage 2 on network_bf_in_23s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on poly_bank_6s_64s_23s .......
+Finished optimization stage 2 on poly_bank_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on delay_4s_Z2 .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 24.
+Finished optimization stage 2 on delay_4s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on delay_6s_Z1 .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[5].level_buf with address depth of 6 words and data bit width of 24.
+Finished optimization stage 2 on delay_6s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on network_bank_in_6s .......
+Finished optimization stage 2 on network_bank_in_6s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on arbiter .......
+Finished optimization stage 2 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on conflict_free_memory_map .......
+Finished optimization stage 2 on conflict_free_memory_map (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 134MB)
+Running optimization stage 2 on tf_address_generator .......
+@W: CL246 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_address_generator.v":23:21:23:24|Input port bits 2 to 1 of conf[2:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on tf_address_generator (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+Running optimization stage 2 on address_generator .......
+Finished optimization stage 2 on address_generator (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+Running optimization stage 2 on fsm .......
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":77:4:77:9|Trying to extract state machine for register CS.
+Extracted state machine for register CS
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL260 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Pruning register bit 1 of e_reg[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Pruning register bit 1 of b_reg[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on fsm (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+Running optimization stage 2 on delay_2s_2s .......
+Finished optimization stage 2 on delay_2s_2s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+Running optimization stage 2 on delay_2s_4s .......
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 2.
+Finished optimization stage 2 on delay_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 134MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 129MB peak: 134MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+
+Process completed successfully.
+# Tue May 16 19:30:43 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 16 19:30:43 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\Core_Poly_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+
+Process completed successfully.
+# Tue May 16 19:30:43 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 98MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 16 19:30:44 2023
+
+###########################################################]
+Premap Report
+
+# Tue May 16 19:30:45 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 131MB)
+
+Reading constraint file: F:\MPFS_Projects\MPFS_ICICLE\designer\Core_Poly\synthesis.fdc
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_scck.rpt 
+See clock summary report "F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 136MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 138MB)
+
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance fsm_0.delay_3.gen_delay[3].level_buf[1:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1172 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value defined for instance fsm_0.delay_2.gen_delay[1].level_buf[2][1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value defined for instance fsm_0.delay_2.gen_delay[0].level_buf[1][1:0] is being ignored due to limitations in architecture. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":134:4:134:9|Found instance fsm_0.done_reg with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":134:4:134:9|Found instance fsm_0.wen_reg with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance poly_ram_1.delay_6.gen_delay[5].level_buf[23:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance poly_ram_1.delay_4.gen_delay[3].level_buf[23:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance poly_ram_1.mux3.delay_6.gen_delay[5].level_buf[7:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance poly_ram_1.mux3.delay_4.gen_delay[3].level_buf[7:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[22] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[22] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[22] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[21] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[21] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[21] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[20] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[20] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[20] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[19] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[19] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[19] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[18] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[18] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[18] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[17] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[17] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[17] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[16] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[16] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[16] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[15] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[15] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[15] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[14] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[14] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[14] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[13] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[13] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[13] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[12] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[12] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[12] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[11] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[11] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[11] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[10] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[10] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[10] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[9] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[9] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[9] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[8] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[8] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[8] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[7] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[7] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[7] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[6] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[6] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[6] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t0[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t3[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t2[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t1[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t25[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t24[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t23[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t22[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t21[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t20[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t19[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t18[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t17[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t16[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t15[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t14[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t13[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t12[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t11[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t10[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t9[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t8[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t7[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t6[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t5[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t4[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t33[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t30[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t29[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Only the first 100 messages of id 'FX1171' are reported. To see all messages use 'report_messages -log F:\MPFS_Projects\MPFS_ICICLE\synthesis\synlog\Core_Poly_premap.srr -id FX1171' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX1171} -count unlimited' in the Tcl shell.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 187MB)
+
+@N: FP130 |Promoting Net S_AXI_ACLK on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=812,dsps=784 on top level netlist Core_Poly 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 189MB)
+
+
+
+Clock Summary
+******************
+
+          Start                    Requested     Requested     Clock        Clock          Clock
+Level     Clock                    Frequency     Period        Type         Group          Load 
+------------------------------------------------------------------------------------------------
+0 -       Core_Poly|S_AXI_ACLK     100.0 MHz     10.000        inferred     (multiple)     2653 
+================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                         Clock     Source               Clock Pin       Non-clock Pin     Non-clock Pin
+Clock                    Load      Pin                  Seq Example     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------
+Core_Poly|S_AXI_ACLK     2653      S_AXI_ACLK(port)     hdvec.C         -                 I_1.A(CLKINT)
+=======================================================================================================
+
+@W: MT530 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Found inferred clock Core_Poly|S_AXI_ACLK which controls 2653 sequential elements including fsm_0.delay_1.gen_delay_3_.level_buf_4__1_. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 189MB)
+
+Encoding state machine CS[4:0] (in view: work.fsm(verilog))
+original code -> new code
+   000 -> 00000
+   001 -> 00011
+   010 -> 00101
+   011 -> 01001
+   100 -> 10001
+Encoding state machine CS[9:0] (in view: work.Core_Poly(verilog))
+original code -> new code
+   0000 -> 0000000000
+   0001 -> 0000000011
+   0010 -> 0000000101
+   0011 -> 0000001001
+   0100 -> 0000010001
+   0101 -> 0000100001
+   0110 -> 0001000001
+   0111 -> 0010000001
+   1000 -> 0100000001
+   1001 -> 1000000001
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 184MB peak: 189MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 187MB peak: 189MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 100MB peak: 189MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue May 16 19:30:47 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Tue May 16 19:30:47 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 131MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 131MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 183MB peak: 183MB)
+
+Encoding state machine CS[9:0] (in view: work.Core_Poly(verilog))
+original code -> new code
+   0000 -> 0000000000
+   0001 -> 0000000011
+   0010 -> 0000000101
+   0011 -> 0000001001
+   0100 -> 0000010001
+   0101 -> 0000100001
+   0110 -> 0001000001
+   0111 -> 0010000001
+   1000 -> 0100000001
+   1001 -> 1000000001
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Found counter in view:work.Core_Poly(verilog) instance axi_arlen_cntr[7:0] 
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Found counter in view:work.Core_Poly(verilog) instance axi_awlen_cntr[7:0] 
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|RAM polyvec_ram_0.bank3[22:0] (in view: work.Core_Poly(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0] (in view: work.Core_Poly(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0]
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|RAM polyvec_ram_0.bank2[22:0] (in view: work.Core_Poly(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0] (in view: work.Core_Poly(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0]
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|RAM polyvec_ram_0.bank1[22:0] (in view: work.Core_Poly(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0] (in view: work.Core_Poly(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0]
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|RAM polyvec_ram_0.bank0[22:0] (in view: work.Core_Poly(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0] (in view: work.Core_Poly(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0]
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_ram_0.poly_bank_3.bank[22:0] (in view: work.Core_Poly(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_ram_0.poly_bank_2.bank[22:0] (in view: work.Core_Poly(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_ram_0.poly_bank_1.bank[22:0] (in view: work.Core_Poly(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_ram_0.poly_bank_0.bank[22:0] (in view: work.Core_Poly(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine CS[4:0] (in view: work.fsm(verilog))
+original code -> new code
+   000 -> 00000
+   001 -> 00011
+   010 -> 00101
+   011 -> 01001
+   100 -> 10001
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":184:4:184:9|Found counter in view:work.fsm(verilog) instance k_reg[5:0] 
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":184:4:184:9|Found counter in view:work.fsm(verilog) instance j_reg[5:0] 
+@N: MF179 :|Found 32 by 32 bit equality operator ('==') k_reg18 (in view: work.fsm(verilog))
+@N: MF179 :|Found 32 by 32 bit equality operator ('==') j_reg17 (in view: work.fsm(verilog))
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[7:0] (in view: work.network_bf_out_23s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[23:0] (in view: work.poly_ram_6s_64s_23s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_4.gen_delay\[3\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_4.gen_delay\[3\]\.level_buf_seqshift[23:0] (in view: work.poly_ram_6s_64s_23s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_3.bank[22:0] (in view: work.poly_ram_6s_64s_23s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_2.bank[22:0] (in view: work.poly_ram_6s_64s_23s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_1.bank[22:0] (in view: work.poly_ram_6s_64s_23s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_0.bank[22:0] (in view: work.poly_ram_6s_64s_23s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing user instance poly_ram_1.delay_4.gen_delay[3].level_buf_CA1_1 because it is equivalent to instance poly_ram_1.delay_4.gen_delay[3].level_buf_C1_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[7:0] (in view: work.network_bf_out_23s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+
+Starting factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 202MB peak: 202MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 240MB peak: 240MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 237MB peak: 255MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 238MB peak: 255MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:57s; CPU Time elapsed 0h:00m:56s; Memory used current: 261MB peak: 261MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:57s; CPU Time elapsed 0h:00m:57s; Memory used current: 262MB peak: 262MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:01m:00s; CPU Time elapsed 0h:01m:00s; Memory used current: 263MB peak: 263MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:01m:02s; CPU Time elapsed 0h:01m:02s; Memory used current: 333MB peak: 333MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:01m:03s		    -5.78ns		7801 /      2378
+   2		0h:01m:03s		    -5.66ns		7662 /      2378
+   3		0h:01m:03s		    -5.66ns		7662 /      2378
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.add_rd_0.ar0_dinb_ss0 (in view: work.Core_Poly(verilog)) with 341 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2 (in view: work.Core_Poly(verilog)) with 567 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":608:4:608:9|Replicating instance CS_rep[8] (in view: work.Core_Poly(verilog)) with 23 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":608:4:608:9|Replicating instance CS_rep[4] (in view: work.Core_Poly(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":723:8:723:9|Replicating instance poly_mul_0.add_rd_0.N_110_i (in view: work.Core_Poly(verilog)) with 216 loads 3 times to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 9 LUTs via timing driven replication
+
+   4		0h:01m:10s		    -4.05ns		7679 /      2380
+   5		0h:01m:10s		    -3.84ns		7679 /      2380
+   6		0h:01m:10s		    -3.08ns		7679 /      2380
+   7		0h:01m:11s		    -2.81ns		7677 /      2380
+   8		0h:01m:11s		    -2.63ns		7677 /      2380
+   9		0h:01m:12s		    -2.63ns		7678 /      2380
+  10		0h:01m:14s		    -2.63ns		7679 /      2380
+  11		0h:01m:15s		    -2.59ns		7680 /      2380
+  12		0h:01m:16s		    -2.58ns		7680 /      2380
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_fast (in view: work.Core_Poly(verilog)) with 98 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep1 (in view: work.Core_Poly(verilog)) with 119 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.add_rd_0.ar0_dinb_ss0_fast (in view: work.Core_Poly(verilog)) with 61 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.add_rd_0.ar0_dinb_ss0_rep1 (in view: work.Core_Poly(verilog)) with 64 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":723:8:723:9|Replicating instance poly_mul_0.add_rd_0.N_110_i_fast (in view: work.Core_Poly(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.sr0_dina_sn_m2_i_m2 (in view: work.Core_Poly(verilog)) with 31 loads 2 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 15 LUTs via timing driven replication
+
+
+  13		0h:01m:18s		    -2.25ns		7693 /      2380
+  14		0h:01m:20s		    -2.68ns		7702 /      2380
+  15		0h:01m:21s		    -2.65ns		7702 /      2380
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[0] (in view: work.Core_Poly(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[1] (in view: work.Core_Poly(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[0] (in view: work.Core_Poly(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[1] (in view: work.Core_Poly(verilog)) because it does not drive other instances.
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:01m:26s; CPU Time elapsed 0h:01m:26s; Memory used current: 339MB peak: 339MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:01m:26s; CPU Time elapsed 0h:01m:26s; Memory used current: 341MB peak: 342MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 2488 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       S_AXI_ACLK          port                   2488       pram0_wen      
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:01m:27s; CPU Time elapsed 0h:01m:27s; Memory used current: 248MB peak: 342MB)
+
+Writing Analyst data base F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\Core_Poly_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:01m:29s; CPU Time elapsed 0h:01m:29s; Memory used current: 302MB peak: 342MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:01m:32s; CPU Time elapsed 0h:01m:31s; Memory used current: 303MB peak: 342MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:01m:32s; CPU Time elapsed 0h:01m:31s; Memory used current: 303MB peak: 342MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:01m:32s; CPU Time elapsed 0h:01m:32s; Memory used current: 292MB peak: 342MB)
+
+@W: MT420 |Found inferred clock Core_Poly|S_AXI_ACLK with period 10.00ns. Please declare a user-defined clock on port S_AXI_ACLK.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue May 16 19:32:21 2023
+#
+
+
+Top view:               Core_Poly
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\MPFS_Projects\MPFS_ICICLE\designer\Core_Poly\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.917
+
+                         Requested     Estimated     Requested     Estimated                Clock        Clock     
+Starting Clock           Frequency     Frequency     Period        Period        Slack      Type         Group     
+-------------------------------------------------------------------------------------------------------------------
+Core_Poly|S_AXI_ACLK     100.0 MHz     91.6 MHz      10.000        10.917        -0.917     inferred     (multiple)
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------
+Starting              Ending                |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------
+Core_Poly|S_AXI_ACLK  Core_Poly|S_AXI_ACLK  |  10.000      -0.917  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Core_Poly|S_AXI_ACLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                     Arrival           
+Instance                         Reference                Type     Pin     Net                Time        Slack 
+                                 Clock                                                                          
+----------------------------------------------------------------------------------------------------------------
+CS[6]                            Core_Poly|S_AXI_ACLK     SLE      Q       CS[6]              0.257       -0.917
+CS[5]                            Core_Poly|S_AXI_ACLK     SLE      Q       CS[5]              0.257       -0.687
+CS_rep_fast[4]                   Core_Poly|S_AXI_ACLK     SLE      Q       CS_rep_fast[4]     0.257       -0.214
+CS_rep_fast[8]                   Core_Poly|S_AXI_ACLK     SLE      Q       CS_rep_fast[8]     0.257       -0.120
+CS[7]                            Core_Poly|S_AXI_ACLK     SLE      Q       CS[7]              0.257       2.131 
+poly_mul_0.mult_rd_3.sum[27]     Core_Poly|S_AXI_ACLK     SLE      Q       sum[27]            0.257       2.278 
+poly_mul_0.mult_rd_2.sum[27]     Core_Poly|S_AXI_ACLK     SLE      Q       sum[27]            0.257       2.384 
+poly_mul_0.mult_rd_3.sum[23]     Core_Poly|S_AXI_ACLK     SLE      Q       sum[23]            0.257       2.486 
+poly_mul_0.mult_rd_3.sum[24]     Core_Poly|S_AXI_ACLK     SLE      Q       sum[24]            0.257       2.505 
+poly_mul_0.mult_rd_3.sum[25]     Core_Poly|S_AXI_ACLK     SLE      Q       sum[25]            0.257       2.524 
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                      Starting                                                            Required           
+Instance                              Reference                Type     Pin     Net                       Time         Slack 
+                                      Clock                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------
+poly_mul_0.mult_rd_0.mult_add[23]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_s_23_S       10.000       -0.917
+poly_mul_0.mult_rd_0.mult_add[22]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_cry_22_S     10.000       -0.907
+poly_mul_0.mult_rd_0.mult_add[21]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_cry_21_S     10.000       -0.898
+poly_mul_0.mult_rd_0.mult_add[20]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_cry_20_S     10.000       -0.889
+poly_mul_0.mult_rd_0.mult_add[19]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_cry_19_S     10.000       -0.879
+poly_mul_0.mult_rd_0.mult_add[18]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_cry_18_S     10.000       -0.870
+poly_mul_0.mult_rd_0.mult_add[17]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_cry_17_S     10.000       -0.860
+poly_mul_0.mult_rd_0.mult_add[16]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_cry_16_S     10.000       -0.851
+poly_mul_0.mult_rd_2.mult_add[23]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_s_23_S_1     10.000       -0.850
+poly_mul_0.mult_rd_3.mult_add[23]     Core_Poly|S_AXI_ACLK     SLE      D       un2_mult_add_s_23_S_2     10.000       -0.850
+=============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      10.917
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.917
+
+    Number of logic level(s):                19
+    Starting point:                          CS[6] / Q
+    Ending point:                            poly_mul_0.mult_rd_0.mult_add[23] / D
+    The start point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin       Pin               Arrival      No. of    
+Name                                               Type        Name      Dir     Delay     Time         Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+CS[6]                                              SLE         Q         Out     0.257     0.257 r      -         
+CS[6]                                              Net         -         -       1.237     -            104       
+fsm_0.N_211_i                                      CFG2        A         In      -         1.495 r      -         
+fsm_0.N_211_i                                      CFG2        Y         Out     0.060     1.554 r      -         
+N_211_i                                            Net         -         -       1.548     -            336       
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        A         In      -         3.102 r      -         
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        Y         Out     0.060     3.162 r      -         
+ar0_dinb_sm0_rep2                                  Net         -         -       1.344     -            155       
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        C         In      -         4.506 r      -         
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        Y         Out     0.175     4.680 r      -         
+ar0_dinb_ss0                                       Net         -         -       1.273     -            121       
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        D         In      -         5.953 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        Y         Out     0.274     6.227 r      -         
+mr0_dina_2[11]                                     Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        B         In      -         6.366 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        Y         Out     0.098     6.464 r      -         
+mr0_dina[11]                                       Net         -         -       0.736     -            2         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     A[11]     In      -         7.200 r      -         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     P[11]     Out     2.587     9.787 f      -         
+albl_mult[11]                                      Net         -         -       0.146     -            2         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_11           ARI1        B         In      -         9.933 f      -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_11           ARI1        FCO       Out     0.387     10.320 f     -         
+un2_mult_add_cry_11                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_12           ARI1        FCI       In      -         10.320 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_12           ARI1        FCO       Out     0.009     10.330 f     -         
+un2_mult_add_cry_12                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCI       In      -         10.330 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCO       Out     0.009     10.339 f     -         
+un2_mult_add_cry_13                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCI       In      -         10.339 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCO       Out     0.009     10.348 f     -         
+un2_mult_add_cry_14                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCI       In      -         10.348 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCO       Out     0.009     10.358 f     -         
+un2_mult_add_cry_15                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCI       In      -         10.358 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCO       Out     0.009     10.367 f     -         
+un2_mult_add_cry_16                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCI       In      -         10.367 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCO       Out     0.009     10.377 f     -         
+un2_mult_add_cry_17                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCI       In      -         10.377 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCO       Out     0.009     10.386 f     -         
+un2_mult_add_cry_18                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCI       In      -         10.386 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCO       Out     0.009     10.395 f     -         
+un2_mult_add_cry_19                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCI       In      -         10.395 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCO       Out     0.009     10.405 f     -         
+un2_mult_add_cry_20                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCI       In      -         10.405 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCO       Out     0.009     10.414 f     -         
+un2_mult_add_cry_21                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_22           ARI1        FCI       In      -         10.414 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_22           ARI1        FCO       Out     0.009     10.424 f     -         
+un2_mult_add_cry_22                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_s_23             ARI1        FCI       In      -         10.424 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_s_23             ARI1        S         Out     0.354     10.778 r     -         
+un2_mult_add_s_23_S                                Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.mult_add[23]                  SLE         D         In      -         10.917 r     -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.917 is 4.354(39.9%) logic and 6.563(60.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      10.907
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.907
+
+    Number of logic level(s):                18
+    Starting point:                          CS[6] / Q
+    Ending point:                            poly_mul_0.mult_rd_0.mult_add[23] / D
+    The start point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin       Pin               Arrival      No. of    
+Name                                               Type        Name      Dir     Delay     Time         Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+CS[6]                                              SLE         Q         Out     0.257     0.257 r      -         
+CS[6]                                              Net         -         -       1.237     -            104       
+fsm_0.N_211_i                                      CFG2        A         In      -         1.495 r      -         
+fsm_0.N_211_i                                      CFG2        Y         Out     0.060     1.554 r      -         
+N_211_i                                            Net         -         -       1.548     -            336       
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        A         In      -         3.102 r      -         
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        Y         Out     0.060     3.162 r      -         
+ar0_dinb_sm0_rep2                                  Net         -         -       1.344     -            155       
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        C         In      -         4.506 r      -         
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        Y         Out     0.175     4.680 r      -         
+ar0_dinb_ss0                                       Net         -         -       1.273     -            121       
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        D         In      -         5.953 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        Y         Out     0.274     6.227 r      -         
+mr0_dina_2[11]                                     Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        B         In      -         6.366 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        Y         Out     0.098     6.464 r      -         
+mr0_dina[11]                                       Net         -         -       0.736     -            2         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     A[11]     In      -         7.200 r      -         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     P[12]     Out     2.587     9.787 f      -         
+albl_mult[12]                                      Net         -         -       0.146     -            2         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_12           ARI1        B         In      -         9.933 f      -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_12           ARI1        FCO       Out     0.387     10.320 f     -         
+un2_mult_add_cry_12                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCI       In      -         10.320 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCO       Out     0.009     10.330 f     -         
+un2_mult_add_cry_13                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCI       In      -         10.330 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCO       Out     0.009     10.339 f     -         
+un2_mult_add_cry_14                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCI       In      -         10.339 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCO       Out     0.009     10.348 f     -         
+un2_mult_add_cry_15                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCI       In      -         10.348 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCO       Out     0.009     10.358 f     -         
+un2_mult_add_cry_16                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCI       In      -         10.358 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCO       Out     0.009     10.367 f     -         
+un2_mult_add_cry_17                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCI       In      -         10.367 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCO       Out     0.009     10.377 f     -         
+un2_mult_add_cry_18                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCI       In      -         10.377 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCO       Out     0.009     10.386 f     -         
+un2_mult_add_cry_19                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCI       In      -         10.386 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCO       Out     0.009     10.395 f     -         
+un2_mult_add_cry_20                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCI       In      -         10.395 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCO       Out     0.009     10.405 f     -         
+un2_mult_add_cry_21                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_22           ARI1        FCI       In      -         10.405 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_22           ARI1        FCO       Out     0.009     10.414 f     -         
+un2_mult_add_cry_22                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_s_23             ARI1        FCI       In      -         10.414 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_s_23             ARI1        S         Out     0.354     10.768 r     -         
+un2_mult_add_s_23_S                                Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.mult_add[23]                  SLE         D         In      -         10.907 r     -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.907 is 4.345(39.8%) logic and 6.563(60.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      10.907
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.907
+
+    Number of logic level(s):                18
+    Starting point:                          CS[6] / Q
+    Ending point:                            poly_mul_0.mult_rd_0.mult_add[22] / D
+    The start point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin       Pin               Arrival      No. of    
+Name                                               Type        Name      Dir     Delay     Time         Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+CS[6]                                              SLE         Q         Out     0.257     0.257 r      -         
+CS[6]                                              Net         -         -       1.237     -            104       
+fsm_0.N_211_i                                      CFG2        A         In      -         1.495 r      -         
+fsm_0.N_211_i                                      CFG2        Y         Out     0.060     1.554 r      -         
+N_211_i                                            Net         -         -       1.548     -            336       
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        A         In      -         3.102 r      -         
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        Y         Out     0.060     3.162 r      -         
+ar0_dinb_sm0_rep2                                  Net         -         -       1.344     -            155       
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        C         In      -         4.506 r      -         
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        Y         Out     0.175     4.680 r      -         
+ar0_dinb_ss0                                       Net         -         -       1.273     -            121       
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        D         In      -         5.953 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        Y         Out     0.274     6.227 r      -         
+mr0_dina_2[11]                                     Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        B         In      -         6.366 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        Y         Out     0.098     6.464 r      -         
+mr0_dina[11]                                       Net         -         -       0.736     -            2         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     A[11]     In      -         7.200 r      -         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     P[11]     Out     2.587     9.787 f      -         
+albl_mult[11]                                      Net         -         -       0.146     -            2         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_11           ARI1        B         In      -         9.933 f      -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_11           ARI1        FCO       Out     0.387     10.320 f     -         
+un2_mult_add_cry_11                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_12           ARI1        FCI       In      -         10.320 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_12           ARI1        FCO       Out     0.009     10.330 f     -         
+un2_mult_add_cry_12                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCI       In      -         10.330 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCO       Out     0.009     10.339 f     -         
+un2_mult_add_cry_13                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCI       In      -         10.339 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCO       Out     0.009     10.348 f     -         
+un2_mult_add_cry_14                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCI       In      -         10.348 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCO       Out     0.009     10.358 f     -         
+un2_mult_add_cry_15                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCI       In      -         10.358 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCO       Out     0.009     10.367 f     -         
+un2_mult_add_cry_16                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCI       In      -         10.367 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCO       Out     0.009     10.377 f     -         
+un2_mult_add_cry_17                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCI       In      -         10.377 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCO       Out     0.009     10.386 f     -         
+un2_mult_add_cry_18                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCI       In      -         10.386 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCO       Out     0.009     10.395 f     -         
+un2_mult_add_cry_19                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCI       In      -         10.395 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCO       Out     0.009     10.405 f     -         
+un2_mult_add_cry_20                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCI       In      -         10.405 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCO       Out     0.009     10.414 f     -         
+un2_mult_add_cry_21                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_22           ARI1        FCI       In      -         10.414 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_22           ARI1        S         Out     0.354     10.768 r     -         
+un2_mult_add_cry_22_S                              Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.mult_add[22]                  SLE         D         In      -         10.907 r     -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.907 is 4.345(39.8%) logic and 6.563(60.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      10.898
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.898
+
+    Number of logic level(s):                17
+    Starting point:                          CS[6] / Q
+    Ending point:                            poly_mul_0.mult_rd_0.mult_add[23] / D
+    The start point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin       Pin               Arrival      No. of    
+Name                                               Type        Name      Dir     Delay     Time         Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+CS[6]                                              SLE         Q         Out     0.257     0.257 r      -         
+CS[6]                                              Net         -         -       1.237     -            104       
+fsm_0.N_211_i                                      CFG2        A         In      -         1.495 r      -         
+fsm_0.N_211_i                                      CFG2        Y         Out     0.060     1.554 r      -         
+N_211_i                                            Net         -         -       1.548     -            336       
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        A         In      -         3.102 r      -         
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        Y         Out     0.060     3.162 r      -         
+ar0_dinb_sm0_rep2                                  Net         -         -       1.344     -            155       
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        C         In      -         4.506 r      -         
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        Y         Out     0.175     4.680 r      -         
+ar0_dinb_ss0                                       Net         -         -       1.273     -            121       
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        D         In      -         5.953 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        Y         Out     0.274     6.227 r      -         
+mr0_dina_2[11]                                     Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        B         In      -         6.366 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        Y         Out     0.098     6.464 r      -         
+mr0_dina[11]                                       Net         -         -       0.736     -            2         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     A[11]     In      -         7.200 r      -         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     P[13]     Out     2.587     9.787 f      -         
+albl_mult[13]                                      Net         -         -       0.146     -            2         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        B         In      -         9.933 f      -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCO       Out     0.387     10.320 f     -         
+un2_mult_add_cry_13                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCI       In      -         10.320 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCO       Out     0.009     10.330 f     -         
+un2_mult_add_cry_14                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCI       In      -         10.330 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCO       Out     0.009     10.339 f     -         
+un2_mult_add_cry_15                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCI       In      -         10.339 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCO       Out     0.009     10.348 f     -         
+un2_mult_add_cry_16                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCI       In      -         10.348 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCO       Out     0.009     10.358 f     -         
+un2_mult_add_cry_17                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCI       In      -         10.358 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCO       Out     0.009     10.367 f     -         
+un2_mult_add_cry_18                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCI       In      -         10.367 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCO       Out     0.009     10.377 f     -         
+un2_mult_add_cry_19                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCI       In      -         10.377 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCO       Out     0.009     10.386 f     -         
+un2_mult_add_cry_20                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCI       In      -         10.386 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCO       Out     0.009     10.395 f     -         
+un2_mult_add_cry_21                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_22           ARI1        FCI       In      -         10.395 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_22           ARI1        FCO       Out     0.009     10.405 f     -         
+un2_mult_add_cry_22                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_s_23             ARI1        FCI       In      -         10.405 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_s_23             ARI1        S         Out     0.354     10.759 r     -         
+un2_mult_add_s_23_S                                Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.mult_add[23]                  SLE         D         In      -         10.898 r     -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.898 is 4.335(39.8%) logic and 6.563(60.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      10.898
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.898
+
+    Number of logic level(s):                17
+    Starting point:                          CS[6] / Q
+    Ending point:                            poly_mul_0.mult_rd_0.mult_add[21] / D
+    The start point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            Core_Poly|S_AXI_ACLK [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin       Pin               Arrival      No. of    
+Name                                               Type        Name      Dir     Delay     Time         Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+CS[6]                                              SLE         Q         Out     0.257     0.257 r      -         
+CS[6]                                              Net         -         -       1.237     -            104       
+fsm_0.N_211_i                                      CFG2        A         In      -         1.495 r      -         
+fsm_0.N_211_i                                      CFG2        Y         Out     0.060     1.554 r      -         
+N_211_i                                            Net         -         -       1.548     -            336       
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        A         In      -         3.102 r      -         
+poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep2       CFG2        Y         Out     0.060     3.162 r      -         
+ar0_dinb_sm0_rep2                                  Net         -         -       1.344     -            155       
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        C         In      -         4.506 r      -         
+poly_mul_0.add_rd_0.ar0_dinb_ss0                   CFG3        Y         Out     0.175     4.680 r      -         
+ar0_dinb_ss0                                       Net         -         -       1.273     -            121       
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        D         In      -         5.953 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m_2[11]              CFG4        Y         Out     0.274     6.227 r      -         
+mr0_dina_2[11]                                     Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        B         In      -         6.366 r      -         
+poly_mul_0.mult_rd_0.un1_dina_m[11]                CFG4        Y         Out     0.098     6.464 r      -         
+mr0_dina[11]                                       Net         -         -       0.736     -            2         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     A[11]     In      -         7.200 r      -         
+poly_mul_0.mult_rd_0.albl_mult_mulonly_0[23:0]     MACC_PA     P[11]     Out     2.587     9.787 f      -         
+albl_mult[11]                                      Net         -         -       0.146     -            2         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_11           ARI1        B         In      -         9.933 f      -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_11           ARI1        FCO       Out     0.387     10.320 f     -         
+un2_mult_add_cry_11                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_12           ARI1        FCI       In      -         10.320 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_12           ARI1        FCO       Out     0.009     10.330 f     -         
+un2_mult_add_cry_12                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCI       In      -         10.330 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_13           ARI1        FCO       Out     0.009     10.339 f     -         
+un2_mult_add_cry_13                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCI       In      -         10.339 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_14           ARI1        FCO       Out     0.009     10.348 f     -         
+un2_mult_add_cry_14                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCI       In      -         10.348 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_15           ARI1        FCO       Out     0.009     10.358 f     -         
+un2_mult_add_cry_15                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCI       In      -         10.358 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_16           ARI1        FCO       Out     0.009     10.367 f     -         
+un2_mult_add_cry_16                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCI       In      -         10.367 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_17           ARI1        FCO       Out     0.009     10.377 f     -         
+un2_mult_add_cry_17                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCI       In      -         10.377 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_18           ARI1        FCO       Out     0.009     10.386 f     -         
+un2_mult_add_cry_18                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCI       In      -         10.386 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_19           ARI1        FCO       Out     0.009     10.395 f     -         
+un2_mult_add_cry_19                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCI       In      -         10.395 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_20           ARI1        FCO       Out     0.009     10.405 f     -         
+un2_mult_add_cry_20                                Net         -         -       0.000     -            1         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        FCI       In      -         10.405 f     -         
+poly_mul_0.mult_rd_0.un2_mult_add_cry_21           ARI1        S         Out     0.354     10.759 r     -         
+un2_mult_add_cry_21_S                              Net         -         -       0.139     -            1         
+poly_mul_0.mult_rd_0.mult_add[21]                  SLE         D         In      -         10.898 r     -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 10.898 is 4.335(39.8%) logic and 6.563(60.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:01m:33s; CPU Time elapsed 0h:01m:33s; Memory used current: 295MB peak: 342MB)
+
+
+Finished timing report (Real Time elapsed 0h:01m:33s; CPU Time elapsed 0h:01m:33s; Memory used current: 295MB peak: 342MB)
+
+---------------------------------------
+Resource Usage Report for Core_Poly 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           109 uses
+CFG2           534 uses
+CFG3           2093 uses
+CFG4           2038 uses
+
+Carry cells:
+ARI1            2165 uses - used for arithmetic functions
+ARI1            1242 uses - used for Wide-Mux implementation
+Total ARI1      3407 uses
+
+
+Sequential Cells: 
+SLE            2365 uses
+SLE_INIT       11 uses - used for Seqshift to URAM mapping
+Total SLE          2376 uses
+
+DSP Blocks:   12 of 784 (1%)
+ MACC_PA:        12 Mults
+
+I/O ports: 213
+I/O primitives: 159
+INBUF          114 uses
+OUTBUF         45 uses
+
+
+Global Clock Buffers: 1
+
+RAM/ROM usage summary
+Block RAMs (RAM64x12) : 80
+Block RAMs (RAM64x12) : 6 - RAMs inferred for SeqShift
+Total Block RAMs (RAM64x12) : 86 of 2352 (3%)
+
+Total LUTs:    8181
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 1032; LUTs = 1032;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 432; LUTs = 432;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  2376 + 1032 + 0 + 432 = 3840;
+Total number of LUTs after P&R:  8181 + 1032 + 0 + 432 = 9645;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:01m:33s; CPU Time elapsed 0h:01m:33s; Memory used current: 100MB peak: 342MB)
+
+Process took 0h:01m:33s realtime, 0h:01m:33s cputime
+# Tue May 16 19:32:21 2023
+
+###########################################################]

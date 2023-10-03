@@ -1,0 +1,122 @@
+<spirit:component xmlns:actel-cc="http://www.actel.com/XMLSchema/CoreConsole" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1 http://www.spiritconsortium.org/XMLSchema/SPIRIT/1.1/component.xsd">
+  <spirit:vendor>Actel</spirit:vendor>
+  <spirit:library>SystemBuilder</spirit:library>
+  <spirit:name>PF_SRAM_AHBL_AXI</spirit:name>
+  <spirit:version>1.2.108</spirit:version>
+  <spirit:busInterfaces>
+  </spirit:busInterfaces>
+  <spirit:memoryMaps>
+  </spirit:memoryMaps>
+  <spirit:hwModel>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>HierarchicalDesign</spirit:name>
+        <spirit:envIdentifier></spirit:envIdentifier>
+        <spirit:language></spirit:language>
+        <spirit:fileSetRef>PAGE</spirit:fileSetRef>
+        <spirit:vendorExtensions>
+          <actel-cc:fsInclusionRules>
+            <actel-cc:fsInclusionRule spirit:fileSetRef="PAGE"></actel-cc:fsInclusionRule></actel-cc:fsInclusionRules></spirit:vendorExtensions>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>Generator</spirit:name>
+        <spirit:envIdentifier></spirit:envIdentifier>
+        <spirit:language></spirit:language>
+        <spirit:fileSetRef>TCL</spirit:fileSetRef>
+        <spirit:vendorExtensions>
+          <actel-cc:fsInclusionRules>
+            <actel-cc:fsInclusionRule spirit:fileSetRef="TCL"></actel-cc:fsInclusionRule></actel-cc:fsInclusionRules></spirit:vendorExtensions>
+      </spirit:view>
+    </spirit:views>
+    <spirit:signals>
+    </spirit:signals>
+    <spirit:hwParameters>
+    </spirit:hwParameters>
+    <spirit:deletedhwParameters>
+    </spirit:deletedhwParameters>
+  <spirit:vendorExtensions>
+    <actel-cc:variantParameters>
+      <actel-cc:variantParameter spirit:id="FAMILY" spirit:name="FAMILY" spirit:prompt="FPGA Family:" spirit:dataType="int" actel-cc:choiceRef="Choice_FamilyValue" spirit:choiceStyle="combo" spirit:configGroups="globalConfig" spirit:resolve="user">26</actel-cc:variantParameter>
+    </actel-cc:variantParameters></spirit:vendorExtensions>
+  </spirit:hwModel>
+  <spirit:choices>
+    <spirit:choice>
+      <spirit:name>Choice_FamilyValue</spirit:name>
+      <spirit:enumeration spirit:text="PolarFire">26</spirit:enumeration>
+    </spirit:choice>
+  </spirit:choices>
+  <spirit:fileSets>
+  <spirit:fileSet spirit:fileSetId="PAGE">
+    <spirit:file>
+      <spirit:name>pagelist.xml</spirit:name>
+      <spirit:fileType>unknown</spirit:fileType>
+    <spirit:vendorExtensions></spirit:vendorExtensions>
+    </spirit:file>
+  <spirit:vendorExtensions></spirit:vendorExtensions>
+  </spirit:fileSet>
+  <spirit:fileSet spirit:fileSetId="TCL">
+    <spirit:file>
+      <spirit:name>core.tcl</spirit:name>
+      <spirit:userFileType>Tcl</spirit:userFileType>
+    <spirit:vendorExtensions></spirit:vendorExtensions>
+    </spirit:file>
+    <spirit:file>
+      <spirit:name>sd_tcl_util.tcl</spirit:name>
+      <spirit:userFileType>Tcl</spirit:userFileType>
+    <spirit:vendorExtensions></spirit:vendorExtensions>
+    </spirit:file>
+  <spirit:vendorExtensions></spirit:vendorExtensions>
+  </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:vendorExtensions>
+    <actel-cc:displayName>PolarFire SRAM (AHBLite and AXI)</actel-cc:displayName>
+    <actel-cc:description>PolarFire SRAM (AHBLite and AXI)</actel-cc:description>
+    <actel-cc:packageTimestamp>20200715080235</actel-cc:packageTimestamp>
+    <actel-cc:type typeName="IP"/>
+    <actel-cc:instantiateOnCreation value="false"/>
+    <actel-cc:diveInPermission value="READ_WRITE"/>
+    <actel-cc:categories categoryName="OS" style="hidden">
+      <actel-cc:category name="PC">
+      </actel-cc:category>
+      <actel-cc:category name="Linux">
+      </actel-cc:category>
+    </actel-cc:categories>
+    <actel-cc:categories categoryName="min_libero_version" style="hidden">
+      <actel-cc:category name="12.900.10">
+      </actel-cc:category>
+    </actel-cc:categories>
+    <actel-cc:categories categoryName="Functional Category">
+      <actel-cc:category name="Memory &amp; Controllers">
+      </actel-cc:category>
+      <actel-cc:category name="PolarFire Features">
+      </actel-cc:category>
+    </actel-cc:categories>
+    <actel-cc:categories categoryName="Product Family" style="checkbox">
+      <actel-cc:category name="PolarFire">
+      </actel-cc:category>
+    </actel-cc:categories>
+    <actel-cc:resources>
+      <actel-cc:resource doc_title="User's Guide" url="https://coredocs.s3.amazonaws.com/Libero/12_5_0/SgCore/PF_SRAM_AHBL_AXI_ug.pdf">
+        <actel-cc:presentation></actel-cc:presentation></actel-cc:resource></actel-cc:resources>
+    <actel-cc:dependentCores>
+      <actel-cc:dependentCore>
+        <spirit:componentRef spirit:vendor="Actel" spirit:library="SgCore" spirit:name="SRAM_AHB_AXI_UI" spirit:version="1.2.108"/>
+      </actel-cc:dependentCore>
+      <actel-cc:dependentCore>
+        <spirit:componentRef spirit:vendor="Actel" spirit:library="SgCore" spirit:name="PF_TPSRAM" spirit:version="1.1.108"/>
+      </actel-cc:dependentCore>
+      <actel-cc:dependentCore>
+        <spirit:componentRef spirit:vendor="Actel" spirit:library="SgCore" spirit:name="PF_URAM" spirit:version="1.1.107"/>
+      </actel-cc:dependentCore>
+      <actel-cc:dependentCore>
+        <spirit:componentRef spirit:vendor="Actel" spirit:library="SgCore" spirit:name="PF_DPSRAM" spirit:version="1.1.110"/>
+      </actel-cc:dependentCore>
+      <actel-cc:dependentCore>
+        <spirit:componentRef spirit:vendor="Actel" spirit:library="DirectCore" spirit:name="COREAHBLSRAM_PF" spirit:version="2.7.100"/>
+      </actel-cc:dependentCore>
+      <actel-cc:dependentCore>
+        <spirit:componentRef spirit:vendor="Actel" spirit:library="DirectCore" spirit:name="COREAXI4SRAM" spirit:version="2.7.102"/>
+      </actel-cc:dependentCore>
+    </actel-cc:dependentCores>
+  </spirit:vendorExtensions>
+</spirit:component>

@@ -1,0 +1,356 @@
+# Thu Mar  2 19:08:38 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Removing sequential instance poly_ram_0.poly_bank_3.raddr_reg[5:0] because it is equivalent to instance poly_ram_0.poly_bank_2.raddr_reg[5:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Removing sequential instance poly_ram_0.poly_bank_2.raddr_reg[5:0] because it is equivalent to instance poly_ram_0.poly_bank_1.raddr_reg[5:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Removing sequential instance poly_ram_0.poly_bank_1.raddr_reg[5:0] because it is equivalent to instance poly_ram_0.poly_bank_0.raddr_reg[5:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+@N: FX403 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_8.gen_delay\[7\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_8.gen_delay\[7\]\.level_buf_seqshift[23:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_3.bank[22:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_2.bank[22:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_1.bank[22:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_0.bank[22:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@A: BN291 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Boundary register poly_bank_0.raddr_reg[0] (in view: work.poly_ram_6s_64s_23s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Boundary register poly_bank_0.raddr_reg[1] (in view: work.poly_ram_6s_64s_23s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Boundary register poly_bank_0.raddr_reg[2] (in view: work.poly_ram_6s_64s_23s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Boundary register poly_bank_0.raddr_reg[3] (in view: work.poly_ram_6s_64s_23s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Boundary register poly_bank_0.raddr_reg[4] (in view: work.poly_ram_6s_64s_23s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|Boundary register poly_bank_0.raddr_reg[5] (in view: work.poly_ram_6s_64s_23s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing user instance poly_ram_0.delay_8.gen_delay[7].level_buf_CA2_1 because it is equivalent to instance poly_ram_0.delay_8.gen_delay[7].level_buf_C2_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing sequential instance poly_ram_0.mux2.sel_a_2_tmp[1] because it is equivalent to instance poly_ram_0.mux2.sel_a_1_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance poly_ram_0.mux2.sel_a_3_tmp[1] because it is equivalent to instance poly_ram_0.mux2.sel_a_3_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance poly_ram_0.mux2.sel_a_3_tmp[0] because it is equivalent to instance poly_ram_0.mux2.sel_a_1_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+@N: BN362 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing sequential instance poly_ram_0.mux3.delay_8.gen_delay\[7\]\.level_buf_CF2[2] (in view: work.poly_ntt(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing sequential instance poly_ram_0.mux3.delay_8.gen_delay\[7\]\.level_buf_CF2[1] (in view: work.poly_ntt(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing sequential instance poly_ram_0.mux3.delay_8.gen_delay\[7\]\.level_buf_CF2[0] (in view: work.poly_ntt(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 173MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     7.73ns		 120 /         4
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 174MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=================================== Non-Gated/Non-Generated Clocks ===================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance               
+------------------------------------------------------------------------------------------------------
+@K:CKID0001       pclk                port                   24         poly_ram_0.mux2.sel_a_1_tmp[0]
+======================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 174MB)
+
+Writing Analyst data base F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\synwork\poly_ntt_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 174MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 174MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 174MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 174MB)
+
+@W: MT420 |Found inferred clock poly_ntt|pclk with period 10.00ns. Please declare a user-defined clock on port pclk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Mar  2 19:08:41 2023
+#
+
+
+Top view:               poly_ntt
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\designer\poly_ntt\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 8.095
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+poly_ntt|pclk      100.0 MHz     525.0 MHz     10.000        1.905         8.095     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+poly_ntt|pclk  poly_ntt|pclk  |  10.000      8.095  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: poly_ntt|pclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                 Starting                                                                          Arrival          
+Instance                                                                                         Reference         Type         Pin           Net                                  Time        Slack
+                                                                                                 Clock                                                                                              
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[0]                                              poly_ntt|pclk     SLE_INIT     Q             tmp1[0]                              0.257       8.095
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[1]                                              poly_ntt|pclk     SLE_INIT     Q             tmp1[1]                              0.257       8.167
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[2]                                              poly_ntt|pclk     SLE_INIT     Q             tmp1[2]                              0.257       8.210
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_DATA[0]     level_buf_seqshift_0_0_R_DATA[0]     0.146       8.746
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_DATA[1]     level_buf_seqshift_0_0_R_DATA[1]     0.146       8.746
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_DATA[2]     level_buf_seqshift_0_0_R_DATA[2]     0.146       8.746
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_DATA[3]     level_buf_seqshift_0_0_R_DATA[3]     0.146       8.746
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_DATA[4]     level_buf_seqshift_0_0_R_DATA[4]     0.146       8.746
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_DATA[5]     level_buf_seqshift_0_0_R_DATA[5]     0.146       8.746
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_DATA[6]     level_buf_seqshift_0_0_R_DATA[6]     0.146       8.746
+====================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                 Starting                                                            Required          
+Instance                                                                                         Reference         Type         Pin           Net                    Time         Slack
+                                                                                                 Clock                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[2]                                              poly_ntt|pclk     SLE_INIT     D             tmp2[2]                10.000       8.095
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_ADDR[2]     tmp2[2]                10.000       8.095
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_1     poly_ntt|pclk     RAM64x12     R_ADDR[2]     tmp2[2]                10.000       8.095
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[1]                                              poly_ntt|pclk     SLE_INIT     D             tmp2[1]                10.000       8.167
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_ADDR[1]     tmp2[1]                10.000       8.167
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_1     poly_ntt|pclk     RAM64x12     R_ADDR[1]     tmp2[1]                10.000       8.167
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[0]                                              poly_ntt|pclk     SLE_INIT     D             tmp1_i[0]              10.000       8.216
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ntt|pclk     RAM64x12     R_ADDR[0]     tmp1_i[0]              10.000       8.216
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_1     poly_ntt|pclk     RAM64x12     R_ADDR[0]     tmp1_i[0]              10.000       8.216
+poly_ram_0.poly_bank_3.bank_bank_0_0                                                             poly_ntt|pclk     RAM64x12     W_ADDR[0]     un3_bank3_waddr[0]     9.823        8.746
+=======================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      1.905
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     8.095
+
+    Number of logic level(s):                1
+    Starting point:                          poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[0] / Q
+    Ending point:                            poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[2] / D
+    The start point is clocked by            poly_ntt|pclk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            poly_ntt|pclk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[0]          SLE_INIT     Q        Out     0.257     0.257 r     -         
+tmp1[0]                                                      Net          -        -       0.736     -           5         
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_C2_1.SUM[2]     CFG3         C        In      -         0.994 r     -         
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_C2_1.SUM[2]     CFG3         Y        Out     0.175     1.168 r     -         
+tmp2[2]                                                      Net          -        -       0.736     -           3         
+poly_ram_0.delay_8.gen_delay\[7\]\.level_buf_CF2[2]          SLE_INIT     D        In      -         1.905 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 1.905 is 0.432(22.7%) logic and 1.473(77.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 173MB peak: 174MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 173MB peak: 174MB)
+
+---------------------------------------
+Resource Usage Report for poly_ntt 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+CFG2           47 uses
+CFG3           25 uses
+CFG4           23 uses
+
+
+Sequential Cells: 
+SLE            1 use
+SLE_INIT       3 uses - used for Seqshift to URAM mapping
+Total SLE          4 uses
+
+DSP Blocks:    0 of 784 (0%)
+
+I/O ports: 80
+I/O primitives: 68
+INBUF          33 uses
+OUTBUF         35 uses
+
+
+Global Clock Buffers: 1
+
+RAM/ROM usage summary
+Block RAMs (RAM64x12) : 8
+Block RAMs (RAM64x12) : 2 - RAMs inferred for SeqShift
+Total Block RAMs (RAM64x12) : 10 of 2352 (0%)
+
+Total LUTs:    96
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 120; LUTs = 120;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  4 + 120 + 0 + 0 = 124;
+Total number of LUTs after P&R:  96 + 120 + 0 + 0 = 216;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 64MB peak: 174MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Mar  2 19:08:41 2023
+
+###########################################################]

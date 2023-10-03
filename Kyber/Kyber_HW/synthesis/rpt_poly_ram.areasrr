@@ -1,0 +1,244 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPFS250TFCG1152STD (Microchip)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   poly_ram   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram:	14 (1.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      347                100 %                
+ARI1     232                100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram:	579 (68.36 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     11                 100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram:	11 (1.30 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block poly_ram:	1 (0.12 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       220                100 %                
+=================================================
+Total IO PADS in the block poly_ram:	220 (25.97 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   arbiter   ########
+Instance path:   poly_ram.arbiter                            
+=============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      20                 5.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram.arbiter:	20 (2.36 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_8s_Z1   ########
+Instance path:   poly_ram.delay_8s_Z1                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  21.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram.delay_8s_Z1:	3 (0.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.8650 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram.delay_8s_Z1:	3 (0.35 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  18.2 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram.delay_8s_Z1:	2 (0.24 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   network_bank_in_6s   ########
+Instance path:   poly_ram.network_bank_in_6s                            
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      24                 6.92 %               
+ARI1     48                 20.7 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram.network_bank_in_6s:	72 (8.50 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   network_bf_in_23s   ########
+Instance path:   poly_ram.network_bf_in_23s                            
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  57.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram.network_bf_in_23s:	8 (0.94 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      297                85.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram.network_bf_in_23s:	297 (35.06 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   network_bf_out_23s   ########
+Instance path:   poly_ram.network_bf_out_23s                            
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  21.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram.network_bf_out_23s:	3 (0.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.8650 %             
+ARI1     184                79.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram.network_bf_out_23s:	187 (22.08 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     1                  9.09 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram.network_bf_out_23s:	1 (0.12 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_8s_8s   ########
+Instance path:   network_bf_out_23s.delay_8s_8s                  
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  21.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block network_bf_out_23s.delay_8s_8s:	3 (0.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.8650 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block network_bf_out_23s.delay_8s_8s:	3 (0.35 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     1                  9.09 %               
+=====================================================
+Total MEMORY ELEMENTS in the block network_bf_out_23s.delay_8s_8s:	1 (0.12 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s   ########
+Instance path:   poly_ram.poly_bank_6s_64s_23s                            
+==========================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  18.2 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram.poly_bank_6s_64s_23s:	2 (0.24 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_0   ########
+Instance path:   poly_ram.poly_bank_6s_64s_23s_0                            
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  18.2 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram.poly_bank_6s_64s_23s_0:	2 (0.24 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_1   ########
+Instance path:   poly_ram.poly_bank_6s_64s_23s_1                            
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  18.2 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram.poly_bank_6s_64s_23s_1:	2 (0.24 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_2   ########
+Instance path:   poly_ram.poly_bank_6s_64s_23s_2                            
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  18.2 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram.poly_bank_6s_64s_23s_2:	2 (0.24 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

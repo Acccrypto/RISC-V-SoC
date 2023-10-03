@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the information about all compile points from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="4" name="Compile Points Summary">
+<row>
+<data>Name</data>
+<data>Status</data>
+<data>Reason</data>
+</row>
+<row>
+<data>
+<value>IHC_SUBSYSTEM</value>
+<report_link name="Report">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\IHC_SUBSYSTEM\IHC_SUBSYSTEM.srr</data>
+</report_link>
+</data>
+<data>Remapped</data>
+<data>Design changed</data>
+</row>
+</report_table>

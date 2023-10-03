@@ -1,0 +1,13 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN362 :|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.barrett(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":44:27:44:47|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.barrett(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":50:24:50:30|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.barrett(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":50:24:50:30|Multiplier un2_r[22:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":48:19:48:25|Multiplier t1_2[68:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing sequential instance z[23] (in view: work.barrett(verilog)) because it does not drive other instances.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,12 @@
+@P:  Worst Slack : -0.917
+@P:  Core_Poly|S_AXI_ACLK - Estimated Frequency : 91.6 MHz
+@P:  Core_Poly|S_AXI_ACLK - Requested Frequency : 100.0 MHz
+@P:  Core_Poly|S_AXI_ACLK - Estimated Period : 10.917
+@P:  Core_Poly|S_AXI_ACLK - Requested Period : 10.000
+@P:  Core_Poly|S_AXI_ACLK - Slack : -0.917
+@P: Core_Poly Part : mpfs250tfcg1152std
+@P: Core_Poly Register bits  : 2376 
+@P: Core_Poly DSP Blocks  : 12
+@P: Core_Poly I/O primitives : 159
+@P: Core_Poly RAM64x12 :  86
+@P:  CPU Time : 0h:01m:33s

@@ -1,0 +1,13 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. poly_ram, 14, 347, 232, 0, 0, 0, 11, 1, 220
+.	. arbiter, 0, 20, 0, 0, 0, 0, 0, 0, 0
+.	. delay_8s_Z1, 3, 3, 0, 0, 0, 0, 2, 0, 0
+.	. network_bank_in_6s, 0, 24, 48, 0, 0, 0, 0, 0, 0
+.	. network_bf_in_23s, 8, 297, 0, 0, 0, 0, 0, 0, 0
+.	. network_bf_out_23s, 3, 3, 184, 0, 0, 0, 1, 0, 0
+.	.	. delay_8s_8s, 3, 3, 0, 0, 0, 0, 1, 0, 0
+.	. poly_bank_6s_64s_23s, 0, 0, 0, 0, 0, 0, 2, 0, 0
+.	. poly_bank_6s_64s_23s_0, 0, 0, 0, 0, 0, 0, 2, 0, 0
+.	. poly_bank_6s_64s_23s_1, 0, 0, 0, 0, 0, 0, 2, 0, 0
+.	. poly_bank_6s_64s_23s_2, 0, 0, 0, 0, 0, 0, 2, 0, 0

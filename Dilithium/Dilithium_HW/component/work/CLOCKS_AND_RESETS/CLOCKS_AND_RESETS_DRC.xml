@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>CLOCKS_AND_RESETS</header>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin OSCILLATOR_160MHz:RCOSC_160MHZ_GL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/CLOCKS_AND_RESETS/pins/OSCILLATOR_160MHz:RCOSC_160MHZ_GL</crossprobe>
+  </drc>
+</drcreport>

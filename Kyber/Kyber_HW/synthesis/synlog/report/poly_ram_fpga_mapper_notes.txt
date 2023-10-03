@@ -1,0 +1,9 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: FX403 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_8.gen_delay\[7\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_8.gen_delay\[7\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

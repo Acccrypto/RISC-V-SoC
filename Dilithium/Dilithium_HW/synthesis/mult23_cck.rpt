@@ -1,0 +1,164 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+
+# Written on Wed May 10 19:18:53 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "mult23"
+Constraint File(s):      "F:\MPFS_Projects\MPFS_ICICLE\designer\mult23\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:dina[0]
+p:dina[1]
+p:dina[2]
+p:dina[3]
+p:dina[4]
+p:dina[5]
+p:dina[6]
+p:dina[7]
+p:dina[8]
+p:dina[9]
+p:dina[10]
+p:dina[11]
+p:dina[12]
+p:dina[13]
+p:dina[14]
+p:dina[15]
+p:dina[16]
+p:dina[17]
+p:dina[18]
+p:dina[19]
+p:dina[20]
+p:dina[21]
+p:dina[22]
+p:dinb[0]
+p:dinb[1]
+p:dinb[2]
+p:dinb[3]
+p:dinb[4]
+p:dinb[5]
+p:dinb[6]
+p:dinb[7]
+p:dinb[8]
+p:dinb[9]
+p:dinb[10]
+p:dinb[11]
+p:dinb[12]
+p:dinb[13]
+p:dinb[14]
+p:dinb[15]
+p:dinb[16]
+p:dinb[17]
+p:dinb[18]
+p:dinb[19]
+p:dinb[20]
+p:dinb[21]
+p:dinb[22]
+p:dout[0]
+p:dout[1]
+p:dout[2]
+p:dout[3]
+p:dout[4]
+p:dout[5]
+p:dout[6]
+p:dout[7]
+p:dout[8]
+p:dout[9]
+p:dout[10]
+p:dout[11]
+p:dout[12]
+p:dout[13]
+p:dout[14]
+p:dout[15]
+p:dout[16]
+p:dout[17]
+p:dout[18]
+p:dout[19]
+p:dout[20]
+p:dout[21]
+p:dout[22]
+p:dout[23]
+p:dout[24]
+p:dout[25]
+p:dout[26]
+p:dout[27]
+p:dout[28]
+p:dout[29]
+p:dout[30]
+p:dout[31]
+p:dout[32]
+p:dout[33]
+p:dout[34]
+p:dout[35]
+p:dout[36]
+p:dout[37]
+p:dout[38]
+p:dout[39]
+p:dout[40]
+p:dout[41]
+p:dout[42]
+p:dout[43]
+p:dout[44]
+p:dout[45]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

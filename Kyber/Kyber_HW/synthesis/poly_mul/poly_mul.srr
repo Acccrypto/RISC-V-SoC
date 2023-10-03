@@ -1,0 +1,872 @@
+# Sat Jul  1 15:23:22 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 134MB)
+
+
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":21:7:21:14|Found compile point of type hard on View view:work.poly_mul(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.poly_mul(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":21:7:21:14|Mapping Compile point view:work.poly_mul(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FA239 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":104:8:104:11|ROM Q_2[45:0] (in view: work.tf1_ROM(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":104:8:104:11|ROM Q_2[45:0] (in view: work.tf1_ROM(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":104:8:104:11|Found ROM Q_2[45:0] (in view: work.tf1_ROM(verilog)) with 32 words by 46 bits.
+@W: FA239 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":149:8:149:11|ROM Q_2[91:0] (in view: work.tf2_ROM(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":149:8:149:11|ROM Q_2[91:0] (in view: work.tf2_ROM(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":149:8:149:11|Found ROM Q_2[91:0] (in view: work.tf2_ROM(verilog)) with 32 words by 92 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 183MB peak: 183MB)
+
+Encoding state machine FIC_0_PERIPHERALS_1.Core_Poly_0.CS[9:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   0000 -> 0000000000
+   0001 -> 0000000011
+   0010 -> 0000000101
+   0011 -> 0000001001
+   0100 -> 0000010001
+   0101 -> 0000100001
+   0110 -> 0001000001
+   0111 -> 0010000001
+   1000 -> 0100000001
+   1001 -> 1000000001
+@N: FX493 |Applying initial value "0" on instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS_i[0].
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 191MB peak: 191MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 228MB peak: 228MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 208MB peak: 228MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 210MB peak: 228MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 216MB peak: 228MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 216MB peak: 228MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 220MB peak: 228MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 272MB peak: 304MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:28s		    -7.70ns		6629 /      1868
+   2		0h:00m:29s		    -7.69ns		6498 /      1868
+@N: FX271 :|Replicating instance add_rd_1.m2 (in view: work.poly_mul(verilog)) with 655 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_3.t12_6_sn_m2 (in view: work.poly_mul(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.t13_6_sn_m2_0_a2 (in view: work.poly_mul(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_3.t14_6_sn_m2 (in view: work.poly_mul(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[4] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":138:21:138:33|Replicating instance add_rd_1.N_2110_mux_i (in view: work.poly_mul(verilog)) with 317 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m1327_m1_0_a2 (in view: work.poly_mul(verilog)) with 339 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_3.t15_6_sn_m2 (in view: work.poly_mul(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[8] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 21 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":120:21:120:32|Replicating instance add_rd_1.ar0_dina_sn_N_4_mux_i (in view: work.poly_mul(verilog)) with 11 loads 1 time to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 22 LUTs via timing driven replication
+
+   3		0h:00m:32s		    -5.92ns		6522 /      1872
+   4		0h:00m:37s		    -6.03ns		6522 /      1872
+@N: FX271 :|Replicating instance add_rd_1.m2 (in view: work.poly_mul(verilog)) with 188 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m2_fast (in view: work.poly_mul(verilog)) with 119 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m1327_m1_0_a2_fast (in view: work.poly_mul(verilog)) with 61 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":138:21:138:33|Replicating instance add_rd_1.N_2110_mux_i_fast (in view: work.poly_mul(verilog)) with 65 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m2_rep1 (in view: work.poly_mul(verilog)) with 146 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m1327_m1_0_a2_rep1 (in view: work.poly_mul(verilog)) with 64 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":138:21:138:33|Replicating instance add_rd_1.N_2110_mux_i_rep1 (in view: work.poly_mul(verilog)) with 68 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":138:21:138:33|Replicating instance add_rd_1.N_2110_mux_i_rep2 (in view: work.poly_mul(verilog)) with 75 loads 3 times to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 25 LUTs via timing driven replication
+
+
+   5		0h:00m:38s		    -5.57ns		6546 /      1873
+   6		0h:00m:43s		    -5.83ns		6556 /      1873
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:45s; Memory used current: 283MB peak: 304MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 283MB peak: 304MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 6.90ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 7.76ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 7.76ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 19.83ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Jul  1 15:24:08 2023
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.293
+
+                                                                                        Requested     Estimated     Requested     Estimated                Clock                                                                                                    Clock           
+Starting Clock                                                                          Frequency     Frequency     Period        Period        Slack      Type                                                                                                     Group           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0                      145.0 MHz     108.8 MHz     6.896         9.190         -2.293     generated (from REF_CLK_50MHz)                                                                           FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1                      128.9 MHz     NA            7.759         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2                      128.9 MHz     NA            7.759         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3                      50.4 MHz      NA            19.828        NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV                   80.0 MHz      NA            12.500        NA            NA         generated (from CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK)     default_clkgroup
+CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK     160.0 MHz     NA            6.250         NA            NA         declared                                                                                                 default_clkgroup
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK             125.0 MHz     NA            8.000         NA            NA         declared                                                                                                 default_clkgroup
+REF_CLK_50MHz                                                                           50.0 MHz      NA            20.000        NA            NA         declared                                                                                                 default_clkgroup
+REF_CLK_PAD_P                                                                           100.0 MHz     NA            10.000        NA            NA         declared                                                                                                 default_clkgroup
+====================================================================================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  6.897       -2.293  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                             Starting                                                                                                                               Arrival           
+Instance                                                                                     Reference                                                              Type     Pin     Net                                            Time        Slack 
+                                                                                             Clock                                                                                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                                   CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]     0.257       -2.293
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[4]                                                   CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[4]     0.257       -2.255
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[6]                                                   CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[6]     0.257       -1.772
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[8]                                                   CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[8]     0.257       -1.741
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.delay_3.gen_delay_3_.level_buf_4__0_     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.ntt_l[0]       0.257       -1.736
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.delay_3.gen_delay_3_.level_buf_4__1_     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.ntt_l[1]       0.257       -1.684
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[7]                                                   CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[7]     0.257       -1.183
+FIC_0_PERIPHERALS_1.Core_Poly_0.pm_a1[26]                                                    CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.pm_a1[26]      0.257       -0.661
+FIC_0_PERIPHERALS_1.Core_Poly_0.pm_a1[27]                                                    CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.pm_a1[27]      0.257       -0.651
+FIC_0_PERIPHERALS_1.Core_Poly_0.pm_a1[28]                                                    CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.pm_a1[28]      0.257       -0.642
+======================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                       Starting                                                                                                 Required           
+Instance                                               Reference                                                              Type     Pin     Net              Time         Slack 
+                                                       Clock                                                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[0]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2317_mux_i     6.896        -2.293
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[1]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       t20_6[1]         6.896        -2.293
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[3]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2318_mux_i     6.896        -2.293
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[2]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2319_mux_i     6.896        -2.245
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[4]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2322_mux_i     6.896        -2.245
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[7]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2325_mux_i     6.896        -2.245
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[8]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2324_mux_i     6.896        -2.245
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[9]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2323_mux_i     6.896        -2.245
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[10]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2328_mux_i     6.896        -2.245
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[11]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_2327_mux_i     6.896        -2.245
+===================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.896
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.896
+
+    - Propagation time:                      9.190
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.293
+
+    Number of logic level(s):                28
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[3] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                SLE      Q        Out     0.257     0.257 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     B        In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     Y        Out     0.098     0.495 r     -         
+N_1936_i                                                                  Net      -        -       1.989     -           960       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     C        In      -         2.484 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     Y        Out     0.175     2.659 r     -         
+ar1_N_4                                                                   Net      -        -       0.979     -           30        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     C        In      -         3.638 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     Y        Out     0.175     3.812 r     -         
+sum0_axb_3_N_5L8                                                          Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     C        In      -         3.952 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     Y        Out     0.175     4.126 r     -         
+sum0_axb_3                                                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     C        In      -         4.266 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     FCO      Out     0.464     4.730 r     -         
+sum0_cry_3                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     FCI      In      -         4.730 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     S        Out     0.354     5.084 r     -         
+sum0[4]                                                                   Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_4            ARI1     B        In      -         5.748 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_4            ARI1     FCO      Out     0.387     6.136 r     -         
+sum1_cry_4                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_5            ARI1     FCI      In      -         6.136 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_5            ARI1     FCO      Out     0.009     6.145 r     -         
+sum1_cry_5                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCI      In      -         6.145 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCO      Out     0.009     6.154 r     -         
+sum1_cry_6                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCI      In      -         6.154 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCO      Out     0.009     6.164 r     -         
+sum1_cry_7                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCI      In      -         6.164 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCO      Out     0.009     6.173 r     -         
+sum1_cry_8                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCI      In      -         6.173 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCO      Out     0.009     6.183 r     -         
+sum1_cry_9                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCI      In      -         6.183 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCO      Out     0.009     6.192 r     -         
+sum1_cry_10                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCI      In      -         6.192 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCO      Out     0.009     6.201 r     -         
+sum1_cry_11                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCI      In      -         6.201 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCO      Out     0.009     6.211 r     -         
+sum1_cry_12                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCI      In      -         6.211 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCO      Out     0.009     6.220 r     -         
+sum1_cry_13                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCI      In      -         6.220 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCO      Out     0.009     6.229 r     -         
+sum1_cry_14                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCI      In      -         6.229 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCO      Out     0.009     6.239 r     -         
+sum1_cry_15                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCI      In      -         6.239 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCO      Out     0.009     6.248 r     -         
+sum1_cry_16                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCI      In      -         6.248 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCO      Out     0.009     6.258 r     -         
+sum1_cry_17                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCI      In      -         6.258 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCO      Out     0.009     6.267 r     -         
+sum1_cry_18                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCI      In      -         6.267 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCO      Out     0.009     6.277 r     -         
+sum1_cry_19                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCI      In      -         6.277 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCO      Out     0.009     6.286 r     -         
+sum1_cry_20                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCI      In      -         6.286 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCO      Out     0.009     6.295 r     -         
+sum1_cry_21                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCI      In      -         6.295 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCO      Out     0.009     6.305 r     -         
+sum1_cry_22                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     FCI      In      -         6.305 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     S        Out     0.354     6.659 f     -         
+sum1[23]                                                                  Net      -        -       1.218     -           95        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     A        In      -         7.876 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     Y        Out     0.056     7.932 f     -         
+sum1_s1_1[23]                                                             Net      -        -       0.892     -           20        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_3.N_2318_mux_i          CFG4     D        In      -         8.824 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_3.N_2318_mux_i          CFG4     Y        Out     0.226     9.050 f     -         
+N_2318_mux_i                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[3]                         SLE      D        In      -         9.190 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 9.190 is 2.890(31.4%) logic and 6.300(68.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.896
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.896
+
+    - Propagation time:                      9.190
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.293
+
+    Number of logic level(s):                28
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[3] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                SLE      Q        Out     0.257     0.257 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     B        In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     Y        Out     0.098     0.495 r     -         
+N_1936_i                                                                  Net      -        -       1.989     -           960       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     C        In      -         2.484 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     Y        Out     0.175     2.659 r     -         
+ar1_N_4                                                                   Net      -        -       0.979     -           30        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     C        In      -         3.638 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     Y        Out     0.175     3.812 r     -         
+sum0_axb_3_N_5L8                                                          Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     C        In      -         3.952 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     Y        Out     0.175     4.126 r     -         
+sum0_axb_3                                                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     C        In      -         4.266 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     FCO      Out     0.464     4.730 r     -         
+sum0_cry_3                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     FCI      In      -         4.730 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     FCO      Out     0.009     4.739 r     -         
+sum0_cry_4                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_5            ARI1     FCI      In      -         4.739 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_5            ARI1     S        Out     0.354     5.093 r     -         
+sum0[5]                                                                   Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_5            ARI1     B        In      -         5.758 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_5            ARI1     FCO      Out     0.387     6.145 r     -         
+sum1_cry_5                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCI      In      -         6.145 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCO      Out     0.009     6.154 r     -         
+sum1_cry_6                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCI      In      -         6.154 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCO      Out     0.009     6.164 r     -         
+sum1_cry_7                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCI      In      -         6.164 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCO      Out     0.009     6.173 r     -         
+sum1_cry_8                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCI      In      -         6.173 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCO      Out     0.009     6.183 r     -         
+sum1_cry_9                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCI      In      -         6.183 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCO      Out     0.009     6.192 r     -         
+sum1_cry_10                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCI      In      -         6.192 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCO      Out     0.009     6.201 r     -         
+sum1_cry_11                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCI      In      -         6.201 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCO      Out     0.009     6.211 r     -         
+sum1_cry_12                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCI      In      -         6.211 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCO      Out     0.009     6.220 r     -         
+sum1_cry_13                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCI      In      -         6.220 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCO      Out     0.009     6.229 r     -         
+sum1_cry_14                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCI      In      -         6.229 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCO      Out     0.009     6.239 r     -         
+sum1_cry_15                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCI      In      -         6.239 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCO      Out     0.009     6.248 r     -         
+sum1_cry_16                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCI      In      -         6.248 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCO      Out     0.009     6.258 r     -         
+sum1_cry_17                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCI      In      -         6.258 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCO      Out     0.009     6.267 r     -         
+sum1_cry_18                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCI      In      -         6.267 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCO      Out     0.009     6.277 r     -         
+sum1_cry_19                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCI      In      -         6.277 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCO      Out     0.009     6.286 r     -         
+sum1_cry_20                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCI      In      -         6.286 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCO      Out     0.009     6.295 r     -         
+sum1_cry_21                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCI      In      -         6.295 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCO      Out     0.009     6.305 r     -         
+sum1_cry_22                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     FCI      In      -         6.305 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     S        Out     0.354     6.659 f     -         
+sum1[23]                                                                  Net      -        -       1.218     -           95        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     A        In      -         7.876 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     Y        Out     0.056     7.932 f     -         
+sum1_s1_1[23]                                                             Net      -        -       0.892     -           20        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_3.N_2318_mux_i          CFG4     D        In      -         8.824 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_3.N_2318_mux_i          CFG4     Y        Out     0.226     9.050 f     -         
+N_2318_mux_i                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[3]                         SLE      D        In      -         9.190 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 9.190 is 2.890(31.4%) logic and 6.300(68.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.896
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.896
+
+    - Propagation time:                      9.190
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.293
+
+    Number of logic level(s):                28
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[0] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                SLE      Q        Out     0.257     0.257 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     B        In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     Y        Out     0.098     0.495 r     -         
+N_1936_i                                                                  Net      -        -       1.989     -           960       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     C        In      -         2.484 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     Y        Out     0.175     2.659 r     -         
+ar1_N_4                                                                   Net      -        -       0.979     -           30        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     C        In      -         3.638 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     Y        Out     0.175     3.812 r     -         
+sum0_axb_3_N_5L8                                                          Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     C        In      -         3.952 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     Y        Out     0.175     4.126 r     -         
+sum0_axb_3                                                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     C        In      -         4.266 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     FCO      Out     0.464     4.730 r     -         
+sum0_cry_3                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     FCI      In      -         4.730 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     S        Out     0.354     5.084 r     -         
+sum0[4]                                                                   Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_4            ARI1     B        In      -         5.748 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_4            ARI1     FCO      Out     0.387     6.136 r     -         
+sum1_cry_4                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_5            ARI1     FCI      In      -         6.136 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_5            ARI1     FCO      Out     0.009     6.145 r     -         
+sum1_cry_5                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCI      In      -         6.145 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCO      Out     0.009     6.154 r     -         
+sum1_cry_6                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCI      In      -         6.154 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCO      Out     0.009     6.164 r     -         
+sum1_cry_7                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCI      In      -         6.164 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCO      Out     0.009     6.173 r     -         
+sum1_cry_8                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCI      In      -         6.173 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCO      Out     0.009     6.183 r     -         
+sum1_cry_9                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCI      In      -         6.183 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCO      Out     0.009     6.192 r     -         
+sum1_cry_10                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCI      In      -         6.192 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCO      Out     0.009     6.201 r     -         
+sum1_cry_11                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCI      In      -         6.201 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCO      Out     0.009     6.211 r     -         
+sum1_cry_12                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCI      In      -         6.211 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCO      Out     0.009     6.220 r     -         
+sum1_cry_13                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCI      In      -         6.220 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCO      Out     0.009     6.229 r     -         
+sum1_cry_14                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCI      In      -         6.229 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCO      Out     0.009     6.239 r     -         
+sum1_cry_15                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCI      In      -         6.239 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCO      Out     0.009     6.248 r     -         
+sum1_cry_16                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCI      In      -         6.248 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCO      Out     0.009     6.258 r     -         
+sum1_cry_17                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCI      In      -         6.258 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCO      Out     0.009     6.267 r     -         
+sum1_cry_18                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCI      In      -         6.267 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCO      Out     0.009     6.277 r     -         
+sum1_cry_19                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCI      In      -         6.277 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCO      Out     0.009     6.286 r     -         
+sum1_cry_20                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCI      In      -         6.286 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCO      Out     0.009     6.295 r     -         
+sum1_cry_21                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCI      In      -         6.295 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCO      Out     0.009     6.305 r     -         
+sum1_cry_22                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     FCI      In      -         6.305 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     S        Out     0.354     6.659 f     -         
+sum1[23]                                                                  Net      -        -       1.218     -           95        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     A        In      -         7.876 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     Y        Out     0.056     7.932 f     -         
+sum1_s1_1[23]                                                             Net      -        -       0.892     -           20        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_1.t07_RNIFD7B1          CFG4     D        In      -         8.824 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_1.t07_RNIFD7B1          CFG4     Y        Out     0.226     9.050 f     -         
+N_2317_mux_i                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[0]                         SLE      D        In      -         9.190 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 9.190 is 2.890(31.4%) logic and 6.300(68.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.896
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.896
+
+    - Propagation time:                      9.190
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.293
+
+    Number of logic level(s):                28
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[1] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                SLE      Q        Out     0.257     0.257 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     B        In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     Y        Out     0.098     0.495 r     -         
+N_1936_i                                                                  Net      -        -       1.989     -           960       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     C        In      -         2.484 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     Y        Out     0.175     2.659 r     -         
+ar1_N_4                                                                   Net      -        -       0.979     -           30        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     C        In      -         3.638 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     Y        Out     0.175     3.812 r     -         
+sum0_axb_3_N_5L8                                                          Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     C        In      -         3.952 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     Y        Out     0.175     4.126 r     -         
+sum0_axb_3                                                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     C        In      -         4.266 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     FCO      Out     0.464     4.730 r     -         
+sum0_cry_3                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     FCI      In      -         4.730 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     S        Out     0.354     5.084 r     -         
+sum0[4]                                                                   Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_4            ARI1     B        In      -         5.748 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_4            ARI1     FCO      Out     0.387     6.136 r     -         
+sum1_cry_4                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_5            ARI1     FCI      In      -         6.136 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_5            ARI1     FCO      Out     0.009     6.145 r     -         
+sum1_cry_5                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCI      In      -         6.145 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCO      Out     0.009     6.154 r     -         
+sum1_cry_6                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCI      In      -         6.154 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCO      Out     0.009     6.164 r     -         
+sum1_cry_7                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCI      In      -         6.164 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCO      Out     0.009     6.173 r     -         
+sum1_cry_8                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCI      In      -         6.173 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCO      Out     0.009     6.183 r     -         
+sum1_cry_9                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCI      In      -         6.183 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCO      Out     0.009     6.192 r     -         
+sum1_cry_10                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCI      In      -         6.192 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCO      Out     0.009     6.201 r     -         
+sum1_cry_11                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCI      In      -         6.201 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCO      Out     0.009     6.211 r     -         
+sum1_cry_12                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCI      In      -         6.211 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCO      Out     0.009     6.220 r     -         
+sum1_cry_13                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCI      In      -         6.220 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCO      Out     0.009     6.229 r     -         
+sum1_cry_14                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCI      In      -         6.229 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCO      Out     0.009     6.239 r     -         
+sum1_cry_15                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCI      In      -         6.239 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCO      Out     0.009     6.248 r     -         
+sum1_cry_16                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCI      In      -         6.248 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCO      Out     0.009     6.258 r     -         
+sum1_cry_17                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCI      In      -         6.258 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCO      Out     0.009     6.267 r     -         
+sum1_cry_18                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCI      In      -         6.267 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCO      Out     0.009     6.277 r     -         
+sum1_cry_19                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCI      In      -         6.277 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCO      Out     0.009     6.286 r     -         
+sum1_cry_20                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCI      In      -         6.286 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCO      Out     0.009     6.295 r     -         
+sum1_cry_21                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCI      In      -         6.295 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCO      Out     0.009     6.305 r     -         
+sum1_cry_22                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     FCI      In      -         6.305 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     S        Out     0.354     6.659 f     -         
+sum1[23]                                                                  Net      -        -       1.218     -           95        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     A        In      -         7.876 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     Y        Out     0.056     7.932 f     -         
+sum1_s1_1[23]                                                             Net      -        -       0.892     -           20        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_1.t20_6_iv[1]           CFG4     D        In      -         8.824 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_1.t20_6_iv[1]           CFG4     Y        Out     0.226     9.050 f     -         
+t20_6[1]                                                                  Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[1]                         SLE      D        In      -         9.190 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 9.190 is 2.890(31.4%) logic and 6.300(68.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.896
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.896
+
+    - Propagation time:                      9.190
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.293
+
+    Number of logic level(s):                28
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[3] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.448 period=6.896) on pin CLK
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                SLE      Q        Out     0.257     0.257 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[5]                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     B        In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.N_1936_i                                  CFG2     Y        Out     0.098     0.495 r     -         
+N_1936_i                                                                  Net      -        -       1.989     -           960       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     C        In      -         2.484 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_m4_0_o4          CFG3     Y        Out     0.175     2.659 r     -         
+ar1_N_4                                                                   Net      -        -       0.979     -           30        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     C        In      -         3.638 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3_N_5L8      CFG3     Y        Out     0.175     3.812 r     -         
+sum0_axb_3_N_5L8                                                          Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     C        In      -         3.952 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_axb_3            CFG4     Y        Out     0.175     4.126 r     -         
+sum0_axb_3                                                                Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     C        In      -         4.266 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_3            ARI1     FCO      Out     0.464     4.730 r     -         
+sum0_cry_3                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     FCI      In      -         4.730 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_4            ARI1     FCO      Out     0.009     4.739 r     -         
+sum0_cry_4                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_5            ARI1     FCI      In      -         4.739 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_5            ARI1     FCO      Out     0.009     4.748 r     -         
+sum0_cry_5                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_6            ARI1     FCI      In      -         4.748 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum0_cry_6            ARI1     S        Out     0.354     5.103 r     -         
+sum0[6]                                                                   Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     B        In      -         5.767 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_6            ARI1     FCO      Out     0.387     6.154 r     -         
+sum1_cry_6                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCI      In      -         6.154 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_7            ARI1     FCO      Out     0.009     6.164 r     -         
+sum1_cry_7                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCI      In      -         6.164 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_8            ARI1     FCO      Out     0.009     6.173 r     -         
+sum1_cry_8                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCI      In      -         6.173 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_9            ARI1     FCO      Out     0.009     6.183 r     -         
+sum1_cry_9                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCI      In      -         6.183 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_10           ARI1     FCO      Out     0.009     6.192 r     -         
+sum1_cry_10                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCI      In      -         6.192 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_11           ARI1     FCO      Out     0.009     6.201 r     -         
+sum1_cry_11                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCI      In      -         6.201 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_12           ARI1     FCO      Out     0.009     6.211 r     -         
+sum1_cry_12                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCI      In      -         6.211 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_13           ARI1     FCO      Out     0.009     6.220 r     -         
+sum1_cry_13                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCI      In      -         6.220 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_14           ARI1     FCO      Out     0.009     6.229 r     -         
+sum1_cry_14                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCI      In      -         6.229 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_15           ARI1     FCO      Out     0.009     6.239 r     -         
+sum1_cry_15                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCI      In      -         6.239 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_16           ARI1     FCO      Out     0.009     6.248 r     -         
+sum1_cry_16                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCI      In      -         6.248 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_17           ARI1     FCO      Out     0.009     6.258 r     -         
+sum1_cry_17                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCI      In      -         6.258 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_18           ARI1     FCO      Out     0.009     6.267 r     -         
+sum1_cry_18                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCI      In      -         6.267 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_19           ARI1     FCO      Out     0.009     6.277 r     -         
+sum1_cry_19                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCI      In      -         6.277 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_20           ARI1     FCO      Out     0.009     6.286 r     -         
+sum1_cry_20                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCI      In      -         6.286 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_21           ARI1     FCO      Out     0.009     6.295 r     -         
+sum1_cry_21                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCI      In      -         6.295 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_cry_22           ARI1     FCO      Out     0.009     6.305 r     -         
+sum1_cry_22                                                               Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     FCI      In      -         6.305 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23             ARI1     S        Out     0.354     6.659 f     -         
+sum1[23]                                                                  Net      -        -       1.218     -           95        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     A        In      -         7.876 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_0.sum1_s_23_RNI3VT7     CFG2     Y        Out     0.056     7.932 f     -         
+sum1_s1_1[23]                                                             Net      -        -       0.892     -           20        
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_3.N_2318_mux_i          CFG4     D        In      -         8.824 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.add_rd_3.N_2318_mux_i          CFG4     Y        Out     0.226     9.050 f     -         
+N_2318_mux_i                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.t20[3]                         SLE      D        In      -         9.190 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 9.190 is 2.890(31.4%) logic and 6.300(68.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file F:\MPFS_Projects\MPFS_ICICLE\synthesis\poly_mul\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name         Status     Reason     
+-----------------------------------
+poly_mul     Mapped     No database
+===================================
+
+Process took 0h:00m:46s realtime, 0h:00m:46s cputime
+# Sat Jul  1 15:24:08 2023
+
+###########################################################]

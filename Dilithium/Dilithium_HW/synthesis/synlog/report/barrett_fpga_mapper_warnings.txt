@@ -1,0 +1,25 @@
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[35] because it is equivalent to instance z[34]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[34] because it is equivalent to instance z[33]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[33] because it is equivalent to instance z[32]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[32] because it is equivalent to instance z[31]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[31] because it is equivalent to instance z[30]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[30] because it is equivalent to instance z[29]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[29] because it is equivalent to instance z[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[28] because it is equivalent to instance z[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[27] because it is equivalent to instance z[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[26] because it is equivalent to instance z[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[25] because it is equivalent to instance z[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[24] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[45] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[44] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[43] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[42] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[41] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[40] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[39] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[38] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[37] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[36] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock barrett|clk with period 10.00ns. Please declare a user-defined clock on port clk.

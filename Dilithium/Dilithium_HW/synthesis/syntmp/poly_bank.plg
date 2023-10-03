@@ -1,0 +1,12 @@
+@P:  Worst Slack : NA
+@P:  poly_bank|clk - Estimated Frequency : NA
+@P:  poly_bank|clk - Requested Frequency : 100.0 MHz
+@P:  poly_bank|clk - Estimated Period : NA
+@P:  poly_bank|clk - Requested Period : 10.000
+@P:  poly_bank|clk - Slack : NA
+@P: poly_bank Part : mpfs250tfcg1152std
+@P: poly_bank Register bits  : 0 
+@P: poly_bank DSP Blocks  : 0
+@P: poly_bank I/O primitives : 60
+@P: poly_bank RAM64x12 :  2
+@P:  CPU Time : 0h:00m:02s

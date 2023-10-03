@@ -1,0 +1,37 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":21:7:21:14|Found compile point of type hard on View view:work.poly_mul(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.poly_mul(verilog) 
+@N: MF106 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":21:7:21:14|Mapping Compile point view:work.poly_mul(verilog) because 
+@N: MO106 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":104:8:104:11|Found ROM Q_2[45:0] (in view: work.tf1_ROM(verilog)) with 32 words by 46 bits.
+@N: MO106 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":149:8:149:11|Found ROM Q_2[91:0] (in view: work.tf2_ROM(verilog)) with 32 words by 92 bits.
+@N: FX493 |Applying initial value "0" on instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS_i[0].
+@N: FX271 :|Replicating instance add_rd_1.m2 (in view: work.poly_mul(verilog)) with 655 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_3.t12_6_sn_m2 (in view: work.poly_mul(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.t13_6_sn_m2_0_a2 (in view: work.poly_mul(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_3.t14_6_sn_m2 (in view: work.poly_mul(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[4] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":138:21:138:33|Replicating instance add_rd_1.N_2110_mux_i (in view: work.poly_mul(verilog)) with 317 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m1327_m1_0_a2 (in view: work.poly_mul(verilog)) with 339 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_3.t15_6_sn_m2 (in view: work.poly_mul(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[8] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 21 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":120:21:120:32|Replicating instance add_rd_1.ar0_dina_sn_N_4_mux_i (in view: work.poly_mul(verilog)) with 11 loads 1 time to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m2 (in view: work.poly_mul(verilog)) with 188 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m2_fast (in view: work.poly_mul(verilog)) with 119 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m1327_m1_0_a2_fast (in view: work.poly_mul(verilog)) with 61 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":601:4:601:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":138:21:138:33|Replicating instance add_rd_1.N_2110_mux_i_fast (in view: work.poly_mul(verilog)) with 65 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m2_rep1 (in view: work.poly_mul(verilog)) with 146 loads 3 times to improve timing.
+@N: FX271 :|Replicating instance add_rd_1.m1327_m1_0_a2_rep1 (in view: work.poly_mul(verilog)) with 64 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":138:21:138:33|Replicating instance add_rd_1.N_2110_mux_i_rep1 (in view: work.poly_mul(verilog)) with 68 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":138:21:138:33|Replicating instance add_rd_1.N_2110_mux_i_rep2 (in view: work.poly_mul(verilog)) with 75 loads 3 times to improve timing.
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 6.90ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 7.76ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 7.76ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 19.83ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

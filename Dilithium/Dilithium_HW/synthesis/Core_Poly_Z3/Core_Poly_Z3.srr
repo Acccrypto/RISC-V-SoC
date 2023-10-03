@@ -1,0 +1,637 @@
+# Wed Aug 23 16:43:54 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 134MB)
+
+
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":21:7:21:14|Found compile point of type hard on View view:work.poly_mul(verilog) 
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.Core_Poly_Z3(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 199MB peak: 199MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 200MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 200MB peak: 201MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 201MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Mapping Compile point view:work.Core_Poly_Z3(verilog) because 
+		 RTL and/or Constraints changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 201MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 197MB peak: 201MB)
+
+Encoding state machine CS[9:0] (in view: work.Core_Poly_Z3(verilog))
+original code -> new code
+   0000 -> 0000000000
+   0001 -> 0000000011
+   0010 -> 0000000101
+   0011 -> 0000001001
+   0100 -> 0000010001
+   0101 -> 0000100001
+   0110 -> 0001000001
+   0111 -> 0010000001
+   1000 -> 0100000001
+   1001 -> 1000000001
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_arlen_cntr[7:0] 
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_awlen_cntr[7:0] 
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|RAM polyvec_ram_0.bank3[22:0] (in view: work.Core_Poly_Z3(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0]
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|RAM polyvec_ram_0.bank2[22:0] (in view: work.Core_Poly_Z3(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0]
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|RAM polyvec_ram_0.bank1[22:0] (in view: work.Core_Poly_Z3(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0]
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|RAM polyvec_ram_0.bank0[22:0] (in view: work.Core_Poly_Z3(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0]
+Encoding state machine CS[4:0] (in view: work.address_generator(verilog))
+original code -> new code
+   000 -> 00000
+   001 -> 00011
+   010 -> 00101
+   011 -> 01001
+   100 -> 10001
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO230 :"f:\mpfs_projects\mpfs_icicle\hdl\address_generator.v":51:4:51:9|Found up-down counter in view:work.address_generator(verilog) instance k[7:0]  
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[3\]\.level_buf_seqshift[19:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_0.gen_delay\[3\]\.level_buf_seqshift[19:0] (in view: work.poly_ram_5s_32s_46s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_3.bank[45:0] (in view: work.poly_ram_5s_32s_46s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_2.bank[45:0] (in view: work.poly_ram_5s_32s_46s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_1.bank[45:0] (in view: work.poly_ram_5s_32s_46s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_0.bank[45:0] (in view: work.poly_ram_5s_32s_46s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing user instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.delay_0.gen_delay[3].level_buf_CA1_1 because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.delay_0.gen_delay[3].level_buf_C1_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[3\]\.level_buf_seqshift[19:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_0.gen_delay\[3\]\.level_buf_seqshift[19:0] (in view: work.poly_ram_5s_32s_46s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_3.bank[45:0] (in view: work.poly_ram_5s_32s_46s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_2.bank[45:0] (in view: work.poly_ram_5s_32s_46s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_1.bank[45:0] (in view: work.poly_ram_5s_32s_46s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_0.bank[45:0] (in view: work.poly_ram_5s_32s_46s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing user instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.delay_0.gen_delay[3].level_buf_CA1_1 because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.delay_0.gen_delay[3].level_buf_C1_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 214MB peak: 214MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 232MB peak: 232MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_0_.level_buf_1__4_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_0_.level_buf_1__4_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ram.v":46:4:46:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.sel_reg[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.sel_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ram.v":46:4:46:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.sel_reg[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.sel_reg[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_1_.level_buf_2__4_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_1_.level_buf_2__4_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_2_.level_buf_3__4_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_2_.level_buf_3__4_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_3_.level_buf_4__4_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_3_.level_buf_4__4_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux2.sel_a_1_tmp[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux2.sel_a_1_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux2.sel_a_2_tmp[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux2.sel_a_2_tmp[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_0_.level_buf_1__6_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_0_.level_buf_1__6_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_0_.level_buf_1__5_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_0_.level_buf_1__5_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_0_.level_buf_1__2_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_0_.level_buf_1__2_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_0_.level_buf_1__3_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_0_.level_buf_1__3_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_0_.level_buf_1__0_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_0_.level_buf_1__0_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_0_.level_buf_1__1_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_0_.level_buf_1__1_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ram.v":46:4:46:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.sel_reg[2] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.sel_reg[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_0_.level_buf_1__4_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_0_.level_buf_1__4_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_1_.level_buf_2__4_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_1_.level_buf_2__4_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_2_.level_buf_3__4_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_2_.level_buf_3__4_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_1_.level_buf_2__0_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_1_.level_buf_2__0_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_2_.level_buf_3__0_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_2_.level_buf_3__0_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_3_.level_buf_4__0_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_3_.level_buf_4__0_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_1_.level_buf_2__1_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_1_.level_buf_2__1_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_2_.level_buf_3__1_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_2_.level_buf_3__1_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_3_.level_buf_4__1_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_3_.level_buf_4__1_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_1_.level_buf_2__2_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_1_.level_buf_2__2_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_2_.level_buf_3__2_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_2_.level_buf_3__2_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_3_.level_buf_4__2_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_3_.level_buf_4__2_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_1_.level_buf_2__3_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_1_.level_buf_2__3_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_2_.level_buf_3__3_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_2_.level_buf_3__3_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_3_.level_buf_4__3_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_3_.level_buf_4__3_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_1_.level_buf_2__5_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_1_.level_buf_2__5_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_2_.level_buf_3__5_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_2_.level_buf_3__5_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_3_.level_buf_4__5_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_3_.level_buf_4__5_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_1_.level_buf_2__6_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_1_.level_buf_2__6_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_2_.level_buf_3__6_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_2_.level_buf_3__6_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_3_.level_buf_4__6_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_3_.level_buf_4__6_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux2.sel_a_0_tmp[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux2.sel_a_0_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux2.sel_a_1_tmp[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux2.sel_a_1_tmp[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux2.sel_a_2_tmp[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux2.sel_a_2_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux2.sel_a_3_tmp[0] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux2.sel_a_3_tmp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux2.sel_a_3_tmp[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux2.sel_a_3_tmp[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_0_.level_buf_1__7_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_0_.level_buf_1__7_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_0_.level_buf_1__0_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_0_.level_buf_1__0_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_0_.level_buf_1__1_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_0_.level_buf_1__1_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_0_.level_buf_1__2_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_0_.level_buf_1__2_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_0_.level_buf_1__3_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_0_.level_buf_1__3_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_0_.level_buf_1__5_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_0_.level_buf_1__5_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_0_.level_buf_1__6_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_0_.level_buf_1__6_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_1_.level_buf_2__0_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_1_.level_buf_2__0_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_2_.level_buf_3__0_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_2_.level_buf_3__0_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_1_.level_buf_2__1_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_1_.level_buf_2__1_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_2_.level_buf_3__1_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_2_.level_buf_3__1_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_1_.level_buf_2__2_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_1_.level_buf_2__2_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_2_.level_buf_3__2_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_2_.level_buf_3__2_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_1_.level_buf_2__3_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_1_.level_buf_2__3_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_2_.level_buf_3__3_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_2_.level_buf_3__3_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_1_.level_buf_2__5_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_1_.level_buf_2__5_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_2_.level_buf_3__5_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_2_.level_buf_3__5_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_1_.level_buf_2__6_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_1_.level_buf_2__6_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_2_.level_buf_3__6_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_2_.level_buf_3__6_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_1_.level_buf_2__7_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_1_.level_buf_2__7_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_2_.level_buf_3__7_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_2_.level_buf_3__7_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_0.gen_delay_3_.level_buf_4__7_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_0.gen_delay_3_.level_buf_4__7_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\network_bf_in.v":31:4:31:9|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux2.sel_a_0_tmp[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux2.sel_a_0_tmp[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_0_.level_buf_1__7_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_0_.level_buf_1__7_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_1_.level_buf_2__7_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_1_.level_buf_2__7_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.mux3.delay_1.gen_delay_2_.level_buf_3__7_ because it is equivalent to instance FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_0.mux3.delay_1.gen_delay_2_.level_buf_3__7_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 253MB peak: 292MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 257MB peak: 292MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 257MB peak: 292MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 257MB peak: 292MB)
+
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\address_generator.v":51:4:51:9|Removing sequential instance address_generator_0.k[7] (in view: work.Core_Poly_Z3(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\address_generator.v":51:4:51:9|Removing sequential instance address_generator_0.k[6] (in view: work.Core_Poly_Z3(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:21s; Memory used current: 249MB peak: 292MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 281MB peak: 292MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:24s		    -6.82ns		8240 /      2004
+   2		0h:00m:24s		    -6.81ns		8189 /      2004
+   3		0h:00m:27s		    -6.79ns		8189 /      2004
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0 (in view: work.poly_mul(verilog)) with 616 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":602:4:602:9|Replicating instance CS_rep[5] (in view: work.Core_Poly_Z3(verilog)) with 244 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinbs2 (in view: work.poly_mul(verilog)) with 600 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":602:4:602:9|Replicating instance CS_rep[8] (in view: work.Core_Poly_Z3(verilog)) with 254 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":602:4:602:9|Replicating instance CS[4] (in view: work.Core_Poly_Z3(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":160:21:160:32|Replicating instance ar0_dina_sn_N_4_mux_i (in view: work.poly_mul(verilog)) with 16 loads 1 time to improve timing.
+Timing driven replication report
+Added 7 Registers via timing driven replication
+Added 8 LUTs via timing driven replication
+
+   4		0h:00m:30s		    -4.92ns		8197 /      2011
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0_fast (in view: work.poly_mul(verilog)) with 122 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinbs2_fast (in view: work.poly_mul(verilog)) with 118 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinbs2_rep1 (in view: work.poly_mul(verilog)) with 122 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0_rep1 (in view: work.poly_mul(verilog)) with 128 loads 3 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 12 LUTs via timing driven replication
+
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0_rep1_rep2 (in view: work.poly_mul(verilog)) with 31 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0_rep1 (in view: work.poly_mul(verilog)) with 36 loads 2 times to improve timing.
+Timing driven replication report
+Added 0 Registers via timing driven replication
+Added 4 LUTs via timing driven replication
+
+   5		0h:00m:33s		    -4.63ns		8213 /      2011
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:39s; Memory used current: 292MB peak: 292MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:39s; Memory used current: 294MB peak: 294MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 7.41ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 7.41ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 7.41ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 19.75ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Aug 23 16:44:34 2023
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -3.272
+
+                                                                                        Requested     Estimated     Requested     Estimated                Clock                                                                                                    Clock           
+Starting Clock                                                                          Frequency     Frequency     Period        Period        Slack      Type                                                                                                     Group           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0                      135.0 MHz     93.6 MHz      7.407         10.680        -3.272     generated (from REF_CLK_50MHz)                                                                           FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1                      135.0 MHz     NA            7.407         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2                      135.0 MHz     NA            7.407         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3                      50.6 MHz      NA            19.753        NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV                   80.0 MHz      NA            12.500        NA            NA         generated (from CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK)     default_clkgroup
+CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK     160.0 MHz     NA            6.250         NA            NA         declared                                                                                                 default_clkgroup
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK             125.0 MHz     NA            8.000         NA            NA         declared                                                                                                 default_clkgroup
+REF_CLK_50MHz                                                                           50.0 MHz      NA            20.000        NA            NA         declared                                                                                                 default_clkgroup
+REF_CLK_PAD_P                                                                           100.0 MHz     NA            10.000        NA            NA         declared                                                                                                 default_clkgroup
+====================================================================================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  7.407       -3.272  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                               Starting                                                                                                     Arrival           
+Instance                                                       Reference                                                              Type     Pin     Net                  Time        Slack 
+                                                               Clock                                                                                                                          
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_2335_fast          0.257       -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[4]                     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS_fast[4]           0.257       -3.241
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6]                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS[6]                0.257       -3.153
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[7]                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS[7]                0.257       -2.862
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[8]                 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_2334_fast          0.257       -2.619
+FIC_0_PERIPHERALS_1.Core_Poly_0.axi_arv_arr_flag               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       axi_arv_arr_flag     0.257       -0.440
+FIC_0_PERIPHERALS_1.Core_Poly_0.axi_awv_awr_flag               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       axi_awv_awr_flag     0.257       -0.267
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[0]               0.257       -0.191
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[1]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[1]               0.257       -0.119
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[2]               0.257       -0.040
+==============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                  Starting                                                                                                                          Required           
+Instance                                                                          Reference                                                              Type        Pin         Net                                Time         Slack 
+                                                                                  Clock                                                                                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[0]     mult_rd_0.mult_rd_0.un2_d_0[0]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[1]     mult_rd_0.mult_rd_0.un2_d_0[1]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[2]     mult_rd_0.mult_rd_0.un2_d_0[2]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[3]     mult_rd_0.mult_rd_0.un2_d_0[3]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[4]     mult_rd_0.mult_rd_0.un2_d_0[4]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[5]     mult_rd_0.mult_rd_0.un2_d_0[5]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[6]     mult_rd_0.mult_rd_0.un2_d_0[6]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[7]     mult_rd_0.mult_rd_0.un2_d_0[7]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[8]     mult_rd_0.mult_rd_0.un2_d_0[8]     5.742        -3.272
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[9]     mult_rd_0.mult_rd_0.un2_d_0[9]     5.742        -3.272
+=======================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.407
+    - Setup time:                            1.666
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.742
+
+    - Propagation time:                      9.014
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.272
+
+    Number of logic level(s):                5
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0] / CDIN[43]
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+
+Instance / Net                                                                                Pin           Pin               Arrival     No. of    
+Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
+N_2335_fast                                                                       Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
+N_2277_i                                                                          Net         -             -       2.088     -           1099      
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        C             In      -         2.582 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        Y             Out     0.175     2.757 r     -         
+ar0_dinb_ss0_rep2                                                                 Net         -             -       1.402     -           182       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[0]             CFG4        D             In      -         4.159 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[0]             CFG4        Y             Out     0.274     4.432 f     -         
+mr0_dina_m2_2[12]                                                                 Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[0]               CFG4        D             In      -         4.572 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[0]               CFG4        Y             Out     0.226     4.798 f     -         
+mr0_dina_m2[12]                                                                   Net         -             -       0.736     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     A[0]          In      -         5.534 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.758     8.292 f     -         
+mult_rd_0.mult_rd_0.un2_d_0[43]                                                   Net         -             -       0.722     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         9.014 f     -         
+====================================================================================================================================================
+Total path delay (propagation time + setup) of 10.680 is 5.453(51.1%) logic and 5.226(48.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      7.407
+    - Setup time:                            1.666
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.742
+
+    - Propagation time:                      9.014
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.272
+
+    Number of logic level(s):                5
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0] / CDIN[43]
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+
+Instance / Net                                                                                Pin           Pin               Arrival     No. of    
+Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
+N_2335_fast                                                                       Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
+N_2277_i                                                                          Net         -             -       2.088     -           1099      
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        C             In      -         2.582 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        Y             Out     0.175     2.757 r     -         
+ar0_dinb_ss0_rep2                                                                 Net         -             -       1.402     -           182       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[10]            CFG4        D             In      -         4.159 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[10]            CFG4        Y             Out     0.274     4.432 f     -         
+mr0_dina_m2_2[22]                                                                 Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[10]              CFG4        D             In      -         4.572 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[10]              CFG4        Y             Out     0.226     4.798 f     -         
+mr0_dina_m2[22]                                                                   Net         -             -       0.736     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     A[10]         In      -         5.534 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.758     8.292 f     -         
+mult_rd_0.mult_rd_0.un2_d_0[43]                                                   Net         -             -       0.722     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         9.014 f     -         
+====================================================================================================================================================
+Total path delay (propagation time + setup) of 10.680 is 5.453(51.1%) logic and 5.226(48.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      7.407
+    - Setup time:                            1.666
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.742
+
+    - Propagation time:                      9.014
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.272
+
+    Number of logic level(s):                5
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0] / CDIN[43]
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+
+Instance / Net                                                                                Pin           Pin               Arrival     No. of    
+Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
+N_2335_fast                                                                       Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
+N_2277_i                                                                          Net         -             -       2.088     -           1099      
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        C             In      -         2.582 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        Y             Out     0.175     2.757 r     -         
+ar0_dinb_ss0_rep2                                                                 Net         -             -       1.402     -           182       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[1]             CFG4        D             In      -         4.159 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[1]             CFG4        Y             Out     0.274     4.432 f     -         
+mr0_dina_m2_2[13]                                                                 Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[1]               CFG4        D             In      -         4.572 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[1]               CFG4        Y             Out     0.226     4.798 f     -         
+mr0_dina_m2[13]                                                                   Net         -             -       0.736     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     A[1]          In      -         5.534 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.758     8.292 f     -         
+mult_rd_0.mult_rd_0.un2_d_0[43]                                                   Net         -             -       0.722     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         9.014 f     -         
+====================================================================================================================================================
+Total path delay (propagation time + setup) of 10.680 is 5.453(51.1%) logic and 5.226(48.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      7.407
+    - Setup time:                            1.666
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.742
+
+    - Propagation time:                      9.014
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.272
+
+    Number of logic level(s):                5
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0] / CDIN[43]
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+
+Instance / Net                                                                                Pin           Pin               Arrival     No. of    
+Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
+N_2335_fast                                                                       Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
+N_2277_i                                                                          Net         -             -       2.088     -           1099      
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        C             In      -         2.582 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        Y             Out     0.175     2.757 r     -         
+ar0_dinb_ss0_rep2                                                                 Net         -             -       1.402     -           182       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[2]             CFG4        D             In      -         4.159 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[2]             CFG4        Y             Out     0.274     4.432 f     -         
+mr0_dina_m2_2[14]                                                                 Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[2]               CFG4        D             In      -         4.572 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[2]               CFG4        Y             Out     0.226     4.798 f     -         
+mr0_dina_m2[14]                                                                   Net         -             -       0.736     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     A[2]          In      -         5.534 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.758     8.292 f     -         
+mult_rd_0.mult_rd_0.un2_d_0[43]                                                   Net         -             -       0.722     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         9.014 f     -         
+====================================================================================================================================================
+Total path delay (propagation time + setup) of 10.680 is 5.453(51.1%) logic and 5.226(48.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      7.407
+    - Setup time:                            1.666
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.742
+
+    - Propagation time:                      9.014
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.272
+
+    Number of logic level(s):                5
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0] / CDIN[43]
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+
+Instance / Net                                                                                Pin           Pin               Arrival     No. of    
+Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
+N_2335_fast                                                                       Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
+N_2277_i                                                                          Net         -             -       2.088     -           1099      
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        C             In      -         2.582 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.ar0_dinb_ss0_0_rep2                    CFG3        Y             Out     0.175     2.757 r     -         
+ar0_dinb_ss0_rep2                                                                 Net         -             -       1.402     -           182       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[3]             CFG4        D             In      -         4.159 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m_2[3]             CFG4        Y             Out     0.274     4.432 f     -         
+mr0_dina_m2_2[15]                                                                 Net         -             -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[3]               CFG4        D             In      -         4.572 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_m[3]               CFG4        Y             Out     0.226     4.798 f     -         
+mr0_dina_m2[15]                                                                   Net         -             -       0.736     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     A[3]          In      -         5.534 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.758     8.292 f     -         
+mult_rd_0.mult_rd_0.un2_d_0[43]                                                   Net         -             -       0.722     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         9.014 f     -         
+====================================================================================================================================================
+Total path delay (propagation time + setup) of 10.680 is 5.453(51.1%) logic and 5.226(48.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name             Status       Reason        
+--------------------------------------------
+Core_Poly_Z3     Remapped     Design changed
+============================================
+
+Process took 0h:00m:40s realtime, 0h:00m:40s cputime
+# Wed Aug 23 16:44:35 2023
+
+###########################################################]

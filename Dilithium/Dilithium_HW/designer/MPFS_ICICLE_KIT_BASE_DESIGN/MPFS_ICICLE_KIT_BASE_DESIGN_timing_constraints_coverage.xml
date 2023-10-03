@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2022.2.0.10</text>
+<text>Microsemi Corporation - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+Date: Wed Aug 23 16:53:37 2023 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>MPFS_ICICLE_KIT_BASE_DESIGN</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPFS250T_ES</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCVG484</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.0185 - 1.0815 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        23298</cell>
+ <cell>            2</cell>
+ <cell>        23300</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         4053</cell>
+ <cell>           48</cell>
+ <cell>         4101</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           18</cell>
+ <cell>           18</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        27351</cell>
+ <cell>           68</cell>
+ <cell>        27419</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        23298</cell>
+ <cell>            2</cell>
+ <cell>        23300</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         4053</cell>
+ <cell>           48</cell>
+ <cell>         4101</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           18</cell>
+ <cell>           18</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        27351</cell>
+ <cell>           68</cell>
+ <cell>        27419</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        11638</cell>
+ <cell>            0</cell>
+ <cell>        11638</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         1912</cell>
+ <cell>           16</cell>
+ <cell>         1928</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        13550</cell>
+ <cell>           16</cell>
+ <cell>        13566</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        11638</cell>
+ <cell>            0</cell>
+ <cell>        11638</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         1912</cell>
+ <cell>           16</cell>
+ <cell>         1928</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        13550</cell>
+ <cell>           16</cell>
+ <cell>        13566</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_0:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_10:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_11:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_12:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_13:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_14:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_1:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_2:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_3:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_4:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_5:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_6:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_7:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_8:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_9:ALn</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_0:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_10:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_11:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_12:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_13:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_14:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_1:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_2:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_3:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_4:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_5:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_6:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_7:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_8:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_9:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         4935</cell>
+ <cell>            0</cell>
+ <cell>         4935</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         2136</cell>
+ <cell>           16</cell>
+ <cell>         2152</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         7071</cell>
+ <cell>           16</cell>
+ <cell>         7087</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         4935</cell>
+ <cell>            0</cell>
+ <cell>         4935</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         2136</cell>
+ <cell>           16</cell>
+ <cell>         2152</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         7071</cell>
+ <cell>           16</cell>
+ <cell>         7087</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_0:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_10:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_11:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_12:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_13:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_14:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_15:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_1:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_2:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_3:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_4:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_5:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_6:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_7:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_8:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_9:ALn</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_0:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_10:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_11:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_12:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_13:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_14:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_15:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_1:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_2:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_3:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_4:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_5:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_6:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_7:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_8:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_1_CLK/CORERESET_0/dff_9:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         6725</cell>
+ <cell>            0</cell>
+ <cell>         6725</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            5</cell>
+ <cell>           16</cell>
+ <cell>           21</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         6730</cell>
+ <cell>           22</cell>
+ <cell>         6752</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         6725</cell>
+ <cell>            0</cell>
+ <cell>         6725</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            5</cell>
+ <cell>           16</cell>
+ <cell>           21</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         6730</cell>
+ <cell>           22</cell>
+ <cell>         6752</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>LED0</item>
+ <item>LED1</item>
+ <item>LED2</item>
+ <item>LED3</item>
+ <item>SDIO_SW_SEL0</item>
+ <item>SDIO_SW_SEL1</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>LED0</item>
+ <item>LED1</item>
+ <item>LED2</item>
+ <item>LED3</item>
+ <item>SDIO_SW_SEL0</item>
+ <item>SDIO_SW_SEL1</item>
+</list>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_0:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_10:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_11:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_12:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_13:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_14:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_1:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_2:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_3:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_4:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_5:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_6:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_7:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_8:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_9:ALn</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_0:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_10:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_11:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_12:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_13:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_14:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_1:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_2:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_3:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_4:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_5:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_6:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_7:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_8:ALn</item>
+ <item>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_9:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_NGMUX:SEL</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_NGMUX:SEL</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_NGMUX:SEL</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_NGMUX:SEL</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS:QSPI_CLK_M2F</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>QSPI_CLK</item>
+ <item>QSPI_DATA_0</item>
+ <item>QSPI_DATA_1</item>
+ <item>QSPI_DATA_2</item>
+ <item>QSPI_DATA_3</item>
+ <item>QSPI_SEL</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>QSPI_CLK</item>
+ <item>QSPI_DATA_0</item>
+ <item>QSPI_DATA_1</item>
+ <item>QSPI_DATA_2</item>
+ <item>QSPI_DATA_3</item>
+ <item>QSPI_SEL</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS:QSPI_CLK_M2F</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>QSPI_CLK</item>
+ <item>QSPI_DATA_0</item>
+ <item>QSPI_DATA_1</item>
+ <item>QSPI_DATA_2</item>
+ <item>QSPI_DATA_3</item>
+ <item>QSPI_SEL</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>QSPI_CLK</item>
+ <item>QSPI_DATA_0</item>
+ <item>QSPI_DATA_1</item>
+ <item>QSPI_DATA_2</item>
+ <item>QSPI_DATA_3</item>
+ <item>QSPI_SEL</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>REF_CLK_50MHz</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>REF_CLK_PAD_P</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

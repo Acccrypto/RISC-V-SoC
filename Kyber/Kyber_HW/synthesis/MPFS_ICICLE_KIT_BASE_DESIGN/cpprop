@@ -1,0 +1,9 @@
+n work MPFS_ICICLE_KIT_BASE_DESIGN verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 43.4219;
+av .compile_point_starttime_stamp "Tue Aug  8 15:52:59 2023";
+av .compile_point_endtime_stamp "Tue Aug  8 15:53:42 2023";
+av .compile_point_realtime_used 43.186;

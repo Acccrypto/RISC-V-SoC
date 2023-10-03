@@ -1,0 +1,18 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\arbiter.v":21:7:21:13|Synthesizing module arbiter in library work.
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bank_in.v":21:7:21:21|Synthesizing module network_bank_in in library work.
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_bank.v":21:7:21:15|Synthesizing module poly_bank in library work.
+@N: CL134 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_bank.v":36:4:36:9|Found RAM bank, depth=64, width=23
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bf_in.v":21:7:21:19|Synthesizing module network_bf_in in library work.
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bf_out.v":21:7:21:20|Synthesizing module network_bf_out in library work.
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_ram.v":21:7:21:14|Synthesizing module poly_ram in library work.
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_ntt.v":21:7:21:14|Synthesizing module poly_ntt in library work.
+@N: CL159 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_ntt.v":24:28:24:34|Input penable is unused.
+@N: CL135 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[7].level_buf with address depth of 8 words and data bit width of 8.
+@N: CL135 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[7].level_buf with address depth of 8 words and data bit width of 24.
+@N|Running in 64-bit mode
+

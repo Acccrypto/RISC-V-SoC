@@ -1,0 +1,66 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":21:7:21:9|Synthesizing module fsm in library work.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":198:25:198:29|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":199:25:199:29|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":200:25:200:29|Removing redundant assignment.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":184:4:184:9|Register bit e_reg[2] is always 0.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\address_generator.v":21:7:21:23|Synthesizing module address_generator in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_address_generator.v":21:7:21:26|Synthesizing module tf_address_generator in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\conflict_free_memory_map.v":21:7:21:30|Synthesizing module conflict_free_memory_map in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\arbiter.v":21:7:21:13|Synthesizing module arbiter in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bank_in.v":21:7:21:21|Synthesizing module network_bank_in in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v":21:7:21:15|Synthesizing module poly_bank in library work.
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v":36:4:36:9|Found RAM bank, depth=64, width=23
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_in.v":21:7:21:19|Synthesizing module network_bf_in in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_out.v":21:7:21:20|Synthesizing module network_bf_out in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_ram.v":21:7:21:14|Synthesizing module poly_ram in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_ROM.v":21:7:21:12|Synthesizing module tf_ROM in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":22:7:22:13|Synthesizing module mult_rd in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":110:7:110:12|Synthesizing module add_rd in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":128:7:128:12|Synthesizing module sub_rd in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":98:7:98:15|Synthesizing module mult_half in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v":21:7:21:14|Synthesizing module poly_mul in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":21:7:21:17|Synthesizing module polyvec_ram in library work.
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank3, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank2, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank1, depth=512, width=23
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank0, depth=512, width=23
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":21:7:21:15|Synthesizing module Core_Poly in library work.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":295:31:295:40|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":454:37:454:46|Removing redundant assignment.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[0] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[1] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[0] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[1] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":722:4:722:9|Register bit pram1_sel[1] is always 0.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":608:4:608:9|Trying to extract state machine for register CS.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":52:23:52:34|Input S_AXI_AWSIZE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":58:16:58:27|Input S_AXI_AWLOCK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":61:23:61:35|Input S_AXI_AWCACHE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":65:23:65:34|Input S_AXI_AWPROT is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":68:23:68:33|Input S_AXI_AWQOS is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":71:23:71:36|Input S_AXI_AWREGION is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":85:46:85:56|Input S_AXI_WSTRB is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":116:23:116:34|Input S_AXI_ARSIZE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":122:16:122:27|Input S_AXI_ARLOCK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":125:23:125:35|Input S_AXI_ARCACHE is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":129:23:129:34|Input S_AXI_ARPROT is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":132:23:132:33|Input S_AXI_ARQOS is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":135:23:135:36|Input S_AXI_ARREGION is unused.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v":49:4:49:9|Found sequential shift t32 with address depth of 3 words and data bit width of 23.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 8.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[5].level_buf with address depth of 6 words and data bit width of 8.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 24.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[5].level_buf with address depth of 6 words and data bit width of 24.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fsm.v":77:4:77:9|Trying to extract state machine for register CS.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 2.
+@N|Running in 64-bit mode
+

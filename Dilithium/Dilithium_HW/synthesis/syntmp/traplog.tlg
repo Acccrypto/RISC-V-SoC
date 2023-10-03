@@ -1,0 +1,41 @@
+@N: CD630 :"F:\MPFS_Projects\MPFS_ICICLE\synthesis\syntmp\gentmp4998a08832":4:7:4:9|Synthesizing work.top.gen.
+@N: CD630 :"syng0a08832":69:7:69:12|Synthesizing work.cmp_eq.cell_level.
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 16 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 17 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 18 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 19 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 20 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 21 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 22 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 23 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 24 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 25 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 26 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 27 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 28 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 29 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 30 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a08832":92:11:92:18|Bit 31 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@N: CD630 :"syng0a08832":6:7:6:16|Synthesizing work.eq_element.eqn.
+@W: CD280 :"syng0a08832":15:11:15:17|Unbound component MUXCY_L mapped to black box
+@N: CD630 :"syng0a08832":15:11:15:17|Synthesizing work.muxcy_l.syn_black_box.
+Post processing for work.muxcy_l.syn_black_box
+Running optimization stage 1 on MUXCY_L .......
+Finished optimization stage 1 on MUXCY_L (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Post processing for work.eq_element.eqn
+Running optimization stage 1 on eq_element .......
+Finished optimization stage 1 on eq_element (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Post processing for work.cmp_eq.cell_level
+Running optimization stage 1 on CMP_EQ .......
+Finished optimization stage 1 on CMP_EQ (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Post processing for work.top.gen
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on MUXCY_L .......
+Finished optimization stage 2 on MUXCY_L (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+Running optimization stage 2 on eq_element .......
+Finished optimization stage 2 on eq_element (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+Running optimization stage 2 on CMP_EQ .......
+Finished optimization stage 2 on CMP_EQ (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)

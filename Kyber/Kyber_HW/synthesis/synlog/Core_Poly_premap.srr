@@ -1,0 +1,231 @@
+# Tue May 16 19:30:45 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 131MB)
+
+Reading constraint file: F:\MPFS_Projects\MPFS_ICICLE\designer\Core_Poly\synthesis.fdc
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_scck.rpt 
+See clock summary report "F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 136MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 138MB)
+
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance fsm_0.delay_3.gen_delay[3].level_buf[1:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1172 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value defined for instance fsm_0.delay_2.gen_delay[1].level_buf[2][1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value defined for instance fsm_0.delay_2.gen_delay[0].level_buf[1][1:0] is being ignored due to limitations in architecture. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":134:4:134:9|Found instance fsm_0.done_reg with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":134:4:134:9|Found instance fsm_0.wen_reg with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance poly_ram_1.delay_6.gen_delay[5].level_buf[23:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance poly_ram_1.delay_4.gen_delay[3].level_buf[23:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance poly_ram_1.mux3.delay_6.gen_delay[5].level_buf[7:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance poly_ram_1.mux3.delay_4.gen_delay[3].level_buf[7:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[22] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[22] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[22] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[21] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[21] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[21] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[20] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[20] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[20] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[19] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[19] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[19] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[18] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[18] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[18] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[17] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[17] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[17] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[16] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[16] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[16] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[15] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[15] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[15] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[14] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[14] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[14] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[13] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[13] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[13] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[12] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[12] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[12] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[11] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[11] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[11] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[10] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[10] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[10] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[9] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[9] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[9] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[8] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[8] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[8] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[7] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[7] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[7] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[6] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[6] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[6] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t32_2[0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t31_1[0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t26_0[0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t0[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t3[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t2[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t1[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t25[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t24[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t23[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t22[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t21[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t20[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t19[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t18[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t17[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t16[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t15[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t14[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t13[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t12[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t11[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t10[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t9[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t8[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t7[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t6[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t5[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t4[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t33[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t30[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":49:4:49:9|Found instance poly_mul_0.t29[22:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Only the first 100 messages of id 'FX1171' are reported. To see all messages use 'report_messages -log F:\MPFS_Projects\MPFS_ICICLE\synthesis\synlog\Core_Poly_premap.srr -id FX1171' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX1171} -count unlimited' in the Tcl shell.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 187MB)
+
+@N: FP130 |Promoting Net S_AXI_ACLK on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=812,dsps=784 on top level netlist Core_Poly 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 189MB)
+
+
+
+Clock Summary
+******************
+
+          Start                    Requested     Requested     Clock        Clock          Clock
+Level     Clock                    Frequency     Period        Type         Group          Load 
+------------------------------------------------------------------------------------------------
+0 -       Core_Poly|S_AXI_ACLK     100.0 MHz     10.000        inferred     (multiple)     2653 
+================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                         Clock     Source               Clock Pin       Non-clock Pin     Non-clock Pin
+Clock                    Load      Pin                  Seq Example     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------
+Core_Poly|S_AXI_ACLK     2653      S_AXI_ACLK(port)     hdvec.C         -                 I_1.A(CLKINT)
+=======================================================================================================
+
+@W: MT530 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Found inferred clock Core_Poly|S_AXI_ACLK which controls 2653 sequential elements including fsm_0.delay_1.gen_delay_3_.level_buf_4__1_. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 181MB peak: 189MB)
+
+Encoding state machine CS[4:0] (in view: work.fsm(verilog))
+original code -> new code
+   000 -> 00000
+   001 -> 00011
+   010 -> 00101
+   011 -> 01001
+   100 -> 10001
+Encoding state machine CS[9:0] (in view: work.Core_Poly(verilog))
+original code -> new code
+   0000 -> 0000000000
+   0001 -> 0000000011
+   0010 -> 0000000101
+   0011 -> 0000001001
+   0100 -> 0000010001
+   0101 -> 0000100001
+   0110 -> 0001000001
+   0111 -> 0010000001
+   1000 -> 0100000001
+   1001 -> 1000000001
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 184MB peak: 189MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 187MB peak: 189MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 100MB peak: 189MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue May 16 19:30:47 2023
+
+###########################################################]

@@ -1,0 +1,11 @@
+@P:  Worst Slack : -10.465
+@P:  barrett|clk - Estimated Frequency : 48.9 MHz
+@P:  barrett|clk - Requested Frequency : 100.0 MHz
+@P:  barrett|clk - Estimated Period : 20.465
+@P:  barrett|clk - Requested Period : 10.000
+@P:  barrett|clk - Slack : -10.465
+@P: barrett Part : mpfs250tfcg1152std
+@P: barrett Register bits  : 92 
+@P: barrett DSP Blocks  : 12
+@P: barrett I/O primitives : 70
+@P:  CPU Time : 0h:00m:11s

@@ -1,0 +1,120 @@
+
+fsm_encoding {89185118513} sequential
+
+fsm_state_encoding {89185118513} IDLE {00}
+
+fsm_state_encoding {89185118513} NO_DAT {01}
+
+fsm_state_encoding {89185118513} TWO_DAT {10}
+
+fsm_state_encoding {89185118513} ONE_DAT {11}
+
+fsm_registers {89185118513} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118514} sequential
+
+fsm_state_encoding {89185118514} IDLE {00}
+
+fsm_state_encoding {89185118514} NO_DAT {01}
+
+fsm_state_encoding {89185118514} TWO_DAT {10}
+
+fsm_state_encoding {89185118514} ONE_DAT {11}
+
+fsm_registers {89185118514} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118515} sequential
+
+fsm_state_encoding {89185118515} IDLE {00}
+
+fsm_state_encoding {89185118515} NO_DAT {01}
+
+fsm_state_encoding {89185118515} TWO_DAT {10}
+
+fsm_state_encoding {89185118515} ONE_DAT {11}
+
+fsm_registers {89185118515} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118516} sequential
+
+fsm_state_encoding {89185118516} IDLE {00}
+
+fsm_state_encoding {89185118516} NO_DAT {01}
+
+fsm_state_encoding {89185118516} TWO_DAT {10}
+
+fsm_state_encoding {89185118516} ONE_DAT {11}
+
+fsm_registers {89185118516} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118516} sequential
+
+fsm_state_encoding {89185118516} IDLE {00}
+
+fsm_state_encoding {89185118516} NO_DAT {01}
+
+fsm_state_encoding {89185118516} TWO_DAT {10}
+
+fsm_state_encoding {89185118516} ONE_DAT {11}
+
+fsm_registers {89185118516} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118510} sequential
+
+fsm_state_encoding {89185118510} IDLE {00}
+
+fsm_state_encoding {89185118510} NO_DAT {01}
+
+fsm_state_encoding {89185118510} TWO_DAT {10}
+
+fsm_state_encoding {89185118510} ONE_DAT {11}
+
+fsm_registers {89185118510} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118511} sequential
+
+fsm_state_encoding {89185118511} IDLE {00}
+
+fsm_state_encoding {89185118511} NO_DAT {01}
+
+fsm_state_encoding {89185118511} TWO_DAT {10}
+
+fsm_state_encoding {89185118511} ONE_DAT {11}
+
+fsm_registers {89185118511} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118516} sequential
+
+fsm_state_encoding {89185118516} IDLE {00}
+
+fsm_state_encoding {89185118516} NO_DAT {01}
+
+fsm_state_encoding {89185118516} TWO_DAT {10}
+
+fsm_state_encoding {89185118516} ONE_DAT {11}
+
+fsm_registers {89185118516} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118512} sequential
+
+fsm_state_encoding {89185118512} IDLE {00}
+
+fsm_state_encoding {89185118512} NO_DAT {01}
+
+fsm_state_encoding {89185118512} TWO_DAT {10}
+
+fsm_state_encoding {89185118512} ONE_DAT {11}
+
+fsm_registers {89185118512} {currState[1]}  {currState[0]} 
+
+fsm_encoding {89185118512} sequential
+
+fsm_state_encoding {89185118512} IDLE {00}
+
+fsm_state_encoding {89185118512} NO_DAT {01}
+
+fsm_state_encoding {89185118512} TWO_DAT {10}
+
+fsm_state_encoding {89185118512} ONE_DAT {11}
+
+fsm_registers {89185118512} {currState[1]}  {currState[0]} 

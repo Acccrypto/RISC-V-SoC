@@ -1,0 +1,968 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPFS250TFCG1152STD (Microchip)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Core_Poly   ########
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2376               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly:	2376 (21.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      4774               100 %                
+ARI1     3407               100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly:	8181 (74.94 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     12                 100 %                
+====================================================
+Total DSP in the block Core_Poly:	12 (0.11 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     86                 100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block Core_Poly:	86 (0.79 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block Core_Poly:	1 (0.01 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       159                100 %                
+=================================================
+Total IO PADS in the block Core_Poly:	159 (1.46 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   address_generator   ########
+Instance path:   Core_Poly.address_generator                           
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  0.1260 %             
+ARI1     6                  0.1760 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.address_generator:	12 (0.11 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   conflict_free_memory_map   ########
+Instance path:   Core_Poly.conflict_free_memory_map                           
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      32                 1.35 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly.conflict_free_memory_map:	32 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      16                 0.3350 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.conflict_free_memory_map:	16 (0.15 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   conflict_free_memory_map_0   ########
+Instance path:   Core_Poly.conflict_free_memory_map_0                           
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      32                 1.35 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly.conflict_free_memory_map_0:	32 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      16                 0.3350 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.conflict_free_memory_map_0:	16 (0.15 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   fsm   ########
+Instance path:   Core_Poly.fsm                           
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      44                 1.85 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly.fsm:	44 (0.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      495                10.4 %               
+ARI1     22                 0.6460 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.fsm:	517 (4.74 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_2s_2s   ########
+Instance path:   fsm.delay_2s_2s                                 
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      4                  0.1680 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block fsm.delay_2s_2s:	4 (0.04 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_2s_4s   ########
+Instance path:   fsm.delay_2s_4s                                 
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  0.3370 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block fsm.delay_2s_4s:	8 (0.07 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   delay_2s_4s_0   ########
+Instance path:   fsm.delay_2s_4s_0                                 
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  0.3370 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block fsm.delay_2s_4s_0:	8 (0.07 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_mul_23s_4808194   ########
+Instance path:   Core_Poly.poly_mul_23s_4808194                           
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1174               49.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly.poly_mul_23s_4808194:	1174 (10.75 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1991               41.7 %               
+ARI1     1955               57.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.poly_mul_23s_4808194:	3946 (36.15 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     12                 100 %                
+====================================================
+Total DSP in the block Core_Poly.poly_mul_23s_4808194:	12 (0.11 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   add_rd   ########
+Instance path:   poly_mul_23s_4808194.add_rd                
+============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1370               28.7 %               
+ARI1     115                3.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.add_rd:	1485 (13.60 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   add_rd_0   ########
+Instance path:   poly_mul_23s_4808194.add_rd_0                
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      47                 0.9840 %             
+ARI1     47                 1.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.add_rd_0:	94 (0.86 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   add_rd_1   ########
+Instance path:   poly_mul_23s_4808194.add_rd_1                
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      94                 1.97 %               
+ARI1     47                 1.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.add_rd_1:	141 (1.29 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   add_rd_2   ########
+Instance path:   poly_mul_23s_4808194.add_rd_2                
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      23                 0.4820 %             
+ARI1     47                 1.38 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.add_rd_2:	70 (0.64 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   mult_half   ########
+Instance path:   poly_mul_23s_4808194.mult_half                
+===============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 0.230 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.mult_half:	11 (0.10 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   mult_rd   ########
+Instance path:   poly_mul_23s_4808194.mult_rd                
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      98                 4.12 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_mul_23s_4808194.mult_rd:	98 (0.90 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      80                 1.68 %               
+ARI1     350                10.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.mult_rd:	430 (3.94 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     3                  25 %                 
+====================================================
+Total DSP in the block poly_mul_23s_4808194.mult_rd:	3 (0.03 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   mult_rd_0   ########
+Instance path:   poly_mul_23s_4808194.mult_rd_0                
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      98                 4.12 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_mul_23s_4808194.mult_rd_0:	98 (0.90 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      52                 1.09 %               
+ARI1     350                10.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.mult_rd_0:	402 (3.68 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     3                  25 %                 
+====================================================
+Total DSP in the block poly_mul_23s_4808194.mult_rd_0:	3 (0.03 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   mult_rd_1   ########
+Instance path:   poly_mul_23s_4808194.mult_rd_1                
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      98                 4.12 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_mul_23s_4808194.mult_rd_1:	98 (0.90 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      119                2.49 %               
+ARI1     350                10.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.mult_rd_1:	469 (4.30 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     3                  25 %                 
+====================================================
+Total DSP in the block poly_mul_23s_4808194.mult_rd_1:	3 (0.03 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   mult_rd_2   ########
+Instance path:   poly_mul_23s_4808194.mult_rd_2                
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      98                 4.12 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_mul_23s_4808194.mult_rd_2:	98 (0.90 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      142                2.97 %               
+ARI1     350                10.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.mult_rd_2:	492 (4.51 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     3                  25 %                 
+====================================================
+Total DSP in the block poly_mul_23s_4808194.mult_rd_2:	3 (0.03 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   sub_rd   ########
+Instance path:   poly_mul_23s_4808194.sub_rd                
+============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     46                 1.35 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.sub_rd:	46 (0.42 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   sub_rd_0   ########
+Instance path:   poly_mul_23s_4808194.sub_rd_0                
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.04190 %            
+ARI1     46                 1.35 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.sub_rd_0:	48 (0.44 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   sub_rd_1   ########
+Instance path:   poly_mul_23s_4808194.sub_rd_1                
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      4                  0.08380 %            
+ARI1     46                 1.35 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.sub_rd_1:	50 (0.46 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   sub_rd_2   ########
+Instance path:   poly_mul_23s_4808194.sub_rd_2                
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     46                 1.35 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_mul_23s_4808194.sub_rd_2:	46 (0.42 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_ram_6s_64s_23s_0   ########
+Instance path:   Core_Poly.poly_ram_6s_64s_23s_0                           
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      48                 2.02 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly.poly_ram_6s_64s_23s_0:	48 (0.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      861                18 %                 
+ARI1     262                7.69 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.poly_ram_6s_64s_23s_0:	1123 (10.29 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     13                 15.1 %               
+=====================================================
+Total MEMORY ELEMENTS in the block Core_Poly.poly_ram_6s_64s_23s_0:	13 (0.12 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   arbiter_0   ########
+Instance path:   poly_ram_6s_64s_23s_0.arbiter_0               
+===============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      20                 0.4190 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_0.arbiter_0:	20 (0.18 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   delay_4s_Z2_0   ########
+Instance path:   poly_ram_6s_64s_23s_0.delay_4s_Z2_0               
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.08420 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram_6s_64s_23s_0.delay_4s_Z2_0:	2 (0.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.04190 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_0.delay_4s_Z2_0:	2 (0.02 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_0.delay_4s_Z2_0:	2 (0.02 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   delay_6s_Z1_0   ########
+Instance path:   poly_ram_6s_64s_23s_0.delay_6s_Z1_0               
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.1260 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram_6s_64s_23s_0.delay_6s_Z1_0:	3 (0.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.1050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_0.delay_6s_Z1_0:	5 (0.05 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_0.delay_6s_Z1_0:	2 (0.02 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   network_bank_in_6s_1   ########
+Instance path:   poly_ram_6s_64s_23s_0.network_bank_in_6s_1               
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      24                 0.5030 %             
+ARI1     48                 1.41 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_0.network_bank_in_6s_1:	72 (0.66 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   network_bf_in_23s_1   ########
+Instance path:   poly_ram_6s_64s_23s_0.network_bf_in_23s_1               
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  0.3370 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram_6s_64s_23s_0.network_bf_in_23s_1:	8 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      298                6.24 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_0.network_bf_in_23s_1:	298 (2.73 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   network_bf_out_23s_1   ########
+Instance path:   poly_ram_6s_64s_23s_0.network_bf_out_23s_1               
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      35                 1.47 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram_6s_64s_23s_0.network_bf_out_23s_1:	35 (0.32 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      512                10.7 %               
+ARI1     214                6.28 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_0.network_bf_out_23s_1:	726 (6.65 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     1                  1.16 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_0.network_bf_out_23s_1:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   delay_8s_4s_0   ########
+Instance path:   network_bf_out_23s_1.delay_8s_4s_0                
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      32                 1.35 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block network_bf_out_23s_1.delay_8s_4s_0:	32 (0.29 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   delay_8s_6s_0   ########
+Instance path:   network_bf_out_23s_1.delay_8s_6s_0                
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.1260 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block network_bf_out_23s_1.delay_8s_6s_0:	3 (0.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.1050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block network_bf_out_23s_1.delay_8s_6s_0:	5 (0.05 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     1                  1.16 %               
+=====================================================
+Total MEMORY ELEMENTS in the block network_bf_out_23s_1.delay_8s_6s_0:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_3   ########
+Instance path:   poly_ram_6s_64s_23s_0.poly_bank_6s_64s_23s_3               
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_0.poly_bank_6s_64s_23s_3:	2 (0.02 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_4   ########
+Instance path:   poly_ram_6s_64s_23s_0.poly_bank_6s_64s_23s_4               
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_0.poly_bank_6s_64s_23s_4:	2 (0.02 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_5   ########
+Instance path:   poly_ram_6s_64s_23s_0.poly_bank_6s_64s_23s_5               
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_0.poly_bank_6s_64s_23s_5:	2 (0.02 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_6   ########
+Instance path:   poly_ram_6s_64s_23s_0.poly_bank_6s_64s_23s_6               
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_0.poly_bank_6s_64s_23s_6:	2 (0.02 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_ram_6s_64s_23s_1   ########
+Instance path:   Core_Poly.poly_ram_6s_64s_23s_1                           
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      283                11.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly.poly_ram_6s_64s_23s_1:	283 (2.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      514                10.8 %               
+ARI1     246                7.22 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.poly_ram_6s_64s_23s_1:	760 (6.96 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     9                  10.5 %               
+=====================================================
+Total MEMORY ELEMENTS in the block Core_Poly.poly_ram_6s_64s_23s_1:	9 (0.08 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   arbiter   ########
+Instance path:   poly_ram_6s_64s_23s_1.arbiter               
+=============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      20                 0.4190 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_1.arbiter:	20 (0.18 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_4s_Z2   ########
+Instance path:   poly_ram_6s_64s_23s_1.delay_4s_Z2               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 4.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram_6s_64s_23s_1.delay_4s_Z2:	96 (0.88 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_6s_Z1   ########
+Instance path:   poly_ram_6s_64s_23s_1.delay_6s_Z1               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      144                6.06 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram_6s_64s_23s_1.delay_6s_Z1:	144 (1.32 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   network_bank_in_6s   ########
+Instance path:   poly_ram_6s_64s_23s_1.network_bank_in_6s               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ARI1     48                 1.41 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_1.network_bank_in_6s:	48 (0.44 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   network_bf_in_23s   ########
+Instance path:   poly_ram_6s_64s_23s_1.network_bf_in_23s               
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  0.3370 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram_6s_64s_23s_1.network_bf_in_23s:	8 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      371                7.77 %               
+ARI1     14                 0.4110 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_1.network_bf_in_23s:	385 (3.53 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   network_bf_out_23s_0   ########
+Instance path:   poly_ram_6s_64s_23s_1.network_bf_out_23s_0               
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      35                 1.47 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block poly_ram_6s_64s_23s_1.network_bf_out_23s_0:	35 (0.32 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      75                 1.57 %               
+ARI1     184                5.4 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block poly_ram_6s_64s_23s_1.network_bf_out_23s_0:	259 (2.37 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     1                  1.16 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_1.network_bf_out_23s_0:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_8s_4s   ########
+Instance path:   network_bf_out_23s_0.delay_8s_4s                
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      32                 1.35 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block network_bf_out_23s_0.delay_8s_4s:	32 (0.29 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_8s_6s   ########
+Instance path:   network_bf_out_23s_0.delay_8s_6s                
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  0.1260 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block network_bf_out_23s_0.delay_8s_6s:	3 (0.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.1050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block network_bf_out_23s_0.delay_8s_6s:	5 (0.05 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     1                  1.16 %               
+=====================================================
+Total MEMORY ELEMENTS in the block network_bf_out_23s_0.delay_8s_6s:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s   ########
+Instance path:   poly_ram_6s_64s_23s_1.poly_bank_6s_64s_23s               
+==========================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_1.poly_bank_6s_64s_23s:	2 (0.02 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_0   ########
+Instance path:   poly_ram_6s_64s_23s_1.poly_bank_6s_64s_23s_0               
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_1.poly_bank_6s_64s_23s_0:	2 (0.02 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_1   ########
+Instance path:   poly_ram_6s_64s_23s_1.poly_bank_6s_64s_23s_1               
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_1.poly_bank_6s_64s_23s_1:	2 (0.02 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   poly_bank_6s_64s_23s_2   ########
+Instance path:   poly_ram_6s_64s_23s_1.poly_bank_6s_64s_23s_2               
+============================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     2                  2.33 %               
+=====================================================
+Total MEMORY ELEMENTS in the block poly_ram_6s_64s_23s_1.poly_bank_6s_64s_23s_2:	2 (0.02 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   polyvec_ram_9s_512s_23s   ########
+Instance path:   Core_Poly.polyvec_ram_9s_512s_23s                           
+=============================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      83                 1.74 %               
+ARI1     460                13.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.polyvec_ram_9s_512s_23s:	543 (4.97 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     64                 74.4 %               
+=====================================================
+Total MEMORY ELEMENTS in the block Core_Poly.polyvec_ram_9s_512s_23s:	64 (0.59 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   tf_ROM_69s   ########
+Instance path:   Core_Poly.tf_ROM_69s                           
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      69                 2.9 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly.tf_ROM_69s:	69 (0.63 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      520                10.9 %               
+ARI1     272                7.98 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.tf_ROM_69s:	792 (7.25 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   tf_address_generator   ########
+Instance path:   Core_Poly.tf_address_generator                           
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 0.7580 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Core_Poly.tf_address_generator:	18 (0.16 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      4                  0.08380 %            
+ARI1     7                  0.2050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Core_Poly.tf_address_generator:	11 (0.10 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

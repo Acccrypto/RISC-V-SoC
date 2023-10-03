@@ -1,0 +1,115 @@
+# Microsemi NMAT TXT File
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: mult23 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS250T_ES , Package: FCVG484 , Speed grade: STD 
+
+# Date generated: Wed May 10 19:20:00 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io dina[0] E13
+set_io dina[1] D14
+set_io dina[2] A6
+set_io dina[3] D7
+set_io dina[4] A13
+set_io dina[5] A8
+set_io dina[6] B12
+set_io dina[7] C12
+set_io dina[8] F13
+set_io dina[9] B14
+set_io dina[10] C11
+set_io dina[11] F10
+set_io dina[12] C10
+set_io dina[13] D12
+set_io dina[14] A10
+set_io dina[15] A15
+set_io dina[16] B9
+set_io dina[17] U12
+set_io dina[18] D21
+set_io dina[19] H17
+set_io dina[20] E14
+set_io dina[21] F17
+set_io dina[22] B22
+set_io dinb[0] A12
+set_io dinb[1] G12
+set_io dinb[2] D11
+set_io dinb[3] B7
+set_io dinb[4] B13
+set_io dinb[5] G13
+set_io dinb[6] D8
+set_io dinb[7] C4
+set_io dinb[8] B5
+set_io dinb[9] D6
+set_io dinb[10] R12
+set_io dinb[11] B4
+set_io dinb[12] F16
+set_io dinb[13] C22
+set_io dinb[14] A21
+set_io dinb[15] B18
+set_io dinb[16] V14
+set_io dinb[17] T12
+set_io dinb[18] C16
+set_io dinb[19] U13
+set_io dinb[20] E15
+set_io dinb[21] U14
+set_io dinb[22] H15
+set_io dout[0] D9
+set_io dout[1] B10
+set_io dout[2] C6
+set_io dout[3] B8
+set_io dout[4] C5
+set_io dout[5] C7
+set_io dout[6] E11
+set_io dout[7] F12
+set_io dout[8] D13
+set_io dout[9] F11
+set_io dout[10] H13
+set_io dout[11] H12
+set_io dout[12] E10
+set_io dout[13] A7
+set_io dout[14] A11
+set_io dout[15] C9
+set_io dout[16] A5
+set_io dout[17] F15
+set_io dout[18] B19
+set_io dout[19] B17
+set_io dout[20] B20
+set_io dout[21] V12
+set_io dout[22] E16
+set_io dout[23] G14
+set_io dout[24] D20
+set_io dout[25] C19
+set_io dout[26] B21
+set_io dout[27] B15
+set_io dout[28] W12
+set_io dout[29] D19
+set_io dout[30] D22
+set_io dout[31] C20
+set_io dout[32] G15
+set_io dout[33] A16
+set_io dout[34] A17
+set_io dout[35] A20
+set_io dout[36] C17
+set_io dout[37] A18
+set_io dout[38] E19
+set_io dout[39] U15
+set_io dout[40] D18
+set_io dout[41] E18
+set_io dout[42] T13
+set_io dout[43] D17
+set_io dout[44] G17
+set_io dout[45] D16
+
+#
+# Core cell constraints
+#
+
+set_location WideMult_0_0/MACC_PHYS_INST 948 23

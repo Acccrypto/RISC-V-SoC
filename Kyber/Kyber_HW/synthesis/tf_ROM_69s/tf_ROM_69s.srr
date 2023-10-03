@@ -1,0 +1,303 @@
+# Sun Mar  5 16:35:40 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 126MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 139MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 139MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 139MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 139MB)
+
+
+@N: MF104 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\tf_rom.v":21:7:21:12|Found compile point of type hard on View view:work.tf_ROM_69s(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.tf_ROM_69s(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\tf_rom.v":21:7:21:12|Mapping Compile point view:work.tf_ROM_69s(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 189MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 179MB peak: 189MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 189MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 189MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 189MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 189MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 186MB peak: 189MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    13.54ns		 885 /        76
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 186MB peak: 189MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 186MB peak: 189MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sun Mar  5 16:35:43 2023
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 14.852
+
+                                                                                        Requested     Estimated     Requested     Estimated                Clock                                                                                                    Clock           
+Starting Clock                                                                          Frequency     Frequency     Period        Period        Slack      Type                                                                                                     Group           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0                      125.0 MHz     NA            8.000         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1                      125.0 MHz     NA            8.000         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2                      125.0 MHz     NA            8.000         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3                      50.0 MHz      194.3 MHz     20.000        5.148         14.852     generated (from REF_CLK_50MHz)                                                                           FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV                   80.0 MHz      NA            12.500        NA            NA         generated (from CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK)     default_clkgroup
+CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK     160.0 MHz     NA            6.250         NA            NA         declared                                                                                                 default_clkgroup
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK             125.0 MHz     NA            8.000         NA            NA         declared                                                                                                 default_clkgroup
+REF_CLK_50MHz                                                                           50.0 MHz      NA            20.000        NA            NA         declared                                                                                                 default_clkgroup
+REF_CLK_PAD_P                                                                           100.0 MHz     NA            10.000        NA            NA         declared                                                                                                 default_clkgroup
+====================================================================================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  20.000      14.852  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                           Starting                                                                                                                                 Arrival           
+Instance                                                   Reference                                                              Type     Pin     Net                                              Time        Slack 
+                                                           Clock                                                                                                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[1]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      Q       FIC_3_PERIPHERALS_1.poly_ntt_0.tf_address[1]     0.257       14.852
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      Q       FIC_3_PERIPHERALS_1.poly_ntt_0.tf_address[0]     0.257       14.888
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      Q       FIC_3_PERIPHERALS_1.poly_ntt_0.tf_address[2]     0.237       15.738
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[6]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      Q       FIC_3_PERIPHERALS_1.poly_ntt_0.tf_address[6]     0.237       16.547
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[3]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      Q       FIC_3_PERIPHERALS_1.poly_ntt_0.tf_address[3]     0.237       16.593
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[4]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      Q       FIC_3_PERIPHERALS_1.poly_ntt_0.tf_address[4]     0.257       16.599
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[5]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      Q       FIC_3_PERIPHERALS_1.poly_ntt_0.tf_address[5]     0.257       16.925
+======================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                                                      Required           
+Instance                                          Reference                                                              Type     Pin     Net                   Time         Slack 
+                                                  Clock                                                                                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[20]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       N_45                  20.000       14.852
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[21]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       N_221_i_0             20.000       14.858
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[49]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       m772_2                20.000       14.897
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[58]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       N_873_i               20.000       14.897
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[62]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       N_493_i_0             20.000       14.923
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[50]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       N_383_i_0             20.000       14.982
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[42]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       Q_2[42]               20.000       15.096
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[17]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       N_803_i               20.000       15.103
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[63]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       N_461_i_0             20.000       15.108
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[51]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       Q_2_68_0_.N_641_i     20.000       15.125
+===================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      5.148
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     14.852
+
+    Number of logic level(s):                6
+    Starting point:                          FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[1] / Q
+    Ending point:                            FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[20] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                                 Pin      Pin               Arrival     No. of    
+Name                                                                  Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_agen_0.tf_address[1]                SLE      Q        Out     0.257     0.257 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_address[1]                          Net      -        -       1.139     -           64        
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m22                 CFG2     B        In      -         1.396 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m22                 CFG2     Y        Out     0.103     1.500 f     -         
+N_23_1                                                                Net      -        -       1.116     -           57        
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m27                 CFG3     C        In      -         2.615 f     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m27                 CFG3     Y        Out     0.154     2.769 r     -         
+N_28_1                                                                Net      -        -       0.735     -           8         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m840_1_0_wmux       ARI1     D        In      -         3.504 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m840_1_0_wmux       ARI1     Y        Out     0.428     3.933 r     -         
+Q_2_68_0_.m840_1_0_y0                                                 Net      -        -       0.139     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m840_1_0_wmux_0     ARI1     A        In      -         4.072 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m840_1_0_wmux_0     ARI1     Y        Out     0.148     4.220 r     -         
+m840_1_0_wmux_0_Y                                                     Net      -        -       0.139     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m851_1_0_wmux       ARI1     C        In      -         4.359 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m851_1_0_wmux       ARI1     Y        Out     0.362     4.721 r     -         
+Q_2_68_0_.m851_1_0_y0                                                 Net      -        -       0.139     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m851_1_0_wmux_0     ARI1     A        In      -         4.860 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q_2_68_0_.m851_1_0_wmux_0     ARI1     Y        Out     0.148     5.008 r     -         
+N_45                                                                  Net      -        -       0.139     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.tf_ROM_0.Q[20]                         SLE      D        In      -         5.148 r     -         
+================================================================================================================================
+Total path delay (propagation time + setup) of 5.148 is 1.601(31.1%) logic and 3.546(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"f:/risc-v/reference code/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/risc-v/reference code/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/risc-v/reference code/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/risc-v/reference code/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/risc-v/reference code/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"f:/risc-v/reference code/icicle-kit-reference-design-master/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":22:0:22:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\tf_ROM_69s\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name           Status     Reason     
+-------------------------------------
+tf_ROM_69s     Mapped     No database
+=====================================
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sun Mar  5 16:35:43 2023
+
+###########################################################]

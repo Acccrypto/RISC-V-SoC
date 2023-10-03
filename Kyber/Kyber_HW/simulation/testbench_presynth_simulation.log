@@ -1,0 +1,271 @@
+# do run.do
+# INFO: Simulation library presynth already exists
+# ** Note: Multiple occurrences of ini variable PolarFire are found, only first occurence will be considered.
+# ** Note: Multiple occurrences of ini variable polarfire are found, only first occurence will be considered.
+# Model Technology ModelSim Microsemi Pro vmap 2022.2 Lib Mapping Utility 2022.04 Apr 26 2022
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# ** Note: Multiple occurrences of ini variable polarfire are found, only first occurence will be considered.
+# ** Note: Multiple occurrences of ini variable polarfire are found, only first occurence will be considered.
+# Model Technology ModelSim Microsemi Pro vmap 2022.2 Lib Mapping Utility 2022.04 Apr 26 2022
+# vmap polarfire D:/Microchip/Libero_SoC_v2022.2/Designer/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# ** Note: Multiple occurrences of ini variable PolarFire are found, only first occurence will be considered.
+# ** Note: Multiple occurrences of ini variable PolarFire are found, only first occurence will be considered.
+# Model Technology ModelSim Microsemi Pro vmap 2022.2 Lib Mapping Utility 2022.04 Apr 26 2022
+# vmap PolarFire D:/Microchip/Libero_SoC_v2022.2/Designer/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# INFO: Simulation library COREAXI4DMACONTROLLER_LIB already exists
+# ** Note: Multiple occurrences of ini variable PolarFire are found, only first occurence will be considered.
+# ** Note: Multiple occurrences of ini variable PolarFire are found, only first occurence will be considered.
+# Model Technology ModelSim Microsemi Pro vmap 2022.2 Lib Mapping Utility 2022.04 Apr 26 2022
+# vmap COREAXI4DMACONTROLLER_LIB COREAXI4DMACONTROLLER_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library COREAPB3_LIB already exists
+# ** Note: Multiple occurrences of ini variable PolarFire are found, only first occurence will be considered.
+# ** Note: Multiple occurrences of ini variable PolarFire are found, only first occurence will be considered.
+# Model Technology ModelSim Microsemi Pro vmap 2022.2 Lib Mapping Utility 2022.04 Apr 26 2022
+# vmap COREAPB3_LIB COREAPB3_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vlog 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 11:02:29 on Mar 01,2023
+# vlog -sv -work presynth F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/core/coregpio.v 
+# -- Compiling module GPIO_GPIO_0_CoreGPIO
+# 
+# Top level modules:
+# 	GPIO_GPIO_0_CoreGPIO
+# End time: 11:02:30 on Mar 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 11:02:30 on Mar 01,2023
+# vlog "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm" "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/test/user" -sv -work presynth F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v 
+# -- Compiling module GPIO_GPIO_0_BFMA1l1OII
+# 
+# Top level modules:
+# 	GPIO_GPIO_0_BFMA1l1OII
+# End time: 11:02:30 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 11:02:30 on Mar 01,2023
+# vlog "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm" "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/test/user" -sv -work presynth F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_main.v 
+# -- Compiling module GPIO_GPIO_0_BFM_MAIN
+# 
+# Top level modules:
+# 	GPIO_GPIO_0_BFM_MAIN
+# End time: 11:02:30 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 11:02:30 on Mar 01,2023
+# vlog "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm" "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/test/user" -sv -work presynth F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_apb.v 
+# -- Compiling module GPIO_GPIO_0_BFM_APB
+# 
+# Top level modules:
+# 	GPIO_GPIO_0_BFM_APB
+# End time: 11:02:30 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 11:02:30 on Mar 01,2023
+# vlog "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0" "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm" "+incdir+F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/test/user" -sv -work presynth F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/test/user/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 11:02:30 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L polarfire -L presynth -L COREAXI4DMACONTROLLER_LIB -L COREAPB3_LIB -t 1ps -pli "D:/Microchip/Libero_SoC_v2022.2/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll" presynth.testbench 
+# Start time: 11:02:30 on Mar 01,2023
+# //  ModelSim Microsemi Pro 2022.2 Apr 26 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi Pro and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading presynth.testbench
+# Loading presynth.GPIO_GPIO_0_BFM_APB
+# Loading presynth.GPIO_GPIO_0_BFM_MAIN
+# Loading presynth.GPIO_GPIO_0_BFMA1l1OII
+# Loading presynth.GPIO_GPIO_0_CoreGPIO
+# Loading D:/Microchip/Libero_SoC_v2022.2/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+# --- Using Windows Actel DirectCore AMBA BFM compiler
+# --- Compiling Actel DirectCore AMBA BFM source files ...
+# 
+# AMBA BFM Compiler (BETA Version 2.1.107 04Feb09) 
+#   Reading
+#    Processing ./coregpio_usertb_apb_master.bfm
+#    Processing coregpio_usertb_include.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    155 Global  localconstants Defined
+#    19 Global  localvariables Defined
+#   Writing Vectors ./coregpio_usertb_apb_master.vec
+#    Commands Generated 624
+#    Vectors Generated 2853
+#    Vector CheckSum be6928c7
+# 
+# BFM Compiler Completed Okay
+# --- Done.
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+#  
+###########################################################################
+# AMBA BFM Model
+# Version 2.1 22Dec08
+#  
+# Opening BFM Script file coregpio_usertb_apb_master.vec
+# Read 2853 Vectors - Compiler Version 22.26
+# BFM:Filenames referenced in Vectors
+#   ./coregpio_usertb_apb_master.bfm
+#   coregpio_usertb_include.bfm
+################################################################
+# BFM:User Testbench for CoreGPIO: BFM APB Master Test Harness
+# BFM:(c) Copyright 2009 Actel Corporation. All rights reserved.
+# BFM:AS: 03/23/09
+# BFM:____________________________________________________________________
+# BFM: 
+# BFM:43: DEBUG 1
+################################################################
+# BFM: Begin printing variables from APB Master BFM Script ...
+# BFM:IO_NUM:4
+# BFM:APB_WIDTH:32
+# BFM:OE_TYPE:1
+# BFM:INT_OR:0
+# BFM:FIXED_CONFIG_0:1
+# BFM:FIXED_CONFIG_1:1
+# BFM:FIXED_CONFIG_2:1
+# BFM:FIXED_CONFIG_3:1
+# BFM:FIXED_CONFIG_4:0
+# BFM:FIXED_CONFIG_5:0
+# BFM:FIXED_CONFIG_6:0
+# BFM:FIXED_CONFIG_7:0
+# BFM:FIXED_CONFIG_8:0
+# BFM:FIXED_CONFIG_9:0
+# BFM:FIXED_CONFIG_10:0
+# BFM:FIXED_CONFIG_11:0
+# BFM:FIXED_CONFIG_12:0
+# BFM:FIXED_CONFIG_13:0
+# BFM:FIXED_CONFIG_14:0
+# BFM:FIXED_CONFIG_15:0
+# BFM:FIXED_CONFIG_16:0
+# BFM:FIXED_CONFIG_17:0
+# BFM:FIXED_CONFIG_18:0
+# BFM:FIXED_CONFIG_19:0
+# BFM:FIXED_CONFIG_20:0
+# BFM:FIXED_CONFIG_21:0
+# BFM:FIXED_CONFIG_22:0
+# BFM:FIXED_CONFIG_23:0
+# BFM:FIXED_CONFIG_24:0
+# BFM:FIXED_CONFIG_25:0
+# BFM:FIXED_CONFIG_26:0
+# BFM:FIXED_CONFIG_27:0
+# BFM:FIXED_CONFIG_28:0
+# BFM:FIXED_CONFIG_29:0
+# BFM:FIXED_CONFIG_30:0
+# BFM:FIXED_CONFIG_31:0
+# BFM:IO_TYPE_0:1
+# BFM:IO_TYPE_1:1
+# BFM:IO_TYPE_2:1
+# BFM:IO_TYPE_3:1
+# BFM:IO_TYPE_4:0
+# BFM:IO_TYPE_5:0
+# BFM:IO_TYPE_6:0
+# BFM:IO_TYPE_7:0
+# BFM:IO_TYPE_8:0
+# BFM:IO_TYPE_9:0
+# BFM:IO_TYPE_10:0
+# BFM:IO_TYPE_11:0
+# BFM:IO_TYPE_12:0
+# BFM:IO_TYPE_13:0
+# BFM:IO_TYPE_14:0
+# BFM:IO_TYPE_15:0
+# BFM:IO_TYPE_16:0
+# BFM:IO_TYPE_17:0
+# BFM:IO_TYPE_18:0
+# BFM:IO_TYPE_19:0
+# BFM:IO_TYPE_20:0
+# BFM:IO_TYPE_21:0
+# BFM:IO_TYPE_22:0
+# BFM:IO_TYPE_23:0
+# BFM:IO_TYPE_24:0
+# BFM:IO_TYPE_25:0
+# BFM:IO_TYPE_26:0
+# BFM:IO_TYPE_27:0
+# BFM:IO_TYPE_28:0
+# BFM:IO_TYPE_29:0
+# BFM:IO_TYPE_30:0
+# BFM:IO_TYPE_31:0
+# BFM:IO_INT_TYPE_0:7
+# BFM:IO_INT_TYPE_1:7
+# BFM:IO_INT_TYPE_2:7
+# BFM:IO_INT_TYPE_3:7
+# BFM:IO_INT_TYPE_4:7
+# BFM:IO_INT_TYPE_5:7
+# BFM:IO_INT_TYPE_6:7
+# BFM:IO_INT_TYPE_7:7
+# BFM:IO_INT_TYPE_8:7
+# BFM:IO_INT_TYPE_9:7
+# BFM:IO_INT_TYPE_10:7
+# BFM:IO_INT_TYPE_11:7
+# BFM:IO_INT_TYPE_12:7
+# BFM:IO_INT_TYPE_13:7
+# BFM:IO_INT_TYPE_14:7
+# BFM:IO_INT_TYPE_15:7
+# BFM:IO_INT_TYPE_16:7
+# BFM:IO_INT_TYPE_17:7
+# BFM:IO_INT_TYPE_18:7
+# BFM:IO_INT_TYPE_19:7
+# BFM:IO_INT_TYPE_20:7
+# BFM:IO_INT_TYPE_21:7
+# BFM:IO_INT_TYPE_22:7
+# BFM:IO_INT_TYPE_23:7
+# BFM:IO_INT_TYPE_24:7
+# BFM:IO_INT_TYPE_25:7
+# BFM:IO_INT_TYPE_26:7
+# BFM:IO_INT_TYPE_27:7
+# BFM:IO_INT_TYPE_28:7
+# BFM:IO_INT_TYPE_29:7
+# BFM:IO_INT_TYPE_30:7
+# BFM:IO_INT_TYPE_31:7
+################################################################
+# BFM: Done printing variables from APB Master BFM Script.
+################################################################
+# BFM: 
+# BFM:Control register write tests, up to address c
+# BFM:____________________________________________________________________
+# BFM: 
+# BFM:>> Testing output generation
+# BFM:>> Testing input
+# BFM:>> Testing positive edge detection
+# BFM:>> Testing negative edge detection
+# BFM:End of CoreGPIO User testbench.
+###########################################################
+#  
+# BFM Simulation Complete - 422 Instructions - NO ERRORS
+#  
+###########################################################
+#  
+# ** Note: $stop    : F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/test/user/testbench.v(168)
+#    Time: 5454 ns  Iteration: 0  Instance: /testbench
+# Break in NamedBeginStat main_sim at F:/RISC-V/Reference Code/icicle-kit-reference-design-master/MPFS_ICICLE/component/work/GPIO/GPIO_0/rtl/vlog/test/user/testbench.v line 168
+# End time: 11:02:32 on Mar 01,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

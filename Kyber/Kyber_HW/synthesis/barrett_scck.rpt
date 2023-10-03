@@ -1,0 +1,47 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+
+# Written on Mon May 15 12:57:29 2023
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "F:\MPFS_Projects\MPFS_ICICLE\designer\barrett\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start           Requested     Requested     Clock        Clock          Clock
+Level     Clock           Frequency     Period        Type         Group          Load 
+---------------------------------------------------------------------------------------
+0 -       barrett|clk     100.0 MHz     10.000        inferred     (multiple)     115  
+=======================================================================================
+
+
+Clock Load Summary
+******************
+
+                Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock           Load      Pin           Seq Example     Seq Example       Comb Example 
+---------------------------------------------------------------------------------------
+barrett|clk     115       clk(port)     t1[68:46].C     -                 I_1.A(CLKINT)
+=======================================================================================

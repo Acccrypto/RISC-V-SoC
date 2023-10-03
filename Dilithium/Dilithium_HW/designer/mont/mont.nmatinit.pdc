@@ -1,0 +1,138 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: mont 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS250T_ES , Package: FCVG484 , Speed grade: STD 
+
+# Date generated: Fri May 12 15:04:04 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io -port_name a\[0\] -DIRECTION INPUT -pin_name C9 -fixed false
+set_io -port_name a\[1\] -DIRECTION INPUT -pin_name F11 -fixed false
+set_io -port_name a\[2\] -DIRECTION INPUT -pin_name G12 -fixed false
+set_io -port_name a\[3\] -DIRECTION INPUT -pin_name F12 -fixed false
+set_io -port_name a\[4\] -DIRECTION INPUT -pin_name F10 -fixed false
+set_io -port_name a\[5\] -DIRECTION INPUT -pin_name A8 -fixed false
+set_io -port_name a\[6\] -DIRECTION INPUT -pin_name B9 -fixed false
+set_io -port_name a\[7\] -DIRECTION INPUT -pin_name A13 -fixed false
+set_io -port_name a\[8\] -DIRECTION INPUT -pin_name G13 -fixed false
+set_io -port_name a\[9\] -DIRECTION INPUT -pin_name D9 -fixed false
+set_io -port_name a\[10\] -DIRECTION INPUT -pin_name C12 -fixed false
+set_io -port_name a\[11\] -DIRECTION INPUT -pin_name H13 -fixed false
+set_io -port_name a\[12\] -DIRECTION INPUT -pin_name B12 -fixed false
+set_io -port_name a\[13\] -DIRECTION INPUT -pin_name B10 -fixed false
+set_io -port_name a\[14\] -DIRECTION INPUT -pin_name E10 -fixed false
+set_io -port_name a\[15\] -DIRECTION INPUT -pin_name A12 -fixed false
+set_io -port_name a\[16\] -DIRECTION INPUT -pin_name C10 -fixed false
+set_io -port_name a\[17\] -DIRECTION INPUT -pin_name A20 -fixed false
+set_io -port_name a\[18\] -DIRECTION INPUT -pin_name H15 -fixed false
+set_io -port_name a\[19\] -DIRECTION INPUT -pin_name D19 -fixed false
+set_io -port_name a\[20\] -DIRECTION INPUT -pin_name D16 -fixed false
+set_io -port_name a\[21\] -DIRECTION INPUT -pin_name F15 -fixed false
+set_io -port_name a\[22\] -DIRECTION INPUT -pin_name B19 -fixed false
+set_io -port_name b\[0\] -DIRECTION INPUT -pin_name E13 -fixed false
+set_io -port_name b\[1\] -DIRECTION INPUT -pin_name E11 -fixed false
+set_io -port_name b\[2\] -DIRECTION INPUT -pin_name F13 -fixed false
+set_io -port_name b\[3\] -DIRECTION INPUT -pin_name A11 -fixed false
+set_io -port_name b\[4\] -DIRECTION INPUT -pin_name C11 -fixed false
+set_io -port_name b\[5\] -DIRECTION INPUT -pin_name A10 -fixed false
+set_io -port_name b\[6\] -DIRECTION INPUT -pin_name D12 -fixed false
+set_io -port_name b\[7\] -DIRECTION INPUT -pin_name D14 -fixed false
+set_io -port_name b\[8\] -DIRECTION INPUT -pin_name H12 -fixed false
+set_io -port_name b\[9\] -DIRECTION INPUT -pin_name B8 -fixed false
+set_io -port_name b\[10\] -DIRECTION INPUT -pin_name A17 -fixed false
+set_io -port_name b\[11\] -DIRECTION INPUT -pin_name D11 -fixed false
+set_io -port_name b\[12\] -DIRECTION INPUT -pin_name A15 -fixed false
+set_io -port_name b\[13\] -DIRECTION INPUT -pin_name B17 -fixed false
+set_io -port_name b\[14\] -DIRECTION INPUT -pin_name D13 -fixed false
+set_io -port_name b\[15\] -DIRECTION INPUT -pin_name B13 -fixed false
+set_io -port_name b\[16\] -DIRECTION INPUT -pin_name B14 -fixed false
+set_io -port_name b\[17\] -DIRECTION INPUT -pin_name D20 -fixed false
+set_io -port_name b\[18\] -DIRECTION INPUT -pin_name B18 -fixed false
+set_io -port_name b\[19\] -DIRECTION INPUT -pin_name F16 -fixed false
+set_io -port_name b\[20\] -DIRECTION INPUT -pin_name B15 -fixed false
+set_io -port_name b\[21\] -DIRECTION INPUT -pin_name G14 -fixed false
+set_io -port_name b\[22\] -DIRECTION INPUT -pin_name D21 -fixed false
+set_io -port_name c\[0\] -DIRECTION OUTPUT -pin_name E18 -fixed false
+set_io -port_name c\[1\] -DIRECTION OUTPUT -pin_name B22 -fixed false
+set_io -port_name c\[2\] -DIRECTION OUTPUT -pin_name E19 -fixed false
+set_io -port_name c\[3\] -DIRECTION OUTPUT -pin_name E15 -fixed false
+set_io -port_name c\[4\] -DIRECTION OUTPUT -pin_name G15 -fixed false
+set_io -port_name c\[5\] -DIRECTION OUTPUT -pin_name D22 -fixed false
+set_io -port_name c\[6\] -DIRECTION OUTPUT -pin_name D18 -fixed false
+set_io -port_name c\[7\] -DIRECTION OUTPUT -pin_name G17 -fixed false
+set_io -port_name c\[8\] -DIRECTION OUTPUT -pin_name A16 -fixed false
+set_io -port_name c\[9\] -DIRECTION OUTPUT -pin_name B20 -fixed false
+set_io -port_name c\[10\] -DIRECTION OUTPUT -pin_name C22 -fixed false
+set_io -port_name c\[11\] -DIRECTION OUTPUT -pin_name A21 -fixed false
+set_io -port_name c\[12\] -DIRECTION OUTPUT -pin_name E16 -fixed false
+set_io -port_name c\[13\] -DIRECTION OUTPUT -pin_name E14 -fixed false
+set_io -port_name c\[14\] -DIRECTION OUTPUT -pin_name C19 -fixed false
+set_io -port_name c\[15\] -DIRECTION OUTPUT -pin_name C17 -fixed false
+set_io -port_name c\[16\] -DIRECTION OUTPUT -pin_name H17 -fixed false
+set_io -port_name c\[17\] -DIRECTION OUTPUT -pin_name B21 -fixed false
+set_io -port_name c\[18\] -DIRECTION OUTPUT -pin_name A18 -fixed false
+set_io -port_name c\[19\] -DIRECTION OUTPUT -pin_name D17 -fixed false
+set_io -port_name c\[20\] -DIRECTION OUTPUT -pin_name F17 -fixed false
+set_io -port_name c\[21\] -DIRECTION OUTPUT -pin_name C20 -fixed false
+set_io -port_name c\[22\] -DIRECTION OUTPUT -pin_name C16 -fixed false
+set_io -port_name clk -DIRECTION INPUT -pin_name C6 -fixed false
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name r_0_0\[11\] -fixed false -x 1018 -y 25
+set_location -inst_name un3_clto12_7 -fixed false -x 1035 -y 24
+set_location -inst_name r_0_0\[20\] -fixed false -x 1027 -y 25
+set_location -inst_name un3_clto12 -fixed false -x 1034 -y 24
+set_location -inst_name r_0_0\[7\] -fixed false -x 1014 -y 25
+set_location -inst_name r_0_0\[18\] -fixed false -x 1025 -y 25
+set_location -inst_name I_1 -fixed false -x 1296 -y 162
+set_location -inst_name r_0_0\[21\] -fixed false -x 1028 -y 25
+set_location -inst_name un3_clto12_8 -fixed false -x 1033 -y 24
+set_location -inst_name r_0_0\[17\] -fixed false -x 1024 -y 25
+set_location -inst_name r_0_0\[19\] -fixed false -x 1026 -y 25
+set_location -inst_name r_0_0\[16\] -fixed false -x 1023 -y 25
+set_location -inst_name r_0_0\[2\] -fixed false -x 1009 -y 25
+set_location -inst_name r_0_0\[12\] -fixed false -x 1019 -y 25
+set_location -inst_name r_0_0\[14\] -fixed false -x 1021 -y 25
+set_location -inst_name r_0_0\[1\] -fixed false -x 1008 -y 25
+set_location -inst_name I_1/U0_RGB1 -fixed false -x 726 -y 39
+set_location -inst_name r_0_0\[0\] -fixed false -x 1007 -y 25
+set_location -inst_name un3_clto22_6 -fixed false -x 1037 -y 24
+set_location -inst_name r_0_0\[9\] -fixed false -x 1016 -y 25
+set_location -inst_name r_0_0\[4\] -fixed false -x 1011 -y 25
+set_location -inst_name r_0_0\[10\] -fixed false -x 1017 -y 25
+set_location -inst_name r_0_0\[3\] -fixed false -x 1010 -y 25
+set_location -inst_name r_0_0\[13\] -fixed false -x 1020 -y 25
+set_location -inst_name un3_clto12_6 -fixed false -x 1032 -y 24
+set_location -inst_name un3_clto22_5 -fixed false -x 1030 -y 24
+set_location -inst_name r_0_0\[22\] -fixed false -x 1029 -y 25
+set_location -inst_name r_0_0\[8\] -fixed false -x 1015 -y 25
+set_location -inst_name r_0_0\[6\] -fixed false -x 1013 -y 25
+set_location -inst_name r_0_0\[5\] -fixed false -x 1012 -y 25
+set_location -inst_name un3_clto22_7 -fixed false -x 1031 -y 24
+set_location -inst_name r_0_0\[15\] -fixed false -x 1022 -y 25
+set_location -inst_name WideMult_0_0/MACC_PHYS_INST -fixed false -x 912 -y 50
+set_location -inst_name WideMult_0_1/MACC_PHYS_INST -fixed false -x 984 -y 23
+set_location -inst_name WideMult_0/MACC_PHYS_INST -fixed false -x 840 -y 23
+set_location -inst_name r_1_0_cry_0 -fixed false -x 984 -y 24
+set_location -inst_name un12_c_0_cry_0 -fixed false -x 1038 -y 24
+set_location -inst_name I_1/U0_IOBA -fixed false -x 720 -y 5
+set_location -inst_name I_1/U0_RGB1_RGB0 -fixed false -x 726 -y 12
+set_location -inst_name r_1_0_cry_0_CC_0 -fixed false -x 984 -y 26
+set_location -inst_name r_1_0_cry_0_CC_1 -fixed false -x 996 -y 26
+set_location -inst_name r_1_0_cry_0_CC_2 -fixed false -x 1008 -y 26
+set_location -inst_name r_1_0_cry_0_CC_3 -fixed false -x 1020 -y 26
+set_location -inst_name un12_c_0_cry_0_CC_0 -fixed false -x 1038 -y 26
+set_location -inst_name un12_c_0_cry_0_CC_1 -fixed false -x 1044 -y 26
+set_location -inst_name un12_c_0_cry_0_CC_2 -fixed false -x 1056 -y 26

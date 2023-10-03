@@ -1,0 +1,11 @@
+# Microsemi Corp.
+# Date: 2023-Sep-28 10:02:08
+Libero Release : v2022.2
+Libero Version : 2022.2.0.10
+Operating System Name : Windows 8
+Ram Size : 31.93 GB (usable)
+OS Type : 64-bit
+
+Environment Variables : 
+---------------------
+	Please enable the option from 'Preferences => Startup => Export environment variables' to get this info.

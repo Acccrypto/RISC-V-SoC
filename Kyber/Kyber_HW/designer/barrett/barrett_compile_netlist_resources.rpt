@@ -1,0 +1,159 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+Date: Mon May 15 12:57:52 2023
+
+Device Selection
++--------------------------------------------+--------------+
+| Family                                     | PolarFireSoC |
+| Device                                     | MPFS250T_ES  |
+| Package                                    | FCVG484      |
+| Speed Grade                                | STD          |
+| Core Voltage                               | 1.05V        |
+| Part Range                                 | EXT          |
+| Default I/O technology                     | LVCMOS 1.8V  |
+| FPGA Hardware Breakpoint Auto Instantation | Off          |
++--------------------------------------------+--------------+
+
+Source Files
++---------+---------------------------------------------------+
+| Topcell | barrett                                           |
+| Format  | Verilog                                           |
+| Source  | F:\MPFS_Projects\MPFS_ICICLE\synthesis\barrett.vm |
++---------+---------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+--------+------------+
+| Type                      | Used | Total  | Percentage |
++---------------------------+------+--------+------------+
+| 4LUT                      | 640  | 254196 | 0.25       |
+| DFF                       | 524  | 254196 | 0.21       |
+| I/O Register              | 0    | 432    | 0.00       |
+| User I/O                  | 70   | 144    | 48.61      |
+| -- Single-ended I/O       | 70   | 144    | 48.61      |
+| -- Differential I/O Pairs | 0    | 72     | 0.00       |
+| uSRAM                     | 0    | 2352   | 0.00       |
+| LSRAM                     | 0    | 812    | 0.00       |
+| Math                      | 12   | 784    | 1.53       |
+| H-Chip Global             | 1    | 48     | 2.08       |
+| PLL                       | 0    | 8      | 0.00       |
+| DLL                       | 0    | 8      | 0.00       |
+| Transceiver Lanes         | 0    | 4      | 0.00       |
+| Transceiver PCIe          | 0    | 2      | 0.00       |
+| MSS                       | 0    | 1      | 0.00       |
++---------------------------+------+--------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 208  | 92  |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 0    | 0   |
+| Math Interface Logic  | 432  | 432 |
+| Total Used            | 640  | 524 |
++-----------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 13     | 1    |
+| 23     | 2    |
+| 25     | 1    |
+| 27     | 1    |
+| 33     | 1    |
+| 34     | 1    |
+| Total  | 7    |
++--------+------+
+
+Detailed Math Chains Resource Usage
++--------+------+
+| Length | Used |
+| 1      | 3    |
+| 3      | 1    |
+| 6      | 1    |
+| Total  | 5    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 47           | 0           | 0               |
+| Output I/O                    | 23           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------+
+| Fanout | Type    | Name                |
++--------+---------+---------------------+
+| 98     | INT_NET | Net   : NN_1        |
+|        |         | Driver: I_1/U0_RGB1 |
+|        |         | Source: NETLIST     |
++--------+---------+---------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------+
+| Fanout | Type    | Name                                             |
++--------+---------+--------------------------------------------------+
+| 13     | INT_NET | Net   : un3_clto22_5_Z                           |
+|        |         | Driver: un3_clto22_5                             |
+| 13     | INT_NET | Net   : un3_clto22_6_Z                           |
+|        |         | Driver: un3_clto22_6                             |
+| 13     | INT_NET | Net   : un3_clto22_7_Z                           |
+|        |         | Driver: un3_clto22_7                             |
+| 3      | INT_NET | Net   : albl_mult[13]                            |
+|        |         | Driver: albl_mult_mulonly_0[23:0]/MACC_PHYS_INST |
+| 3      | INT_NET | Net   : z_Z[22]                                  |
+|        |         | Driver: z[22]                                    |
+| 3      | INT_NET | Net   : z_Z[21]                                  |
+|        |         | Driver: z[21]                                    |
+| 3      | INT_NET | Net   : z_Z[20]                                  |
+|        |         | Driver: z[20]                                    |
+| 3      | INT_NET | Net   : z_Z[19]                                  |
+|        |         | Driver: z[19]                                    |
+| 3      | INT_NET | Net   : z_Z[18]                                  |
+|        |         | Driver: z[18]                                    |
+| 3      | INT_NET | Net   : z_Z[17]                                  |
+|        |         | Driver: z[17]                                    |
++--------+---------+--------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------+
+| Fanout | Type    | Name                                             |
++--------+---------+--------------------------------------------------+
+| 13     | INT_NET | Net   : un3_clto22_5_Z                           |
+|        |         | Driver: un3_clto22_5                             |
+| 13     | INT_NET | Net   : un3_clto22_6_Z                           |
+|        |         | Driver: un3_clto22_6                             |
+| 13     | INT_NET | Net   : un3_clto22_7_Z                           |
+|        |         | Driver: un3_clto22_7                             |
+| 3      | INT_NET | Net   : albl_mult[13]                            |
+|        |         | Driver: albl_mult_mulonly_0[23:0]/MACC_PHYS_INST |
+| 3      | INT_NET | Net   : z_Z[22]                                  |
+|        |         | Driver: z[22]                                    |
+| 3      | INT_NET | Net   : z_Z[21]                                  |
+|        |         | Driver: z[21]                                    |
+| 3      | INT_NET | Net   : z_Z[20]                                  |
+|        |         | Driver: z[20]                                    |
+| 3      | INT_NET | Net   : z_Z[19]                                  |
+|        |         | Driver: z[19]                                    |
+| 3      | INT_NET | Net   : z_Z[18]                                  |
+|        |         | Driver: z[18]                                    |
+| 3      | INT_NET | Net   : z_Z[17]                                  |
+|        |         | Driver: z[17]                                    |
++--------+---------+--------------------------------------------------+
+

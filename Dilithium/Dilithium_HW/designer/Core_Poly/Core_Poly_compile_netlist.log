@@ -1,0 +1,78 @@
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWADDR[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWADDR[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWSIZE[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWSIZE[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWSIZE[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWLOCK is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWCACHE[3] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWCACHE[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWCACHE[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWCACHE[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWPROT[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWPROT[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWPROT[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWQOS[3] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWQOS[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWQOS[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWQOS[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWREGION[3] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWREGION[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWREGION[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_AWREGION[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WDATA[30] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WDATA[29] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WDATA[28] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WDATA[27] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WDATA[26] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WDATA[25] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WDATA[24] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WDATA[23] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WSTRB[3] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WSTRB[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WSTRB[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_WSTRB[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARADDR[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARADDR[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARSIZE[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARSIZE[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARSIZE[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARLOCK is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARCACHE[3] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARCACHE[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARCACHE[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARCACHE[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARPROT[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARPROT[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARPROT[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARQOS[3] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARQOS[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARQOS[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARQOS[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARREGION[3] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARREGION[2] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARREGION[1] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+Warning: [127205465]:  CMPPF_007: Top level port S_AXI_ARREGION[0] is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       1 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    2626   0      0      'I_1' 
+
+Info: Demotion information: 
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+
+
+Error:  Number of I/O modules (159) exceeds the limit (144) of the selected device.
+Error:  The command 'compile' failed.
+Error:  Line 70

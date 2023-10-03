@@ -1,0 +1,138 @@
+# Microsemi NMAT TXT File
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: mont 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS250T_ES , Package: FCVG484 , Speed grade: STD 
+
+# Date generated: Fri May 12 15:04:04 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io a[0] C9
+set_io a[1] F11
+set_io a[2] G12
+set_io a[3] F12
+set_io a[4] F10
+set_io a[5] A8
+set_io a[6] B9
+set_io a[7] A13
+set_io a[8] G13
+set_io a[9] D9
+set_io a[10] C12
+set_io a[11] H13
+set_io a[12] B12
+set_io a[13] B10
+set_io a[14] E10
+set_io a[15] A12
+set_io a[16] C10
+set_io a[17] A20
+set_io a[18] H15
+set_io a[19] D19
+set_io a[20] D16
+set_io a[21] F15
+set_io a[22] B19
+set_io b[0] E13
+set_io b[1] E11
+set_io b[2] F13
+set_io b[3] A11
+set_io b[4] C11
+set_io b[5] A10
+set_io b[6] D12
+set_io b[7] D14
+set_io b[8] H12
+set_io b[9] B8
+set_io b[10] A17
+set_io b[11] D11
+set_io b[12] A15
+set_io b[13] B17
+set_io b[14] D13
+set_io b[15] B13
+set_io b[16] B14
+set_io b[17] D20
+set_io b[18] B18
+set_io b[19] F16
+set_io b[20] B15
+set_io b[21] G14
+set_io b[22] D21
+set_io c[0] E18
+set_io c[1] B22
+set_io c[2] E19
+set_io c[3] E15
+set_io c[4] G15
+set_io c[5] D22
+set_io c[6] D18
+set_io c[7] G17
+set_io c[8] A16
+set_io c[9] B20
+set_io c[10] C22
+set_io c[11] A21
+set_io c[12] E16
+set_io c[13] E14
+set_io c[14] C19
+set_io c[15] C17
+set_io c[16] H17
+set_io c[17] B21
+set_io c[18] A18
+set_io c[19] D17
+set_io c[20] F17
+set_io c[21] C20
+set_io c[22] C16
+set_io clk C6
+
+#
+# Core cell constraints
+#
+
+set_location r_0_0[11] 1018 25
+set_location un3_clto12_7 1035 24
+set_location r_0_0[20] 1027 25
+set_location un3_clto12 1034 24
+set_location r_0_0[7] 1014 25
+set_location r_0_0[18] 1025 25
+set_location I_1 1296 162
+set_location r_0_0[21] 1028 25
+set_location un3_clto12_8 1033 24
+set_location r_0_0[17] 1024 25
+set_location r_0_0[19] 1026 25
+set_location r_0_0[16] 1023 25
+set_location r_0_0[2] 1009 25
+set_location r_0_0[12] 1019 25
+set_location r_0_0[14] 1021 25
+set_location r_0_0[1] 1008 25
+set_location I_1/U0_RGB1 726 39
+set_location r_0_0[0] 1007 25
+set_location un3_clto22_6 1037 24
+set_location r_0_0[9] 1016 25
+set_location r_0_0[4] 1011 25
+set_location r_0_0[10] 1017 25
+set_location r_0_0[3] 1010 25
+set_location r_0_0[13] 1020 25
+set_location un3_clto12_6 1032 24
+set_location un3_clto22_5 1030 24
+set_location r_0_0[22] 1029 25
+set_location r_0_0[8] 1015 25
+set_location r_0_0[6] 1013 25
+set_location r_0_0[5] 1012 25
+set_location un3_clto22_7 1031 24
+set_location r_0_0[15] 1022 25
+set_location WideMult_0_0/MACC_PHYS_INST 912 50
+set_location WideMult_0_1/MACC_PHYS_INST 984 23
+set_location WideMult_0/MACC_PHYS_INST 840 23
+set_location r_1_0_cry_0 984 24
+set_location un12_c_0_cry_0 1038 24
+set_location I_1/U0_IOBA 720 5
+set_location I_1/U0_RGB1_RGB0 726 12
+set_location r_1_0_cry_0_CC_0 984 26
+set_location r_1_0_cry_0_CC_1 996 26
+set_location r_1_0_cry_0_CC_2 1008 26
+set_location r_1_0_cry_0_CC_3 1020 26
+set_location un12_c_0_cry_0_CC_0 1038 26
+set_location un12_c_0_cry_0_CC_1 1044 26
+set_location un12_c_0_cry_0_CC_2 1056 26

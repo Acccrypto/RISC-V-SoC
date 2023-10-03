@@ -1,0 +1,62 @@
+Software Version: 2022.2.0.10
+===============================================================
+Programmer: Embedded FP6 'ED997378' : Version = EF9B
+===============================================================
+programmer 'ED997378' : Embedded FlashPro6
+Opened 'F:\mypaper2\Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp\MPFS_ICICLE_KIT_BASE_DESIGN.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'MPFS250T_ES'.
+The 'enable_device' command succeeded.
+PPD file 'F:/mypaper2/Projects/Kyber_HW/designer/MPFS_ICICLE_KIT_BASE_DESIGN/MPFS_ICICLE_KIT_BASE_DESIGN.ppd' has been loaded successfully.
+DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : BCFA;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'ED997378' : Scan Chain...
+programmer 'ED997378' : Check Chain...
+programmer 'ED997378' : Scan and Check Chain PASSED.
+programmer 'ED997378' : device 'MPFS250T_ES' : Executing action PROGRAM
+Performing FPGA action. Please wait...
+eFP6 acceleration mode enabled with PPD file. Please wait...
+CM3 Version: D1.3
+Programmer 'ED997378' : JTAG TCK frequency = 4 MHz
+eFP6 Messages:
+CM3 Version: F4.0
+================================================================================
+
+JTAG DirectC Version: 04.07
+JTAG_Frequency:  4 MHz
+Identifying device...
+Looking for MPF device...
+ActID = 0F81A1CF
+ActID = 0F81A1CF ExpID = 0F81A1CF
+Device Rev = 00
+ActID = 0F81A1CF ExpID = 0F81A1CF
+Device Rev = 00
+--- Security locks and configuration settings ---
+00000001000000000000000000000000
+FPGA Array is programmed and enabled.
+ISC_ENABLE_RESULT: 00000000
+CRCERR: 00
+
+BITS component bitstream digest: AEE355E728BED157183D65B414803CA9422E59D42B06365E61DDF1ED5EC41D74
+Security component bitstream digest: BFD905DECB768E283EE6627A713C664E806DF8E60D26A0997E38B171FB3795EC
+Fabric component bitstream digest: 9EC346ECC0E755A712A77789A1621AA39476C04FEE2A6BB8DCA07ACF248D1A64
+sNVM component bitstream digest: 9D5E4A7FAC0E54EB93A9D8C34108C355A7FCF505EF1BFB63EEBEE9E871461593
+EOB component bitstream digest: DF6FD3514EADE46650A0319B8094CB7EB16FF20ADF382545D0FF12048AF51390
+=====================================================================
+DSN: 3AA001249A1C109E7752BC0ECA5D12A4
+=====================================================================
+================================================================================
+
+programmer 'ED997378' : device 'MPFS250T_ES' : Executing action PROGRAM PASSED.
+programmer 'ED997378' : Chain programming PASSED.
+Chain Programming Finished: Thu Sep 28 10:01:03 2023 (Elapsed time 00:00:57)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

@@ -1,0 +1,17 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 800
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                                                     CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_FIC_0_CLK                                                  4367            0                   0              4367             YES                  
+CLOCKS_AND_RESETS_FIC_3_CLK                                                  2966            0                   0              2966             YES                  
+CLOCKS_AND_RESETS_FIC_1_CLK                                                  2169            0                   1              2170             YES                  
+FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_COMMON_AXI_CLK_OUT_net            5               0                   0              5                YES                  
+FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.sysReset_arst     0               1934                0              1934             YES                  
+FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.sysReset_arst        0               1112                0              1112             YES                  
+FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.PCIE_INITIATOR_0.sysReset_arst     0               1020                0              1020             YES                  
+======================================================================================================================================================================

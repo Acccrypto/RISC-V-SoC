@@ -1,0 +1,9 @@
+n work caxi4interconnect_MasterConvertor_Z18 verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 8.21875;
+av .compile_point_starttime_stamp "Sun Mar  5 16:35:35 2023";
+av .compile_point_endtime_stamp "Sun Mar  5 16:35:43 2023";
+av .compile_point_realtime_used 8.205;

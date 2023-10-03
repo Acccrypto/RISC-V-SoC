@@ -1,0 +1,40 @@
+Resource Usage Report for mont 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           22 uses
+CFG3           2 uses
+CFG4           5 uses
+
+Carry cells:
+ARI1            198 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            115 uses
+
+DSP Blocks:   10 of 784 (1%)
+ MACC_PA:         5 Mults
+ MACC_PA:         5 MultAdds
+
+I/O ports: 70
+I/O primitives: 70
+INBUF          47 uses
+OUTBUF         23 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    227
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 360; LUTs = 360;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  115 + 0 + 0 + 360 = 475;
+Total number of LUTs after P&R:  227 + 0 + 0 + 360 = 587;
+

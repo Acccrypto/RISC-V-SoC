@@ -1,0 +1,19 @@
+********************************************************************
+Delay Instance Report - Date: Fri May 12 15:34:25 2023
+Product: Designer
+Release: v2022.2
+Version: 2022.2.0.10
+Design Name: mult_rd
+Family: PolarFireSoC
+Die: MPFS250T_ES
+Package: FCVG484
+********************************************************************
+
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+
++------+---------------+------------+-------------+-----------------+-----------+
+| Type | Instance Name | Param Name | Delay Value | PDC Option Name | Editable? |
++------+---------------+------------+-------------+-----------------+-----------+
++------+---------------+------------+-------------+-----------------+-----------+
+

@@ -1,0 +1,502 @@
+# Mon Mar  6 14:53:19 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 134MB)
+
+
+@N: MF104 :"e:\projects\libero_projects\mpfs_icicle\hdl\tf_rom.v":21:7:21:12|Found compile point of type hard on View view:work.tf_ROM_69s(verilog) 
+@N: MF104 :"e:\projects\libero_projects\mpfs_icicle\hdl\poly_ntt.v":21:7:21:14|Found compile point of type hard on View view:work.poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79_inst (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79_verilog_inst (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79_verilog_0_inst (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+
+Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 195MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 196MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_tf_ROM_69s_verilog_inst (in view: work.tf_ROM_69s_rtl_ilm(verilog)) because it does not drive other instances.
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 188MB peak: 196MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"e:\projects\libero_projects\mpfs_icicle\hdl\poly_ntt.v":21:7:21:14|Mapping Compile point view:work.poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79(verilog) because 
+		 RTL and/or Constraints changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 188MB peak: 196MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_work_poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79_verilog_0_0_0_inst (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 195MB peak: 196MB)
+
+Encoding state machine CS[5:0] (in view: work.poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79(verilog))
+original code -> new code
+   000 -> 000000
+   001 -> 000011
+   010 -> 000101
+   011 -> 001001
+   100 -> 010001
+   101 -> 100001
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+Encoding state machine CS[3:0] (in view: work.fsm(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\projects\libero_projects\mpfs_icicle\hdl\fsm.v":69:4:69:9|There are no possible illegal states for state machine CS[3:0] (in view: work.fsm(verilog)); safe FSM implementation is not required.
+@N: MO231 :"e:\projects\libero_projects\mpfs_icicle\hdl\fsm.v":172:4:172:9|Found counter in view:work.fsm(verilog) instance k_reg[5:0] 
+@N: MO231 :"e:\projects\libero_projects\mpfs_icicle\hdl\fsm.v":172:4:172:9|Found counter in view:work.fsm(verilog) instance j_reg[5:0] 
+@N: MF179 :|Found 32 by 32 bit equality operator ('==') k_reg18 (in view: work.fsm(verilog))
+@N: MF179 :|Found 32 by 32 bit equality operator ('==') j_reg17 (in view: work.fsm(verilog))
+@N: FX403 :"e:\projects\libero_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_10.gen_delay\[9\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"e:\projects\libero_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_10.gen_delay\[9\]\.level_buf_seqshift[23:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"e:\projects\libero_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_3.bank[22:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"e:\projects\libero_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_2.bank[22:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"e:\projects\libero_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_1.bank[22:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"e:\projects\libero_projects\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_0.bank[22:0] (in view: work.poly_ram_6s_64s_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"e:\projects\libero_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_10.gen_delay\[9\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"e:\projects\libero_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_10.gen_delay\[9\]\.level_buf_seqshift[7:0] (in view: work.network_bf_out_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+
+Starting factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 200MB peak: 200MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 209MB peak: 209MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FF150 :"e:\projects\libero_projects\mpfs_icicle\hdl\mult_rd.v":60:31:60:40|Multiplier poly_mul_0.mult_rd_3.c_2[33:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"e:\projects\libero_projects\mpfs_icicle\hdl\mult_rd.v":60:31:60:40|Multiplier poly_mul_0.mult_rd_2.c_2[33:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"e:\projects\libero_projects\mpfs_icicle\hdl\mult_rd.v":60:31:60:40|Multiplier poly_mul_0.mult_rd_1.c_2[33:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"e:\projects\libero_projects\mpfs_icicle\hdl\mult_rd.v":60:31:60:40|Multiplier poly_mul_0.mult_rd_0.c_2[33:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"e:\projects\libero_projects\mpfs_icicle\hdl\mult_rd.v":61:31:61:40|Multiplier poly_mul_0.mult_rd_3.d_2[34:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"e:\projects\libero_projects\mpfs_icicle\hdl\mult_rd.v":61:31:61:40|Multiplier poly_mul_0.mult_rd_2.d_2[34:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"e:\projects\libero_projects\mpfs_icicle\hdl\mult_rd.v":61:31:61:40|Multiplier poly_mul_0.mult_rd_1.d_2[34:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"e:\projects\libero_projects\mpfs_icicle\hdl\mult_rd.v":61:31:61:40|Multiplier poly_mul_0.mult_rd_0.d_2[34:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 228MB peak: 228MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 229MB peak: 229MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 229MB peak: 229MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 229MB peak: 229MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 229MB peak: 229MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 236MB peak: 236MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:15s		     9.28ns		3685 /      1888
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 240MB peak: 240MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 240MB peak: 241MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Mar  6 14:53:37 2023
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\Projects\Libero_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 11.731
+
+                                                                                        Requested     Estimated     Requested     Estimated                Clock                                                                                                    Clock           
+Starting Clock                                                                          Frequency     Frequency     Period        Period        Slack      Type                                                                                                     Group           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0                      125.0 MHz     NA            8.000         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1                      125.0 MHz     NA            8.000         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2                      125.0 MHz     NA            8.000         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3                      50.0 MHz      120.9 MHz     20.000        8.269         11.731     generated (from REF_CLK_50MHz)                                                                           FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV                   80.0 MHz      NA            12.500        NA            NA         generated (from CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK)     default_clkgroup
+CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK     160.0 MHz     NA            6.250         NA            NA         declared                                                                                                 default_clkgroup
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK             125.0 MHz     NA            8.000         NA            NA         declared                                                                                                 default_clkgroup
+REF_CLK_50MHz                                                                           50.0 MHz      NA            20.000        NA            NA         declared                                                                                                 default_clkgroup
+REF_CLK_PAD_P                                                                           100.0 MHz     NA            10.000        NA            NA         declared                                                                                                 default_clkgroup
+====================================================================================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  20.000      11.731  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                     Starting                                                                                               Arrival           
+Instance                                                             Reference                                                              Type        Pin       Net       Time        Slack 
+                                                                     Clock                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[15]     c[32]     2.670       11.731
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_3.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[15]     c[32]     2.670       11.731
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_0.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[15]     c[32]     2.670       11.731
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_2.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[15]     c[32]     2.670       11.731
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_0.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[16]     c[33]     2.670       11.749
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[16]     c[33]     2.670       11.749
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_3.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[16]     c[33]     2.670       11.749
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_2.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[16]     c[33]     2.670       11.749
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_3.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[4]      c[21]     2.670       11.782
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_0.WideMult_1_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MACC_PA     P[4]      c[21]     2.670       11.782
+==============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                Starting                                                                                                       Required           
+Instance                                                        Reference                                                              Type     Pin     Net                    Time         Slack 
+                                                                Clock                                                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_0.sum[27]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_s_27_S         20.000       11.731
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.sum[27]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_s_27_S_0       20.000       11.731
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_3.sum[27]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_s_27_S_2       20.000       11.731
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_2.sum[27]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_s_27_S_1       20.000       11.731
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_0.sum[26]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_cry_26_S       20.000       11.757
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.sum[26]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_cry_26_S_0     20.000       11.757
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_3.sum[26]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_cry_26_S_2     20.000       11.757
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_2.sum[26]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_cry_26_S_1     20.000       11.757
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_0.sum[25]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_cry_25_S       20.000       11.775
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_2.sum[25]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     SLE      D       un2_sum_cry_25_S_1     20.000       11.775
+==================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      8.269
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     11.731
+
+    Number of logic level(s):                53
+    Starting point:                          FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.WideMult_1_0 / P[15]
+    Ending point:                            FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.sum[27] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                                              Pin       Pin               Arrival     No. of    
+Name                                                                            Type        Name      Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.WideMult_1_0                MACC_PA     P[15]     Out     2.670     2.670 f     -         
+c[32]                                                                           Net         -         -       0.665     -           4         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_0_cry_1                  ARI1        B         In      -         3.335 f     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_0_cry_1                  ARI1        FCO       Out     0.387     3.722 f     -         
+z1_0_cry_1                                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_0_cry_2                  ARI1        FCI       In      -         3.722 f     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_0_cry_2                  ARI1        S         Out     0.354     4.076 r     -         
+z1_0[2]                                                                         Net         -         -       0.139     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_2                    ARI1        B         In      -         4.215 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_2                    ARI1        FCO       Out     0.387     4.602 r     -         
+z1_cry_2                                                                        Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_3                    ARI1        FCI       In      -         4.602 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_3                    ARI1        S         Out     0.354     4.956 r     -         
+z1[3]                                                                           Net         -         -       0.665     -           4         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_3_RNI26EI3           ARI1        B         In      -         5.621 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_3_RNI26EI3           ARI1        Y         Out     0.244     5.865 r     -         
+z1_cry_3_RNI26EI3_Y                                                             Net         -         -       0.139     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_4_RNIIEM87           ARI1        A         In      -         6.004 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_4_RNIIEM87           ARI1        FCO       Out     0.336     6.341 r     -         
+z1_cry_4_RNIIEM87_FCO                                                           Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_4_RNI0HGC7           ARI1        FCI       In      -         6.341 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_4_RNI0HGC7           ARI1        FCO       Out     0.009     6.350 r     -         
+z1_cry_4_RNI0HGC7_FCO                                                           Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_5_RNIF4RSE           ARI1        FCI       In      -         6.350 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_5_RNIF4RSE           ARI1        FCO       Out     0.009     6.359 r     -         
+z1_cry_5_RNIF4RSE_FCO                                                           Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_5_RNIU6L0F           ARI1        FCI       In      -         6.359 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_5_RNIU6L0F           ARI1        FCO       Out     0.009     6.369 r     -         
+z1_cry_5_RNIU6L0F_FCO                                                           Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_6_RNICG45U           ARI1        FCI       In      -         6.369 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_6_RNICG45U           ARI1        FCO       Out     0.009     6.378 r     -         
+z1_cry_6_RNICG45U_FCO                                                           Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_6_RNISIU8U           ARI1        FCI       In      -         6.378 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_6_RNISIU8U           ARI1        FCO       Out     0.009     6.388 r     -         
+z1_cry_6_RNISIU8U_FCO                                                           Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_7_RNI98NLS1          ARI1        FCI       In      -         6.388 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_7_RNI98NLS1          ARI1        FCO       Out     0.009     6.397 r     -         
+z1_cry_7_RNI98NLS1_FCO                                                          Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_7_RNIQAHPS1          ARI1        FCI       In      -         6.397 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_7_RNIQAHPS1          ARI1        FCO       Out     0.009     6.406 r     -         
+z1_cry_7_RNIQAHPS1_FCO                                                          Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_8_RNI6OSMP3          ARI1        FCI       In      -         6.406 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_8_RNI6OSMP3          ARI1        FCO       Out     0.009     6.416 r     -         
+z1_cry_8_RNI6OSMP3_FCO                                                          Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_8_RNIOQMQP3          ARI1        FCI       In      -         6.416 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_8_RNIOQMQP3          ARI1        FCO       Out     0.009     6.425 r     -         
+z1_cry_8_RNIOQMQP3_FCO                                                          Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_9_RNI3O7PJ7          ARI1        FCI       In      -         6.425 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_9_RNI3O7PJ7          ARI1        FCO       Out     0.009     6.435 r     -         
+z1_cry_9_RNI3O7PJ7_FCO                                                          Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_9_RNIMQ1TJ7          ARI1        FCI       In      -         6.435 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_9_RNIMQ1TJ7          ARI1        FCO       Out     0.009     6.444 r     -         
+z1_cry_9_RNIMQ1TJ7_FCO                                                          Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_10_RNI74088F         ARI1        FCI       In      -         6.444 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_10_RNI74088F         ARI1        FCO       Out     0.009     6.453 r     -         
+z1_cry_10_RNI74088F_FCO                                                         Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_10_RNI2JSL8F         ARI1        FCI       In      -         6.453 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_10_RNI2JSL8F         ARI1        FCO       Out     0.009     6.463 r     -         
+z1_cry_10_RNI2JSL8F_FCO                                                         Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_11_RNI0LLPHU         ARI1        FCI       In      -         6.463 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_11_RNI0LLPHU         ARI1        FCO       Out     0.009     6.472 r     -         
+z1_cry_11_RNI0LLPHU_FCO                                                         Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_11_RNIS3I7IU         ARI1        FCI       In      -         6.472 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_11_RNIS3I7IU         ARI1        FCO       Out     0.009     6.482 r     -         
+z1_cry_11_RNIS3I7IU_FCO                                                         Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.WideMult_0_0_RNI1AP15T1     ARI1        FCI       In      -         6.482 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.WideMult_0_0_RNI1AP15T1     ARI1        FCO       Out     0.009     6.491 r     -         
+WideMult_0_0_RNI1AP15T1_FCO                                                     Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.WideMult_0_0_RNIACEK5T1     ARI1        FCI       In      -         6.491 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.WideMult_0_0_RNIACEK5T1     ARI1        FCO       Out     0.009     6.500 r     -         
+WideMult_0_0_RNIACEK5T1_FCO                                                     Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_13_RNITBFACQ3        ARI1        FCI       In      -         6.500 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_13_RNITBFACQ3        ARI1        FCO       Out     0.009     6.510 r     -         
+z1_cry_13_RNITBFACQ3_FCO                                                        Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_13_RNI6V1CDQ3        ARI1        FCI       In      -         6.510 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_cry_13_RNI6V1CDQ3        ARI1        FCO       Out     0.009     6.519 r     -         
+z1_cry_13_RNI6V1CDQ3_FCO                                                        Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_2_RNIIT2GRK3      ARI1        FCI       In      -         6.519 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_2_RNIIT2GRK3      ARI1        FCO       Out     0.009     6.529 r     -         
+rd1_5_cry_2_RNIIT2GRK3_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_2_RNIOS18SK3      ARI1        FCI       In      -         6.529 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_2_RNIOS18SK3      ARI1        FCO       Out     0.009     6.538 r     -         
+rd1_5_cry_2_RNIOS18SK3_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_3_RNIPO28P93      ARI1        FCI       In      -         6.538 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_3_RNIPO28P93      ARI1        FCO       Out     0.009     6.547 r     -         
+rd1_5_cry_3_RNIPO28P93_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_3_RNI2O10Q93      ARI1        FCI       In      -         6.547 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_3_RNI2O10Q93      ARI1        FCO       Out     0.009     6.557 r     -         
+rd1_5_cry_3_RNI2O10Q93_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_4_RNIGF2OKJ2      ARI1        FCI       In      -         6.557 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_4_RNIGF2OKJ2      ARI1        FCO       Out     0.009     6.566 r     -         
+rd1_5_cry_4_RNIGF2OKJ2_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_4_RNISE1GLJ2      ARI1        FCI       In      -         6.566 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_4_RNISE1GLJ2      ARI1        FCO       Out     0.009     6.576 r     -         
+rd1_5_cry_4_RNISE1GLJ2_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_5_RNI7T1OB71      ARI1        FCI       In      -         6.576 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_5_RNI7T1OB71      ARI1        FCO       Out     0.009     6.585 r     -         
+rd1_5_cry_5_RNI7T1OB71_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_5_RNIMS0GC71      ARI1        FCI       In      -         6.585 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_5_RNIMS0GC71      ARI1        FCO       Out     0.009     6.594 r     -         
+rd1_5_cry_5_RNIMS0GC71_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_6_RNIUO0OPE2      ARI1        FCI       In      -         6.594 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_6_RNIUO0OPE2      ARI1        FCO       Out     0.009     6.604 r     -         
+rd1_5_cry_6_RNIUO0OPE2_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_6_RNIGOVFQE2      ARI1        FCI       In      -         6.604 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_6_RNIGOVFQE2      ARI1        FCO       Out     0.009     6.613 r     -         
+rd1_5_cry_6_RNIGOVFQE2_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_7_RNIJ2K0MT       ARI1        FCI       In      -         6.613 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_7_RNIJ2K0MT       ARI1        FCO       Out     0.009     6.623 r     -         
+rd1_5_cry_7_RNIJ2K0MT_FCO                                                       Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_7_RNI6K81NT       ARI1        FCI       In      -         6.623 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_7_RNI6K81NT       ARI1        FCO       Out     0.009     6.632 r     -         
+rd1_5_cry_7_RNI6K81NT_FCO                                                       Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_8_RNIPQ53FR1      ARI1        FCI       In      -         6.632 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_8_RNIPQ53FR1      ARI1        FCO       Out     0.009     6.641 r     -         
+rd1_5_cry_8_RNIPQ53FR1_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_8_RNI6DQ3GR1      ARI1        FCI       In      -         6.641 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_8_RNI6DQ3GR1      ARI1        FCO       Out     0.009     6.651 r     -         
+rd1_5_cry_8_RNI6DQ3GR1_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_9_RNISC981N3      ARI1        FCI       In      -         6.651 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_9_RNISC981N3      ARI1        FCO       Out     0.009     6.660 r     -         
+rd1_5_cry_9_RNISC981N3_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_9_RNICVT82N3      ARI1        FCI       In      -         6.660 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_9_RNICVT82N3      ARI1        FCO       Out     0.009     6.670 r     -         
+rd1_5_cry_9_RNICVT82N3_FCO                                                      Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.x1_cry_9_RNIIDUQ5E3         ARI1        FCI       In      -         6.670 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.x1_cry_9_RNIIDUQ5E3         ARI1        FCO       Out     0.009     6.679 r     -         
+x1_cry_9_RNIIDUQ5E3_FCO                                                         Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.x1_cry_9_RNICS047E3         ARI1        FCI       In      -         6.679 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.x1_cry_9_RNICS047E3         ARI1        FCO       Out     0.009     6.688 r     -         
+x1_cry_9_RNICS047E3_FCO                                                         Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_s_23_RNI08A4FS2          ARI1        FCI       In      -         6.688 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_s_23_RNI08A4FS2          ARI1        FCO       Out     0.009     6.698 r     -         
+z1_s_23_RNI08A4FS2_FCO                                                          Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_s_23_RNI8NI0GS2          ARI1        FCI       In      -         6.698 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.z1_s_23_RNI8NI0GS2          ARI1        FCO       Out     0.009     6.707 r     -         
+z1_s_23_RNI8NI0GS2_FCO                                                          Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.x1_cry_10_RNIKNVR0P1        ARI1        FCI       In      -         6.707 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.x1_cry_10_RNIKNVR0P1        ARI1        FCO       Out     0.009     6.717 r     -         
+x1_cry_10_RNIKNVR0P1_FCO                                                        Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.x1_cry_10_RNIO0QM1P1        ARI1        FCI       In      -         6.717 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.x1_cry_10_RNIO0QM1P1        ARI1        FCO       Out     0.009     6.726 r     -         
+x1_cry_10_RNIO0QM1P1_FCO                                                        Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_10_RNIRBAS3I3     ARI1        FCI       In      -         6.726 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_10_RNIRBAS3I3     ARI1        FCO       Out     0.009     6.735 r     -         
+rd1_5_cry_10_RNIRBAS3I3_FCO                                                     Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_10_RNI6M0B4I3     ARI1        FCI       In      -         6.735 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_10_RNI6M0B4I3     ARI1        FCO       Out     0.009     6.745 r     -         
+rd1_5_cry_10_RNI6M0B4I3_FCO                                                     Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_10_RNICC1M843     ARI1        FCI       In      -         6.745 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.rd1_5_cry_10_RNICC1M843     ARI1        S         Out     0.354     7.099 f     -         
+rd1[26]                                                                         Net         -         -       0.146     -           2         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.un2_sum_cry_26_RNO          CFG1        A         In      -         7.245 f     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.un2_sum_cry_26_RNO          CFG1        Y         Out     0.056     7.301 r     -         
+rd1_i_0[26]                                                                     Net         -         -       0.139     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.un2_sum_cry_26              ARI1        A         In      -         7.440 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.un2_sum_cry_26              ARI1        FCO       Out     0.336     7.776 r     -         
+un2_sum_cry_26                                                                  Net         -         -       0.000     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.un2_sum_s_27                ARI1        FCI       In      -         7.776 r     -         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.un2_sum_s_27                ARI1        S         Out     0.354     8.130 r     -         
+un2_sum_s_27_S_0                                                                Net         -         -       0.139     -           1         
+FIC_3_PERIPHERALS_1.poly_ntt_0.poly_mul_0.mult_rd_1.sum[27]                     SLE         D         In      -         8.269 r     -         
+==============================================================================================================================================
+Total path delay (propagation time + setup) of 8.269 is 6.237(75.4%) logic and 2.033(24.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"e:/projects/libero_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/projects/libero_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/projects/libero_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/projects/libero_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/projects/libero_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/projects/libero_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":22:0:22:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file E:\Projects\Libero_Projects\MPFS_ICICLE\synthesis\poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                                                            Status       Reason        
+-------------------------------------------------------------------------------------------
+poly_ntt_6s_64s_23s_0s_1s_2s_3s_4294967292s_4294967293s_Z79     Remapped     Design changed
+===========================================================================================
+
+Process took 0h:00m:19s realtime, 0h:00m:18s cputime
+# Mon Mar  6 14:53:38 2023
+
+###########################################################]

@@ -1,0 +1,47 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":21:7:21:14|Found compile point of type hard on View view:work.poly_mul(verilog) 
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.Core_Poly_Z3(verilog) 
+@N: MF106 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Mapping Compile point view:work.Core_Poly_Z3(verilog) because 
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_arlen_cntr[7:0] 
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_awlen_cntr[7:0] 
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0]
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO230 :"f:\mpfs_projects\mpfs_icicle\hdl\address_generator.v":51:4:51:9|Found up-down counter in view:work.address_generator(verilog) instance k[7:0]  
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[3\]\.level_buf_seqshift[19:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[3\]\.level_buf_seqshift[19:0] with specified coding style. Inferring block RAM.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\address_generator.v":51:4:51:9|Removing sequential instance address_generator_0.k[7] (in view: work.Core_Poly_Z3(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\address_generator.v":51:4:51:9|Removing sequential instance address_generator_0.k[6] (in view: work.Core_Poly_Z3(verilog)) because it does not drive other instances.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0 (in view: work.poly_mul(verilog)) with 616 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":602:4:602:9|Replicating instance CS_rep[5] (in view: work.Core_Poly_Z3(verilog)) with 244 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinbs2 (in view: work.poly_mul(verilog)) with 600 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":602:4:602:9|Replicating instance CS_rep[8] (in view: work.Core_Poly_Z3(verilog)) with 254 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":602:4:602:9|Replicating instance CS[4] (in view: work.Core_Poly_Z3(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":160:21:160:32|Replicating instance ar0_dina_sn_N_4_mux_i (in view: work.poly_mul(verilog)) with 16 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0_fast (in view: work.poly_mul(verilog)) with 122 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinbs2_fast (in view: work.poly_mul(verilog)) with 118 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinbs2_rep1 (in view: work.poly_mul(verilog)) with 122 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0_rep1 (in view: work.poly_mul(verilog)) with 128 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0_rep1_rep2 (in view: work.poly_mul(verilog)) with 31 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":260:8:260:9|Replicating instance ar0_dinb_ss0_0_rep1 (in view: work.poly_mul(verilog)) with 36 loads 2 times to improve timing.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 7.41ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 7.41ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 7.41ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 19.75ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\mult23.v":21:7:21:12|Synthesizing module mult23 in library work.
+@N|Running in 64-bit mode
+

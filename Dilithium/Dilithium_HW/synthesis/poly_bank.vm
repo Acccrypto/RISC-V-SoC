@@ -1,0 +1,421 @@
+//
+// Written by Synplify Pro 
+// Product Version "S-2021.09M-SP1"
+// Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
+// Thu Mar  2 14:02:39 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\generic\acg5.v "
+// file 1 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\component\polarfire_syn_comps.v "
+// file 6 "\f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v "
+// file 7 "\f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\component\mss_syn_comps.v "
+// file 8 "\d:\microchip\libero_soc_v2022.2\synplifypro\lib\nlconst.dat "
+// file 9 "\f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\designer\poly_bank\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module poly_bank (
+  clk,
+  wen,
+  raddr,
+  waddr,
+  din,
+  dout
+)
+;
+
+/*  Synopsys
+.origName=poly_bank
+.langParams="addr_width depth data_width"
+addr_width=6
+depth=64
+data_width=23
+ */
+input clk ;
+input wen ;
+input [5:0] raddr ;
+input [5:0] waddr ;
+input [22:0] din ;
+output [22:0] dout ;
+wire clk ;
+wire wen ;
+wire [11:11] bank_bank_0_1_R_DATA;
+wire [5:0] raddr_c;
+wire [5:0] waddr_c;
+wire [22:0] din_c;
+wire [22:0] dout_c;
+wire NN_1 ;
+wire GND ;
+wire VCC ;
+wire clk_ibuf_Z ;
+wire wen_c ;
+wire NC0 ;
+wire NC1 ;
+// @6:23
+  INBUF clk_ibuf (
+	.Y(clk_ibuf_Z),
+	.PAD(clk)
+);
+// @6:24
+  INBUF wen_ibuf (
+	.Y(wen_c),
+	.PAD(wen)
+);
+// @6:25
+  INBUF \raddr_ibuf[0]  (
+	.Y(raddr_c[0]),
+	.PAD(raddr[0])
+);
+// @6:25
+  INBUF \raddr_ibuf[1]  (
+	.Y(raddr_c[1]),
+	.PAD(raddr[1])
+);
+// @6:25
+  INBUF \raddr_ibuf[2]  (
+	.Y(raddr_c[2]),
+	.PAD(raddr[2])
+);
+// @6:25
+  INBUF \raddr_ibuf[3]  (
+	.Y(raddr_c[3]),
+	.PAD(raddr[3])
+);
+// @6:25
+  INBUF \raddr_ibuf[4]  (
+	.Y(raddr_c[4]),
+	.PAD(raddr[4])
+);
+// @6:25
+  INBUF \raddr_ibuf[5]  (
+	.Y(raddr_c[5]),
+	.PAD(raddr[5])
+);
+// @6:26
+  INBUF \waddr_ibuf[0]  (
+	.Y(waddr_c[0]),
+	.PAD(waddr[0])
+);
+// @6:26
+  INBUF \waddr_ibuf[1]  (
+	.Y(waddr_c[1]),
+	.PAD(waddr[1])
+);
+// @6:26
+  INBUF \waddr_ibuf[2]  (
+	.Y(waddr_c[2]),
+	.PAD(waddr[2])
+);
+// @6:26
+  INBUF \waddr_ibuf[3]  (
+	.Y(waddr_c[3]),
+	.PAD(waddr[3])
+);
+// @6:26
+  INBUF \waddr_ibuf[4]  (
+	.Y(waddr_c[4]),
+	.PAD(waddr[4])
+);
+// @6:26
+  INBUF \waddr_ibuf[5]  (
+	.Y(waddr_c[5]),
+	.PAD(waddr[5])
+);
+// @6:27
+  INBUF \din_ibuf[0]  (
+	.Y(din_c[0]),
+	.PAD(din[0])
+);
+// @6:27
+  INBUF \din_ibuf[1]  (
+	.Y(din_c[1]),
+	.PAD(din[1])
+);
+// @6:27
+  INBUF \din_ibuf[2]  (
+	.Y(din_c[2]),
+	.PAD(din[2])
+);
+// @6:27
+  INBUF \din_ibuf[3]  (
+	.Y(din_c[3]),
+	.PAD(din[3])
+);
+// @6:27
+  INBUF \din_ibuf[4]  (
+	.Y(din_c[4]),
+	.PAD(din[4])
+);
+// @6:27
+  INBUF \din_ibuf[5]  (
+	.Y(din_c[5]),
+	.PAD(din[5])
+);
+// @6:27
+  INBUF \din_ibuf[6]  (
+	.Y(din_c[6]),
+	.PAD(din[6])
+);
+// @6:27
+  INBUF \din_ibuf[7]  (
+	.Y(din_c[7]),
+	.PAD(din[7])
+);
+// @6:27
+  INBUF \din_ibuf[8]  (
+	.Y(din_c[8]),
+	.PAD(din[8])
+);
+// @6:27
+  INBUF \din_ibuf[9]  (
+	.Y(din_c[9]),
+	.PAD(din[9])
+);
+// @6:27
+  INBUF \din_ibuf[10]  (
+	.Y(din_c[10]),
+	.PAD(din[10])
+);
+// @6:27
+  INBUF \din_ibuf[11]  (
+	.Y(din_c[11]),
+	.PAD(din[11])
+);
+// @6:27
+  INBUF \din_ibuf[12]  (
+	.Y(din_c[12]),
+	.PAD(din[12])
+);
+// @6:27
+  INBUF \din_ibuf[13]  (
+	.Y(din_c[13]),
+	.PAD(din[13])
+);
+// @6:27
+  INBUF \din_ibuf[14]  (
+	.Y(din_c[14]),
+	.PAD(din[14])
+);
+// @6:27
+  INBUF \din_ibuf[15]  (
+	.Y(din_c[15]),
+	.PAD(din[15])
+);
+// @6:27
+  INBUF \din_ibuf[16]  (
+	.Y(din_c[16]),
+	.PAD(din[16])
+);
+// @6:27
+  INBUF \din_ibuf[17]  (
+	.Y(din_c[17]),
+	.PAD(din[17])
+);
+// @6:27
+  INBUF \din_ibuf[18]  (
+	.Y(din_c[18]),
+	.PAD(din[18])
+);
+// @6:27
+  INBUF \din_ibuf[19]  (
+	.Y(din_c[19]),
+	.PAD(din[19])
+);
+// @6:27
+  INBUF \din_ibuf[20]  (
+	.Y(din_c[20]),
+	.PAD(din[20])
+);
+// @6:27
+  INBUF \din_ibuf[21]  (
+	.Y(din_c[21]),
+	.PAD(din[21])
+);
+// @6:27
+  INBUF \din_ibuf[22]  (
+	.Y(din_c[22]),
+	.PAD(din[22])
+);
+// @6:28
+  OUTBUF \dout_obuf[0]  (
+	.PAD(dout[0]),
+	.D(dout_c[0])
+);
+// @6:28
+  OUTBUF \dout_obuf[1]  (
+	.PAD(dout[1]),
+	.D(dout_c[1])
+);
+// @6:28
+  OUTBUF \dout_obuf[2]  (
+	.PAD(dout[2]),
+	.D(dout_c[2])
+);
+// @6:28
+  OUTBUF \dout_obuf[3]  (
+	.PAD(dout[3]),
+	.D(dout_c[3])
+);
+// @6:28
+  OUTBUF \dout_obuf[4]  (
+	.PAD(dout[4]),
+	.D(dout_c[4])
+);
+// @6:28
+  OUTBUF \dout_obuf[5]  (
+	.PAD(dout[5]),
+	.D(dout_c[5])
+);
+// @6:28
+  OUTBUF \dout_obuf[6]  (
+	.PAD(dout[6]),
+	.D(dout_c[6])
+);
+// @6:28
+  OUTBUF \dout_obuf[7]  (
+	.PAD(dout[7]),
+	.D(dout_c[7])
+);
+// @6:28
+  OUTBUF \dout_obuf[8]  (
+	.PAD(dout[8]),
+	.D(dout_c[8])
+);
+// @6:28
+  OUTBUF \dout_obuf[9]  (
+	.PAD(dout[9]),
+	.D(dout_c[9])
+);
+// @6:28
+  OUTBUF \dout_obuf[10]  (
+	.PAD(dout[10]),
+	.D(dout_c[10])
+);
+// @6:28
+  OUTBUF \dout_obuf[11]  (
+	.PAD(dout[11]),
+	.D(dout_c[11])
+);
+// @6:28
+  OUTBUF \dout_obuf[12]  (
+	.PAD(dout[12]),
+	.D(dout_c[12])
+);
+// @6:28
+  OUTBUF \dout_obuf[13]  (
+	.PAD(dout[13]),
+	.D(dout_c[13])
+);
+// @6:28
+  OUTBUF \dout_obuf[14]  (
+	.PAD(dout[14]),
+	.D(dout_c[14])
+);
+// @6:28
+  OUTBUF \dout_obuf[15]  (
+	.PAD(dout[15]),
+	.D(dout_c[15])
+);
+// @6:28
+  OUTBUF \dout_obuf[16]  (
+	.PAD(dout[16]),
+	.D(dout_c[16])
+);
+// @6:28
+  OUTBUF \dout_obuf[17]  (
+	.PAD(dout[17]),
+	.D(dout_c[17])
+);
+// @6:28
+  OUTBUF \dout_obuf[18]  (
+	.PAD(dout[18]),
+	.D(dout_c[18])
+);
+// @6:28
+  OUTBUF \dout_obuf[19]  (
+	.PAD(dout[19]),
+	.D(dout_c[19])
+);
+// @6:28
+  OUTBUF \dout_obuf[20]  (
+	.PAD(dout[20]),
+	.D(dout_c[20])
+);
+// @6:28
+  OUTBUF \dout_obuf[21]  (
+	.PAD(dout[21]),
+	.D(dout_c[21])
+);
+// @6:28
+  OUTBUF \dout_obuf[22]  (
+	.PAD(dout[22]),
+	.D(dout_c[22])
+);
+// @6:36
+  RAM64x12 bank_bank_0_0 (
+	.BUSY_FB(GND),
+	.W_CLK(NN_1),
+	.W_ADDR(waddr_c[5:0]),
+	.W_EN(wen_c),
+	.W_DATA(din_c[11:0]),
+	.BLK_EN(VCC),
+	.R_CLK(NN_1),
+	.R_ADDR(raddr_c[5:0]),
+	.R_DATA(dout_c[11:0]),
+	.R_ADDR_BYPASS(GND),
+	.R_ADDR_EN(VCC),
+	.R_ADDR_SL_N(VCC),
+	.R_ADDR_SD(GND),
+	.R_ADDR_AL_N(VCC),
+	.R_ADDR_AD_N(VCC),
+	.R_DATA_BYPASS(VCC),
+	.R_DATA_EN(VCC),
+	.R_DATA_SL_N(VCC),
+	.R_DATA_SD(GND),
+	.R_DATA_AL_N(VCC),
+	.R_DATA_AD_N(VCC),
+	.ACCESS_BUSY(NC0)
+);
+defparam bank_bank_0_0.RAMINDEX="bank[22:0]%64%23%SPEED%0%0%MICRO_RAM";
+// @6:36
+  RAM64x12 bank_bank_0_1 (
+	.BUSY_FB(GND),
+	.W_CLK(NN_1),
+	.W_ADDR(waddr_c[5:0]),
+	.W_EN(wen_c),
+	.W_DATA({GND, din_c[22:12]}),
+	.BLK_EN(VCC),
+	.R_CLK(NN_1),
+	.R_ADDR(raddr_c[5:0]),
+	.R_DATA({bank_bank_0_1_R_DATA[11], dout_c[22:12]}),
+	.R_ADDR_BYPASS(GND),
+	.R_ADDR_EN(VCC),
+	.R_ADDR_SL_N(VCC),
+	.R_ADDR_SD(GND),
+	.R_ADDR_AL_N(VCC),
+	.R_ADDR_AD_N(VCC),
+	.R_DATA_BYPASS(VCC),
+	.R_DATA_EN(VCC),
+	.R_DATA_SL_N(VCC),
+	.R_DATA_SD(GND),
+	.R_DATA_AL_N(VCC),
+	.R_DATA_AD_N(VCC),
+	.ACCESS_BUSY(NC1)
+);
+defparam bank_bank_0_1.RAMINDEX="bank[22:0]%64%23%SPEED%0%1%MICRO_RAM";
+  CLKINT I_1 (
+	.Y(NN_1),
+	.A(clk_ibuf_Z)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* poly_bank */
+

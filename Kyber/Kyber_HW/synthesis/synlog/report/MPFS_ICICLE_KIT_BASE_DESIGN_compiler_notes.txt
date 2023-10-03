@@ -1,0 +1,248 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":187:7:187:10|Synthesizing module AND4 in library work.
+@N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+@N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":5:7:5:34|Synthesizing module PF_CCC_C0_PF_CCC_C0_0_PF_CCC in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\PF_CCC_C0\PF_CCC_C0.v":264:7:264:15|Synthesizing module PF_CCC_C0 in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1553:7:1553:16|Synthesizing module ICB_CLKDIV in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\CLK_DIV\CLK_DIV_0\CLK_DIV_CLK_DIV_0_PF_CLK_DIV.v":5:7:5:34|Synthesizing module CLK_DIV_CLK_DIV_0_PF_CLK_DIV in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\CLK_DIV\CLK_DIV.v":24:7:24:13|Synthesizing module CLK_DIV in library work.
+@N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":151:7:151:10|Synthesizing module AND3 in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1675:7:1675:15|Synthesizing module ICB_NGMUX in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\GLITCHLESS_MUX\GLITCHLESS_MUX_0\GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX.v":5:7:5:46|Synthesizing module GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\GLITCHLESS_MUX\GLITCHLESS_MUX.v":22:7:22:20|Synthesizing module GLITCHLESS_MUX in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":5:7:5:52|Synthesizing module INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\INIT_MONITOR\INIT_MONITOR.v":67:7:67:18|Synthesizing module INIT_MONITOR in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2199:7:2199:18|Synthesizing module OSC_RC160MHZ in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\OSCILLATOR_160MHz\OSCILLATOR_160MHz_0\OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":5:7:5:50|Synthesizing module OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\OSCILLATOR_160MHz\OSCILLATOR_160MHz.v":27:7:27:23|Synthesizing module OSCILLATOR_160MHz in library work.
+@N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10810:7:10810:18|Synthesizing module XCVR_REF_CLK in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\PCIE_REF_CLK\PCIE_REF_CLK_0\PCIE_REF_CLK_PCIE_REF_CLK_0_PF_XCVR_REF_CLK.v":5:7:5:49|Synthesizing module PCIE_REF_CLK_PCIE_REF_CLK_0_PF_XCVR_REF_CLK in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\PCIE_REF_CLK\PCIE_REF_CLK.v":27:7:27:18|Synthesizing module PCIE_REF_CLK in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\CORERESET\CORERESET_0\core\corereset_pf.v":21:7:21:40|Synthesizing module CORERESET_CORERESET_0_CORERESET_PF in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\CORERESET\CORERESET.v":21:7:21:15|Synthesizing module CORERESET in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4119:7:4119:12|Synthesizing module TX_PLL in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\TRANSMIT_PLL\TRANSMIT_PLL_0\TRANSMIT_PLL_TRANSMIT_PLL_0_PF_TX_PLL.v":5:7:5:43|Synthesizing module TRANSMIT_PLL_TRANSMIT_PLL_0_PF_TX_PLL in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\TRANSMIT_PLL\TRANSMIT_PLL.v":50:7:50:18|Synthesizing module TRANSMIT_PLL in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\CLOCKS_AND_RESETS\CLOCKS_AND_RESETS.v":9:7:9:23|Synthesizing module CLOCKS_AND_RESETS in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\address_generator.v":21:7:21:23|Synthesizing module address_generator in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\conflict_free_memory_map.v":21:7:21:30|Synthesizing module conflict_free_memory_map in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\arbiter.v":21:7:21:13|Synthesizing module arbiter in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bank_in.v":21:7:21:21|Synthesizing module network_bank_in in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v":21:7:21:15|Synthesizing module poly_bank in library work.
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_bank.v":36:4:36:9|Found RAM bank, depth=32, width=24
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_in.v":21:7:21:19|Synthesizing module network_bf_in in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\network_bf_out.v":21:7:21:20|Synthesizing module network_bf_out in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_ram.v":21:7:21:14|Synthesizing module poly_ram in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":23:7:23:13|Synthesizing module mult_rd in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":82:7:82:12|Synthesizing module add_rd in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":101:7:101:12|Synthesizing module sub_rd in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\fp_modop.v":69:7:69:15|Synthesizing module mult_half in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_ROM.v":21:7:21:13|Synthesizing module tf0_ROM in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\tf_ROM.v":97:7:97:13|Synthesizing module tf1_ROM in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\poly_mul.v":21:7:21:14|Synthesizing module poly_mul in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":21:7:21:17|Synthesizing module polyvec_ram in library work.
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank3, depth=256, width=12
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank2, depth=256, width=12
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank1, depth=256, width=12
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank0, depth=256, width=12
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":21:7:21:15|Synthesizing module Core_Poly in library work.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":295:31:295:40|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":454:37:454:46|Removing redundant assignment.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[0] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[1] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[0] is always 0.
+@N: CL189 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[1] is always 0.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ResetSycnc.v":22:7:22:34|Synthesizing module caxi4interconnect_ResetSycnc in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":24:7:24:36|Synthesizing module caxi4interconnect_Axi4CrossBar in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":25:7:25:26|Synthesizing module COREAXI4INTERCONNECT in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v":22:7:22:37|Synthesizing module caxi4interconnect_RegisterSlice in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v":23:7:23:41|Synthesizing module caxi4interconnect_MstrDataWidthConv in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":21:7:21:47|Synthesizing module caxi4interconnect_MstrClockDomainCrossing in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":23:7:23:39|Synthesizing module caxi4interconnect_MasterConvertor in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":25:7:25:45|Synthesizing module caxi4interconnect_MstrProtocolConverter in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v":22:7:22:37|Synthesizing module caxi4interconnect_RegisterSlice in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v":23:7:23:45|Synthesizing module caxi4interconnect_SlvDataWidthConverter in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v":25:7:25:33|Synthesizing module caxi4interconnect_FIFO_CTRL in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=16, width=46
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Hold_Reg_Ctrl.v":21:7:21:37|Synthesizing module caxi4interconnect_Hold_Reg_Ctrl in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Wr.v":24:7:24:48|Synthesizing module caxi4interconnect_DWC_DownConv_Hold_Reg_Wr in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v":20:7:20:48|Synthesizing module caxi4interconnect_DWC_DownConv_widthConvwr in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v":19:7:19:53|Synthesizing module caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":24:7:24:57|Synthesizing module caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":20:7:20:51|Synthesizing module caxi4interconnect_DWC_DownConv_writeWidthConv in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_brespCtrl.v":20:7:20:37|Synthesizing module caxi4interconnect_DWC_brespCtrl in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":22:7:22:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=16, width=10
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v":19:7:19:53|Synthesizing module caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":24:7:24:57|Synthesizing module caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v":20:7:20:50|Synthesizing module caxi4interconnect_DWC_DownConv_readWidthConv in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Rd.v":24:7:24:48|Synthesizing module caxi4interconnect_DWC_DownConv_Hold_Reg_Rd in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v":20:7:20:48|Synthesizing module caxi4interconnect_DWC_DownConv_widthConvrd in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\byte2bit.v":18:7:18:32|Synthesizing module caxi4interconnect_byte2bit in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DownConverter.v":20:7:20:37|Synthesizing module caxi4interconnect_DownConverter in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v":26:7:26:44|Synthesizing module caxi4interconnect_SlvProtocolConverter in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":19:7:19:45|Synthesizing module caxi4interconnect_SlvAxi4ProtConvAXI4ID in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":21:7:21:46|Synthesizing module caxi4interconnect_SlvClockDomainCrossing in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v":24:7:24:38|Synthesizing module caxi4interconnect_SlaveConvertor in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\FIC0_INITIATOR\FIC0_INITIATOR.v":1476:7:1476:20|Synthesizing module FIC0_INITIATOR in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\FIC_0_PERIPHERALS\FIC_0_PERIPHERALS.v":9:7:9:23|Synthesizing module FIC_0_PERIPHERALS in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\AXI4_address_shim.v":43:7:43:22|Synthesizing module AXI_ADDRESS_SHIM in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":24:7:24:36|Synthesizing module caxi4interconnect_Axi4CrossBar in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":25:7:25:26|Synthesizing module COREAXI4INTERCONNECT in library work.
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v":23:7:23:45|Synthesizing module caxi4interconnect_SlvDataWidthConverter in library work.
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=256, width=9
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\SgCore\PF_PCIE\2.0.116\g5_apblink_master.v":307:21:307:36|Removing redundant assignment.
+@N: CL134 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=256, width=5
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v":512:16:512:28|Removing redundant assignment.
+@N: CG179 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v":515:16:515:28|Removing redundant assignment.
+@N: CG775 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\miv_ihcia.v":46:28:46:34|Input penable is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\miv_ihcc_mem.v":45:32:45:37|Input resetn is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\miv_ihcc_mem.v":45:32:45:37|Input resetn is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":104:18:104:25|Input PRDATAS0 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":121:13:121:20|Input PREADYS0 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":138:13:138:21|Input PSLVERRS0 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":105:18:105:25|Input PRDATAS1 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":122:13:122:20|Input PREADYS1 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":139:13:139:21|Input PSLVERRS1 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":104:18:104:25|Input PRDATAS0 is unused.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\SgCore\PF_PCIE\2.0.116\g5_apblink_master.v":134:0:134:5|Trying to extract state machine for register lnk_m_cs.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":605:4:605:9|Trying to extract state machine for register CS.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[6].level_buf with address depth of 7 words and data bit width of 8.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 20.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[6].level_buf with address depth of 7 words and data bit width of 20.
+@N: CL201 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\address_generator.v":49:4:49:9|Trying to extract state machine for register CS.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 2.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 8.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 2.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[6].level_buf with address depth of 7 words and data bit width of 2.
+@N: CL135 :"F:\MPFS_Projects\MPFS_ICICLE\component\work\CORERESET\CORERESET_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N|Running in 64-bit mode
+

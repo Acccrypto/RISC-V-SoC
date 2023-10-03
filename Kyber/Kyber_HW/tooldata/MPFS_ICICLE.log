@@ -1,0 +1,16 @@
+Project Name: MPFS_ICICLE
+Location: F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPFS250T_ES-FCVG484E
+Family         : PolarFireSoC
+Die            : MPFS250T_ES
+Package        : FCVG484
+Speed          : STD
+Core Voltage   : 1.05
+Range          : EXT

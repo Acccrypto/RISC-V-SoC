@@ -1,0 +1,724 @@
+#Build: Synplify Pro (R) S-2021.09M-SP1, Build 150R, Jun 14 2022
+#install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-DD7N7QM
+
+# Wed Jun  7 15:33:17 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4252:13:4252:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4436:13:4436:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4477:13:4477:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4503:13:4503:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4520:13:4520:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4597:13:4597:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":5361:13:5361:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6171:13:6171:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6280:13:6280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6318:13:6318:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6391:13:6391:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":7280:13:7280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":8337:13:8337:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":9296:13:9296:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10032:13:10032:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10747:13:10747:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10781:13:10781:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10817:13:10817:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10864:13:10864:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10898:13:10898:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":11764:13:11764:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12807:13:12807:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12819:15:12819:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\kyber_mont.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module kyber_mont
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\kyber_mont.v":24:7:24:16|Synthesizing module kyber_mont in library work.
+Running optimization stage 1 on kyber_mont .......
+Finished optimization stage 1 on kyber_mont (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+Running optimization stage 2 on kyber_mont .......
+@W: CL279 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\kyber_mont.v":35:2:35:7|Pruning register bits 7 to 0 of t[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on kyber_mont (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun  7 15:33:18 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun  7 15:33:19 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\kyber_mont_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 30MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun  7 15:33:19 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun  7 15:33:20 2023
+
+###########################################################]
+Premap Report
+
+# Wed Jun  7 15:33:20 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+Reading constraint file: F:\MPFS_Projects\MPFS_ICICLE\designer\kyber_mont\synthesis.fdc
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\kyber_mont_scck.rpt 
+See clock summary report "F:\MPFS_Projects\MPFS_ICICLE\synthesis\kyber_mont_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=812,dsps=784 on top level netlist kyber_mont 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+
+
+
+Clock Summary
+******************
+
+          Start              Requested     Requested     Clock        Clock          Clock
+Level     Clock              Frequency     Period        Type         Group          Load 
+------------------------------------------------------------------------------------------
+0 -       kyber_mont|clk     100.0 MHz     10.000        inferred     (multiple)     65   
+==========================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                   Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock              Load      Pin           Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------------------
+kyber_mont|clk     65        clk(port)     m[23:0].C       -                 I_1.A(CLKINT)
+==========================================================================================
+
+@W: MT530 :"f:\mpfs_projects\mpfs_icicle\hdl\kyber_mont.v":35:2:35:7|Found inferred clock kyber_mont|clk which controls 65 sequential elements including z[12:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\MPFS_Projects\MPFS_ICICLE\synthesis\kyber_mont.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 169MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun  7 15:33:22 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Jun  7 15:33:22 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 131MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 131MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\kyber_mont.v":40:23:40:29|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.kyber_mont(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\kyber_mont.v":40:23:40:29|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.kyber_mont(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 168MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\kyber_mont.v":35:2:35:7|Removing instance m1_0[11] because it is equivalent to instance m1_0[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\kyber_mont.v":35:2:35:7|Removing instance m1_0[9] because it is equivalent to instance m1_0[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\kyber_mont.v":35:2:35:7|Removing instance m1_0[8] because it is equivalent to instance m1_0[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\kyber_mont.v":35:2:35:7|Removing sequential instance m1_0[10] (in view: work.kyber_mont(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     7.86ns		  21 /        28
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 30 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks =============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance   
+------------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   30         un3_muladd_0[23:0]
+==========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 176MB)
+
+Writing Analyst data base F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\kyber_mont_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 178MB)
+
+@W: MT420 |Found inferred clock kyber_mont|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Jun  7 15:33:25 2023
+#
+
+
+Top view:               kyber_mont
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\MPFS_Projects\MPFS_ICICLE\designer\kyber_mont\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 6.786
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+kyber_mont|clk     100.0 MHz     311.2 MHz     10.000        3.214         6.786     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+kyber_mont|clk  kyber_mont|clk  |  10.000      6.786  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: kyber_mont|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                         Arrival          
+Instance          Reference          Type     Pin     Net          Time        Slack
+                  Clock                                                             
+------------------------------------------------------------------------------------
+m1[0]             kyber_mont|clk     SLE      Q       m1[0]        0.257       6.786
+m1[1]             kyber_mont|clk     SLE      Q       m1[1]        0.257       6.786
+m1[2]             kyber_mont|clk     SLE      Q       m1[2]        0.257       6.786
+m1[3]             kyber_mont|clk     SLE      Q       m1[3]        0.257       6.786
+m1[4]             kyber_mont|clk     SLE      Q       m1[4]        0.257       6.786
+m1[5]             kyber_mont|clk     SLE      Q       m1[5]        0.257       6.786
+m1[6]             kyber_mont|clk     SLE      Q       m1[6]        0.257       6.786
+m1[7]             kyber_mont|clk     SLE      Q       m1[7]        0.257       6.786
+m1_rep_0_0[8]     kyber_mont|clk     SLE      Q       t_rep[8]     0.257       6.800
+m1_rep_0_0[9]     kyber_mont|clk     SLE      Q       t_rep[9]     0.257       6.800
+====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                             Required          
+Instance               Reference          Type        Pin      Net          Time         Slack
+                       Clock                                                                  
+----------------------------------------------------------------------------------------------
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[0]     m1[0]        7.780        6.786
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[1]     m1[1]        7.780        6.786
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[2]     m1[2]        7.780        6.786
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[3]     m1[3]        7.780        6.786
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[4]     m1[4]        7.780        6.786
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[5]     m1[5]        7.780        6.786
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[6]     m1[6]        7.780        6.786
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[7]     m1[7]        7.780        6.786
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[8]     t_rep[8]     7.780        6.800
+un3_muladd_0[23:0]     kyber_mont|clk     MACC_PA     B[9]     t_rep[9]     7.780        6.800
+==============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            2.220
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.780
+
+    - Propagation time:                      0.994
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     6.786
+
+    Number of logic level(s):                0
+    Starting point:                          m1[0] / Q
+    Ending point:                            un3_muladd_0[23:0] / B[0]
+    The start point is clocked by            kyber_mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            kyber_mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+m1[0]                  SLE         Q        Out     0.257     0.257 r     -         
+m1[0]                  Net         -        -       0.736     -           2         
+un3_muladd_0[23:0]     MACC_PA     B[0]     In      -         0.994 r     -         
+====================================================================================
+Total path delay (propagation time + setup) of 3.214 is 2.477(77.1%) logic and 0.736(22.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
+
+---------------------------------------
+Resource Usage Report for kyber_mont 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG2           1 use
+CFG3           3 uses
+CFG4           5 uses
+
+Carry cells:
+ARI1            12 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            28 uses
+
+DSP Blocks:    2 of 784 (0%)
+ MACC_PA:         1 MultSub
+ MACC_PA:         1 Mult
+
+I/O ports: 37
+I/O primitives: 37
+INBUF          25 uses
+OUTBUF         12 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    21
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 72; LUTs = 72;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  28 + 0 + 0 + 72 = 100;
+Total number of LUTs after P&R:  21 + 0 + 0 + 72 = 93;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 65MB peak: 178MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Jun  7 15:33:25 2023
+
+###########################################################]

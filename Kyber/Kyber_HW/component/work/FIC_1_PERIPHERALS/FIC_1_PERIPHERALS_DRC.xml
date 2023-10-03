@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>FIC_1_PERIPHERALS</header>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface ID width mismatch</message>
+    <detail> There is an ID width mismatch between FIC_1_INITIATOR_0:AXI4mslave0:SLAVE0_AWID[0-8] and PCIE:AXI_1_SLAVE:PCIESS_AXI_1_S_AWID[0-3] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_1_PERIPHERALS/pins/FIC_1_INITIATOR_0:AXI4mslave0</crossprobe>
+  </drc>
+</drcreport>

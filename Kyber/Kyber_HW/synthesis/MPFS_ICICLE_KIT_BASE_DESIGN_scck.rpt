@@ -1,0 +1,73 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+
+# Written on Tue Sep 12 21:38:57 2023
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                                                   Requested     Requested     Clock                                                                                                    Clock                Clock
+Level     Clock                                                                                   Frequency     Period        Type                                                                                                     Group                Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       REF_CLK_50MHz                                                                           50.0 MHz      20.000        declared                                                                                                 default_clkgroup     1    
+1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0                    165.0 MHz     6.061         generated (from REF_CLK_50MHz)                                                                           FIC0_clks            4042 
+1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3                    50.2 MHz      19.913        generated (from REF_CLK_50MHz)                                                                           FIC3_clks            3004 
+1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1                    128.3 MHz     7.792         generated (from REF_CLK_50MHz)                                                                           FIC1_clks            2330 
+1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2                    128.3 MHz     7.792         generated (from REF_CLK_50MHz)                                                                           FIC2_clks            1    
+                                                                                                                                                                                                                                                                 
+0 -       CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK     160.0 MHz     6.250         declared                                                                                                 default_clkgroup     1    
+1 .         CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV                 80.0 MHz      12.500        generated (from CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK)     default_clkgroup     0    
+                                                                                                                                                                                                                                                                 
+0 -       CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK             125.0 MHz     8.000         declared                                                                                                 default_clkgroup     0    
+                                                                                                                                                                                                                                                                 
+0 -       REF_CLK_PAD_P                                                                           100.0 MHz     10.000        declared                                                                                                 default_clkgroup     0    
+                                                                                                                                                                                                                                                                 
+0 -       System                                                                                  100.0 MHz     10.000        system                                                                                                   system_clkgroup      0    
+=================================================================================================================================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                                                        Clock     Source                                                                                                Clock Pin                                                                   Non-clock Pin                                                              Non-clock Pin                                                                          
+Clock                                                                                   Load      Pin                                                                                                   Seq Example                                                                 Seq Example                                                                Comb Example                                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+REF_CLK_50MHz                                                                           1         REF_CLK_50MHz(port)                                                                                   CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.REF_CLK_0     -                                                                          CLOCKS_AND_RESETS_inst_0.CLKINT_REF_CLK_50MHz.I(BUFG)                                  
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0                      4042      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT0(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_0_ACLK                            -                                                                          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_0.I(BUFG)                    
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3                      3004      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT3(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_3_PCLK                            -                                                                          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_12.I(BUFG)                   
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1                      2330      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT1(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_1_ACLK                            -                                                                          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_COMMON_INSTANCE.AXI_CLK(PCIE_COMMON)        
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2                      1         CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT2(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_2_ACLK                            -                                                                          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_8.I(BUFG)                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK     1         CLOCKS_AND_RESETS_inst_0.OSCILLATOR_160MHz_inst_0.OSCILLATOR_160MHz_0.I_OSC_160.CLK(OSC_RC160MHZ)     CLOCKS_AND_RESETS_inst_0.CLK_160MHz_to_CLK_80MHz.CLK_DIV_0.I_CD.A           -                                                                          -                                                                                      
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV                   0         CLOCKS_AND_RESETS_inst_0.CLK_160MHz_to_CLK_80MHz.CLK_DIV_0.I_CD.Y_DIV(ICB_CLKDIV)                     -                                                                           FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK                        CLOCKS_AND_RESETS_inst_0.GLITCHLESS_MUX_inst_0.GLITCHLESS_MUX_0.I_NGMUX.CLK0(ICB_NGMUX)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK             0         CLOCKS_AND_RESETS_inst_0.TRANSMIT_PLL_0.TRANSMIT_PLL_0.txpll_isnt_0.DIV_CLK(TX_PLL)                   -                                                                           FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK                        CLOCKS_AND_RESETS_inst_0.GLITCHLESS_MUX_inst_0.GLITCHLESS_MUX_0.I_NGMUX.CLK1(ICB_NGMUX)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+REF_CLK_PAD_P                                                                           0         REF_CLK_PAD_P(port)                                                                                   -                                                                           FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIESS_LANE1_Pipe_AXI1.REF_CLK_P     CLOCKS_AND_RESETS_inst_0.PCIE_REF_CLK_0.PCIE_REF_CLK_0.I_IO.PAD_P(XCVR_REF_CLK)        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+System                                                                                  0         -                                                                                                     -                                                                           -                                                                          -                                                                                      
+======================================================================================================================================================================================================================================================================================================================================================================================================================================================

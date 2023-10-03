@@ -1,0 +1,16 @@
+Software Version: 2022.2.0.10
+Opened 'F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp\MPFS_ICICLE_KIT_BASE_DESIGN.pro'
+PDB file 'F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.pdb' has been loaded successfully.
+DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : E57B;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.ppd'; file programs Fabric and sNVM.
+BITS component bitstream digest: aee355e728bed157183d65b414803ca9422e59d42b06365e61ddf1ed5ec41d74
+Fabric component bitstream digest: 47bc549097ae1d375c5be34684fe66ff4f8a0d2ef878522f73ad3fce53258c72
+sNVM component bitstream digest: 9d5e4a7fac0e54eb93a9d8c34108c355a7fcf505ef1bfb63eebee9e871461593
+EOB component bitstream digest: c6810e0415ce09841004491f5e856709b51f4f9c83fcb5b6cb8314fea25d5929
+Entire bitstream digest: 0419c1f4464da8f950e38f941c5965503c33a15757d3448a02c8f76ab6d49107
+Finished: Wed Aug 23 16:58:34 2023 (Elapsed time 00:01:04)
+
+Project saved.
+Project closed.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>Core_Poly</design>
+	<target_verilog>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly.vm</target_verilog>
+</SynplifyOutput>

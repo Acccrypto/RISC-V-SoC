@@ -1,0 +1,7 @@
+Sat Mar 04 15:58:13 CST 2023
+Trace back: expected integer but got "v"
+    while executing
+".vcop Eval {namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source.interior.cs.body.srcobj RunUntilHere 97}}"
+    (menu invoke)
+  <2:D:/Microchip/Libero_SoC_v2022.2/ModelSimPro/win32acoem/tk8.6/bgerror.tcl:106: ::tkerror {expected integer but got "v"}
+  <1:eval:1: ::tk::dialog::error::bgerror {expected integer but got "v"}

@@ -1,0 +1,5 @@
+Detailed Resource Usage
+Module Name,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,Chip Globals
+Primitives/Primitives,0,0,60,0,1
+bank_bank_0_0/Primitives,12,12,0,1,0
+bank_bank_0_1/Primitives,12,12,0,1,0

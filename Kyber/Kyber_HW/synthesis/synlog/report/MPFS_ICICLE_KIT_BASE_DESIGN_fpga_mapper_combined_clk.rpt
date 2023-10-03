@@ -1,0 +1,31 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
+5 gated/generated clock tree(s) driving 8498 clock pin(s) of sequential element(s)
+0 instances converted, 8498 sequential instances remain driven by gated/generated clocks
+
+========================================================================================== Non-Gated/Non-Generated Clocks ===========================================================================================
+Clock Tree ID     Driving Element                                                                     Drive Element Type                   Fanout     Sample Instance                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0006       REF_CLK_50MHz                                                                       clock definition on port             1          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0  
+@K:CKID0007       CLOCKS_AND_RESETS_inst_0.OSCILLATOR_160MHz_inst_0.OSCILLATOR_160MHz_0.I_OSC_160     clock definition on OSC_RC160MHZ     1          CLOCKS_AND_RESETS_inst_0.CLK_160MHz_to_CLK_80MHz.CLK_DIV_0.I_CD
+=====================================================================================================================================================================================================================
+================================================================================================================ Gated/Generated Clocks =================================================================================================================
+Clock Tree ID     Driving Element                                                   Drive Element Type     Fanout     Sample Instance                                                  Explanation                                                       
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    3357       CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_1       No gated clock conversion method for cell cell:ACG4.SLE           
+@K:CKID0002       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    2966       CLOCKS_AND_RESETS_inst_0.RESET_FIC_3_CLK.CORERESET_0.dff_9       No gated clock conversion method for cell cell:ACG4.SLE           
+@K:CKID0003       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    2169       CLOCKS_AND_RESETS_inst_0.RESET_FIC_1_CLK.CORERESET_0.dff_14      No gated clock conversion method for cell cell:ACG4.SLE           
+@K:CKID0004       FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_COMMON_INSTANCE        PCIE_COMMON            5          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIESS_LANE1_Pipe_AXI1     No gated clock conversion method for cell cell:work.XCVR_PIPE_AXI1
+@K:CKID0005       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                            No gated clock conversion method for cell cell:work.MSS           
+=========================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

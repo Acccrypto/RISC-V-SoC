@@ -1,0 +1,20 @@
+// ===========================================================
+// Created by Microsemi SmartDesign Mon Dec 12 18:36:12 2022
+// 
+// Warning: Do not modify this file, it may lead to unexpected 
+//          simulation failures in your design.
+// 
+// ===========================================================
+
+@504C
+1C
+@5078
+1
+@50C0
+0
+@6004
+00001820
+@6008
+0600
+@600C
+3F3F1C03

@@ -1,0 +1,66 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPFS250TFCG1152STD (Microchip)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   mult_rd   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      98                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block mult_rd:	98 (16.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      51                 100 %                
+ARI1     376                100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block mult_rd:	427 (70.93 % Utilization)
+
+
+DSP
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+MACC_PA     3                  100 %                
+====================================================
+Total DSP in the block mult_rd:	3 (0.50 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block mult_rd:	1 (0.17 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       71                 100 %                
+=================================================
+Total IO PADS in the block mult_rd:	71 (11.79 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

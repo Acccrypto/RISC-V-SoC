@@ -1,0 +1,9 @@
+n work COREAXI4INTERCONNECT_Z15 verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 33.75;
+av .compile_point_starttime_stamp "Tue Apr 11 09:39:00 2023";
+av .compile_point_endtime_stamp "Tue Apr 11 09:39:34 2023";
+av .compile_point_realtime_used 33.6;

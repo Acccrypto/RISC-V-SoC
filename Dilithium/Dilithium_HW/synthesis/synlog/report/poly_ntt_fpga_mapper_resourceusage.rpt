@@ -1,0 +1,38 @@
+Resource Usage Report for poly_ntt 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+CFG2           47 uses
+CFG3           25 uses
+CFG4           23 uses
+
+
+Sequential Cells: 
+SLE            1 use
+SLE_INIT       3 uses - used for Seqshift to URAM mapping
+Total SLE          4 uses
+
+DSP Blocks:    0 of 784 (0%)
+
+I/O ports: 80
+I/O primitives: 68
+INBUF          33 uses
+OUTBUF         35 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    96
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 120; LUTs = 120;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  4 + 120 + 0 + 0 = 124;
+Total number of LUTs after P&R:  96 + 120 + 0 + 0 = 216;
+

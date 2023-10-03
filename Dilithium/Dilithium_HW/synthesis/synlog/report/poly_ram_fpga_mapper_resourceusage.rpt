@@ -1,0 +1,43 @@
+Resource Usage Report for poly_ram 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           2 uses
+CFG2           23 uses
+CFG3           168 uses
+CFG4           154 uses
+
+Carry cells:
+ARI1            0 uses - used for arithmetic functions
+ARI1            232 uses - used for Wide-Mux implementation
+Total ARI1      232 uses
+
+
+Sequential Cells: 
+SLE            8 uses
+SLE_INIT       6 uses - used for Seqshift to URAM mapping
+Total SLE          14 uses
+
+DSP Blocks:    0 of 784 (0%)
+
+I/O ports: 220
+I/O primitives: 220
+INBUF          128 uses
+OUTBUF         92 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    579
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 132; LUTs = 132;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  14 + 132 + 0 + 0 = 146;
+Total number of LUTs after P&R:  579 + 132 + 0 + 0 = 711;
+

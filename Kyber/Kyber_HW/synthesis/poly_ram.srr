@@ -1,0 +1,817 @@
+#Build: Synplify Pro (R) S-2021.09M-SP1, Build 150R, Jun 14 2022
+#install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-DD7N7QM
+
+# Thu Mar  2 18:54:38 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4252:13:4252:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4436:13:4436:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4477:13:4477:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4503:13:4503:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4520:13:4520:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":4597:13:4597:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":5361:13:5361:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":6171:13:6171:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":6280:13:6280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":6318:13:6318:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":6391:13:6391:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":7280:13:7280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":8337:13:8337:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":9296:13:9296:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":10032:13:10032:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":10747:13:10747:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":10781:13:10781:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":10817:13:10817:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":10864:13:10864:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":10898:13:10898:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":11764:13:11764:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":12807:13:12807:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":12819:15:12819:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\arbiter.v" (library work)
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v" (library work)
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bank_in.v" (library work)
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bf_in.v" (library work)
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bf_out.v" (library work)
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_bank.v" (library work)
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_ram.v" (library work)
+@I::"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+Selecting top level module poly_ram
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\arbiter.v":21:7:21:13|Synthesizing module arbiter in library work.
+Running optimization stage 1 on arbiter .......
+Finished optimization stage 1 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bank_in.v":21:7:21:21|Synthesizing module network_bank_in in library work.
+
+	addr_width=32'b00000000000000000000000000000110
+   Generated name = network_bank_in_6s
+Running optimization stage 1 on network_bank_in_6s .......
+Finished optimization stage 1 on network_bank_in_6s (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=34'b0000000000000000000000000000011000
+	DELAY=32'b00000000000000000000000000001000
+   Generated name = delay_8s_Z1
+@W: CG532 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_8s_Z1 .......
+Finished optimization stage 1 on delay_8s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_bank.v":21:7:21:15|Synthesizing module poly_bank in library work.
+
+	addr_width=32'b00000000000000000000000000000110
+	depth=32'b00000000000000000000000001000000
+	data_width=32'b00000000000000000000000000010111
+   Generated name = poly_bank_6s_64s_23s
+Running optimization stage 1 on poly_bank_6s_64s_23s .......
+@N: CL134 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_bank.v":36:4:36:9|Found RAM bank, depth=64, width=23
+Finished optimization stage 1 on poly_bank_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bf_in.v":21:7:21:19|Synthesizing module network_bf_in in library work.
+
+	data_width=32'b00000000000000000000000000010111
+   Generated name = network_bf_in_23s
+Running optimization stage 1 on network_bf_in_23s .......
+Finished optimization stage 1 on network_bf_in_23s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	DELAY=32'b00000000000000000000000000001000
+   Generated name = delay_8s_8s
+@W: CG532 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on delay_8s_8s .......
+Finished optimization stage 1 on delay_8s_8s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\network_bf_out.v":21:7:21:20|Synthesizing module network_bf_out in library work.
+
+	data_width=32'b00000000000000000000000000010111
+   Generated name = network_bf_out_23s
+Running optimization stage 1 on network_bf_out_23s .......
+Finished optimization stage 1 on network_bf_out_23s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\poly_ram.v":21:7:21:14|Synthesizing module poly_ram in library work.
+Running optimization stage 1 on poly_ram .......
+Finished optimization stage 1 on poly_ram (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Running optimization stage 2 on poly_ram .......
+Finished optimization stage 2 on poly_ram (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on network_bf_out_23s .......
+Finished optimization stage 2 on network_bf_out_23s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Running optimization stage 2 on delay_8s_8s .......
+@N: CL135 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[7].level_buf with address depth of 8 words and data bit width of 8.
+Finished optimization stage 2 on delay_8s_8s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Running optimization stage 2 on network_bf_in_23s .......
+Finished optimization stage 2 on network_bf_in_23s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on poly_bank_6s_64s_23s .......
+Finished optimization stage 2 on poly_bank_6s_64s_23s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on delay_8s_Z1 .......
+@N: CL135 :"F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[7].level_buf with address depth of 8 words and data bit width of 24.
+Finished optimization stage 2 on delay_8s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on network_bank_in_6s .......
+Finished optimization stage 2 on network_bank_in_6s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on arbiter .......
+Finished optimization stage 2 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 99MB peak: 99MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Mar  2 18:54:40 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_ram.v":21:7:21:14|Selected library: work cell: poly_ram view verilog as top level
+@N: NF107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_ram.v":21:7:21:14|Selected library: work cell: poly_ram view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Mar  2 18:54:40 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\synwork\poly_ram_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Mar  2 18:54:40 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_ram.v":21:7:21:14|Selected library: work cell: poly_ram view verilog as top level
+@N: NF107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_ram.v":21:7:21:14|Selected library: work cell: poly_ram view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Mar  2 18:54:41 2023
+
+###########################################################]
+Premap Report
+
+# Thu Mar  2 18:54:42 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
+
+Reading constraint file: F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\designer\poly_ram\synthesis.fdc
+@L: F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\poly_ram_scck.rpt 
+See clock summary report "F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\poly_ram_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 131MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 131MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 131MB)
+
+@W: FX1183 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance delay_8.gen_delay[7].level_buf[23:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+@W: FX1183 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|User-specified initial value set for instance mux3.delay_8.gen_delay[7].level_buf[7:0] cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 166MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 166MB)
+
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=812 on top level netlist poly_ram 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+
+
+Clock Summary
+******************
+
+          Start            Requested     Requested     Clock        Clock          Clock
+Level     Clock            Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------
+0 -       poly_ram|clk     100.0 MHz     10.000        inferred     (multiple)     156  
+========================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                 Clock     Source        Clock Pin                                           Non-clock Pin     Non-clock Pin
+Clock            Load      Pin           Seq Example                                         Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------------------------------
+poly_ram|clk     156       clk(port)     mux3.delay_8.gen_delay\[7\]\.level_buf[7:0].CLK     -                 I_1.A(CLKINT)
+============================================================================================================================
+
+@W: MT530 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Found inferred clock poly_ram|clk which controls 156 sequential elements including delay_8.gen_delay\[7\]\.level_buf[23:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\poly_ram.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 169MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 84MB peak: 170MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Mar  2 18:54:43 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Mar  2 18:54:44 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+@N: FX403 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_8.gen_delay\[7\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_8.gen_delay\[7\]\.level_buf_seqshift[23:0] (in view: work.poly_ram(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_3.bank[22:0] (in view: work.poly_ram(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_2.bank[22:0] (in view: work.poly_ram(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_1.bank[22:0] (in view: work.poly_ram(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\poly_bank.v":36:4:36:9|RAM poly_bank_0.bank[22:0] (in view: work.poly_ram(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing user instance delay_8.gen_delay[7].level_buf_CA2_1 because it is equivalent to instance delay_8.gen_delay[7].level_buf_C2_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX403 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_8.gen_delay\[7\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|RAM delay_8.gen_delay\[7\]\.level_buf_seqshift[7:0] (in view: work.network_bf_out_23s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: BN132 :"f:\risc-v\reference code\icicle-kit-reference-design-master\mpfs_icicle\hdl\delay.v":47:12:47:17|Removing user instance mux3.delay_8.gen_delay[7].level_buf_CA2_1 because it is equivalent to instance mux3.delay_8.gen_delay[7].level_buf_C2_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     6.45ns		 581 /        14
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 36 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   36         mux2.sel_a_0_tmp[1]
+===========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 177MB)
+
+Writing Analyst data base F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\synthesis\synwork\poly_ram_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 177MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 177MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 175MB peak: 177MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 175MB peak: 177MB)
+
+@W: MT420 |Found inferred clock poly_ram|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Mar  2 18:54:47 2023
+#
+
+
+Top view:               poly_ram
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\RISC-V\Reference Code\icicle-kit-reference-design-master\MPFS_ICICLE\designer\poly_ram\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 7.439
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+poly_ram|clk       100.0 MHz     390.5 MHz     10.000        2.561         7.439     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------
+poly_ram|clk  poly_ram|clk  |  10.000      7.439  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: poly_ram|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                           Starting                                                       Arrival          
+Instance                                                                                   Reference        Type         Pin           Net                Time        Slack
+                                                                                           Clock                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ram|clk     RAM64x12     R_DATA[0]     sel_a_3_out[0]     0.146       7.439
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ram|clk     RAM64x12     R_DATA[2]     sel_a_2_out[0]     0.146       7.439
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ram|clk     RAM64x12     R_DATA[4]     sel_a_1_out[0]     0.146       7.439
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ram|clk     RAM64x12     R_DATA[6]     sel_a_0_out[0]     0.146       7.439
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ram|clk     RAM64x12     R_DATA[1]     sel_a_3_out[1]     0.146       7.686
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ram|clk     RAM64x12     R_DATA[3]     sel_a_2_out[1]     0.146       7.686
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ram|clk     RAM64x12     R_DATA[5]     sel_a_1_out[1]     0.146       7.686
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     poly_ram|clk     RAM64x12     R_DATA[7]     sel_a_0_out[1]     0.146       7.686
+delay_8.gen_delay\[7\]\.level_buf_CF2[0]                                                   poly_ram|clk     SLE_INIT     Q             tmp1[0]            0.257       8.095
+mux3.delay_8.gen_delay\[7\]\.level_buf_CF2[0]                                              poly_ram|clk     SLE_INIT     Q             tmp1[0]            0.257       8.124
+===========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                              Required          
+Instance                      Reference        Type         Pin           Net       Time         Slack
+                              Clock                                                                   
+------------------------------------------------------------------------------------------------------
+poly_bank_0.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[0]     d0[0]     9.911        7.439
+poly_bank_1.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[0]     d1[0]     9.911        7.439
+poly_bank_3.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[0]     d3[0]     9.911        7.439
+poly_bank_2.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[0]     d2[0]     9.911        7.439
+poly_bank_3.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[1]     d3[1]     9.911        7.439
+poly_bank_0.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[1]     d0[1]     9.911        7.439
+poly_bank_2.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[1]     d2[1]     9.911        7.439
+poly_bank_1.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[1]     d1[1]     9.911        7.439
+poly_bank_3.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[2]     d3[2]     9.911        7.439
+poly_bank_2.bank_bank_0_0     poly_ram|clk     RAM64x12     W_DATA[2]     d2[2]     9.911        7.439
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.911
+
+    - Propagation time:                      2.471
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     7.439
+
+    Number of logic level(s):                2
+    Starting point:                          mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0 / R_DATA[0]
+    Ending point:                            poly_bank_3.bank_bank_0_0 / W_DATA[0]
+    The start point is clocked by            poly_ram|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin R_CLK
+    The end   point is clocked by            poly_ram|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin W_CLK
+
+Instance / Net                                                                                          Pin           Pin               Arrival     No. of    
+Name                                                                                       Type         Name          Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+mux3.delay_8.gen_delay\[7\]\.level_buf_seqshift_gen_delay\[7\]\.level_buf_seqshift_0_0     RAM64x12     R_DATA[0]     Out     0.146     0.146 f     -         
+sel_a_3_out[0]                                                                             Net          -             -       1.072     -           46        
+mux3.d3_3_1_0_wmux[0]                                                                      ARI1         B             In      -         1.217 f     -         
+mux3.d3_3_1_0_wmux[0]                                                                      ARI1         Y             Out     0.244     1.462 r     -         
+d3_3_1_0_y0[0]                                                                             Net          -             -       0.139     -           1         
+mux3.d3_3_1_0_wmux_0[0]                                                                    ARI1         A             In      -         1.601 r     -         
+mux3.d3_3_1_0_wmux_0[0]                                                                    ARI1         Y             Out     0.148     1.749 f     -         
+d3[0]                                                                                      Net          -             -       0.722     -           1         
+poly_bank_3.bank_bank_0_0                                                                  RAM64x12     W_DATA[0]     In      -         2.471 f     -         
+==============================================================================================================================================================
+Total path delay (propagation time + setup) of 2.561 is 0.627(24.5%) logic and 1.933(75.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 175MB peak: 177MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 175MB peak: 177MB)
+
+---------------------------------------
+Resource Usage Report for poly_ram 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           2 uses
+CFG2           23 uses
+CFG3           168 uses
+CFG4           154 uses
+
+Carry cells:
+ARI1            0 uses - used for arithmetic functions
+ARI1            232 uses - used for Wide-Mux implementation
+Total ARI1      232 uses
+
+
+Sequential Cells: 
+SLE            8 uses
+SLE_INIT       6 uses - used for Seqshift to URAM mapping
+Total SLE          14 uses
+
+DSP Blocks:    0 of 784 (0%)
+
+I/O ports: 220
+I/O primitives: 220
+INBUF          128 uses
+OUTBUF         92 uses
+
+
+Global Clock Buffers: 1
+
+RAM/ROM usage summary
+Block RAMs (RAM64x12) : 8
+Block RAMs (RAM64x12) : 3 - RAMs inferred for SeqShift
+Total Block RAMs (RAM64x12) : 11 of 2352 (0%)
+
+Total LUTs:    579
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 132; LUTs = 132;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  14 + 132 + 0 + 0 = 146;
+Total number of LUTs after P&R:  579 + 132 + 0 + 0 = 711;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 64MB peak: 177MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Mar  2 18:54:47 2023
+
+###########################################################]

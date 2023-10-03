@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Tue Apr 11 09:22:41 2023
+Project   :  F:\MPFS_Projects\MPFS_ICICLE
+Component :  FIC_0_PERIPHERALS
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/MPFS_Projects/MPFS_ICICLE/component/work/FIC_0_PERIPHERALS/FIC_0_PERIPHERALS.v
+

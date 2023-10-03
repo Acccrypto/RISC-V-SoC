@@ -1,0 +1,42 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Found counter in view:work.Core_Poly(verilog) instance axi_arlen_cntr[7:0] 
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Found counter in view:work.Core_Poly(verilog) instance axi_awlen_cntr[7:0] 
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0] (in view: work.Core_Poly(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0] (in view: work.Core_Poly(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank2[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0] (in view: work.Core_Poly(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank1[22:0]
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0] (in view: work.Core_Poly(verilog)).
+@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[22:0]
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":184:4:184:9|Found counter in view:work.fsm(verilog) instance k_reg[5:0] 
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":184:4:184:9|Found counter in view:work.fsm(verilog) instance j_reg[5:0] 
+@N: MF179 :|Found 32 by 32 bit equality operator ('==') k_reg18 (in view: work.fsm(verilog))
+@N: MF179 :|Found 32 by 32 bit equality operator ('==') j_reg17 (in view: work.fsm(verilog))
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_4.gen_delay\[3\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_6.gen_delay\[5\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.add_rd_0.ar0_dinb_ss0 (in view: work.Core_Poly(verilog)) with 341 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2 (in view: work.Core_Poly(verilog)) with 567 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":608:4:608:9|Replicating instance CS_rep[8] (in view: work.Core_Poly(verilog)) with 23 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":608:4:608:9|Replicating instance CS_rep[4] (in view: work.Core_Poly(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":723:8:723:9|Replicating instance poly_mul_0.add_rd_0.N_110_i (in view: work.Core_Poly(verilog)) with 216 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_fast (in view: work.Core_Poly(verilog)) with 98 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.mr1_dina_sn_m1_0_o2_rep1 (in view: work.Core_Poly(verilog)) with 119 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.add_rd_0.ar0_dinb_ss0_fast (in view: work.Core_Poly(verilog)) with 61 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":166:8:166:9|Replicating instance poly_mul_0.add_rd_0.ar0_dinb_ss0_rep1 (in view: work.Core_Poly(verilog)) with 64 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":723:8:723:9|Replicating instance poly_mul_0.add_rd_0.N_110_i_fast (in view: work.Core_Poly(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:126:18|Replicating instance poly_mul_0.add_rd_0.sr0_dina_sn_m2_i_m2 (in view: work.Core_Poly(verilog)) with 31 loads 2 times to improve timing.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[0] (in view: work.Core_Poly(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[1] (in view: work.Core_Poly(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[0] (in view: work.Core_Poly(verilog)) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[1] (in view: work.Core_Poly(verilog)) because it does not drive other instances.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

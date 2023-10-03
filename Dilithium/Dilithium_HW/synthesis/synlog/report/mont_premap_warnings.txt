@@ -1,0 +1,1 @@
+@W: MT530 :"f:\mpfs_projects\mpfs_icicle\hdl\mont.v":45:2:45:7|Found inferred clock mont|clk which controls 138 sequential elements including m1[45:0]. This clock has no specified timing constraint which may adversely impact design performance. 

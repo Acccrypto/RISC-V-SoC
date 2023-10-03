@@ -1,0 +1,32 @@
+Resource Usage Report for poly_bank 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+
+
+Sequential Cells: 
+SLE            0 uses
+
+DSP Blocks:    0 of 784 (0%)
+
+I/O ports: 60
+I/O primitives: 60
+INBUF          37 uses
+OUTBUF         23 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    0
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 24; LUTs = 24;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  0 + 24 + 0 + 0 = 24;
+Total number of LUTs after P&R:  0 + 24 + 0 + 0 = 24;
+

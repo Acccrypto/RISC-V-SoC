@@ -1,0 +1,354 @@
+<html><body><samp><pre>
+<!@TC:1692780230>
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+
+# Written on Wed Aug 23 16:43:49 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "MPFS_ICICLE_KIT_BASE_DESIGN"
+Constraint File(s):      "F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 2 issues in 2 out of 30 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+<a name=clockRelationships66></a>Clock Relationships</a>
+*******************
+
+Starting                                                               Ending                                                                 |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     |     7.407            |     No paths         |     No paths         |     No paths                         
+System                                                                 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     |     7.407            |     No paths         |     No paths         |     No paths                         
+System                                                                 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     |     19.753           |     No paths         |     No paths         |     No paths                         
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     |     7.407            |     No paths         |     No paths         |     No paths                         
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     |     7.407            |     No paths         |     No paths         |     3.704                            
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     |     19.753           |     No paths         |     No paths         |     No paths                         
+=========================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK67></a>Unconstrained Start/End Points</a>
+******************************
+
+p:CAN_0_RXBUS_F2M
+p:CAN_0_TXBUS_M2F
+p:CAN_0_TX_EBL_M2F
+p:CAN_1_RXBUS
+p:CAN_1_TXBUS
+p:CAN_1_TX_EBL_N
+p:CA[0]
+p:CA[1]
+p:CA[2]
+p:CA[3]
+p:CA[4]
+p:CA[5]
+p:CK
+p:CKE
+p:CK_N
+p:CS
+p:DM[0]
+p:DM[1]
+p:DM[2]
+p:DM[3]
+p:DQS[0] (bidir end point)
+p:DQS[0] (bidir start point)
+p:DQS[1] (bidir end point)
+p:DQS[1] (bidir start point)
+p:DQS[2] (bidir end point)
+p:DQS[2] (bidir start point)
+p:DQS[3] (bidir end point)
+p:DQS[3] (bidir start point)
+p:DQS_N[0] (bidir end point)
+p:DQS_N[0] (bidir start point)
+p:DQS_N[1] (bidir end point)
+p:DQS_N[1] (bidir start point)
+p:DQS_N[2] (bidir end point)
+p:DQS_N[2] (bidir start point)
+p:DQS_N[3] (bidir end point)
+p:DQS_N[3] (bidir start point)
+p:DQ[0] (bidir end point)
+p:DQ[0] (bidir start point)
+p:DQ[1] (bidir end point)
+p:DQ[1] (bidir start point)
+p:DQ[2] (bidir end point)
+p:DQ[2] (bidir start point)
+p:DQ[3] (bidir end point)
+p:DQ[3] (bidir start point)
+p:DQ[4] (bidir end point)
+p:DQ[4] (bidir start point)
+p:DQ[5] (bidir end point)
+p:DQ[5] (bidir start point)
+p:DQ[6] (bidir end point)
+p:DQ[6] (bidir start point)
+p:DQ[7] (bidir end point)
+p:DQ[7] (bidir start point)
+p:DQ[8] (bidir end point)
+p:DQ[8] (bidir start point)
+p:DQ[9] (bidir end point)
+p:DQ[9] (bidir start point)
+p:DQ[10] (bidir end point)
+p:DQ[10] (bidir start point)
+p:DQ[11] (bidir end point)
+p:DQ[11] (bidir start point)
+p:DQ[12] (bidir end point)
+p:DQ[12] (bidir start point)
+p:DQ[13] (bidir end point)
+p:DQ[13] (bidir start point)
+p:DQ[14] (bidir end point)
+p:DQ[14] (bidir start point)
+p:DQ[15] (bidir end point)
+p:DQ[15] (bidir start point)
+p:DQ[16] (bidir end point)
+p:DQ[16] (bidir start point)
+p:DQ[17] (bidir end point)
+p:DQ[17] (bidir start point)
+p:DQ[18] (bidir end point)
+p:DQ[18] (bidir start point)
+p:DQ[19] (bidir end point)
+p:DQ[19] (bidir start point)
+p:DQ[20] (bidir end point)
+p:DQ[20] (bidir start point)
+p:DQ[21] (bidir end point)
+p:DQ[21] (bidir start point)
+p:DQ[22] (bidir end point)
+p:DQ[22] (bidir start point)
+p:DQ[23] (bidir end point)
+p:DQ[23] (bidir start point)
+p:DQ[24] (bidir end point)
+p:DQ[24] (bidir start point)
+p:DQ[25] (bidir end point)
+p:DQ[25] (bidir start point)
+p:DQ[26] (bidir end point)
+p:DQ[26] (bidir start point)
+p:DQ[27] (bidir end point)
+p:DQ[27] (bidir start point)
+p:DQ[28] (bidir end point)
+p:DQ[28] (bidir start point)
+p:DQ[29] (bidir end point)
+p:DQ[29] (bidir start point)
+p:DQ[30] (bidir end point)
+p:DQ[30] (bidir start point)
+p:DQ[31] (bidir end point)
+p:DQ[31] (bidir start point)
+p:I2C_1_SCL (bidir end point)
+p:I2C_1_SCL (bidir start point)
+p:I2C_1_SDA (bidir end point)
+p:I2C_1_SDA (bidir start point)
+p:LED0
+p:LED1
+p:LED2
+p:LED3
+p:MAC_1_MDC
+p:MAC_1_MDIO (bidir end point)
+p:MAC_1_MDIO (bidir start point)
+p:MMUART_0_RXD_F2M
+p:MMUART_0_TXD_M2F
+p:MMUART_1_RXD_F2M
+p:MMUART_1_TXD_M2F
+p:MMUART_2_RXD_F2M
+p:MMUART_2_TXD_M2F
+p:MMUART_3_RXD_F2M
+p:MMUART_3_TXD_M2F
+p:ODT
+p:PCIESS_LANE_RXD0_N
+p:PCIESS_LANE_RXD0_P
+p:PCIESS_LANE_RXD1_N
+p:PCIESS_LANE_RXD1_P
+p:PCIESS_LANE_RXD2_N
+p:PCIESS_LANE_RXD2_P
+p:PCIESS_LANE_RXD3_N
+p:PCIESS_LANE_RXD3_P
+p:PCIESS_LANE_TXD0_N
+p:PCIESS_LANE_TXD0_P
+p:PCIESS_LANE_TXD1_N
+p:PCIESS_LANE_TXD1_P
+p:PCIESS_LANE_TXD2_N
+p:PCIESS_LANE_TXD2_P
+p:PCIESS_LANE_TXD3_N
+p:PCIESS_LANE_TXD3_P
+p:PCIE_1_PERST_N
+p:QSPI_CLK (bidir end point)
+p:QSPI_CLK (bidir start point)
+p:QSPI_DATA_0 (bidir end point)
+p:QSPI_DATA_0 (bidir start point)
+p:QSPI_DATA_1 (bidir end point)
+p:QSPI_DATA_1 (bidir start point)
+p:QSPI_DATA_2 (bidir end point)
+p:QSPI_DATA_2 (bidir start point)
+p:QSPI_DATA_3 (bidir end point)
+p:QSPI_DATA_3 (bidir start point)
+p:QSPI_SEL (bidir end point)
+p:QSPI_SEL (bidir start point)
+p:REFCLK
+p:REFCLK_N
+p:REF_CLK_PAD_N
+p:RESET_N
+p:RPi_GPIO12 (bidir end point)
+p:RPi_GPIO12 (bidir start point)
+p:RPi_GPIO13 (bidir end point)
+p:RPi_GPIO13 (bidir start point)
+p:RPi_GPIO16 (bidir end point)
+p:RPi_GPIO16 (bidir start point)
+p:RPi_GPIO17 (bidir end point)
+p:RPi_GPIO17 (bidir start point)
+p:RPi_GPIO19 (bidir end point)
+p:RPi_GPIO19 (bidir start point)
+p:RPi_GPIO20 (bidir end point)
+p:RPi_GPIO20 (bidir start point)
+p:RPi_GPIO21 (bidir end point)
+p:RPi_GPIO21 (bidir start point)
+p:RPi_GPIO22 (bidir end point)
+p:RPi_GPIO22 (bidir start point)
+p:RPi_GPIO23 (bidir end point)
+p:RPi_GPIO23 (bidir start point)
+p:RPi_GPIO24 (bidir end point)
+p:RPi_GPIO24 (bidir start point)
+p:RPi_GPIO25 (bidir end point)
+p:RPi_GPIO25 (bidir start point)
+p:RPi_GPIO26 (bidir end point)
+p:RPi_GPIO26 (bidir start point)
+p:RPi_GPIO27 (bidir end point)
+p:RPi_GPIO27 (bidir start point)
+p:SDIO_SW_EN_N
+p:SDIO_SW_SEL0
+p:SDIO_SW_SEL1
+p:SD_CD_EMMC_STRB
+p:SD_CLK_EMMC_CLK
+p:SD_CMD_EMMC_CMD (bidir end point)
+p:SD_CMD_EMMC_CMD (bidir start point)
+p:SD_DATA0_EMMC_DATA0 (bidir end point)
+p:SD_DATA0_EMMC_DATA0 (bidir start point)
+p:SD_DATA1_EMMC_DATA1 (bidir end point)
+p:SD_DATA1_EMMC_DATA1 (bidir start point)
+p:SD_DATA2_EMMC_DATA2 (bidir end point)
+p:SD_DATA2_EMMC_DATA2 (bidir start point)
+p:SD_DATA3_EMMC_DATA3 (bidir end point)
+p:SD_DATA3_EMMC_DATA3 (bidir start point)
+p:SD_POW_EMMC_DATA4
+p:SD_VOLT_CMD_DIR_EMMC_DATA7
+p:SD_VOLT_DIR_0_EMMC_UNUSED
+p:SD_VOLT_DIR_1_3_EMMC_UNUSED
+p:SD_VOLT_EN_EMMC_DATA6
+p:SD_VOLT_SEL_EMMC_DATA5
+p:SD_WP_EMMC_RSTN
+p:SGMII_RX0_N
+p:SGMII_RX0_P
+p:SGMII_RX1_N
+p:SGMII_RX1_P
+p:SGMII_TX0_N
+p:SGMII_TX0_P
+p:SGMII_TX1_N
+p:SGMII_TX1_P
+p:SPI_1_CLK (bidir end point)
+p:SPI_1_CLK (bidir start point)
+p:SPI_1_DI
+p:SPI_1_DO
+p:SPI_1_SS0 (bidir end point)
+p:SPI_1_SS0 (bidir start point)
+p:SW1
+p:SW2
+p:SW3
+p:SW4
+p:USB_CLK
+p:USB_DATA0 (bidir end point)
+p:USB_DATA0 (bidir start point)
+p:USB_DATA1 (bidir end point)
+p:USB_DATA1 (bidir start point)
+p:USB_DATA2 (bidir end point)
+p:USB_DATA2 (bidir start point)
+p:USB_DATA3 (bidir end point)
+p:USB_DATA3 (bidir start point)
+p:USB_DATA4 (bidir end point)
+p:USB_DATA4 (bidir start point)
+p:USB_DATA5 (bidir end point)
+p:USB_DATA5 (bidir start point)
+p:USB_DATA6 (bidir end point)
+p:USB_DATA6 (bidir start point)
+p:USB_DATA7 (bidir end point)
+p:USB_DATA7 (bidir start point)
+p:USB_DIR
+p:USB_NXT
+p:USB_STP
+p:USB_ULPI_RESET
+p:VSC_8662_CMODE3
+p:VSC_8662_CMODE4
+p:VSC_8662_CMODE5
+p:VSC_8662_CMODE6
+p:VSC_8662_CMODE7
+p:VSC_8662_OSCEN
+p:VSC_8662_PLLMODE
+p:VSC_8662_RESETN
+p:VSC_8662_SRESET
+p:mBUS_I2C_SCL (bidir end point)
+p:mBUS_I2C_SCL (bidir start point)
+p:mBUS_I2C_SDA (bidir end point)
+p:mBUS_I2C_SDA (bidir start point)
+p:mBUS_INT
+p:mBUS_UART_RX
+p:mBUS_UART_TX
+
+
+<a name=InapplicableconstraintsCCK68></a>Inapplicable constraints</a>
+************************
+
+set_false_path -from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]
+<a name=error69></a>	@E::"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because the from list is incorrect: it contains no clock, primary input, sequential cell, or sequential cell clock pin</a>
+
+<a name=ApplicableConstraintsWithIssuesCCK70></a>Applicable constraints with issues</a>
+**********************************
+
+set_false_path -to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]
+	@W::"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK71></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+set_false_path -through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]
+	@N:MF891:"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|expression "[get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]" applies to objects:
+		FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN
+		FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN_arst
+		FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN_data
+		FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN_i
+set_false_path -through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]
+	@N:MF891:"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|expression "[get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]" applies to objects:
+		FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN
+		FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN_arst
+		FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN_data
+		FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN_i
+set_false_path -through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]
+	@N:MF891:"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|expression "[get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]" applies to objects:
+		FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN
+		FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN_arst
+		FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN_data
+		FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN_i
+
+<a name=LibraryReportCCK72></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

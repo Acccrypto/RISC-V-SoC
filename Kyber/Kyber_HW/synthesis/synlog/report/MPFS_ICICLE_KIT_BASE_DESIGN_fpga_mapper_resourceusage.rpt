@@ -1,0 +1,67 @@
+Resource Usage Report for MPFS_ICICLE_KIT_BASE_DESIGN 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+AND2            2 uses
+AND3            1 use
+AND4            2 uses
+CLKINT          10 uses
+DRI             1 use
+ICB_CLKDIV      1 use
+ICB_NGMUX       1 use
+INIT            1 use
+INV             4 uses
+MSS             1 use
+OR2             7 uses
+OSC_RC160MHZ    1 use
+PCIE            1 use
+PCIE_COMMON     1 use
+PLL             1 use
+TX_PLL          1 use
+XCVR_APB_LINK   1 use
+XCVR_PIPE_AXI0  2 uses
+XCVR_PIPE_AXI1  2 uses
+XCVR_REF_CLK    1 use
+CFG1           39 uses
+CFG2           1335 uses
+CFG3           4110 uses
+CFG4           4617 uses
+
+Carry cells:
+ARI1            1110 uses - used for arithmetic functions
+ARI1            1370 uses - used for Wide-Mux implementation
+Total ARI1      2480 uses
+
+
+Sequential Cells: 
+SLE            8388 uses
+SLE_INIT       12 uses - used for Seqshift to URAM mapping
+Total SLE          8400 uses
+
+DSP Blocks:    4 of 784 (0%)
+ MACC_PA:         4 Mults
+
+I/O ports: 179
+I/O primitives: 151
+BIBUF          71 uses
+BIBUF_DIFF     4 uses
+INBUF          19 uses
+INBUF_DIFF     3 uses
+OUTBUF         51 uses
+OUTBUF_DIFF    3 uses
+
+
+Global Clock Buffers: 10
+
+Total LUTs:    12581
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 732; LUTs = 732;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 144; LUTs = 144;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  8400 + 732 + 0 + 144 = 9276;
+Total number of LUTs after P&R:  12581 + 732 + 0 + 144 = 13457;
+

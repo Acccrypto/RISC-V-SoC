@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+
+Date      :  Sat Jul  1 18:22:40 2023
+Project   :  F:\MPFS_Projects\MPFS_ICICLE
+Component :  CORERESET
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/MPFS_Projects/MPFS_ICICLE/component/work/CORERESET/CORERESET_0/core/corereset_pf.v
+    F:/MPFS_Projects/MPFS_ICICLE/component/work/CORERESET/CORERESET.v
+
+Stimulus files for all Simulation tools:
+    F:/MPFS_Projects/MPFS_ICICLE/component/work/CORERESET/CORERESET_0/test/corereset_pf_tb.v
+

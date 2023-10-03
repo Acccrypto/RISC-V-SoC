@@ -1,0 +1,142 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+Date: Wed May 10 19:19:08 2023
+
+Device Selection
++--------------------------------------------+--------------+
+| Family                                     | PolarFireSoC |
+| Device                                     | MPFS250T_ES  |
+| Package                                    | FCVG484      |
+| Speed Grade                                | STD          |
+| Core Voltage                               | 1.05V        |
+| Part Range                                 | EXT          |
+| Default I/O technology                     | LVCMOS 1.8V  |
+| FPGA Hardware Breakpoint Auto Instantation | Off          |
++--------------------------------------------+--------------+
+
+Source Files
++---------+--------------------------------------------------+
+| Topcell | mult23                                           |
+| Format  | Verilog                                          |
+| Source  | F:\MPFS_Projects\MPFS_ICICLE\synthesis\mult23.vm |
++---------+--------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+--------+------------+
+| Type                      | Used | Total  | Percentage |
++---------------------------+------+--------+------------+
+| 4LUT                      | 144  | 254196 | 0.06       |
+| DFF                       | 144  | 254196 | 0.06       |
+| I/O Register              | 0    | 432    | 0.00       |
+| User I/O                  | 92   | 144    | 63.89      |
+| -- Single-ended I/O       | 92   | 144    | 63.89      |
+| -- Differential I/O Pairs | 0    | 72     | 0.00       |
+| uSRAM                     | 0    | 2352   | 0.00       |
+| LSRAM                     | 0    | 812    | 0.00       |
+| Math                      | 4    | 784    | 0.51       |
+| H-Chip Global             | 0    | 48     | 0.00       |
+| PLL                       | 0    | 8      | 0.00       |
+| DLL                       | 0    | 8      | 0.00       |
+| Transceiver Lanes         | 0    | 4      | 0.00       |
+| Transceiver PCIe          | 0    | 2      | 0.00       |
+| MSS                       | 0    | 1      | 0.00       |
++---------------------------+------+--------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 0    | 0   |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 0    | 0   |
+| Math Interface Logic  | 144  | 144 |
+| Total Used            | 144  | 144 |
++-----------------------+------+-----+
+
+Detailed Math Chains Resource Usage
++--------+------+
+| Length | Used |
+| 4      | 1    |
+| Total  | 1    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 46           | 0           | 0               |
+| Output I/O                    | 46           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-----------------------+
+| Fanout | Type    | Name                  |
++--------+---------+-----------------------+
+| 2      | INT_NET | Net   : dina_c[22]    |
+|        |         | Driver: dina_ibuf[22] |
+| 2      | INT_NET | Net   : dina_c[21]    |
+|        |         | Driver: dina_ibuf[21] |
+| 2      | INT_NET | Net   : dina_c[20]    |
+|        |         | Driver: dina_ibuf[20] |
+| 2      | INT_NET | Net   : dina_c[19]    |
+|        |         | Driver: dina_ibuf[19] |
+| 2      | INT_NET | Net   : dina_c[18]    |
+|        |         | Driver: dina_ibuf[18] |
+| 2      | INT_NET | Net   : dina_c[17]    |
+|        |         | Driver: dina_ibuf[17] |
+| 2      | INT_NET | Net   : dina_c[16]    |
+|        |         | Driver: dina_ibuf[16] |
+| 2      | INT_NET | Net   : dina_c[15]    |
+|        |         | Driver: dina_ibuf[15] |
+| 2      | INT_NET | Net   : dina_c[14]    |
+|        |         | Driver: dina_ibuf[14] |
+| 2      | INT_NET | Net   : dina_c[13]    |
+|        |         | Driver: dina_ibuf[13] |
++--------+---------+-----------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-----------------------+
+| Fanout | Type    | Name                  |
++--------+---------+-----------------------+
+| 2      | INT_NET | Net   : dina_c[22]    |
+|        |         | Driver: dina_ibuf[22] |
+| 2      | INT_NET | Net   : dina_c[21]    |
+|        |         | Driver: dina_ibuf[21] |
+| 2      | INT_NET | Net   : dina_c[20]    |
+|        |         | Driver: dina_ibuf[20] |
+| 2      | INT_NET | Net   : dina_c[19]    |
+|        |         | Driver: dina_ibuf[19] |
+| 2      | INT_NET | Net   : dina_c[18]    |
+|        |         | Driver: dina_ibuf[18] |
+| 2      | INT_NET | Net   : dina_c[17]    |
+|        |         | Driver: dina_ibuf[17] |
+| 2      | INT_NET | Net   : dina_c[16]    |
+|        |         | Driver: dina_ibuf[16] |
+| 2      | INT_NET | Net   : dina_c[15]    |
+|        |         | Driver: dina_ibuf[15] |
+| 2      | INT_NET | Net   : dina_c[14]    |
+|        |         | Driver: dina_ibuf[14] |
+| 2      | INT_NET | Net   : dina_c[13]    |
+|        |         | Driver: dina_ibuf[13] |
++--------+---------+-----------------------+
+

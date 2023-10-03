@@ -1,0 +1,9 @@
+n work poly_ntt_Z34 verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 81.5156;
+av .compile_point_starttime_stamp "Tue Mar 28 20:27:10 2023";
+av .compile_point_endtime_stamp "Tue Mar 28 20:28:31 2023";
+av .compile_point_realtime_used 81.889;

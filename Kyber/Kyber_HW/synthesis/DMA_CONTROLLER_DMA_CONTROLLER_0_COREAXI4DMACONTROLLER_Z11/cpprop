@@ -1,0 +1,9 @@
+n COREAXI4DMACONTROLLER_LIB DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z11 verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 17.4219;
+av .compile_point_starttime_stamp "Sun Mar  5 16:35:30 2023";
+av .compile_point_endtime_stamp "Sun Mar  5 16:35:48 2023";
+av .compile_point_realtime_used 17.768;

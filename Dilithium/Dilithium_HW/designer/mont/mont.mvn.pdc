@@ -1,0 +1,38 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS250T_ES , Package: FCVG484 , Speed grade: STD 
+
+# Date generated: Mon May 15 12:43:14 2023 
+
+
+#
+# IO banks setting
+#
+
+set_iobank -bank_name Bank3 -vcci 3.30 -fixed true
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+
+#
+# Ports using Dedicated Pins
+#
+
+
+#
+# Core cell constraints
+#
+

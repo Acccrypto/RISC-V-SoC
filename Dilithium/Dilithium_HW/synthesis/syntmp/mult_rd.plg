@@ -1,0 +1,11 @@
+@P:  Worst Slack : 3.537
+@P:  mult_rd|clk - Estimated Frequency : 154.7 MHz
+@P:  mult_rd|clk - Requested Frequency : 100.0 MHz
+@P:  mult_rd|clk - Estimated Period : 6.463
+@P:  mult_rd|clk - Requested Period : 10.000
+@P:  mult_rd|clk - Slack : 3.537
+@P: mult_rd Part : mpfs250tfcg1152std
+@P: mult_rd Register bits  : 98 
+@P: mult_rd DSP Blocks  : 3
+@P: mult_rd I/O primitives : 71
+@P:  CPU Time : 0h:00m:03s

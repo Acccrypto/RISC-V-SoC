@@ -1,0 +1,41 @@
+Resource Usage Report for barrett 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           22 uses
+CFG2           1 use
+CFG3           2 uses
+CFG4           5 uses
+
+Carry cells:
+ARI1            175 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            92 uses
+
+DSP Blocks:   12 of 784 (1%)
+ MACC_PA:         5 Mults
+ MACC_PA:         7 MultAdds
+
+I/O ports: 70
+I/O primitives: 70
+INBUF          47 uses
+OUTBUF         23 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    205
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 432; LUTs = 432;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  92 + 0 + 0 + 432 = 524;
+Total number of LUTs after P&R:  205 + 0 + 0 + 432 = 637;
+

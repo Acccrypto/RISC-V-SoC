@@ -1,0 +1,36 @@
+
+fsm_encoding {199984981} onehot
+
+fsm_state_encoding {199984981} IDLE {000000000}
+
+fsm_state_encoding {199984981} WRITE0 {000000011}
+
+fsm_state_encoding {199984981} WRITE1 {000000101}
+
+fsm_state_encoding {199984981} NTT0 {000001001}
+
+fsm_state_encoding {199984981} NTT1 {000010001}
+
+fsm_state_encoding {199984981} INTT0 {000100001}
+
+fsm_state_encoding {199984981} PWM {001000001}
+
+fsm_state_encoding {199984981} READ0 {010000001}
+
+fsm_state_encoding {199984981} READ1 {100000001}
+
+fsm_registers {199984981} {CS[8]}  {CS[7]}  {CS[6]}  {CS[5]}  {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 
+
+fsm_encoding {185704702} onehot
+
+fsm_state_encoding {185704702} IDLE {00000}
+
+fsm_state_encoding {185704702} NTT {00011}
+
+fsm_state_encoding {185704702} PWM {00101}
+
+fsm_state_encoding {185704702} INTT {01001}
+
+fsm_state_encoding {185704702} DONE {10001}
+
+fsm_registers {185704702} {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 

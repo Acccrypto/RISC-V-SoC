@@ -1,0 +1,77 @@
+<head>
+    <style>
+
+        body 
+        { 
+          font-family:arial; 
+          font-size: 11pt; 
+          text-align:center; 
+        } 
+        div.header 
+        { 
+          padding-top: 7px; 
+          padding-bottom: 7px; 
+          color:#003399; 
+          background-color: #D0D0D0; 
+          width=100%; 
+          font-family:arial; 
+          font-size:14pt; 
+          font-weight: bold; 
+          text-align: center; 
+        } 
+        table.drctable 
+        { 
+          border-color: #B0B0B0; 
+          border-style:solid; 
+          border-width:1px; 
+          border-spacing:0px; 
+          border-collapse:collapse; 
+          width=75%; 
+          font-family:couriernew; 
+          font-size: 11pt; 
+        }
+        table.drctable th 
+        { 
+          background-color: #F0F0F0; 
+          border-color: #B0B0B0; 
+          border-width:1px; 
+          color: darkslategray; 
+          font-weight:bold; 
+        } 
+        table.drctable td 
+        { 
+          text-align:left; 
+        }        
+
+    </style>
+</head>
+<body>
+    <p>
+        <div class="header">DRC Report: FIC_0_PERIPHERALS</div>
+    </p>
+    <table class="drctable" align="left" border="1" width="75%" cellspacing="0" cellpadding="4">
+        <tr>
+            <th>Status</th>
+            <th>Message</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td style="padding-left:20px">
+                <img width="16" height="16" src="D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png" alt="Warning" title="Warning"/>
+            </td>
+            <td>
+                <a href="liberoaction://cross_probe/smartdesign/FIC_0_PERIPHERALS/pins/FIC0_INITIATOR:AXI4mslave0"> bus interface ID width mismatch</a>
+            </td>
+            <td> There is an ID width mismatch between FIC0_INITIATOR:AXI4mslave0:SLAVE0_AWID[0-8] and DMA_CONTROLLER:AXI4SlaveCtrl_IF:[0--1] which may result in a loss of data.</td>
+        </tr>
+        <tr>
+            <td style="padding-left:20px">
+                <img width="16" height="16" src="D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png" alt="Warning" title="Warning"/>
+            </td>
+            <td>
+                <a href="liberoaction://cross_probe/smartdesign/FIC_0_PERIPHERALS/pins/FIC0_INITIATOR:AXI4mslave1"> bus interface ID width mismatch</a>
+            </td>
+            <td> There is an ID width mismatch between FIC0_INITIATOR:AXI4mslave1:SLAVE1_AWID[0-8] and MSS_LSRAM:AXI4_Slave:AWID[0-7] which may result in a loss of data.</td>
+        </tr>
+    </table>
+</body>

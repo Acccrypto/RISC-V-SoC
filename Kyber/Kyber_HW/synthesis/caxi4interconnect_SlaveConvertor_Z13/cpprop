@@ -1,0 +1,9 @@
+n work caxi4interconnect_SlaveConvertor_Z13 verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 24.0312;
+av .compile_point_starttime_stamp "Tue Jul 11 21:04:04 2023";
+av .compile_point_endtime_stamp "Tue Jul 11 21:04:28 2023";
+av .compile_point_realtime_used 24.438;

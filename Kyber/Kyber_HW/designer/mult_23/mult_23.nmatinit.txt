@@ -1,0 +1,106 @@
+# Microsemi NMAT TXT File
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: mult_23 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS250T_ES , Package: FCVG484 , Speed grade: STD 
+
+# Date generated: Thu Mar 23 10:52:59 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io dina[0] A20
+set_io dina[1] D18
+set_io dina[2] B20
+set_io dina[3] D22
+set_io dina[4] A16
+set_io dina[5] A17
+set_io dina[6] C19
+set_io dina[7] E14
+set_io dina[8] D21
+set_io dina[9] A21
+set_io dina[10] A18
+set_io dina[11] B19
+set_io dina[12] B17
+set_io dina[13] D17
+set_io dina[14] B21
+set_io dina[15] C20
+set_io dina[16] B22
+set_io dina[17] C16
+set_io dina[18] C17
+set_io dina[19] C22
+set_io dina[20] E18
+set_io dina[21] D20
+set_io dina[22] B18
+set_io dinb[0] C9
+set_io dinb[1] B8
+set_io dinb[2] A10
+set_io dinb[3] F11
+set_io dinb[4] F13
+set_io dinb[5] F10
+set_io dinb[6] E19
+set_io dinb[7] H17
+set_io dinb[8] E16
+set_io dinb[9] F16
+set_io dinb[10] G14
+set_io dinb[11] B15
+set_io dinb[12] A13
+set_io dinb[13] E11
+set_io dinb[14] A8
+set_io dinb[15] B13
+set_io dinb[16] C11
+set_io dinb[17] B10
+set_io dinb[18] A15
+set_io dinb[19] F15
+set_io dinb[20] B14
+set_io dinb[21] D16
+set_io dinb[22] F12
+set_io dout[0] E10
+set_io dout[1] H12
+set_io dout[2] D11
+set_io dout[3] B9
+set_io dout[4] B12
+set_io dout[5] A11
+set_io dout[6] D8
+set_io dout[7] G13
+set_io dout[8] H13
+set_io dout[9] A12
+set_io dout[10] A7
+set_io dout[11] B7
+set_io dout[12] G17
+set_io dout[13] F17
+set_io dout[14] H15
+set_io dout[15] E15
+set_io dout[16] G15
+set_io dout[17] D19
+set_io dout[18] D12
+set_io dout[19] D14
+set_io dout[20] D13
+set_io dout[21] G12
+set_io dout[22] E13
+set_io dout[23] C10
+set_io dout[24] C12
+set_io dout[25] A5
+set_io dout[26] R14
+set_io dout[27] R12
+set_io dout[28] T12
+set_io dout[29] Y14
+set_io dout[30] AA13
+set_io dout[31] AB19
+set_io dout[32] A6
+set_io dout[33] B4
+
+#
+# Core cell constraints
+#
+
+set_location un1_dina_1_mulonly_0[25:0]/MACC_PHYS_INST 948 23
+set_location un1_dina_0_cry_0 1197 6
+set_location un1_dina_0_cry_0_CC_0 1197 8
+set_location un1_dina_0_cry_0_CC_1 1200 8

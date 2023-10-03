@@ -1,0 +1,17 @@
+_timing_constraints_coverage 99.72%
+_max_timing_violations_slow_lv_lt not_run
+_max_timing_slow_lv_lt not_run
+_min_timing_violations_slow_lv_lt not_run
+_min_timing_slow_lv_lt not_run
+_max_timing_violations_fast_hv_lt not_run
+_max_timing_fast_hv_lt not_run
+_min_timing_violations_fast_hv_lt not_run
+_min_timing_fast_hv_lt not_run
+_max_timing_violations_slow_lv_ht not_run
+_max_timing_slow_lv_ht not_run
+_min_timing_violations_slow_lv_ht not_run
+_min_timing_slow_lv_ht not_run
+_max_timing_violations_multi_corner met
+_max_timing_multi_corner met
+_min_timing_violations_multi_corner met
+_min_timing_multi_corner met

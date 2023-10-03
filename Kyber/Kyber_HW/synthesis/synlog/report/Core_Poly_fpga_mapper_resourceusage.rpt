@@ -1,0 +1,44 @@
+Resource Usage Report for Core_Poly 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           109 uses
+CFG2           534 uses
+CFG3           2093 uses
+CFG4           2038 uses
+
+Carry cells:
+ARI1            2165 uses - used for arithmetic functions
+ARI1            1242 uses - used for Wide-Mux implementation
+Total ARI1      3407 uses
+
+
+Sequential Cells: 
+SLE            2365 uses
+SLE_INIT       11 uses - used for Seqshift to URAM mapping
+Total SLE          2376 uses
+
+DSP Blocks:   12 of 784 (1%)
+ MACC_PA:        12 Mults
+
+I/O ports: 213
+I/O primitives: 159
+INBUF          114 uses
+OUTBUF         45 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    8181
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 1032; LUTs = 1032;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 432; LUTs = 432;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  2376 + 1032 + 0 + 432 = 3840;
+Total number of LUTs after P&R:  8181 + 1032 + 0 + 432 = 9645;
+

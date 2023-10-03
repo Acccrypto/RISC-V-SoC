@@ -1,0 +1,38 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":21:7:21:12|Found compile point of type hard on View view:work.tf_ROM_69s(verilog) 
+@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ntt.v":21:7:21:14|Found compile point of type hard on View view:work.poly_ntt_Z80(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.poly_ntt_Z80(verilog) 
+@N: MF106 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ntt.v":21:7:21:14|Mapping Compile point view:work.poly_ntt_Z80(verilog) because 
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM poly_ram_0.delay_7.gen_delay\[6\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":179:4:179:9|Found counter in view:work.fsm(verilog) instance k_reg[5:0] 
+@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\fsm.v":179:4:179:9|Found counter in view:work.fsm(verilog) instance j_reg[5:0] 
+@N: MF179 :|Found 32 by 32 bit equality operator ('==') k_reg18 (in view: work.fsm(verilog))
+@N: MF179 :|Found 32 by 32 bit equality operator ('==') j_reg17 (in view: work.fsm(verilog))
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_7.gen_delay\[6\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_7.gen_delay\[6\]\.level_buf_seqshift[23:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_7.gen_delay\[6\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":60:31:60:40|Multiplier poly_mul_0.mult_rd_3.c_2[33:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":60:31:60:40|Multiplier poly_mul_0.mult_rd_2.c_2[33:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":60:31:60:40|Multiplier poly_mul_0.mult_rd_1.c_2[33:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":60:31:60:40|Multiplier poly_mul_0.mult_rd_0.c_2[33:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":61:31:61:40|Multiplier poly_mul_0.mult_rd_3.d_2[34:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":61:31:61:40|Multiplier poly_mul_0.mult_rd_2.d_2[34:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":61:31:61:40|Multiplier poly_mul_0.mult_rd_1.d_2[34:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mult_rd.v":61:31:61:40|Multiplier poly_mul_0.mult_rd_0.d_2[34:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:122:18|Replicating instance poly_mul_0.add_rd_2.ar0_dinb_sn_m2 (in view: work.poly_ntt_Z80(verilog)) with 88 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ntt.v":98:4:98:9|Replicating instance CS_rep[4] (in view: work.poly_ntt_Z80(verilog)) with 139 loads 2 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_ntt.v":98:4:98:9|Replicating instance CS[3] (in view: work.poly_ntt_Z80(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":50:8:50:9|Replicating instance poly_mul_0.t0_6_m0s2 (in view: work.poly_ntt_Z80(verilog)) with 450 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":162:8:162:9|Replicating instance poly_mul_0.add_rd_2.ar0_dina_ss0 (in view: work.poly_ntt_Z80(verilog)) with 301 loads 3 times to improve timing.
+@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":87:16:122:18|Replicating instance poly_mul_0.add_rd_2.ar0_dinb_sn_m2_rep2 (in view: work.poly_ntt_Z80(verilog)) with 21 loads 2 times to improve timing.
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 8.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

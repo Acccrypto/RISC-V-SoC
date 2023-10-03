@@ -1,0 +1,1072 @@
+#Build: Synplify Pro (R) S-2021.09M-SP1, Build 150R, Jun 14 2022
+#install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-DD7N7QM
+
+# Fri May 12 15:02:46 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4252:13:4252:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4436:13:4436:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4477:13:4477:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4503:13:4503:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4520:13:4520:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":4597:13:4597:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":5361:13:5361:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6171:13:6171:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6280:13:6280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6318:13:6318:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":6391:13:6391:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":7280:13:7280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":8337:13:8337:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":9296:13:9296:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10032:13:10032:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10747:13:10747:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10781:13:10781:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10817:13:10817:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10864:13:10864:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":10898:13:10898:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":11764:13:11764:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12807:13:12807:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12819:15:12819:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@I::"F:\MPFS_Projects\MPFS_ICICLE\hdl\mont.v" (library work)
+@I::"F:\MPFS_Projects\MPFS_ICICLE\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"F:\MPFS_Projects\MPFS_ICICLE\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module mont
+@N: CG364 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\mont.v":23:7:23:10|Synthesizing module mont in library work.
+Running optimization stage 1 on mont .......
+Finished optimization stage 1 on mont (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+Running optimization stage 2 on mont .......
+Finished optimization stage 2 on mont (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 98MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 12 15:02:47 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 12 15:02:47 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\mont_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 30MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 12 15:02:47 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 12 15:02:48 2023
+
+###########################################################]
+Premap Report
+
+# Fri May 12 15:02:48 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+Reading constraint file: F:\MPFS_Projects\MPFS_ICICLE\designer\mont\synthesis.fdc
+@L: F:\MPFS_Projects\MPFS_ICICLE\synthesis\mont_scck.rpt 
+See clock summary report "F:\MPFS_Projects\MPFS_ICICLE\synthesis\mont_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 132MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=812,dsps=784 on top level netlist mont 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+
+
+
+Clock Summary
+******************
+
+          Start        Requested     Requested     Clock        Clock          Clock
+Level     Clock        Frequency     Period        Type         Group          Load 
+------------------------------------------------------------------------------------
+0 -       mont|clk     100.0 MHz     10.000        inferred     (multiple)     92   
+====================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+             Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock        Load      Pin           Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------------
+mont|clk     92        clk(port)     m[45:0].C       -                 I_1.A(CLKINT)
+====================================================================================
+
+@W: MT530 :"f:\mpfs_projects\mpfs_icicle\hdl\mont.v":33:2:33:7|Found inferred clock mont|clk which controls 92 sequential elements including r[22:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\MPFS_Projects\MPFS_ICICLE\synthesis\mont.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 87MB peak: 169MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri May 12 15:02:50 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Fri May 12 15:02:50 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@N: BN362 :|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.mont(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.mont(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 169MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mont.v":35:17:35:26|Multiplier t_1[22:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mont.v":34:17:34:22|Multiplier m_2[45:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\mont.v":36:22:36:28|Multiplier un2_r[45:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 191MB peak: 191MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 191MB peak: 192MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 192MB peak: 192MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 192MB peak: 192MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 192MB peak: 192MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 192MB peak: 192MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     8.40ns		  76 /        23
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 196MB peak: 196MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 196MB peak: 196MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 30 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   30         WideMult_0     
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 196MB)
+
+Writing Analyst data base F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\mont_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 192MB peak: 196MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 193MB peak: 196MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 193MB peak: 196MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 196MB)
+
+@W: MT420 |Found inferred clock mont|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri May 12 15:02:56 2023
+#
+
+
+Top view:               mont
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\MPFS_Projects\MPFS_ICICLE\designer\mont\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.327
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group     
+-------------------------------------------------------------------------------------------------------------
+mont|clk           100.0 MHz     81.1 MHz      10.000        12.327        -2.327     inferred     (multiple)
+=============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+mont|clk  mont|clk  |  10.000      -2.327  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: mont|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                       Arrival           
+Instance         Reference     Type        Pin          Net                     Time        Slack 
+                 Clock                                                                            
+--------------------------------------------------------------------------------------------------
+WideMult_0_0     mont|clk      MACC_PA     CDOUT[0]     WideMult_1_0_cas[0]     0.457       -2.327
+WideMult_0_0     mont|clk      MACC_PA     CDOUT[1]     WideMult_1_0_cas[1]     0.457       -2.317
+WideMult_0_0     mont|clk      MACC_PA     CDOUT[2]     WideMult_1_0_cas[2]     0.457       -2.308
+WideMult_0_0     mont|clk      MACC_PA     CDOUT[3]     WideMult_1_0_cas[3]     0.457       -2.299
+WideMult_0_0     mont|clk      MACC_PA     CDOUT[4]     WideMult_1_0_cas[4]     0.457       -2.289
+WideMult_0_0     mont|clk      MACC_PA     CDOUT[5]     WideMult_1_0_cas[5]     0.457       -2.280
+WideMult_0_0     mont|clk      MACC_PA     P[0]         t[0]                    0.344       -1.490
+WideMult_0_0     mont|clk      MACC_PA     P[1]         t[1]                    0.344       -1.480
+WideMult_0_0     mont|clk      MACC_PA     P[2]         t[2]                    0.344       -1.471
+WideMult_0_0     mont|clk      MACC_PA     P[3]         t[3]                    0.344       -1.462
+==================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                   Required           
+Instance      Reference     Type     Pin     Net         Time         Slack 
+              Clock                                                         
+----------------------------------------------------------------------------
+r_0_0[22]     mont|clk      SLE      D       r_1[45]     10.000       -2.327
+r_0_0[21]     mont|clk      SLE      D       r_1[44]     10.000       -2.317
+r_0_0[20]     mont|clk      SLE      D       r_1[43]     10.000       -2.308
+r_0_0[19]     mont|clk      SLE      D       r_1[42]     10.000       -2.299
+r_0_0[18]     mont|clk      SLE      D       r_1[41]     10.000       -2.289
+r_0_0[17]     mont|clk      SLE      D       r_1[40]     10.000       -2.280
+r_0_0[16]     mont|clk      SLE      D       r_1[39]     10.000       -2.270
+r_0_0[15]     mont|clk      SLE      D       r_1[38]     10.000       -2.261
+r_0_0[14]     mont|clk      SLE      D       r_1[37]     10.000       -2.252
+r_0_0[13]     mont|clk      SLE      D       r_1[36]     10.000       -2.242
+============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      12.327
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.327
+
+    Number of logic level(s):                17
+    Starting point:                          WideMult_0_0 / CDOUT[0]
+    Ending point:                            r_0_0[22] / D
+    The start point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                        Pin          Pin               Arrival      No. of    
+Name                      Type        Name         Dir     Delay     Time         Fan Out(s)
+--------------------------------------------------------------------------------------------
+WideMult_0_0              MACC_PA     CDOUT[0]     Out     0.457     0.457 f      -         
+WideMult_1_0_cas[0]       Net         -            -       0.722     -            1         
+WideMult_1_0              MACC_PA     CDIN[0]      In      -         1.179 f      -         
+WideMult_1_0              MACC_PA     CDOUT[0]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas[0]       Net         -            -       0.722     -            1         
+WideMult_1_1              MACC_PA     CDIN[0]      In      -         4.095 r      -         
+WideMult_1_1              MACC_PA     P[0]         Out     0.000     4.095 f      -         
+t[17]                     Net         -            -       0.736     -            2         
+WideMult_1_3              MACC_PA     B[0]         In      -         4.831 f      -         
+WideMult_1_3              MACC_PA     CDOUT[0]     Out     2.752     7.583 r      -         
+WideMult_1_1_cas_1[0]     Net         -            -       0.722     -            1         
+WideMult_1_4              MACC_PA     CDIN[0]      In      -         8.306 r      -         
+WideMult_1_4              MACC_PA     CDOUT[0]     Out     2.185     10.491 r     -         
+WideMult_2_0_cas_0[0]     Net         -            -       0.722     -            1         
+WideMult_2                MACC_PA     CDIN[0]      In      -         11.213 r     -         
+WideMult_2                MACC_PA     P[0]         Out     0.000     11.213 r     -         
+P_2[0]                    Net         -            -       0.139     -            1         
+r_1_0_cry_34              ARI1        B            In      -         11.352 r     -         
+r_1_0_cry_34              ARI1        FCO          Out     0.387     11.739 f     -         
+r_1_0_cry_34              Net         -            -       0.000     -            1         
+r_1_0_cry_35              ARI1        FCI          In      -         11.739 f     -         
+r_1_0_cry_35              ARI1        FCO          Out     0.009     11.749 f     -         
+r_1_0_cry_35              Net         -            -       0.000     -            1         
+r_1_0_cry_36              ARI1        FCI          In      -         11.749 f     -         
+r_1_0_cry_36              ARI1        FCO          Out     0.009     11.758 f     -         
+r_1_0_cry_36              Net         -            -       0.000     -            1         
+r_1_0_cry_37              ARI1        FCI          In      -         11.758 f     -         
+r_1_0_cry_37              ARI1        FCO          Out     0.009     11.768 f     -         
+r_1_0_cry_37              Net         -            -       0.000     -            1         
+r_1_0_cry_38              ARI1        FCI          In      -         11.768 f     -         
+r_1_0_cry_38              ARI1        FCO          Out     0.009     11.777 f     -         
+r_1_0_cry_38              Net         -            -       0.000     -            1         
+r_1_0_cry_39              ARI1        FCI          In      -         11.777 f     -         
+r_1_0_cry_39              ARI1        FCO          Out     0.009     11.787 f     -         
+r_1_0_cry_39              Net         -            -       0.000     -            1         
+r_1_0_cry_40              ARI1        FCI          In      -         11.787 f     -         
+r_1_0_cry_40              ARI1        FCO          Out     0.009     11.796 f     -         
+r_1_0_cry_40              Net         -            -       0.000     -            1         
+r_1_0_cry_41              ARI1        FCI          In      -         11.796 f     -         
+r_1_0_cry_41              ARI1        FCO          Out     0.009     11.805 f     -         
+r_1_0_cry_41              Net         -            -       0.000     -            1         
+r_1_0_cry_42              ARI1        FCI          In      -         11.805 f     -         
+r_1_0_cry_42              ARI1        FCO          Out     0.009     11.815 f     -         
+r_1_0_cry_42              Net         -            -       0.000     -            1         
+r_1_0_cry_43              ARI1        FCI          In      -         11.815 f     -         
+r_1_0_cry_43              ARI1        FCO          Out     0.009     11.824 f     -         
+r_1_0_cry_43              Net         -            -       0.000     -            1         
+r_1_0_cry_44              ARI1        FCI          In      -         11.824 f     -         
+r_1_0_cry_44              ARI1        FCO          Out     0.009     11.834 f     -         
+r_1_0_cry_44              Net         -            -       0.000     -            1         
+r_1_0_s_45                ARI1        FCI          In      -         11.834 f     -         
+r_1_0_s_45                ARI1        S            Out     0.354     12.188 r     -         
+r_1[45]                   Net         -            -       0.139     -            1         
+r_0_0[22]                 SLE         D            In      -         12.327 r     -         
+============================================================================================
+Total path delay (propagation time + setup) of 12.327 is 8.423(68.3%) logic and 3.903(31.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      12.317
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.317
+
+    Number of logic level(s):                16
+    Starting point:                          WideMult_0_0 / CDOUT[1]
+    Ending point:                            r_0_0[22] / D
+    The start point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                        Pin          Pin               Arrival      No. of    
+Name                      Type        Name         Dir     Delay     Time         Fan Out(s)
+--------------------------------------------------------------------------------------------
+WideMult_0_0              MACC_PA     CDOUT[1]     Out     0.457     0.457 f      -         
+WideMult_1_0_cas[1]       Net         -            -       0.722     -            1         
+WideMult_1_0              MACC_PA     CDIN[1]      In      -         1.179 f      -         
+WideMult_1_0              MACC_PA     CDOUT[1]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas[1]       Net         -            -       0.722     -            1         
+WideMult_1_1              MACC_PA     CDIN[1]      In      -         4.095 r      -         
+WideMult_1_1              MACC_PA     P[1]         Out     0.000     4.095 f      -         
+t[18]                     Net         -            -       0.736     -            2         
+WideMult_1_3              MACC_PA     B[1]         In      -         4.831 f      -         
+WideMult_1_3              MACC_PA     CDOUT[1]     Out     2.752     7.583 r      -         
+WideMult_1_1_cas_1[1]     Net         -            -       0.722     -            1         
+WideMult_1_4              MACC_PA     CDIN[1]      In      -         8.306 r      -         
+WideMult_1_4              MACC_PA     CDOUT[1]     Out     2.185     10.491 r     -         
+WideMult_2_0_cas_0[1]     Net         -            -       0.722     -            1         
+WideMult_2                MACC_PA     CDIN[1]      In      -         11.213 r     -         
+WideMult_2                MACC_PA     P[1]         Out     0.000     11.213 r     -         
+P_2[1]                    Net         -            -       0.139     -            1         
+r_1_0_cry_35              ARI1        B            In      -         11.352 r     -         
+r_1_0_cry_35              ARI1        FCO          Out     0.387     11.739 f     -         
+r_1_0_cry_35              Net         -            -       0.000     -            1         
+r_1_0_cry_36              ARI1        FCI          In      -         11.739 f     -         
+r_1_0_cry_36              ARI1        FCO          Out     0.009     11.749 f     -         
+r_1_0_cry_36              Net         -            -       0.000     -            1         
+r_1_0_cry_37              ARI1        FCI          In      -         11.749 f     -         
+r_1_0_cry_37              ARI1        FCO          Out     0.009     11.758 f     -         
+r_1_0_cry_37              Net         -            -       0.000     -            1         
+r_1_0_cry_38              ARI1        FCI          In      -         11.758 f     -         
+r_1_0_cry_38              ARI1        FCO          Out     0.009     11.768 f     -         
+r_1_0_cry_38              Net         -            -       0.000     -            1         
+r_1_0_cry_39              ARI1        FCI          In      -         11.768 f     -         
+r_1_0_cry_39              ARI1        FCO          Out     0.009     11.777 f     -         
+r_1_0_cry_39              Net         -            -       0.000     -            1         
+r_1_0_cry_40              ARI1        FCI          In      -         11.777 f     -         
+r_1_0_cry_40              ARI1        FCO          Out     0.009     11.787 f     -         
+r_1_0_cry_40              Net         -            -       0.000     -            1         
+r_1_0_cry_41              ARI1        FCI          In      -         11.787 f     -         
+r_1_0_cry_41              ARI1        FCO          Out     0.009     11.796 f     -         
+r_1_0_cry_41              Net         -            -       0.000     -            1         
+r_1_0_cry_42              ARI1        FCI          In      -         11.796 f     -         
+r_1_0_cry_42              ARI1        FCO          Out     0.009     11.805 f     -         
+r_1_0_cry_42              Net         -            -       0.000     -            1         
+r_1_0_cry_43              ARI1        FCI          In      -         11.805 f     -         
+r_1_0_cry_43              ARI1        FCO          Out     0.009     11.815 f     -         
+r_1_0_cry_43              Net         -            -       0.000     -            1         
+r_1_0_cry_44              ARI1        FCI          In      -         11.815 f     -         
+r_1_0_cry_44              ARI1        FCO          Out     0.009     11.824 f     -         
+r_1_0_cry_44              Net         -            -       0.000     -            1         
+r_1_0_s_45                ARI1        FCI          In      -         11.824 f     -         
+r_1_0_s_45                ARI1        S            Out     0.354     12.178 r     -         
+r_1[45]                   Net         -            -       0.139     -            1         
+r_0_0[22]                 SLE         D            In      -         12.317 r     -         
+============================================================================================
+Total path delay (propagation time + setup) of 12.317 is 8.414(68.3%) logic and 3.903(31.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      12.317
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.317
+
+    Number of logic level(s):                16
+    Starting point:                          WideMult_0_0 / CDOUT[0]
+    Ending point:                            r_0_0[22] / D
+    The start point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                        Pin          Pin               Arrival      No. of    
+Name                      Type        Name         Dir     Delay     Time         Fan Out(s)
+--------------------------------------------------------------------------------------------
+WideMult_0_0              MACC_PA     CDOUT[0]     Out     0.457     0.457 f      -         
+WideMult_1_0_cas[0]       Net         -            -       0.722     -            1         
+WideMult_1_0              MACC_PA     CDIN[0]      In      -         1.179 f      -         
+WideMult_1_0              MACC_PA     CDOUT[1]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas[1]       Net         -            -       0.722     -            1         
+WideMult_1_1              MACC_PA     CDIN[1]      In      -         4.095 r      -         
+WideMult_1_1              MACC_PA     P[1]         Out     0.000     4.095 f      -         
+t[18]                     Net         -            -       0.736     -            2         
+WideMult_1_3              MACC_PA     B[1]         In      -         4.831 f      -         
+WideMult_1_3              MACC_PA     CDOUT[1]     Out     2.752     7.583 r      -         
+WideMult_1_1_cas_1[1]     Net         -            -       0.722     -            1         
+WideMult_1_4              MACC_PA     CDIN[1]      In      -         8.306 r      -         
+WideMult_1_4              MACC_PA     CDOUT[1]     Out     2.185     10.491 r     -         
+WideMult_2_0_cas_0[1]     Net         -            -       0.722     -            1         
+WideMult_2                MACC_PA     CDIN[1]      In      -         11.213 r     -         
+WideMult_2                MACC_PA     P[1]         Out     0.000     11.213 r     -         
+P_2[1]                    Net         -            -       0.139     -            1         
+r_1_0_cry_35              ARI1        B            In      -         11.352 r     -         
+r_1_0_cry_35              ARI1        FCO          Out     0.387     11.739 f     -         
+r_1_0_cry_35              Net         -            -       0.000     -            1         
+r_1_0_cry_36              ARI1        FCI          In      -         11.739 f     -         
+r_1_0_cry_36              ARI1        FCO          Out     0.009     11.749 f     -         
+r_1_0_cry_36              Net         -            -       0.000     -            1         
+r_1_0_cry_37              ARI1        FCI          In      -         11.749 f     -         
+r_1_0_cry_37              ARI1        FCO          Out     0.009     11.758 f     -         
+r_1_0_cry_37              Net         -            -       0.000     -            1         
+r_1_0_cry_38              ARI1        FCI          In      -         11.758 f     -         
+r_1_0_cry_38              ARI1        FCO          Out     0.009     11.768 f     -         
+r_1_0_cry_38              Net         -            -       0.000     -            1         
+r_1_0_cry_39              ARI1        FCI          In      -         11.768 f     -         
+r_1_0_cry_39              ARI1        FCO          Out     0.009     11.777 f     -         
+r_1_0_cry_39              Net         -            -       0.000     -            1         
+r_1_0_cry_40              ARI1        FCI          In      -         11.777 f     -         
+r_1_0_cry_40              ARI1        FCO          Out     0.009     11.787 f     -         
+r_1_0_cry_40              Net         -            -       0.000     -            1         
+r_1_0_cry_41              ARI1        FCI          In      -         11.787 f     -         
+r_1_0_cry_41              ARI1        FCO          Out     0.009     11.796 f     -         
+r_1_0_cry_41              Net         -            -       0.000     -            1         
+r_1_0_cry_42              ARI1        FCI          In      -         11.796 f     -         
+r_1_0_cry_42              ARI1        FCO          Out     0.009     11.805 f     -         
+r_1_0_cry_42              Net         -            -       0.000     -            1         
+r_1_0_cry_43              ARI1        FCI          In      -         11.805 f     -         
+r_1_0_cry_43              ARI1        FCO          Out     0.009     11.815 f     -         
+r_1_0_cry_43              Net         -            -       0.000     -            1         
+r_1_0_cry_44              ARI1        FCI          In      -         11.815 f     -         
+r_1_0_cry_44              ARI1        FCO          Out     0.009     11.824 f     -         
+r_1_0_cry_44              Net         -            -       0.000     -            1         
+r_1_0_s_45                ARI1        FCI          In      -         11.824 f     -         
+r_1_0_s_45                ARI1        S            Out     0.354     12.178 r     -         
+r_1[45]                   Net         -            -       0.139     -            1         
+r_0_0[22]                 SLE         D            In      -         12.317 r     -         
+============================================================================================
+Total path delay (propagation time + setup) of 12.317 is 8.414(68.3%) logic and 3.903(31.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      12.317
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.317
+
+    Number of logic level(s):                16
+    Starting point:                          WideMult_0_0 / CDOUT[0]
+    Ending point:                            r_0_0[22] / D
+    The start point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                        Pin          Pin               Arrival      No. of    
+Name                      Type        Name         Dir     Delay     Time         Fan Out(s)
+--------------------------------------------------------------------------------------------
+WideMult_0_0              MACC_PA     CDOUT[0]     Out     0.457     0.457 f      -         
+WideMult_1_0_cas[0]       Net         -            -       0.722     -            1         
+WideMult_1_0              MACC_PA     CDIN[0]      In      -         1.179 f      -         
+WideMult_1_0              MACC_PA     CDOUT[0]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas[0]       Net         -            -       0.722     -            1         
+WideMult_1_1              MACC_PA     CDIN[0]      In      -         4.095 r      -         
+WideMult_1_1              MACC_PA     P[1]         Out     0.000     4.095 f      -         
+t[18]                     Net         -            -       0.736     -            2         
+WideMult_1_3              MACC_PA     B[1]         In      -         4.831 f      -         
+WideMult_1_3              MACC_PA     CDOUT[1]     Out     2.752     7.583 r      -         
+WideMult_1_1_cas_1[1]     Net         -            -       0.722     -            1         
+WideMult_1_4              MACC_PA     CDIN[1]      In      -         8.306 r      -         
+WideMult_1_4              MACC_PA     CDOUT[1]     Out     2.185     10.491 r     -         
+WideMult_2_0_cas_0[1]     Net         -            -       0.722     -            1         
+WideMult_2                MACC_PA     CDIN[1]      In      -         11.213 r     -         
+WideMult_2                MACC_PA     P[1]         Out     0.000     11.213 r     -         
+P_2[1]                    Net         -            -       0.139     -            1         
+r_1_0_cry_35              ARI1        B            In      -         11.352 r     -         
+r_1_0_cry_35              ARI1        FCO          Out     0.387     11.739 f     -         
+r_1_0_cry_35              Net         -            -       0.000     -            1         
+r_1_0_cry_36              ARI1        FCI          In      -         11.739 f     -         
+r_1_0_cry_36              ARI1        FCO          Out     0.009     11.749 f     -         
+r_1_0_cry_36              Net         -            -       0.000     -            1         
+r_1_0_cry_37              ARI1        FCI          In      -         11.749 f     -         
+r_1_0_cry_37              ARI1        FCO          Out     0.009     11.758 f     -         
+r_1_0_cry_37              Net         -            -       0.000     -            1         
+r_1_0_cry_38              ARI1        FCI          In      -         11.758 f     -         
+r_1_0_cry_38              ARI1        FCO          Out     0.009     11.768 f     -         
+r_1_0_cry_38              Net         -            -       0.000     -            1         
+r_1_0_cry_39              ARI1        FCI          In      -         11.768 f     -         
+r_1_0_cry_39              ARI1        FCO          Out     0.009     11.777 f     -         
+r_1_0_cry_39              Net         -            -       0.000     -            1         
+r_1_0_cry_40              ARI1        FCI          In      -         11.777 f     -         
+r_1_0_cry_40              ARI1        FCO          Out     0.009     11.787 f     -         
+r_1_0_cry_40              Net         -            -       0.000     -            1         
+r_1_0_cry_41              ARI1        FCI          In      -         11.787 f     -         
+r_1_0_cry_41              ARI1        FCO          Out     0.009     11.796 f     -         
+r_1_0_cry_41              Net         -            -       0.000     -            1         
+r_1_0_cry_42              ARI1        FCI          In      -         11.796 f     -         
+r_1_0_cry_42              ARI1        FCO          Out     0.009     11.805 f     -         
+r_1_0_cry_42              Net         -            -       0.000     -            1         
+r_1_0_cry_43              ARI1        FCI          In      -         11.805 f     -         
+r_1_0_cry_43              ARI1        FCO          Out     0.009     11.815 f     -         
+r_1_0_cry_43              Net         -            -       0.000     -            1         
+r_1_0_cry_44              ARI1        FCI          In      -         11.815 f     -         
+r_1_0_cry_44              ARI1        FCO          Out     0.009     11.824 f     -         
+r_1_0_cry_44              Net         -            -       0.000     -            1         
+r_1_0_s_45                ARI1        FCI          In      -         11.824 f     -         
+r_1_0_s_45                ARI1        S            Out     0.354     12.178 r     -         
+r_1[45]                   Net         -            -       0.139     -            1         
+r_0_0[22]                 SLE         D            In      -         12.317 r     -         
+============================================================================================
+Total path delay (propagation time + setup) of 12.317 is 8.414(68.3%) logic and 3.903(31.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      12.317
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.317
+
+    Number of logic level(s):                16
+    Starting point:                          WideMult_0_0 / CDOUT[0]
+    Ending point:                            r_0_0[22] / D
+    The start point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            mont|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                        Pin          Pin               Arrival      No. of    
+Name                      Type        Name         Dir     Delay     Time         Fan Out(s)
+--------------------------------------------------------------------------------------------
+WideMult_0_0              MACC_PA     CDOUT[0]     Out     0.457     0.457 f      -         
+WideMult_1_0_cas[0]       Net         -            -       0.722     -            1         
+WideMult_1_0              MACC_PA     CDIN[0]      In      -         1.179 f      -         
+WideMult_1_0              MACC_PA     CDOUT[0]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas[0]       Net         -            -       0.722     -            1         
+WideMult_1_1              MACC_PA     CDIN[0]      In      -         4.095 r      -         
+WideMult_1_1              MACC_PA     P[0]         Out     0.000     4.095 f      -         
+t[17]                     Net         -            -       0.736     -            2         
+WideMult_1_3              MACC_PA     B[0]         In      -         4.831 f      -         
+WideMult_1_3              MACC_PA     CDOUT[1]     Out     2.752     7.583 r      -         
+WideMult_1_1_cas_1[1]     Net         -            -       0.722     -            1         
+WideMult_1_4              MACC_PA     CDIN[1]      In      -         8.306 r      -         
+WideMult_1_4              MACC_PA     CDOUT[1]     Out     2.185     10.491 r     -         
+WideMult_2_0_cas_0[1]     Net         -            -       0.722     -            1         
+WideMult_2                MACC_PA     CDIN[1]      In      -         11.213 r     -         
+WideMult_2                MACC_PA     P[1]         Out     0.000     11.213 r     -         
+P_2[1]                    Net         -            -       0.139     -            1         
+r_1_0_cry_35              ARI1        B            In      -         11.352 r     -         
+r_1_0_cry_35              ARI1        FCO          Out     0.387     11.739 f     -         
+r_1_0_cry_35              Net         -            -       0.000     -            1         
+r_1_0_cry_36              ARI1        FCI          In      -         11.739 f     -         
+r_1_0_cry_36              ARI1        FCO          Out     0.009     11.749 f     -         
+r_1_0_cry_36              Net         -            -       0.000     -            1         
+r_1_0_cry_37              ARI1        FCI          In      -         11.749 f     -         
+r_1_0_cry_37              ARI1        FCO          Out     0.009     11.758 f     -         
+r_1_0_cry_37              Net         -            -       0.000     -            1         
+r_1_0_cry_38              ARI1        FCI          In      -         11.758 f     -         
+r_1_0_cry_38              ARI1        FCO          Out     0.009     11.768 f     -         
+r_1_0_cry_38              Net         -            -       0.000     -            1         
+r_1_0_cry_39              ARI1        FCI          In      -         11.768 f     -         
+r_1_0_cry_39              ARI1        FCO          Out     0.009     11.777 f     -         
+r_1_0_cry_39              Net         -            -       0.000     -            1         
+r_1_0_cry_40              ARI1        FCI          In      -         11.777 f     -         
+r_1_0_cry_40              ARI1        FCO          Out     0.009     11.787 f     -         
+r_1_0_cry_40              Net         -            -       0.000     -            1         
+r_1_0_cry_41              ARI1        FCI          In      -         11.787 f     -         
+r_1_0_cry_41              ARI1        FCO          Out     0.009     11.796 f     -         
+r_1_0_cry_41              Net         -            -       0.000     -            1         
+r_1_0_cry_42              ARI1        FCI          In      -         11.796 f     -         
+r_1_0_cry_42              ARI1        FCO          Out     0.009     11.805 f     -         
+r_1_0_cry_42              Net         -            -       0.000     -            1         
+r_1_0_cry_43              ARI1        FCI          In      -         11.805 f     -         
+r_1_0_cry_43              ARI1        FCO          Out     0.009     11.815 f     -         
+r_1_0_cry_43              Net         -            -       0.000     -            1         
+r_1_0_cry_44              ARI1        FCI          In      -         11.815 f     -         
+r_1_0_cry_44              ARI1        FCO          Out     0.009     11.824 f     -         
+r_1_0_cry_44              Net         -            -       0.000     -            1         
+r_1_0_s_45                ARI1        FCI          In      -         11.824 f     -         
+r_1_0_s_45                ARI1        S            Out     0.354     12.178 r     -         
+r_1[45]                   Net         -            -       0.139     -            1         
+r_0_0[22]                 SLE         D            In      -         12.317 r     -         
+============================================================================================
+Total path delay (propagation time + setup) of 12.317 is 8.414(68.3%) logic and 3.903(31.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 193MB peak: 196MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 193MB peak: 196MB)
+
+---------------------------------------
+Resource Usage Report for mont 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG3           2 uses
+CFG4           5 uses
+
+Carry cells:
+ARI1            69 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            23 uses
+
+DSP Blocks:   11 of 784 (1%)
+ MACC_PA:         3 Mults
+ MACC_PA:         8 MultAdds
+
+I/O ports: 70
+I/O primitives: 70
+INBUF          47 uses
+OUTBUF         23 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    76
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 396; LUTs = 396;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  23 + 0 + 0 + 396 = 419;
+Total number of LUTs after P&R:  76 + 0 + 0 + 396 = 472;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 67MB peak: 196MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:08s cputime
+# Fri May 12 15:02:59 2023
+
+###########################################################]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\poly_ntt_Z78\poly_ntt_Z78.srr</data>
+<title></title>
+</report_link>
+<job_status>
+<data>Completed</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>138</data>
+<report_link name="more">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\poly_ntt_Z78\report\poly_ntt_Z78_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>40</data>
+<report_link name="more">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\poly_ntt_Z78\report\poly_ntt_Z78_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>0</data>
+<report_link name="more">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\poly_ntt_Z78\report\poly_ntt_Z78_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:01m:09s</data>
+</info>
+<info name="Real Time">
+<data>0h:01m:10s</data>
+</info>
+<info name="Peak Memory">
+<data>308MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1679553849</data>
+</info>
+</job_info>
+</job_run_status>

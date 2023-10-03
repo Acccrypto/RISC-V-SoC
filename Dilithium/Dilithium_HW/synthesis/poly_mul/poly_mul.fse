@@ -1,0 +1,24 @@
+
+fsm_encoding {36602460215} onehot
+
+fsm_state_encoding {36602460215} IDLE {0000000000}
+
+fsm_state_encoding {36602460215} WRITE0 {0000000011}
+
+fsm_state_encoding {36602460215} WRITE1 {0000000101}
+
+fsm_state_encoding {36602460215} WRITE2 {0000001001}
+
+fsm_state_encoding {36602460215} NTT0 {0000010001}
+
+fsm_state_encoding {36602460215} NTT1 {0000100001}
+
+fsm_state_encoding {36602460215} PWM {0001000001}
+
+fsm_state_encoding {36602460215} INTT0 {0010000001}
+
+fsm_state_encoding {36602460215} MACC {0100000001}
+
+fsm_state_encoding {36602460215} READ {1000000001}
+
+fsm_registers {36602460215} {CS[9]}  {CS[8]}  {CS[7]}  {CS[6]}  {CS[5]}  {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 

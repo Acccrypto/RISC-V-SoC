@@ -1,0 +1,9 @@
+n work poly_mul verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 28.5156;
+av .compile_point_starttime_stamp "Sat Aug 12 14:41:35 2023";
+av .compile_point_endtime_stamp "Sat Aug 12 14:42:03 2023";
+av .compile_point_realtime_used 28.258;

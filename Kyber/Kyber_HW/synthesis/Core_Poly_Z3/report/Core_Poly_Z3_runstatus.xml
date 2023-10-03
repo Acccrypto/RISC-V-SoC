@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
+<title></title>
+</report_link>
+<job_status>
+<data>Completed</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>86</data>
+<report_link name="more">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>40</data>
+<report_link name="more">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>0</data>
+<report_link name="more">
+<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:00m:20s</data>
+</info>
+<info name="Real Time">
+<data>0h:00m:20s</data>
+</info>
+<info name="Peak Memory">
+<data>268MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1691484096</data>
+</info>
+</job_info>
+</job_run_status>

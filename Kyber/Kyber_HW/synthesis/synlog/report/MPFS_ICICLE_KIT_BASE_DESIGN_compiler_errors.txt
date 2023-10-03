@@ -1,0 +1,2 @@
+@E: CG342 :"F:\MPFS_Projects\MPFS_ICICLE\hdl\Core_Poly.v":637:16:637:27|Expecting target variable, found poly_ntt_irq -- possible misspelling
+

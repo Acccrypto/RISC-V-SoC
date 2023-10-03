@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component> 
+<vendor></vendor>
+<library></library>
+<name>PCIE_REF_CLK_PCIE_REF_CLK_0_PF_XCVR_REF_CLK</name>
+<version></version>
+<hwModel>
+<views>
+<view>
+<name>HDL</name>
+<fileSetRef>HDL_FILESET</fileSetRef>
+</view>
+</views>
+</hwModel>
+<fileSets>
+<fileSet fileSetId="HDL_FILESET">
+<file>
+<name>PCIE_REF_CLK_PCIE_REF_CLK_0_PF_XCVR_REF_CLK.v</name>
+<userFileType>verilogSource</userFileType>
+</file>
+</fileSet>
+</fileSets>
+</component>

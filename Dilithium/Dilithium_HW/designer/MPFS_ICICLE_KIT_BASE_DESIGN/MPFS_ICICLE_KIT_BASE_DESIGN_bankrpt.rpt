@@ -1,0 +1,60 @@
+********************************************************************
+I/O Bank Report - Date: Wed Aug 23 16:51:55 2023
+Product: Designer
+Release: v2022.2
+Version: 2022.2.0.10
+Design Name: MPFS_ICICLE_KIT_BASE_DESIGN
+Family: PolarFireSoC
+Die: MPFS250T_ES
+Package: FCVG484
+********************************************************************
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 12            | 0            | 0
+    Output I/O                            | 25            | 0            | 0
+    Bidirectional I/O                     | 21            | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os              
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS18                        | 1.80v | N/A   | 5     | 4      | 0            
+    LVCMOS33                        | 3.30v | N/A   | 7     | 21     | 21           
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os        |  Type   
+          |-------|-------|------|-------|-------|--------|------|-------|----------|---------
+          | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
+    Bank0 | 1.80v | N/A   | 9    | 60    | 0     | 30     | N/A  | N/A   | N/A      | HSIO    
+    Bank1 | 3.30v | N/A   | 42   | 72    | 0     | 36     | N/A  | N/A   | N/A      | GPIO    
+    Bank2 | 3.30v | N/A   | 0    | 24    | 0     | 0      | N/A  | N/A   | N/A      | MSS_IO  
+    Bank3 | 3.30v | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
+    Bank4 | 1.80v | N/A   | 0    | 14    | 0     | 0      | N/A  | N/A   | N/A      | MSS_IO  
+    Bank5 | 3.30v | N/A   | 0    | 10    | 0     | 0      | N/A  | N/A   | N/A      | MSS_SGMII_IO
+    Bank6 | 1.10v | 0.55v | 0    | 88    | 0     | 0      | 0    | 88    | 0        | MSS_DDR_IO
+    Bank7 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | GPIO    
+    Bank8 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | HSIO    
+    Bank9 | 3.30v | N/A   | 7    | 12    | 0     | 6      | N/A  | N/A   | N/A      | GPIO    
+
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os     
+    -------|-------|------|-------
+     Vddi  | Vref  | Used | Total 
+    -------|-------|------|-------
+     1.10v | N/A   | 0    | 88    
+     1.80v | N/A   | 9    | 74    
+     3.30v | N/A   | 49   | 118   
+     1.10v | 0.55v | 0    | 88    
+

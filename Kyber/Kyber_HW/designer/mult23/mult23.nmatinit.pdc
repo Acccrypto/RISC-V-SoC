@@ -1,0 +1,115 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: mult23 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS250T_ES , Package: FCVG484 , Speed grade: STD 
+
+# Date generated: Wed May 10 19:20:00 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io -port_name dina\[0\] -DIRECTION INPUT -pin_name E13 -fixed false
+set_io -port_name dina\[1\] -DIRECTION INPUT -pin_name D14 -fixed false
+set_io -port_name dina\[2\] -DIRECTION INPUT -pin_name A6 -fixed false
+set_io -port_name dina\[3\] -DIRECTION INPUT -pin_name D7 -fixed false
+set_io -port_name dina\[4\] -DIRECTION INPUT -pin_name A13 -fixed false
+set_io -port_name dina\[5\] -DIRECTION INPUT -pin_name A8 -fixed false
+set_io -port_name dina\[6\] -DIRECTION INPUT -pin_name B12 -fixed false
+set_io -port_name dina\[7\] -DIRECTION INPUT -pin_name C12 -fixed false
+set_io -port_name dina\[8\] -DIRECTION INPUT -pin_name F13 -fixed false
+set_io -port_name dina\[9\] -DIRECTION INPUT -pin_name B14 -fixed false
+set_io -port_name dina\[10\] -DIRECTION INPUT -pin_name C11 -fixed false
+set_io -port_name dina\[11\] -DIRECTION INPUT -pin_name F10 -fixed false
+set_io -port_name dina\[12\] -DIRECTION INPUT -pin_name C10 -fixed false
+set_io -port_name dina\[13\] -DIRECTION INPUT -pin_name D12 -fixed false
+set_io -port_name dina\[14\] -DIRECTION INPUT -pin_name A10 -fixed false
+set_io -port_name dina\[15\] -DIRECTION INPUT -pin_name A15 -fixed false
+set_io -port_name dina\[16\] -DIRECTION INPUT -pin_name B9 -fixed false
+set_io -port_name dina\[17\] -DIRECTION INPUT -pin_name U12 -fixed false
+set_io -port_name dina\[18\] -DIRECTION INPUT -pin_name D21 -fixed false
+set_io -port_name dina\[19\] -DIRECTION INPUT -pin_name H17 -fixed false
+set_io -port_name dina\[20\] -DIRECTION INPUT -pin_name E14 -fixed false
+set_io -port_name dina\[21\] -DIRECTION INPUT -pin_name F17 -fixed false
+set_io -port_name dina\[22\] -DIRECTION INPUT -pin_name B22 -fixed false
+set_io -port_name dinb\[0\] -DIRECTION INPUT -pin_name A12 -fixed false
+set_io -port_name dinb\[1\] -DIRECTION INPUT -pin_name G12 -fixed false
+set_io -port_name dinb\[2\] -DIRECTION INPUT -pin_name D11 -fixed false
+set_io -port_name dinb\[3\] -DIRECTION INPUT -pin_name B7 -fixed false
+set_io -port_name dinb\[4\] -DIRECTION INPUT -pin_name B13 -fixed false
+set_io -port_name dinb\[5\] -DIRECTION INPUT -pin_name G13 -fixed false
+set_io -port_name dinb\[6\] -DIRECTION INPUT -pin_name D8 -fixed false
+set_io -port_name dinb\[7\] -DIRECTION INPUT -pin_name C4 -fixed false
+set_io -port_name dinb\[8\] -DIRECTION INPUT -pin_name B5 -fixed false
+set_io -port_name dinb\[9\] -DIRECTION INPUT -pin_name D6 -fixed false
+set_io -port_name dinb\[10\] -DIRECTION INPUT -pin_name R12 -fixed false
+set_io -port_name dinb\[11\] -DIRECTION INPUT -pin_name B4 -fixed false
+set_io -port_name dinb\[12\] -DIRECTION INPUT -pin_name F16 -fixed false
+set_io -port_name dinb\[13\] -DIRECTION INPUT -pin_name C22 -fixed false
+set_io -port_name dinb\[14\] -DIRECTION INPUT -pin_name A21 -fixed false
+set_io -port_name dinb\[15\] -DIRECTION INPUT -pin_name B18 -fixed false
+set_io -port_name dinb\[16\] -DIRECTION INPUT -pin_name V14 -fixed false
+set_io -port_name dinb\[17\] -DIRECTION INPUT -pin_name T12 -fixed false
+set_io -port_name dinb\[18\] -DIRECTION INPUT -pin_name C16 -fixed false
+set_io -port_name dinb\[19\] -DIRECTION INPUT -pin_name U13 -fixed false
+set_io -port_name dinb\[20\] -DIRECTION INPUT -pin_name E15 -fixed false
+set_io -port_name dinb\[21\] -DIRECTION INPUT -pin_name U14 -fixed false
+set_io -port_name dinb\[22\] -DIRECTION INPUT -pin_name H15 -fixed false
+set_io -port_name dout\[0\] -DIRECTION OUTPUT -pin_name D9 -fixed false
+set_io -port_name dout\[1\] -DIRECTION OUTPUT -pin_name B10 -fixed false
+set_io -port_name dout\[2\] -DIRECTION OUTPUT -pin_name C6 -fixed false
+set_io -port_name dout\[3\] -DIRECTION OUTPUT -pin_name B8 -fixed false
+set_io -port_name dout\[4\] -DIRECTION OUTPUT -pin_name C5 -fixed false
+set_io -port_name dout\[5\] -DIRECTION OUTPUT -pin_name C7 -fixed false
+set_io -port_name dout\[6\] -DIRECTION OUTPUT -pin_name E11 -fixed false
+set_io -port_name dout\[7\] -DIRECTION OUTPUT -pin_name F12 -fixed false
+set_io -port_name dout\[8\] -DIRECTION OUTPUT -pin_name D13 -fixed false
+set_io -port_name dout\[9\] -DIRECTION OUTPUT -pin_name F11 -fixed false
+set_io -port_name dout\[10\] -DIRECTION OUTPUT -pin_name H13 -fixed false
+set_io -port_name dout\[11\] -DIRECTION OUTPUT -pin_name H12 -fixed false
+set_io -port_name dout\[12\] -DIRECTION OUTPUT -pin_name E10 -fixed false
+set_io -port_name dout\[13\] -DIRECTION OUTPUT -pin_name A7 -fixed false
+set_io -port_name dout\[14\] -DIRECTION OUTPUT -pin_name A11 -fixed false
+set_io -port_name dout\[15\] -DIRECTION OUTPUT -pin_name C9 -fixed false
+set_io -port_name dout\[16\] -DIRECTION OUTPUT -pin_name A5 -fixed false
+set_io -port_name dout\[17\] -DIRECTION OUTPUT -pin_name F15 -fixed false
+set_io -port_name dout\[18\] -DIRECTION OUTPUT -pin_name B19 -fixed false
+set_io -port_name dout\[19\] -DIRECTION OUTPUT -pin_name B17 -fixed false
+set_io -port_name dout\[20\] -DIRECTION OUTPUT -pin_name B20 -fixed false
+set_io -port_name dout\[21\] -DIRECTION OUTPUT -pin_name V12 -fixed false
+set_io -port_name dout\[22\] -DIRECTION OUTPUT -pin_name E16 -fixed false
+set_io -port_name dout\[23\] -DIRECTION OUTPUT -pin_name G14 -fixed false
+set_io -port_name dout\[24\] -DIRECTION OUTPUT -pin_name D20 -fixed false
+set_io -port_name dout\[25\] -DIRECTION OUTPUT -pin_name C19 -fixed false
+set_io -port_name dout\[26\] -DIRECTION OUTPUT -pin_name B21 -fixed false
+set_io -port_name dout\[27\] -DIRECTION OUTPUT -pin_name B15 -fixed false
+set_io -port_name dout\[28\] -DIRECTION OUTPUT -pin_name W12 -fixed false
+set_io -port_name dout\[29\] -DIRECTION OUTPUT -pin_name D19 -fixed false
+set_io -port_name dout\[30\] -DIRECTION OUTPUT -pin_name D22 -fixed false
+set_io -port_name dout\[31\] -DIRECTION OUTPUT -pin_name C20 -fixed false
+set_io -port_name dout\[32\] -DIRECTION OUTPUT -pin_name G15 -fixed false
+set_io -port_name dout\[33\] -DIRECTION OUTPUT -pin_name A16 -fixed false
+set_io -port_name dout\[34\] -DIRECTION OUTPUT -pin_name A17 -fixed false
+set_io -port_name dout\[35\] -DIRECTION OUTPUT -pin_name A20 -fixed false
+set_io -port_name dout\[36\] -DIRECTION OUTPUT -pin_name C17 -fixed false
+set_io -port_name dout\[37\] -DIRECTION OUTPUT -pin_name A18 -fixed false
+set_io -port_name dout\[38\] -DIRECTION OUTPUT -pin_name E19 -fixed false
+set_io -port_name dout\[39\] -DIRECTION OUTPUT -pin_name U15 -fixed false
+set_io -port_name dout\[40\] -DIRECTION OUTPUT -pin_name D18 -fixed false
+set_io -port_name dout\[41\] -DIRECTION OUTPUT -pin_name E18 -fixed false
+set_io -port_name dout\[42\] -DIRECTION OUTPUT -pin_name T13 -fixed false
+set_io -port_name dout\[43\] -DIRECTION OUTPUT -pin_name D17 -fixed false
+set_io -port_name dout\[44\] -DIRECTION OUTPUT -pin_name G17 -fixed false
+set_io -port_name dout\[45\] -DIRECTION OUTPUT -pin_name D16 -fixed false
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name WideMult_0_0/MACC_PHYS_INST -fixed false -x 948 -y 23

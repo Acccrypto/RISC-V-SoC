@@ -1,0 +1,11 @@
+@P:  Worst Slack : 5.622
+@P:  kyber_mont|clk - Estimated Frequency : 228.4 MHz
+@P:  kyber_mont|clk - Requested Frequency : 100.0 MHz
+@P:  kyber_mont|clk - Estimated Period : 4.378
+@P:  kyber_mont|clk - Requested Period : 10.000
+@P:  kyber_mont|clk - Slack : 5.622
+@P: kyber_mont Part : mpfs250tfcg1152std
+@P: kyber_mont Register bits  : 41 
+@P: kyber_mont DSP Blocks  : 1
+@P: kyber_mont I/O primitives : 37
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,630 @@
+# Mon May 15 12:57:31 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@N: BN362 :|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.barrett(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":44:27:44:47|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.barrett(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":50:24:50:30|Removing sequential instance NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName,NoName (in view: work.barrett(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":50:24:50:30|Multiplier un2_r[22:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@N: FF150 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":48:19:48:25|Multiplier t1_2[68:0] implemented with multiple MACC_PA blocks using cascade/shift feature.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[35] because it is equivalent to instance z[34]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[34] because it is equivalent to instance z[33]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[33] because it is equivalent to instance z[32]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[32] because it is equivalent to instance z[31]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[31] because it is equivalent to instance z[30]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[30] because it is equivalent to instance z[29]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[29] because it is equivalent to instance z[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[28] because it is equivalent to instance z[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[27] because it is equivalent to instance z[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[26] because it is equivalent to instance z[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[25] because it is equivalent to instance z[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[24] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[45] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[44] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[43] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[42] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[41] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[40] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[39] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[38] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[37] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing instance z[36] because it is equivalent to instance z[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\barrett.v":46:4:46:9|Removing sequential instance z[23] (in view: work.barrett(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 184MB peak: 184MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 185MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 185MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 185MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 185MB peak: 185MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 186MB peak: 186MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     3.87ns		 205 /        92
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 190MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 190MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 98 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   98         WideMult_0     
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 154MB peak: 190MB)
+
+Writing Analyst data base F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\barrett_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 186MB peak: 190MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 187MB peak: 190MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 187MB peak: 190MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:07s; Memory used current: 186MB peak: 190MB)
+
+@W: MT420 |Found inferred clock barrett|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon May 15 12:57:38 2023
+#
+
+
+Top view:               barrett
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\MPFS_Projects\MPFS_ICICLE\designer\barrett\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -10.465
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group     
+--------------------------------------------------------------------------------------------------------------
+barrett|clk        100.0 MHz     48.9 MHz      10.000        20.465        -10.465     inferred     (multiple)
+==============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------
+barrett|clk  barrett|clk  |  10.000      -10.465  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: barrett|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                                           Arrival            
+Instance       Reference       Type        Pin          Net                       Time        Slack  
+               Clock                                                                                 
+-----------------------------------------------------------------------------------------------------
+WideMult_0     barrett|clk     MACC_PA     CDOUT[0]     WideMult_1_0_cas_0[0]     0.457       -10.465
+WideMult_1     barrett|clk     MACC_PA     CDOUT[0]     WideMult_1_1_cas_0[0]     3.373       -8.691 
+WideMult_0     barrett|clk     MACC_PA     CDOUT[1]     WideMult_1_0_cas_0[1]     0.457       -8.106 
+WideMult_0     barrett|clk     MACC_PA     CDOUT[2]     WideMult_1_0_cas_0[2]     0.457       -8.106 
+WideMult_0     barrett|clk     MACC_PA     CDOUT[3]     WideMult_1_0_cas_0[3]     0.457       -8.106 
+WideMult_0     barrett|clk     MACC_PA     CDOUT[4]     WideMult_1_0_cas_0[4]     0.457       -8.106 
+WideMult_0     barrett|clk     MACC_PA     CDOUT[5]     WideMult_1_0_cas_0[5]     0.457       -8.106 
+WideMult_0     barrett|clk     MACC_PA     CDOUT[6]     WideMult_1_0_cas_0[6]     0.457       -8.106 
+WideMult_0     barrett|clk     MACC_PA     CDOUT[7]     WideMult_1_0_cas_0[7]     0.457       -8.106 
+WideMult_0     barrett|clk     MACC_PA     CDOUT[8]     WideMult_1_0_cas_0[8]     0.457       -8.106 
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                     Required            
+Instance     Reference       Type     Pin     Net         Time         Slack  
+             Clock                                                            
+------------------------------------------------------------------------------
+r[22]        barrett|clk     SLE      D       r_1[22]     10.000       -10.465
+r[21]        barrett|clk     SLE      D       r_1[21]     10.000       -8.096 
+r[20]        barrett|clk     SLE      D       r_1[20]     10.000       -8.087 
+r[19]        barrett|clk     SLE      D       r_1[19]     10.000       -8.077 
+r[18]        barrett|clk     SLE      D       r_1[18]     10.000       -8.068 
+r[17]        barrett|clk     SLE      D       r_1[17]     10.000       -7.555 
+r[16]        barrett|clk     SLE      D       r_1[16]     10.000       -7.265 
+r[15]        barrett|clk     SLE      D       r_1[15]     10.000       -7.255 
+r[14]        barrett|clk     SLE      D       r_1[14]     10.000       -7.246 
+r[13]        barrett|clk     SLE      D       r_1[13]     10.000       -7.237 
+==============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      20.465
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -10.465
+
+    Number of logic level(s):                9
+    Starting point:                          WideMult_0 / CDOUT[0]
+    Ending point:                            r[22] / D
+    The start point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                        Pin          Pin               Arrival      No. of    
+Name                      Type        Name         Dir     Delay     Time         Fan Out(s)
+--------------------------------------------------------------------------------------------
+WideMult_0                MACC_PA     CDOUT[0]     Out     0.457     0.457 f      -         
+WideMult_1_0_cas_0[0]     Net         -            -       0.722     -            1         
+WideMult_1                MACC_PA     CDIN[0]      In      -         1.179 f      -         
+WideMult_1                MACC_PA     CDOUT[0]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas_0[0]     Net         -            -       0.722     -            1         
+WideMult_1_2              MACC_PA     CDIN[0]      In      -         4.095 r      -         
+WideMult_1_2              MACC_PA     CDOUT[0]     Out     2.184     6.279 f      -         
+WideMult_2_0_cas[0]       Net         -            -       0.722     -            1         
+WideMult_2_0              MACC_PA     CDIN[0]      In      -         7.001 f      -         
+WideMult_2_0              MACC_PA     CDOUT[0]     Out     2.188     9.189 f      -         
+WideMult_2_1_cas[0]       Net         -            -       0.722     -            1         
+WideMult_2_1              MACC_PA     CDIN[0]      In      -         9.911 f      -         
+WideMult_2_1              MACC_PA     CDOUT[0]     Out     2.193     12.104 r     -         
+WideMult_3_0_cas[0]       Net         -            -       0.722     -            1         
+WideMult_3_0              MACC_PA     CDIN[0]      In      -         12.826 r     -         
+WideMult_3_0              MACC_PA     P[0]         Out     0.000     12.826 f     -         
+t1[51]                    Net         -            -       0.736     -            2         
+WideMult_0_0              MACC_PA     A[5]         In      -         13.563 f     -         
+WideMult_0_0              MACC_PA     CDOUT[5]     Out     2.758     16.320 f     -         
+WideMult_1_0_cas[5]       Net         -            -       0.722     -            1         
+WideMult_1_0              MACC_PA     CDIN[5]      In      -         17.043 f     -         
+WideMult_1_0              MACC_PA     CDOUT[5]     Out     2.193     19.236 r     -         
+WideMult_1_1_cas[5]       Net         -            -       0.722     -            1         
+WideMult_1_1              MACC_PA     CDIN[5]      In      -         19.958 r     -         
+WideMult_1_1              MACC_PA     P[5]         Out     0.000     19.958 r     -         
+P_2[5]                    Net         -            -       0.139     -            1         
+r_1_0_s_22                ARI1        B            In      -         20.098 r     -         
+r_1_0_s_22                ARI1        S            Out     0.228     20.326 r     -         
+r_1[22]                   Net         -            -       0.139     -            1         
+r[22]                     SLE         D            In      -         20.465 r     -         
+============================================================================================
+Total path delay (propagation time + setup) of 20.465 is 14.395(70.3%) logic and 6.070(29.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      18.691
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.691
+
+    Number of logic level(s):                8
+    Starting point:                          WideMult_1 / CDOUT[0]
+    Ending point:                            r[22] / D
+    The start point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                        Pin          Pin               Arrival      No. of    
+Name                      Type        Name         Dir     Delay     Time         Fan Out(s)
+--------------------------------------------------------------------------------------------
+WideMult_1                MACC_PA     CDOUT[0]     Out     1.593     1.593 f      -         
+WideMult_1_1_cas_0[0]     Net         -            -       0.722     -            1         
+WideMult_1_2              MACC_PA     CDIN[0]      In      -         2.315 f      -         
+WideMult_1_2              MACC_PA     CDOUT[0]     Out     2.193     4.508 r      -         
+WideMult_2_0_cas[0]       Net         -            -       0.722     -            1         
+WideMult_2_0              MACC_PA     CDIN[0]      In      -         5.231 r      -         
+WideMult_2_0              MACC_PA     CDOUT[0]     Out     2.184     7.415 f      -         
+WideMult_2_1_cas[0]       Net         -            -       0.722     -            1         
+WideMult_2_1              MACC_PA     CDIN[0]      In      -         8.137 f      -         
+WideMult_2_1              MACC_PA     CDOUT[0]     Out     2.193     10.331 r     -         
+WideMult_3_0_cas[0]       Net         -            -       0.722     -            1         
+WideMult_3_0              MACC_PA     CDIN[0]      In      -         11.053 r     -         
+WideMult_3_0              MACC_PA     P[0]         Out     0.000     11.053 f     -         
+t1[51]                    Net         -            -       0.736     -            2         
+WideMult_0_0              MACC_PA     A[5]         In      -         11.789 f     -         
+WideMult_0_0              MACC_PA     CDOUT[5]     Out     2.758     14.547 f     -         
+WideMult_1_0_cas[5]       Net         -            -       0.722     -            1         
+WideMult_1_0              MACC_PA     CDIN[5]      In      -         15.269 f     -         
+WideMult_1_0              MACC_PA     CDOUT[5]     Out     2.193     17.462 r     -         
+WideMult_1_1_cas[5]       Net         -            -       0.722     -            1         
+WideMult_1_1              MACC_PA     CDIN[5]      In      -         18.185 r     -         
+WideMult_1_1              MACC_PA     P[5]         Out     0.000     18.185 r     -         
+P_2[5]                    Net         -            -       0.139     -            1         
+r_1_0_s_22                ARI1        B            In      -         18.324 r     -         
+r_1_0_s_22                ARI1        S            Out     0.228     18.552 r     -         
+r_1[22]                   Net         -            -       0.139     -            1         
+r[22]                     SLE         D            In      -         18.691 r     -         
+============================================================================================
+Total path delay (propagation time + setup) of 18.691 is 13.343(71.4%) logic and 5.348(28.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      18.106
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.106
+
+    Number of logic level(s):                13
+    Starting point:                          WideMult_0 / CDOUT[1]
+    Ending point:                            r[22] / D
+    The start point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                         Pin           Pin               Arrival      No. of    
+Name                       Type        Name          Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------
+WideMult_0                 MACC_PA     CDOUT[1]      Out     0.457     0.457 f      -         
+WideMult_1_0_cas_0[1]      Net         -             -       0.722     -            1         
+WideMult_1                 MACC_PA     CDIN[1]       In      -         1.179 f      -         
+WideMult_1                 MACC_PA     CDOUT[12]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas_0[12]     Net         -             -       0.722     -            1         
+WideMult_1_2               MACC_PA     CDIN[12]      In      -         4.095 r      -         
+WideMult_1_2               MACC_PA     CDOUT[12]     Out     2.184     6.279 f      -         
+WideMult_2_0_cas[12]       Net         -             -       0.722     -            1         
+WideMult_2_0               MACC_PA     CDIN[12]      In      -         7.001 f      -         
+WideMult_2_0               MACC_PA     CDOUT[12]     Out     2.193     9.194 r      -         
+WideMult_2_1_cas[12]       Net         -             -       0.722     -            1         
+WideMult_2_1               MACC_PA     CDIN[12]      In      -         9.917 r      -         
+WideMult_2_1               MACC_PA     P[12]         Out     0.000     9.917 f      -         
+t1[46]                     Net         -             -       0.736     -            2         
+WideMult_0_0               MACC_PA     A[0]          In      -         10.653 f     -         
+WideMult_0_0               MACC_PA     CDOUT[0]      Out     2.758     13.411 f     -         
+WideMult_1_0_cas[0]        Net         -             -       0.722     -            1         
+WideMult_1_0               MACC_PA     CDIN[0]       In      -         14.133 f     -         
+WideMult_1_0               MACC_PA     CDOUT[0]      Out     2.193     16.326 r     -         
+WideMult_1_1_cas[0]        Net         -             -       0.722     -            1         
+WideMult_1_1               MACC_PA     CDIN[0]       In      -         17.049 r     -         
+WideMult_1_1               MACC_PA     P[0]          Out     0.000     17.049 r     -         
+P_2[0]                     Net         -             -       0.139     -            1         
+r_1_0_cry_17               ARI1        B             In      -         17.188 r     -         
+r_1_0_cry_17               ARI1        FCO           Out     0.387     17.575 f     -         
+r_1_0_cry_17               Net         -             -       0.000     -            1         
+r_1_0_cry_18               ARI1        FCI           In      -         17.575 f     -         
+r_1_0_cry_18               ARI1        FCO           Out     0.009     17.584 f     -         
+r_1_0_cry_18               Net         -             -       0.000     -            1         
+r_1_0_cry_19               ARI1        FCI           In      -         17.584 f     -         
+r_1_0_cry_19               ARI1        FCO           Out     0.009     17.594 f     -         
+r_1_0_cry_19               Net         -             -       0.000     -            1         
+r_1_0_cry_20               ARI1        FCI           In      -         17.594 f     -         
+r_1_0_cry_20               ARI1        FCO           Out     0.009     17.603 f     -         
+r_1_0_cry_20               Net         -             -       0.000     -            1         
+r_1_0_cry_21               ARI1        FCI           In      -         17.603 f     -         
+r_1_0_cry_21               ARI1        FCO           Out     0.009     17.612 f     -         
+r_1_0_cry_21               Net         -             -       0.000     -            1         
+r_1_0_s_22                 ARI1        FCI           In      -         17.612 f     -         
+r_1_0_s_22                 ARI1        S             Out     0.354     17.966 r     -         
+r_1[22]                    Net         -             -       0.139     -            1         
+r[22]                      SLE         D             In      -         18.106 r     -         
+==============================================================================================
+Total path delay (propagation time + setup) of 18.106 is 12.758(70.5%) logic and 5.348(29.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      18.106
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.106
+
+    Number of logic level(s):                13
+    Starting point:                          WideMult_0 / CDOUT[2]
+    Ending point:                            r[22] / D
+    The start point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                         Pin           Pin               Arrival      No. of    
+Name                       Type        Name          Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------
+WideMult_0                 MACC_PA     CDOUT[2]      Out     0.457     0.457 f      -         
+WideMult_1_0_cas_0[2]      Net         -             -       0.722     -            1         
+WideMult_1                 MACC_PA     CDIN[2]       In      -         1.179 f      -         
+WideMult_1                 MACC_PA     CDOUT[12]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas_0[12]     Net         -             -       0.722     -            1         
+WideMult_1_2               MACC_PA     CDIN[12]      In      -         4.095 r      -         
+WideMult_1_2               MACC_PA     CDOUT[12]     Out     2.184     6.279 f      -         
+WideMult_2_0_cas[12]       Net         -             -       0.722     -            1         
+WideMult_2_0               MACC_PA     CDIN[12]      In      -         7.001 f      -         
+WideMult_2_0               MACC_PA     CDOUT[12]     Out     2.193     9.194 r      -         
+WideMult_2_1_cas[12]       Net         -             -       0.722     -            1         
+WideMult_2_1               MACC_PA     CDIN[12]      In      -         9.917 r      -         
+WideMult_2_1               MACC_PA     P[12]         Out     0.000     9.917 f      -         
+t1[46]                     Net         -             -       0.736     -            2         
+WideMult_0_0               MACC_PA     A[0]          In      -         10.653 f     -         
+WideMult_0_0               MACC_PA     CDOUT[0]      Out     2.758     13.411 f     -         
+WideMult_1_0_cas[0]        Net         -             -       0.722     -            1         
+WideMult_1_0               MACC_PA     CDIN[0]       In      -         14.133 f     -         
+WideMult_1_0               MACC_PA     CDOUT[0]      Out     2.193     16.326 r     -         
+WideMult_1_1_cas[0]        Net         -             -       0.722     -            1         
+WideMult_1_1               MACC_PA     CDIN[0]       In      -         17.049 r     -         
+WideMult_1_1               MACC_PA     P[0]          Out     0.000     17.049 r     -         
+P_2[0]                     Net         -             -       0.139     -            1         
+r_1_0_cry_17               ARI1        B             In      -         17.188 r     -         
+r_1_0_cry_17               ARI1        FCO           Out     0.387     17.575 f     -         
+r_1_0_cry_17               Net         -             -       0.000     -            1         
+r_1_0_cry_18               ARI1        FCI           In      -         17.575 f     -         
+r_1_0_cry_18               ARI1        FCO           Out     0.009     17.584 f     -         
+r_1_0_cry_18               Net         -             -       0.000     -            1         
+r_1_0_cry_19               ARI1        FCI           In      -         17.584 f     -         
+r_1_0_cry_19               ARI1        FCO           Out     0.009     17.594 f     -         
+r_1_0_cry_19               Net         -             -       0.000     -            1         
+r_1_0_cry_20               ARI1        FCI           In      -         17.594 f     -         
+r_1_0_cry_20               ARI1        FCO           Out     0.009     17.603 f     -         
+r_1_0_cry_20               Net         -             -       0.000     -            1         
+r_1_0_cry_21               ARI1        FCI           In      -         17.603 f     -         
+r_1_0_cry_21               ARI1        FCO           Out     0.009     17.612 f     -         
+r_1_0_cry_21               Net         -             -       0.000     -            1         
+r_1_0_s_22                 ARI1        FCI           In      -         17.612 f     -         
+r_1_0_s_22                 ARI1        S             Out     0.354     17.966 r     -         
+r_1[22]                    Net         -             -       0.139     -            1         
+r[22]                      SLE         D             In      -         18.106 r     -         
+==============================================================================================
+Total path delay (propagation time + setup) of 18.106 is 12.758(70.5%) logic and 5.348(29.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      18.106
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.106
+
+    Number of logic level(s):                13
+    Starting point:                          WideMult_0 / CDOUT[3]
+    Ending point:                            r[22] / D
+    The start point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            barrett|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                         Pin           Pin               Arrival      No. of    
+Name                       Type        Name          Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------
+WideMult_0                 MACC_PA     CDOUT[3]      Out     0.457     0.457 f      -         
+WideMult_1_0_cas_0[3]      Net         -             -       0.722     -            1         
+WideMult_1                 MACC_PA     CDIN[3]       In      -         1.179 f      -         
+WideMult_1                 MACC_PA     CDOUT[12]     Out     2.193     3.373 r      -         
+WideMult_1_1_cas_0[12]     Net         -             -       0.722     -            1         
+WideMult_1_2               MACC_PA     CDIN[12]      In      -         4.095 r      -         
+WideMult_1_2               MACC_PA     CDOUT[12]     Out     2.184     6.279 f      -         
+WideMult_2_0_cas[12]       Net         -             -       0.722     -            1         
+WideMult_2_0               MACC_PA     CDIN[12]      In      -         7.001 f      -         
+WideMult_2_0               MACC_PA     CDOUT[12]     Out     2.193     9.194 r      -         
+WideMult_2_1_cas[12]       Net         -             -       0.722     -            1         
+WideMult_2_1               MACC_PA     CDIN[12]      In      -         9.917 r      -         
+WideMult_2_1               MACC_PA     P[12]         Out     0.000     9.917 f      -         
+t1[46]                     Net         -             -       0.736     -            2         
+WideMult_0_0               MACC_PA     A[0]          In      -         10.653 f     -         
+WideMult_0_0               MACC_PA     CDOUT[0]      Out     2.758     13.411 f     -         
+WideMult_1_0_cas[0]        Net         -             -       0.722     -            1         
+WideMult_1_0               MACC_PA     CDIN[0]       In      -         14.133 f     -         
+WideMult_1_0               MACC_PA     CDOUT[0]      Out     2.193     16.326 r     -         
+WideMult_1_1_cas[0]        Net         -             -       0.722     -            1         
+WideMult_1_1               MACC_PA     CDIN[0]       In      -         17.049 r     -         
+WideMult_1_1               MACC_PA     P[0]          Out     0.000     17.049 r     -         
+P_2[0]                     Net         -             -       0.139     -            1         
+r_1_0_cry_17               ARI1        B             In      -         17.188 r     -         
+r_1_0_cry_17               ARI1        FCO           Out     0.387     17.575 f     -         
+r_1_0_cry_17               Net         -             -       0.000     -            1         
+r_1_0_cry_18               ARI1        FCI           In      -         17.575 f     -         
+r_1_0_cry_18               ARI1        FCO           Out     0.009     17.584 f     -         
+r_1_0_cry_18               Net         -             -       0.000     -            1         
+r_1_0_cry_19               ARI1        FCI           In      -         17.584 f     -         
+r_1_0_cry_19               ARI1        FCO           Out     0.009     17.594 f     -         
+r_1_0_cry_19               Net         -             -       0.000     -            1         
+r_1_0_cry_20               ARI1        FCI           In      -         17.594 f     -         
+r_1_0_cry_20               ARI1        FCO           Out     0.009     17.603 f     -         
+r_1_0_cry_20               Net         -             -       0.000     -            1         
+r_1_0_cry_21               ARI1        FCI           In      -         17.603 f     -         
+r_1_0_cry_21               ARI1        FCO           Out     0.009     17.612 f     -         
+r_1_0_cry_21               Net         -             -       0.000     -            1         
+r_1_0_s_22                 ARI1        FCI           In      -         17.612 f     -         
+r_1_0_s_22                 ARI1        S             Out     0.354     17.966 r     -         
+r_1[22]                    Net         -             -       0.139     -            1         
+r[22]                      SLE         D             In      -         18.106 r     -         
+==============================================================================================
+Total path delay (propagation time + setup) of 18.106 is 12.758(70.5%) logic and 5.348(29.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 187MB peak: 190MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 187MB peak: 190MB)
+
+---------------------------------------
+Resource Usage Report for barrett 
+
+Mapping to part: mpfs250tfcg1152std
+Cell usage:
+CLKINT          1 use
+CFG1           22 uses
+CFG2           1 use
+CFG3           2 uses
+CFG4           5 uses
+
+Carry cells:
+ARI1            175 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            92 uses
+
+DSP Blocks:   12 of 784 (1%)
+ MACC_PA:         5 Mults
+ MACC_PA:         7 MultAdds
+
+I/O ports: 70
+I/O primitives: 70
+INBUF          47 uses
+OUTBUF         23 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    205
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 432; LUTs = 432;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  92 + 0 + 0 + 432 = 524;
+Total number of LUTs after P&R:  205 + 0 + 0 + 432 = 637;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 66MB peak: 190MB)
+
+Process took 0h:00m:11s realtime, 0h:00m:11s cputime
+# Mon May 15 12:57:42 2023
+
+###########################################################]

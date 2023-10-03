@@ -1,0 +1,9 @@
+n work COREAXI4INTERCONNECT_Z63 verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 29.75;
+av .compile_point_starttime_stamp "Mon Dec 12 18:44:32 2022";
+av .compile_point_endtime_stamp "Mon Dec 12 18:45:01 2022";
+av .compile_point_realtime_used 29.569;
