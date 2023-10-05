@@ -89,7 +89,7 @@ void u54_1(void)
     PLIC_EnableIRQ(DMA_CH1_ERR_IRQn);
 
     /******** Kyber test code ********/
-    int                 ret_val;
+    int                 ret_val = 0;
     unsigned char       pk[KYBER_PUBLICKEYBYTES], sk[KYBER_SECRETKEYBYTES];
     unsigned char       ct[KYBER_CIPHERTEXTBYTES], ss[KYBER_SSBYTES], ss1[KYBER_SSBYTES];
 
