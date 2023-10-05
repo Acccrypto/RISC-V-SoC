@@ -42,6 +42,7 @@ void e51(void)
     uint8_t rx_buff[1];
     uint8_t rx_size = 0;
     uint8_t debug_hart0 = 0U;
+    int kyber_name;
 
     (void)mss_config_clk_rst(MSS_PERIPH_CFM, (uint8_t) MPFS_HAL_FIRST_HART, PERIPHERAL_ON);
 
@@ -62,7 +63,10 @@ void e51(void)
             MSS_UART_115200_BAUD,
             MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT);
 
-    sprintf(info_string, "\r\nKyber-%u begins from Hart %u\r\n\r\n", KYBER_K, hls->my_hart_id);
+    if (KYBER_K == 2)  kyber_name = 512;
+    else if (KYBER_K == 3)  kyber_name = 768;
+    else kyber_name = 1024;
+    sprintf(info_string, "\r\nKyber-%d begins from Hart %u\r\n\r\n", kyber_name, hls->my_hart_id);
     spinlock(&hart_share->mutex_uart0);
     MSS_UART_polled_tx(hart_share->g_mss_uart0_lo, (const uint8_t*)info_string,(uint32_t)strlen(info_string));
     spinunlock(&hart_share->mutex_uart0);

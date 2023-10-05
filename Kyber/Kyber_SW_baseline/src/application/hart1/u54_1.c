@@ -29,12 +29,10 @@
 #include "drivers/FU540_uart/FU540_uart.h"
 #endif
 
-#define TEST_NUM_KEY 1
-#define TEST_NUM_ENC 1
-#define TEST_NUM_DEC 1
+#define TEST_NUM 1000
 
 volatile uint32_t count_sw_ints_h1 = 0U;
-uint64_t mcycle_start, mcycle_end, delta_mcycle;
+uint64_t mcycle_start, mcycle_end, delta_mcycle, delta_mcycle1, delta_mcycle2;
 uint64_t total_bytes;
 int sign_end = 0;
 
@@ -90,34 +88,49 @@ void u54_1(void)
     PLIC_EnableIRQ(DMA_CH1_ERR_IRQn);
 
     /******** Kyber test code ********/
-    int                 ret_val;
+    int                 ret_val = 0;
     unsigned char       pk[KYBER_PUBLICKEYBYTES], sk[KYBER_SECRETKEYBYTES];
     unsigned char       ct[KYBER_CIPHERTEXTBYTES], ss[KYBER_SSBYTES], ss1[KYBER_SSBYTES];
 
-    // Generates public and private key
-    ret_val = 0;
+
     delta_mcycle = 0;
-    mcycle_start = readmcycle();
-    for (int i = 0; i < TEST_NUM_KEY; i++) {
+    delta_mcycle1 = 0;
+    delta_mcycle2 = 0;
+    for (int i = 0; i < TEST_NUM; i++) {
+        // Generates public and private key
+        mcycle_start = readmcycle();
         ret_val |= crypto_kem_keypair(pk, sk);
+        mcycle_end = readmcycle();
+        delta_mcycle += (mcycle_end - mcycle_start);
+
+        // Generates cipher text and shared
+        mcycle_start = readmcycle();
+        ret_val |= crypto_kem_enc(ct, ss, pk);
+        mcycle_end = readmcycle();
+        delta_mcycle1 += (mcycle_end - mcycle_start);
+
+        // Generates shared secret for given cipher text and private key
+        mcycle_start = readmcycle();
+        ret_val |= crypto_kem_dec(ss1, ct, sk);
+        mcycle_end = readmcycle();
+        delta_mcycle2 += (mcycle_end - mcycle_start);
     }
-    mcycle_end = readmcycle();
-    delta_mcycle = (mcycle_end - mcycle_start) / TEST_NUM_KEY;
-    //delta_mcycle = delta_mcycle / TEST_NUM_KEY;
+    delta_mcycle = delta_mcycle / TEST_NUM;
+    delta_mcycle1 = delta_mcycle1 / TEST_NUM;
+    delta_mcycle2 = delta_mcycle2 / TEST_NUM;
+
     sprintf(info_string, "crypto_kem_keypair returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle);
     MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
 
-    // Generates cipher text and shared
-    delta_mcycle = 0;
-    mcycle_start = readmcycle();
-    for (int i = 0; i < TEST_NUM_ENC; i++) {
-        ret_val |= crypto_kem_enc(ct, ss, pk);
-    }
-    mcycle_end = readmcycle();
-    delta_mcycle = (mcycle_end - mcycle_start) / TEST_NUM_ENC;
-    //delta_mcycle = delta_mcycle / TEST_NUM_ENC;
-    sprintf(info_string, "crypto_kem_enc returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle);
+    sprintf(info_string, "crypto_kem_enc returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle1);
     MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
+
+    sprintf(info_string, "crypto_kem_dec returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle2);
+    MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
+    if ( memcmp(ss, ss1, KYBER_SSBYTES) ) {
+        sprintf(info_string, "crypto_kem_dec returned bad 'ss' value\r\n");
+        MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
+    }
 
 #if 0
     for (int i = 0; i < KYBER_CIPHERTEXTBYTES; i++) {
@@ -130,22 +143,6 @@ void u54_1(void)
         spinunlock(&hart_share->mutex_uart0);
     }
 #endif
-
-    // Generates shared secret for given cipher text and private key
-    delta_mcycle = 0;
-    mcycle_start = readmcycle();
-    for (int i = 0; i < TEST_NUM_DEC; i++) {
-        ret_val |= crypto_kem_dec(ss1, ct, sk);
-    }
-    mcycle_end = readmcycle();
-    delta_mcycle = (mcycle_end - mcycle_start) / TEST_NUM_DEC;
-    //delta_mcycle = delta_mcycle / TEST_NUM_DEC;
-    sprintf(info_string, "crypto_kem_dec returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle);
-    MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
-    if ( memcmp(ss, ss1, KYBER_SSBYTES) ) {
-        sprintf(info_string, "crypto_kem_dec returned bad 'ss' value\r\n");
-        MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
-    }
 
 #if 0
     for (int i = 0; i < KYBER_SSBYTES; i++) {
