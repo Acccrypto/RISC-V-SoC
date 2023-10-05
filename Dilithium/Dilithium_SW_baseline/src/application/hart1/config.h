@@ -8,9 +8,9 @@
 #ifndef APPLICATION_HART1_CONFIG_H_
 #define APPLICATION_HART1_CONFIG_H_
 
-#define DILITHIUM_MODE 2
+#define DILITHIUM_MODE 5
 
-#define CRYPTO_ALGNAME "Dilithium2"
-#define DILITHIUM_NAMESPACE(s) pqcrystals_dilithium2_ref##s
+#define CRYPTO_ALGNAME "Dilithium5"
+#define DILITHIUM_NAMESPACE(s) pqcrystals_dilithium5_ref##s
 
 #endif /* APPLICATION_HART1_CONFIG_H_ */
