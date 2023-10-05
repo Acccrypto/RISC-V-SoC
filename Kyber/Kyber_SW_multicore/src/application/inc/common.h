@@ -19,9 +19,7 @@
 #include "drivers/mss/mss_mmuart/mss_uart.h"
 #include "hart1/indcpa.h"
 
-#define TEST_NUM_KEY 1
-#define TEST_NUM_ENC 1
-#define TEST_NUM_DEC 1
+#define TEST_NUM 1000
 
 typedef enum COMMAND_TYPE_
 {

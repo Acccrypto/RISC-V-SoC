@@ -57,9 +57,11 @@ void u54_3(void)
        can enable and use any interrupts as required */
     clear_soft_interrupt();
     __enable_irq();
+
+    for (int i = 0; i < TEST_NUM; i++) {
 #if KYBER_K == 2
-    /**************indcpa_keypair**************/
-    for (int i = 0; i < TEST_NUM_KEY; i++) {
+        /**************indcpa_keypair**************/
+
         /* Expand matrix and Sample short vectors s and e */
         poly_uniform(&hart_share->a[1].vec[0], hart_share->publicseed, 0, 1);
         poly_getnoise_eta1(&hart_share->e.vec[0], hart_share->noiseseed, 2);
@@ -70,10 +72,9 @@ void u54_3(void)
         poly_tobytes(hart_share->pk, &hart_share->pkpv.vec[0]);
 
         __asm("wfi");
-    }
 
-    /**************indcpa_enc1**************/
-    for (int i = 0; i < TEST_NUM_ENC; i++) {
+        /**************indcpa_enc1**************/
+
         /* Unpack_pk, Expand matrix and Sample k, sp, ep, epp */
         poly_uniform(&hart_share->a[0].vec[0], hart_share->pk+KYBER_POLYVECBYTES, 0, 0);
         poly_uniform(&hart_share->a[0].vec[1], hart_share->pk+KYBER_POLYVECBYTES, 0, 1);
@@ -85,10 +86,9 @@ void u54_3(void)
         polyveci_compress(hart_share->c+320, &hart_share->bp, 1);
 
         __asm("wfi");
-    }
 
-    /**************indcpa_dec**************/
-    for (int i = 0; i < TEST_NUM_DEC; i++) {
+        /**************indcpa_dec**************/
+
         /* unpack_ciphertext, unpack_sk */
         poly_frombytes(&hart_share->skpv.vec[0], hart_share->sk);
 
@@ -107,10 +107,10 @@ void u54_3(void)
         polyveci_compress(hart_share->cmp+320, &hart_share->bp, 1);
 
         __asm("wfi");
-    }
+
 #elif KYBER_K == 3
-    /**************indcpa_keypair**************/
-    for (int i = 0; i < TEST_NUM_KEY; i++) {
+        /**************indcpa_keypair**************/
+
         /* Expand matrix and Sample short vectors s and e */
         poly_uniform(&hart_share->a[1].vec[0], hart_share->publicseed, 0, 1);
         poly_uniform(&hart_share->a[1].vec[1], hart_share->publicseed, 1, 1);
@@ -122,10 +122,9 @@ void u54_3(void)
         poly_tobytes(hart_share->pk+KYBER_POLYBYTES, &hart_share->pkpv.vec[1]);
 
         __asm("wfi");
-    }
 
-    /**************indcpa_enc1**************/
-    for (int i = 0; i < TEST_NUM_ENC; i++) {
+        /**************indcpa_enc1**************/
+
         /* Unpack_pk, Expand matrix and Sample k, sp, ep, epp */
         poly_uniform(&hart_share->a[2].vec[0], hart_share->pk+KYBER_POLYVECBYTES, 2, 0);
         poly_uniform(&hart_share->a[2].vec[1], hart_share->pk+KYBER_POLYVECBYTES, 2, 1);
@@ -139,10 +138,9 @@ void u54_3(void)
         polyveci_compress(hart_share->c+320, &hart_share->bp, 1);
 
         __asm("wfi");
-    }
 
-    /**************indcpa_dec**************/
-    for (int i = 0; i < TEST_NUM_DEC; i++) {
+        /**************indcpa_dec**************/
+
         /* unpack_ciphertext, unpack_sk */
         poly_frombytes(&hart_share->skpv.vec[0], hart_share->sk);
         poly_frombytes(&hart_share->skpv.vec[1], hart_share->sk+KYBER_POLYBYTES);
@@ -164,10 +162,10 @@ void u54_3(void)
         polyveci_compress(hart_share->cmp+320, &hart_share->bp, 1);
 
         __asm("wfi");
-    }
+
 #elif KYBER_K == 4
-    /**************indcpa_keypair**************/
-    for (int i = 0; i < TEST_NUM_KEY; i++) {
+        /**************indcpa_keypair**************/
+
         /* Expand matrix and Sample short vectors s and e */
         poly_uniform(&hart_share->a[0].vec[2], hart_share->publicseed, 2, 0);
         poly_uniform(&hart_share->a[2].vec[0], hart_share->publicseed, 0, 2);
@@ -182,10 +180,9 @@ void u54_3(void)
         poly_tobytes(hart_share->pk+KYBER_POLYBYTES, &hart_share->pkpv.vec[1]);
 
         __asm("wfi");
-    }
 
-    /**************indcpa_enc1**************/
-    for (int i = 0; i < TEST_NUM_ENC; i++) {
+        /**************indcpa_enc1**************/
+
         /* Unpack_pk, Expand matrix and Sample k, sp, ep, epp */
         poly_uniform(&hart_share->a[2].vec[0], hart_share->pk+KYBER_POLYVECBYTES, 2, 0);
         poly_uniform(&hart_share->a[2].vec[1], hart_share->pk+KYBER_POLYVECBYTES, 2, 1);
@@ -201,10 +198,9 @@ void u54_3(void)
         polyveci_compress(hart_share->c+352, &hart_share->bp, 1);
 
         __asm("wfi");
-    }
 
-    /**************indcpa_dec**************/
-    for (int i = 0; i < TEST_NUM_DEC; i++) {
+        /**************indcpa_dec**************/
+
         /* unpack_ciphertext, unpack_sk */
         poly_frombytes(&hart_share->skpv.vec[0], hart_share->sk);
         poly_frombytes(&hart_share->skpv.vec[1], hart_share->sk+KYBER_POLYBYTES);
@@ -228,8 +224,9 @@ void u54_3(void)
         polyveci_compress(hart_share->cmp+352, &hart_share->bp, 1);
 
         __asm("wfi");
-    }
+
 #endif
+    }
 }
 
 /* HART3 Software interrupt handler */
