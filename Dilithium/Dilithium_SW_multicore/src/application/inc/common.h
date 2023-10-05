@@ -19,7 +19,7 @@
 #include "drivers/mss/mss_mmuart/mss_uart.h"
 #include "hart1/sign.h"
 
-#define TEST_NUM 1
+#define TEST_NUM 1000
 
 typedef enum COMMAND_TYPE_
 {
