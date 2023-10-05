@@ -31,7 +31,7 @@
 
 volatile uint32_t count_sw_ints_h1 = 0U;
 const uint8_t *rho, *rhoprime, *key;
-uint64_t mcycle_start, mcycle_end, delta_mcycle;
+uint64_t mcycle_start, mcycle_end, delta_mcycle, delta_mcycle1, delta_mcycle2;
 int sign_end = 0;
 
 /* Main function for the HART1(U54_1 processor).
@@ -103,28 +103,38 @@ void u54_1(void)
     pdma_init();
 
     delta_mcycle = 0;
+    delta_mcycle1 = 0;
+    delta_mcycle2 = 0;
     for (int i = 0; i < TEST_NUM; i++) {
         // Generate the public/private keypair
-        ret_val |= crypto_sign_keypair(hart_share->pk, hart_share->sk);
-
-        // Computes signature
-        ret_val |= crypto_sign(hart_share->sm, &smlen, m, mlen, hart_share->sk);
-
         mcycle_start = readmcycle();
-        // Verify signed message
-        ret_val |= crypto_sign_open(m1, &mlen1, hart_share->sm, smlen, hart_share->pk);
+        ret_val |= crypto_sign_keypair(hart_share->pk, hart_share->sk);
         mcycle_end = readmcycle();
         delta_mcycle += (mcycle_end - mcycle_start);
+
+        // Computes signature
+        mcycle_start = readmcycle();
+        ret_val |= crypto_sign(hart_share->sm, &smlen, m, mlen, hart_share->sk);
+        mcycle_end = readmcycle();
+        delta_mcycle1 += (mcycle_end - mcycle_start);
+
+        // Verify signed message
+        mcycle_start = readmcycle();
+        ret_val |= crypto_sign_open(m1, &mlen1, hart_share->sm, smlen, hart_share->pk);
+        mcycle_end = readmcycle();
+        delta_mcycle2 += (mcycle_end - mcycle_start);
     }
     delta_mcycle = delta_mcycle / TEST_NUM;
+    delta_mcycle1 = delta_mcycle1 / TEST_NUM;
+    delta_mcycle2 = delta_mcycle2 / TEST_NUM;
 
     sprintf(info_string, "crypto_sign_keypair returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle);
     MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
 
-    sprintf(info_string, "crypto_sign returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle);
+    sprintf(info_string, "crypto_sign returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle1);
     MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
 
-    sprintf(info_string, "crypto_sign_open returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle);
+    sprintf(info_string, "crypto_sign_open returned <%d>\r\nthe time is %ld clock cycles\r\n", ret_val, delta_mcycle2);
     MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
     if ( mlen != mlen1 ) {
         sprintf(info_string, "crypto_sign_open returned bad 'mlen': Got <%ld>, expected <%ld>\r\n", mlen1, mlen);
