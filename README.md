@@ -10,6 +10,7 @@ This repository provides implementations of Kyber and Dilithium based on Multi-C
 
 Here are the devices and tools we use for evaluating our implementations:
 
+- Host PC with Windows 10 operating system.
 - Microchip [PolarFire SoC FPGA Icicle Kit](https://www.microsemi.com/existing-parts/parts/152514), which features the MPFS250T-FCVG484EES device.
 - Microchip [Libero SoC](https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-and-soc-design-tools/soc-fpga/softconsole#downloads) v2022.2 for SoC design and hardware code (Verilog) implementation.
 - Microchip [SoftConsole](https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-and-soc-design-tools/soc-fpga/softconsole#downloads) v2022.2 for software implementation and system verification.
@@ -28,29 +29,5 @@ Here are the devices and tools we use for evaluating our implementations:
 We use the PolarFire SoC FPGA Icicle Kit as the target platform, which can be seen as below.
 
 ![PolarFire](Figures/PolarFire.jpg)
-
-Test results for the baseline implementation of Kyber on a single core:
-
-![Kyber_baseline](Figures/Kyber_baseline_test.png)
-
-Test results for the hardware-software co-design implementation of Kyber on a single core:
-
-![Kyber_acceleration](Figures/Kyber_acceleration_test.png)
-
-Test results for the hardware-software co-design implementation of Kyber on multiple cores:
-
-![Kyber_multicore](Figures/Kyber_multicore_test.png)
-
-Test results for the baseline implementation of Dilithium on a single core:
-
-![Dilithium_baseline](Figures/Dilithium_baseline_test.png)
-
-Test results for the hardware-software co-design implementation of Dilithium on a single core:
-
-![Dilithium_acceleration](Figures/Dilithium_acceleration_test.png)
-
-Test results for the hardware-software co-design implementation of Dilithium on multiple cores:
-
-![Dilithium_multicore](Figures/Dilithium_multicore_test.png)
 
 For further details on how to conduct tests on this board, please refer to [Hardware.md](./Hardware.md) and [Software.md](./Software.md).
