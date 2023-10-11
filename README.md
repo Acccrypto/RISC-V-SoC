@@ -1,4 +1,4 @@
-# Implement Kyber and Dilithium on Multi-Core RISC-V SoC FPGA Platform
+# Optimized Hardware-Software Co-Design for Kyber and Dilithium on RISC-V SoC FPGA
 
 This repository provides implementations of Kyber and Dilithium based on Multi-Core RISC-V SoC FPGA platform. Each algorithm is implemented in three different ways:
 

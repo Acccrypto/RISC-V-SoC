@@ -10,6 +10,7 @@ For each algorithm, the software projects involve three versions of implementati
 - For the baseline implementation, the application code is under `src/application/hart1`. It is fetched from [NIST official website for PQC](https://csrc.nist.gov/Projects/post-quantum-cryptography/selected-algorithms-2022) and can be run on a single U54 processor.
 - For the hardware-software co-design implementation on a single core, the application code is under `src/application/hart1` and the FPGA driver code is under `src/platform/drivers/fpga_ip/CorePoly`. It can be run on a single U54 processor after the corresponding accelerator is programed.
 - For the hardware-software co-design implementation on multiple cores, the application code is under `src/application/hart(1-4)` and the FPGA driver code is under `src/platform/drivers/fpga_ip/CorePoly`. It can be run on multiple U54 processors after the corresponding accelerator is programed.
+- The RISC-V assembly code within `src/hart1/keccak.S` for the function *KeccakF1600_StatePermute* refers to [rv_sha3](https://github.com/mickflemm/rv_sha3/tree/master).
 
 ## How to Use
 
