@@ -13,7 +13,7 @@ The file contains the information about all compile points from mapper to be dis
 <data>
 <value>MPFS_ICICLE_KIT_BASE_DESIGN</value>
 <report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
+<data>E:\MPFS_Projects\Kyber_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
 </report_link>
 </data>
 <data>Remapped</data>

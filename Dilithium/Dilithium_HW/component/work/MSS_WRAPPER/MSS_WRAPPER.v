@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Fri Mar 24 15:21:08 2023
+// Created by SmartDesign Sun Nov 26 18:06:25 2023
 // Version: 2022.2 2022.2.0.10
 //////////////////////////////////////////////////////////////////////
 
@@ -125,14 +125,8 @@ module MSS_WRAPPER(
     MMUART_3_RXD_F2M,
     MMUART_4_RXD_F2M,
     MSS_INT_F2M_0,
-    MSS_INT_F2M_1,
     MSS_INT_F2M_2,
     MSS_INT_F2M_3,
-    MSS_INT_F2M_59,
-    MSS_INT_F2M_60,
-    MSS_INT_F2M_61,
-    MSS_INT_F2M_62,
-    MSS_INT_F2M_63,
     MSS_RESET_N_F2M,
     REFCLK,
     REFCLK_N,
@@ -247,7 +241,6 @@ module MSS_WRAPPER(
     FIC_3_APB_INITIATOR_FIC_3_APB_M_PSEL,
     FIC_3_APB_INITIATOR_FIC_3_APB_M_PWDATA,
     FIC_3_APB_INITIATOR_FIC_3_APB_M_PWRITE,
-    FIC_3_APB_M_PSTRB,
     GPIO_2_M2F_16,
     GPIO_2_M2F_17,
     GPIO_2_M2F_18,
@@ -443,14 +436,8 @@ input         MMUART_2_RXD_F2M;
 input         MMUART_3_RXD_F2M;
 input         MMUART_4_RXD_F2M;
 input         MSS_INT_F2M_0;
-input         MSS_INT_F2M_1;
 input         MSS_INT_F2M_2;
 input         MSS_INT_F2M_3;
-input         MSS_INT_F2M_59;
-input         MSS_INT_F2M_60;
-input         MSS_INT_F2M_61;
-input         MSS_INT_F2M_62;
-input         MSS_INT_F2M_63;
 input         MSS_RESET_N_F2M;
 input         REFCLK;
 input         REFCLK_N;
@@ -567,7 +554,6 @@ output        FIC_3_APB_INITIATOR_FIC_3_APB_M_PENABLE;
 output        FIC_3_APB_INITIATOR_FIC_3_APB_M_PSEL;
 output [31:0] FIC_3_APB_INITIATOR_FIC_3_APB_M_PWDATA;
 output        FIC_3_APB_INITIATOR_FIC_3_APB_M_PWRITE;
-output [3:0]  FIC_3_APB_M_PSTRB;
 output        GPIO_2_M2F_16;
 output        GPIO_2_M2F_17;
 output        GPIO_2_M2F_18;
@@ -857,7 +843,6 @@ wire          FIC_3_APB_INITIATOR_PSELx;
 wire          FIC_3_APB_INITIATOR_FIC_3_APB_M_PSLVERR;
 wire   [31:0] FIC_3_APB_INITIATOR_PWDATA;
 wire          FIC_3_APB_INITIATOR_PWRITE;
-wire   [3:0]  FIC_3_APB_M_PSTRB_net_0;
 wire          FIC_3_PCLK;
 wire          GPIO_2_2_IO_Y;
 wire          GPIO_2_3_IO_Y;
@@ -945,14 +930,8 @@ wire          MMUART_4_RXD_F2M;
 wire          MMUART_4_TXD_M2F_net_0;
 wire          MSS_DLL_LOCKS_net_0;
 wire          MSS_INT_F2M_0;
-wire          MSS_INT_F2M_1;
 wire          MSS_INT_F2M_2;
 wire          MSS_INT_F2M_3;
-wire          MSS_INT_F2M_59;
-wire          MSS_INT_F2M_60;
-wire          MSS_INT_F2M_61;
-wire          MSS_INT_F2M_62;
-wire          MSS_INT_F2M_63;
 wire          MSS_RESET_N_F2M;
 wire          MSS_RESET_N_M2F_net_0;
 wire          ODT_net_0;
@@ -1150,7 +1129,6 @@ wire   [3:0]  FIC_2_AXI4_TARGET_RID_net_0;
 wire   [1:0]  FIC_2_AXI4_TARGET_RRESP_net_0;
 wire   [28:0] FIC_3_APB_INITIATOR_PADDR_net_0;
 wire   [31:0] FIC_3_APB_INITIATOR_PWDATA_net_0;
-wire   [3:0]  FIC_3_APB_M_PSTRB_net_1;
 wire   [3:0]  QSPI_DATA_F2M_net_0;
 wire   [63:0] MSS_INT_F2M_net_0;
 wire   [3:0]  QSPI_DATA_M2F_net_0;
@@ -1159,7 +1137,7 @@ wire   [3:0]  QSPI_DATA_OE_M2F_net_0;
 // TiedOff Nets
 //--------------------------------------------------------------------
 wire          GND_net;
-wire   [58:4] MSS_INT_F2M_const_net_0;
+wire   [63:4] MSS_INT_F2M_const_net_0;
 //--------------------------------------------------------------------
 // Inverted Nets
 //--------------------------------------------------------------------
@@ -1168,7 +1146,7 @@ wire          CAN_0_TX_EBL_M2F_OUT_PRE_INV0_0;
 // Constant assignments
 //--------------------------------------------------------------------
 assign GND_net                 = 1'b0;
-assign MSS_INT_F2M_const_net_0 = 55'h00000000000000;
+assign MSS_INT_F2M_const_net_0 = 60'h000000000000000;
 //--------------------------------------------------------------------
 // Inversions
 //--------------------------------------------------------------------
@@ -1436,8 +1414,6 @@ assign FIC_3_APB_INITIATOR_PADDR_net_0                = FIC_3_APB_INITIATOR_PADD
 assign FIC_3_APB_INITIATOR_FIC_3_APB_M_PADDR[28:0]    = FIC_3_APB_INITIATOR_PADDR_net_0;
 assign FIC_3_APB_INITIATOR_PWDATA_net_0               = FIC_3_APB_INITIATOR_PWDATA;
 assign FIC_3_APB_INITIATOR_FIC_3_APB_M_PWDATA[31:0]   = FIC_3_APB_INITIATOR_PWDATA_net_0;
-assign FIC_3_APB_M_PSTRB_net_1                        = FIC_3_APB_M_PSTRB_net_0;
-assign FIC_3_APB_M_PSTRB[3:0]                         = FIC_3_APB_M_PSTRB_net_1;
 //--------------------------------------------------------------------
 // Slices assignments
 //--------------------------------------------------------------------
@@ -1453,7 +1429,7 @@ assign ICICLE_MSS_QSPI_DATA_OE_M2F3to3[3] = QSPI_DATA_OE_M2F_net_0[3:3];
 // Concatenation assignments
 //--------------------------------------------------------------------
 assign QSPI_DATA_F2M_net_0 = { QSPI_DATA_3_BIBUF_Y , QSPI_DATA_2_BIBUF_Y , QSPI_DATA_1_BIBUF_Y , QSPI_DATA_0_BIBUF_Y };
-assign MSS_INT_F2M_net_0   = { MSS_INT_F2M_63 , MSS_INT_F2M_62 , MSS_INT_F2M_61 , MSS_INT_F2M_60 , MSS_INT_F2M_59 , 55'h00000000000000 , MSS_INT_F2M_3 , MSS_INT_F2M_2 , MSS_INT_F2M_1 , MSS_INT_F2M_0 };
+assign MSS_INT_F2M_net_0   = { 60'h000000000000000 , MSS_INT_F2M_3 , MSS_INT_F2M_2 , 1'b0 , MSS_INT_F2M_0 };
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -1988,7 +1964,7 @@ ICICLE_MSS ICICLE_MSS_inst_0(
         .FIC_2_AXI4_S_RDATA           ( FIC_2_AXI4_TARGET_RDATA ),
         .FIC_2_AXI4_S_RRESP           ( FIC_2_AXI4_TARGET_RRESP ),
         .FIC_3_APB_M_PADDR            ( FIC_3_APB_INITIATOR_PADDR ),
-        .FIC_3_APB_M_PSTRB            ( FIC_3_APB_M_PSTRB_net_0 ),
+        .FIC_3_APB_M_PSTRB            (  ),
         .FIC_3_APB_M_PWDATA           ( FIC_3_APB_INITIATOR_PWDATA ),
         .QSPI_DATA_M2F                ( QSPI_DATA_M2F_net_0 ),
         .QSPI_DATA_OE_M2F             ( QSPI_DATA_OE_M2F_net_0 ),

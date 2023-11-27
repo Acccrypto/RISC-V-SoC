@@ -1,29 +1,29 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
-#--  Project file F:\mypaper2\Projects\Kyber_HW\synthesis\Core_Poly_syn.prj
+#--  Project file E:\MPFS_Projects\Kyber_HW\synthesis\Core_Poly_syn.prj
 #--  Written on Tue May 16 19:32:22 2023
 
 
 #project files
 add_file -verilog "../component/polarfire_syn_comps.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/address_generator.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/conflict_free_memory_map.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/polyvec_ram.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/delay.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/fsm.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/fp_modop.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/poly_mul.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/arbiter.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/network_bank_in.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/network_bf_in.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/network_bf_out.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/poly_bank.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/poly_ram.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/tf_ROM.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/tf_address_generator.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/Core_Poly.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/address_generator.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/conflict_free_memory_map.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/polyvec_ram.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/delay.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/fsm.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/fp_modop.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/poly_mul.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/arbiter.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/network_bank_in.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/network_bf_in.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/network_bf_out.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/poly_bank.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/poly_ram.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/tf_ROM.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/tf_address_generator.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/Core_Poly.v"
 add_file -verilog "../component/MSS_syn_comps.v"
-add_file -fpga_constraint "F:/mypaper2/Projects/Kyber_HW/designer/Core_Poly/synthesis.fdc"
+add_file -fpga_constraint "E:/MPFS_Projects/Kyber_HW/designer/Core_Poly/synthesis.fdc"
 
 
 #implementation: "synthesis"

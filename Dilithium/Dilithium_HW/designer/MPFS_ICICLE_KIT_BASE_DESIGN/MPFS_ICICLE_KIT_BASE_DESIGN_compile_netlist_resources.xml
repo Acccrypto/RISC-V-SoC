@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Wed Aug 23 16:45:43 2023
+<text>Date: Sun Nov 26 18:13:06 2023
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -56,7 +56,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>F:\MPFS_Projects\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm</cell>
+ <cell>E:\MPFS_Projects\Dilithium_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -78,15 +78,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>19940</cell>
+ <cell>15298</cell>
  <cell>254196</cell>
- <cell>7.84</cell>
+ <cell>6.02</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>11158</cell>
+ <cell>5851</cell>
  <cell>254196</cell>
- <cell>4.39</cell>
+ <cell>2.30</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -96,15 +96,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>58</cell>
+ <cell>55</cell>
  <cell>144</cell>
- <cell>40.28</cell>
+ <cell>38.19</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>58</cell>
+ <cell>55</cell>
  <cell>144</cell>
- <cell>40.28</cell>
+ <cell>38.19</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -114,9 +114,9 @@
 </row>
 <row>
  <cell>uSRAM</cell>
- <cell>123</cell>
+ <cell>107</cell>
  <cell>2352</cell>
- <cell>5.23</cell>
+ <cell>4.55</cell>
 </row>
 <row>
  <cell>LSRAM</cell>
@@ -132,9 +132,9 @@
 </row>
 <row>
  <cell>H-Chip Global</cell>
- <cell>9</cell>
+ <cell>6</cell>
  <cell>48</cell>
- <cell>18.75</cell>
+ <cell>12.50</cell>
 </row>
 <row>
  <cell>PLL</cell>
@@ -161,76 +161,22 @@
  <cell>100.00</cell>
 </row>
 <row>
- <cell>OSC_RC160MHZ</cell>
- <cell>1</cell>
- <cell>1</cell>
- <cell>100.00</cell>
-</row>
-<row>
- <cell>DRI</cell>
- <cell>1</cell>
- <cell>1</cell>
- <cell>100.00</cell>
-</row>
-<row>
  <cell>Transceiver Lanes</cell>
+ <cell>0</cell>
  <cell>4</cell>
- <cell>4</cell>
- <cell>100.00</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>Transceiver PCIe</cell>
- <cell>1</cell>
+ <cell>0</cell>
  <cell>2</cell>
- <cell>50.00</cell>
-</row>
-<row>
- <cell>TX_PLL</cell>
- <cell>1</cell>
- <cell>11</cell>
- <cell>9.09</cell>
-</row>
-<row>
- <cell>LINK</cell>
- <cell>1</cell>
- <cell>10</cell>
- <cell>10.00</cell>
-</row>
-<row>
- <cell>XCVR_REF_CLK</cell>
- <cell>1</cell>
- <cell>3</cell>
- <cell>33.33</cell>
-</row>
-<row>
- <cell>PCIE_COMMON</cell>
- <cell>1</cell>
- <cell>1</cell>
- <cell>100.00</cell>
-</row>
-<row>
- <cell>ICB_CLKDIV</cell>
- <cell>1</cell>
- <cell>24</cell>
- <cell>4.17</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>ICB_CLKINT</cell>
- <cell>5</cell>
+ <cell>4</cell>
  <cell>72</cell>
- <cell>6.94</cell>
-</row>
-<row>
- <cell>NGMUX</cell>
- <cell>1</cell>
- <cell>12</cell>
- <cell>8.33</cell>
-</row>
-<row>
- <cell>ICB_INT</cell>
- <cell>1</cell>
- <cell>12</cell>
- <cell>8.33</cell>
+ <cell>5.56</cell>
 </row>
 <row>
  <cell>MSS</cell>
@@ -254,13 +200,13 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>17888</cell>
- <cell>9106</cell>
+ <cell>13438</cell>
+ <cell>3991</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
- <cell>1476</cell>
- <cell>1476</cell>
+ <cell>1284</cell>
+ <cell>1284</cell>
 </row>
 <row>
  <cell>LSRAM Interface Logic</cell>
@@ -274,8 +220,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>19940</cell>
- <cell>11158</cell>
+ <cell>15298</cell>
+ <cell>5851</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -296,7 +242,7 @@
 </row>
 <row>
  <cell>8</cell>
- <cell>13</cell>
+ <cell>5</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -368,7 +314,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>122</cell>
+ <cell>114</cell>
 </row>
 </table>
 <section><name>Detailed 4LUT Groups Resource Usage</name></section>
@@ -381,19 +327,15 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>922</cell>
+ <cell>599</cell>
 </row>
 <row>
  <cell>5</cell>
  <cell>60</cell>
 </row>
 <row>
- <cell>10</cell>
- <cell>10</cell>
-</row>
-<row>
  <cell>Total</cell>
- <cell>992</cell>
+ <cell>659</cell>
 </row>
 </table>
 <section><name>Detailed Math Chains Resource Usage</name></section>
@@ -433,7 +375,7 @@
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>25</cell>
+ <cell>22</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -479,36 +421,6 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>2966</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>2170</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CLOCKS_AND_RESETS_FIC_1_CLK</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
  <cell>1910</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/sysReset_arst</cell>
@@ -517,36 +429,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>1112</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/sysReset_arst</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTB/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>1020</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/sysReset_arst</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTB/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -571,12 +453,27 @@
 <row>
  <cell>1</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CLOCKS_AND_RESETS_PCIe_CLK_125MHz</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_CLKINT/U0_RGB1</cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_FIC_1_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -635,26 +532,6 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_2277_i</cell>
 </row>
 <row>
- <cell>706</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CLOCKS_AND_RESETS_inst_0_RESET_FIC_3_CLK_CORERESET_0_dff</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15</cell>
-</row>
-<row>
- <cell>570</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1_amp_miv_ihcc_ctrl_A_SEL[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1/amp_miv_ihcc_ctrl/A_SEL_Z[1]</cell>
-</row>
-<row>
  <cell>376</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/ntt_l[1]</cell>
@@ -695,16 +572,6 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__2_</cell>
 </row>
 <row>
- <cell>313</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1_amp_miv_ihcc_ctrl_A_SEL[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1/amp_miv_ihcc_ctrl/A_SEL_Z[0]</cell>
-</row>
-<row>
  <cell>304</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[0]</cell>
@@ -713,6 +580,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__0_</cell>
+</row>
+<row>
+ <cell>295</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_203_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_203_i</cell>
+</row>
+<row>
+ <cell>286</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__4_</cell>
+</row>
+<row>
+ <cell>284</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/ntt_l[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_3/gen_delay_3_.level_buf_4__0_</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -743,26 +640,6 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_2277_i</cell>
 </row>
 <row>
- <cell>706</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CLOCKS_AND_RESETS_inst_0_RESET_FIC_3_CLK_CORERESET_0_dff</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15</cell>
-</row>
-<row>
- <cell>570</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1_amp_miv_ihcc_ctrl_A_SEL[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1/amp_miv_ihcc_ctrl/A_SEL_Z[1]</cell>
-</row>
-<row>
  <cell>376</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/ntt_l[1]</cell>
@@ -803,16 +680,6 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__2_</cell>
 </row>
 <row>
- <cell>313</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1_amp_miv_ihcc_ctrl_A_SEL[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1/amp_miv_ihcc_ctrl/A_SEL_Z[0]</cell>
-</row>
-<row>
  <cell>304</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[0]</cell>
@@ -821,6 +688,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__0_</cell>
+</row>
+<row>
+ <cell>295</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_203_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_203_i</cell>
+</row>
+<row>
+ <cell>286</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__4_</cell>
+</row>
+<row>
+ <cell>284</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/ntt_l[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_3/gen_delay_3_.level_buf_4__0_</cell>
 </row>
 </table>
 </doc>

@@ -1,4 +1,4 @@
-# Wed Aug 23 16:27:11 2023
+# Sun Nov 26 18:12:22 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -35,41 +35,38 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 134MB)
 
 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":21:7:21:14|Found compile point of type hard on View view:work.poly_mul(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z15(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z22(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\work\ihc_subsystem\ihc_subsystem.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+@N: MF104 :"e:\mpfs_projects\dilithium_hw\hdl\poly_mul.v":21:7:21:14|Found compile point of type hard on View view:work.poly_mul(verilog) 
+@N: MF104 :"e:\mpfs_projects\dilithium_hw\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
+@N: MF104 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) 
 
 
 @N: MF105 |Performing bottom-up mapping of Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) 
 
-Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 284MB peak: 284MB)
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 208MB peak: 208MB)
 
 
-Finished loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 288MB peak: 303MB)
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 217MB)
 
 
 Begin compile point sub-process log
 
-@N: MF106 :"f:\mpfs_projects\mpfs_icicle\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
-		 RTL and/or Constraints changed.
+@N: MF106 :"e:\mpfs_projects\dilithium_hw\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
+		 Interface of Compile Point has changed.
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 288MB peak: 303MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 217MB)
 
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2721:2:2721:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2713:2:2713:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2705:2:2705:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2697:2:2697:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2689:2:2689:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2681:2:2681:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2673:2:2673:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_8s_38s_64s_0s_1s_0(verilog) (flattening)
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2721:2:2721:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2713:2:2713:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2705:2:2705:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2697:2:2697:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2689:2:2689:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2681:2:2681:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2673:2:2673:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s(verilog) (flattening)
 
 
 #### START OF SSF LOG MESSAGES ####
@@ -80,19 +77,8 @@ Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_8s_
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 267MB peak: 303MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 197MB peak: 222MB)
 
 Encoding state machine CS[9:0] (in view: work.Core_Poly_Z3(verilog))
 original code -> new code
@@ -113,118 +99,76 @@ original code -> new code
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+@N: MO225 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
 Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+@N: MO225 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
 Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+@N: MO225 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
 Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+@N: MO225 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
 Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-Encoding state machine lnk_m_cs[19:0] (in view: work.G5_APBLINK_MASTER_Z20(verilog))
-original code -> new code
-   000000 -> 00000000000000000001
-   000001 -> 00000000000000000010
-   000010 -> 00000000000000000100
-   000011 -> 00000000000000001000
-   000100 -> 00000000000000010000
-   000101 -> 00000000000000100000
-   000110 -> 00000000000001000000
-   000111 -> 00000000000010000000
-   001000 -> 00000000000100000000
-   001001 -> 00000000001000000000
-   001010 -> 00000000010000000000
-   001011 -> 00000000100000000000
-   001100 -> 00000001000000000000
-   001101 -> 00000010000000000000
-   001110 -> 00000100000000000000
-   001111 -> 00001000000000000000
-   010000 -> 00010000000000000000
-   010001 -> 00100000000000000000
-   010010 -> 01000000000000000000
-   010011 -> 10000000000000000000
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[1] is reduced to a combinational gate by constant propagation.
-@W: MO197 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[2] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) because its output is a constant.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[3] is reduced to a combinational gate by constant propagation.
-@W: MO197 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[4] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) because its output is a constant.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[5] is reduced to a combinational gate by constant propagation.
-@W: MO197 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[6] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) because its output is a constant.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[7] is reduced to a combinational gate by constant propagation.
-@W: MO197 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[8] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) because its output is a constant.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[9] is reduced to a combinational gate by constant propagation.
-@W: MO160 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Register bit lnk_m_cs[10] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[12] is reduced to a combinational gate by constant propagation.
-@W: MO197 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[13] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) because its output is a constant.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[14] is reduced to a combinational gate by constant propagation.
-@W: MO197 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[15] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) because its output is a constant.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[16] is reduced to a combinational gate by constant propagation.
-@W: MO197 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[17] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) because its output is a constant.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[18] is reduced to a combinational gate by constant propagation.
-@W: MO197 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing FSM register lnk_m_cs[19] (in view view:work.G5_APBLINK_MASTER_Z20(verilog)) because its output is a constant.
-@W: MO129 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Sequential instance FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.pcie_apblink_master_inst.lnk_m_cs[11] is reduced to a combinational gate by constant propagation.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\component\actel\sgcore\pf_pcie\2.0.116\g5_apblink_master.v":134:0:134:5|Removing sequential instance lnk_m_cs[0] (in view: work.G5_APBLINK_MASTER_Z20(verilog)) because it does not drive other instances.
+@N: MO225 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Starting factoring (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 260MB peak: 303MB)
+Starting factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 200MB peak: 222MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:19s; Memory used current: 261MB peak: 303MB)
+Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 200MB peak: 222MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:22s; Memory used current: 257MB peak: 303MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 202MB peak: 222MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:24s; Memory used current: 257MB peak: 303MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 202MB peak: 222MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 258MB peak: 303MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 202MB peak: 222MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 258MB peak: 303MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 202MB peak: 222MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:32s; Memory used current: 257MB peak: 303MB)
+Finished preparing to map (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 202MB peak: 222MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:32s; Memory used current: 258MB peak: 303MB)
+Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 202MB peak: 222MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:33s		     2.82ns		 847 /       846
+   1		0h:00m:12s		     2.82ns		 740 /       743
 
 Added 0 Buffers
 Added 0 Cells via replication
@@ -241,39 +185,24 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:36s; Memory used current: 258MB peak: 303MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 203MB peak: 222MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:40s; Memory used current: 259MB peak: 303MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 203MB peak: 222MB)
 
 
 End compile point sub-process log
 
-Writing compile point status file F:\MPFS_Projects\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\cpprop
+Writing compile point status file E:\MPFS_Projects\Dilithium_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\cpprop
 
 Summary of Compile Points :
 *************************** 
-Name                            Status       Reason        
------------------------------------------------------------
-MPFS_ICICLE_KIT_BASE_DESIGN     Remapped     Design changed
-===========================================================
+Name                            Status       Reason                            
+-------------------------------------------------------------------------------
+MPFS_ICICLE_KIT_BASE_DESIGN     Remapped     Interface of Compile Point changed
+===============================================================================
 
-Process took 0h:00m:40s realtime, 0h:00m:40s cputime
-# Wed Aug 23 16:27:52 2023
+Process took 0h:00m:16s realtime, 0h:00m:16s cputime
+# Sun Nov 26 18:12:38 2023
 
 ###########################################################]

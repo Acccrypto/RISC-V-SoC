@@ -1,6 +1,6 @@
 <project name="MPFS_ICICLE_KIT_BASE_DESIGN" version="1.2">
     <ProjectDirectory>
-        F:\mypaper2\Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp
+        E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         MPFS250T_ES
     </LiberoTargetDevice>
     <LogFile>
-        F:\mypaper2\Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp\MPFS_ICICLE_KIT_BASE_DESIGN.log
+        E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp\MPFS_ICICLE_KIT_BASE_DESIGN.log
     </LogFile>
     <SerializationOption>
         Skip

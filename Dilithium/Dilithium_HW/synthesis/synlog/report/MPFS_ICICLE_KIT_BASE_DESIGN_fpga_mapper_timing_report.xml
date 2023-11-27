@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\synlog\MPFS_ICICLE_KIT_BASE_DESIGN_fpga_mapper.srr</data>
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\synlog\MPFS_ICICLE_KIT_BASE_DESIGN_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -21,38 +21,20 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data>-3.036</data>
 </row>
 <row>
-<data>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1</data>
-<data>135.0 MHz</data>
-<data>110.3 MHz</data>
-<data>-0.829</data>
-</row>
-<row>
-<data>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2</data>
-<data>135.0 MHz</data>
+<data>PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock</data>
+<data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>
 </row>
 <row>
-<data>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3</data>
-<data>50.6 MHz</data>
-<data>114.4 MHz</data>
-<data>11.009</data>
-</row>
-<row>
-<data>CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV</data>
-<data>80.0 MHz</data>
+<data>PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_8_inferred_clock</data>
+<data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>
 </row>
 <row>
-<data>CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK</data>
-<data>160.0 MHz</data>
-<data>NA</data>
-<data>NA</data>
-</row>
-<row>
-<data>CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK</data>
-<data>125.0 MHz</data>
+<data>PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_12_inferred_clock</data>
+<data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>
 </row>
@@ -63,15 +45,9 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data>NA</data>
 </row>
 <row>
-<data>REF_CLK_PAD_P</data>
-<data>100.0 MHz</data>
-<data>NA</data>
-<data>NA</data>
-</row>
-<row>
 <data>System</data>
 <data>100.0 MHz</data>
-<data>243.6 MHz</data>
-<data>5.896</data>
+<data>246.6 MHz</data>
+<data>5.945</data>
 </row>
 </report_table>

@@ -3,9 +3,9 @@ set_device \
     -die PA5SOC250T_ES \
     -pkg fcvg484
 set_proj_dir \
-    -path {F:\MPFS_Projects\MPFS_ICICLE}
+    -path {E:\MPFS_Projects\Dilithium_HW}
 set_impl_dir \
-    -path {F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN}
+    -path {E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN}
 set_is_relative_path \
     -value {FALSE}
 set_root_path_dir \

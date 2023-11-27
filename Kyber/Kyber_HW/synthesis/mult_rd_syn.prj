@@ -1,14 +1,14 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
-#--  Project file F:\mypaper2\Projects\Kyber_HW\synthesis\mult_rd_syn.prj
+#--  Project file E:\MPFS_Projects\Kyber_HW\synthesis\mult_rd_syn.prj
 #--  Written on Fri May 12 15:33:21 2023
 
 
 #project files
 add_file -verilog "../component/polarfire_syn_comps.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/fp_modop.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/fp_modop.v"
 add_file -verilog "../component/MSS_syn_comps.v"
-add_file -fpga_constraint "F:/mypaper2/Projects/Kyber_HW/designer/mult_rd/synthesis.fdc"
+add_file -fpga_constraint "E:/MPFS_Projects/Kyber_HW/designer/mult_rd/synthesis.fdc"
 
 
 #implementation: "synthesis"

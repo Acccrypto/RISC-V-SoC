@@ -1,5 +1,5 @@
-INFO: Reading User SDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc.
-INFO: Reading User SDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\fic_clocks.sdc.
+INFO: Reading User SDC file E:\MPFS_Projects\Kyber_HW\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc.
+INFO: Reading User SDC file E:\MPFS_Projects\Kyber_HW\constraint\fic_clocks.sdc.
 INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
 
 No errors or warnings found.
@@ -10,90 +10,92 @@ Power-driven             : OFF
 I/O Register Combining   : OFF
 Global Pins Demotion     : ON
 Driver Replication       : OFF
-High-effort              : OFF
-Repair min-delay         : OFF
+High-effort              : ON
+Repair min-delay         : ON
 Incremental              : OFF
 Inter-clock optimization : ON
 
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_CAN0.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MAC.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MIKROBUS.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MMUART0.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MMUART1.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MMUART2.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MMUART3.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_PCIE.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_USB.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_SDIO.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_RPi.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\fp\NW_PLL.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_CAN0.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_MAC.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_MIKROBUS.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_MMUART0.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_MMUART1.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_MMUART2.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_MMUART3.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_USB.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_SDIO.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\io\ICICLE_RPi.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Kyber_HW\constraint\fp\NW_PLL.pdc. 0 error(s) and 0 warning(s)
 
  Running Timing based Global Demotion. 
-        Moved all 1931 async pins from global to its source 'FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset'.
+        Demoted 0 global pins.
 
  Timing based Global Demotion completed successfully. 
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 68 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 65 fixed I/O macros, 0 unfixed I/O macros
 Info:  I/O Bank and Globals Assigner identified bank 'Bank0' as being fixed at VCCI:1.80V VCCR:n/a
 Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at VCCI:3.30V VCCR:n/a
 Info:  I/O Bank and Globals Assigner detected (2) out of (5) I/O Bank(s) with locked I/O technologies.
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 4 seconds
+Total time spent in I/O Bank and Globals Assigner: 5 seconds
 
 Placer V5.0 - 2022.2.0 
-Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Tue Sep 12 21:42:14 2023
+Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Sun Nov 26 17:40:11 2023
 
-Initializing Normal-Effort Timing-Driven Placement ...
+Initializing High-Effort Timing-Driven Placement ...
 Clustering ...
 Placing ...
 Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 6 seconds
-Placement                : 26 seconds
-Improvement              : 40 seconds
+Clustering (1 pass)      : 2 seconds
+Placement                : 17 seconds
+Improvement              : 36 seconds
 
 Placer completed successfully.
 
 Design: MPFS_ICICLE_KIT_BASE_DESIGN     
-Finished: Tue Sep 12 21:44:08 2023
-Total CPU Time:     00:02:15            Total Elapsed Time: 00:01:54
-Total Memory Usage: 1345.0 Mbytes
+Finished: Sun Nov 26 17:41:42 2023
+Total CPU Time:     00:01:39            Total Elapsed Time: 00:01:31
+Total Memory Usage: 1214.8 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Tue Sep 12 21:44:33 2023
+Design: E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Sun Nov 26 17:41:53 2023
 
-@
 
 Router completed successfully.
 
-Design: F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
-Finished: Tue Sep 12 21:45:20 2023
-Total CPU Time:     00:01:07            Total Elapsed Time: 00:00:47
-Total Memory Usage: 4581.2 Mbytes
+Design: E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
+Finished: Sun Nov 26 17:42:35 2023
+Total CPU Time:     00:01:05            Total Elapsed Time: 00:00:42
+Total Memory Usage: 4566.3 Mbytes
                         o - o - o - o - o - o
 
+Info: Iteration 1:
+  Worst minimum delay slack: 
+  Total violating paths eligible for improvement: 0
+  Total violating paths improved: 0
 Resource Usage
-+---------------+-------+--------+------------+
-| Type          | Used  | Total  | Percentage |
-+---------------+-------+--------+------------+
-| 4LUT          | 13486 | 254196 | 5.31       |
-| DFF           | 9252  | 254196 | 3.64       |
-| I/O Register  | 0     | 142    | 0.00       |
-| Logic Element | 16115 | 254196 | 6.34       |
-+---------------+-------+--------+------------+
++---------------+------+--------+------------+
+| Type          | Used | Total  | Percentage |
++---------------+------+--------+------------+
+| 4LUT          | 8844 | 254196 | 3.48       |
+| DFF           | 3945 | 254196 | 1.55       |
+| I/O Register  | 0    | 142    | 0.00       |
+| Logic Element | 9463 | 254196 | 3.72       |
++---------------+------+--------+------------+
 
 I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  58   | 100.00%    |
+| Locked |  55   | 100.00%    |
 | Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

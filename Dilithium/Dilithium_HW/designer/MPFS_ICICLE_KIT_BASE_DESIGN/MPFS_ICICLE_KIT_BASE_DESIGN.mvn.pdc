@@ -8,7 +8,7 @@
 
 # Family: PolarFireSoC , Die: MPFS250T_ES , Package: FCVG484 , Speed grade: STD 
 
-# Date generated: Wed Aug 23 16:45:47 2023 
+# Date generated: Sun Nov 26 18:13:08 2023 
 
 
 #
@@ -26,75 +26,11 @@ set_iobank -bank_name Bank3 -vcci 3.30 -fixed true
 # I/O constraints
 #
 
-set_io -port_name PCIESS_LANE_RXD0_N -DIRECTION INPUT -pin_name G19
-set_io -port_name PCIESS_LANE_RXD0_P -DIRECTION INPUT -pin_name G20
-set_io -port_name PCIESS_LANE_RXD1_N -DIRECTION INPUT -pin_name K21
-set_io -port_name PCIESS_LANE_RXD1_P -DIRECTION INPUT -pin_name K22
-set_io -port_name PCIESS_LANE_RXD2_N -DIRECTION INPUT -pin_name M21
-set_io -port_name PCIESS_LANE_RXD2_P -DIRECTION INPUT -pin_name M22
-set_io -port_name PCIESS_LANE_RXD3_N -DIRECTION INPUT -pin_name R19
-set_io -port_name PCIESS_LANE_RXD3_P -DIRECTION INPUT -pin_name R20
-set_io -port_name PCIESS_LANE_TXD0_N -DIRECTION OUTPUT -pin_name F21
-set_io -port_name PCIESS_LANE_TXD0_P -DIRECTION OUTPUT -pin_name F22
-set_io -port_name PCIESS_LANE_TXD1_N -DIRECTION OUTPUT -pin_name H21
-set_io -port_name PCIESS_LANE_TXD1_P -DIRECTION OUTPUT -pin_name H22
-set_io -port_name PCIESS_LANE_TXD2_N -DIRECTION OUTPUT -pin_name P21
-set_io -port_name PCIESS_LANE_TXD2_P -DIRECTION OUTPUT -pin_name P22
-set_io -port_name PCIESS_LANE_TXD3_N -DIRECTION OUTPUT -pin_name T21
-set_io -port_name PCIESS_LANE_TXD3_P -DIRECTION OUTPUT -pin_name T22
 
 #
 # Ports using Dedicated Pins
 #
 
-set_io -port_name PCIESS_LANE_RXD0_N  \
-    -pin_name G19                     \
-    -DIRECTION INPUT
-set_io -port_name PCIESS_LANE_RXD0_P  \
-    -pin_name G20                     \
-    -DIRECTION INPUT
-set_io -port_name PCIESS_LANE_RXD1_N  \
-    -pin_name K21                     \
-    -DIRECTION INPUT
-set_io -port_name PCIESS_LANE_RXD1_P  \
-    -pin_name K22                     \
-    -DIRECTION INPUT
-set_io -port_name PCIESS_LANE_RXD2_N  \
-    -pin_name M21                     \
-    -DIRECTION INPUT
-set_io -port_name PCIESS_LANE_RXD2_P  \
-    -pin_name M22                     \
-    -DIRECTION INPUT
-set_io -port_name PCIESS_LANE_RXD3_N  \
-    -pin_name R19                     \
-    -DIRECTION INPUT
-set_io -port_name PCIESS_LANE_RXD3_P  \
-    -pin_name R20                     \
-    -DIRECTION INPUT
-set_io -port_name PCIESS_LANE_TXD0_N  \
-    -pin_name F21                     \
-    -DIRECTION OUTPUT
-set_io -port_name PCIESS_LANE_TXD0_P  \
-    -pin_name F22                     \
-    -DIRECTION OUTPUT
-set_io -port_name PCIESS_LANE_TXD1_N  \
-    -pin_name H21                     \
-    -DIRECTION OUTPUT
-set_io -port_name PCIESS_LANE_TXD1_P  \
-    -pin_name H22                     \
-    -DIRECTION OUTPUT
-set_io -port_name PCIESS_LANE_TXD2_N  \
-    -pin_name P21                     \
-    -DIRECTION OUTPUT
-set_io -port_name PCIESS_LANE_TXD2_P  \
-    -pin_name P22                     \
-    -DIRECTION OUTPUT
-set_io -port_name PCIESS_LANE_TXD3_N  \
-    -pin_name T21                     \
-    -DIRECTION OUTPUT
-set_io -port_name PCIESS_LANE_TXD3_P  \
-    -pin_name T22                     \
-    -DIRECTION OUTPUT
 
 #
 # Core cell constraints

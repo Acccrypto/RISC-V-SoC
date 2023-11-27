@@ -13,7 +13,7 @@ The file contains the information about all compile points from mapper to be dis
 <data>
 <value>IHC_SUBSYSTEM</value>
 <report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\IHC_SUBSYSTEM\IHC_SUBSYSTEM.srr</data>
+<data>E:\MPFS_Projects\Kyber_HW\synthesis\IHC_SUBSYSTEM\IHC_SUBSYSTEM.srr</data>
 </report_link>
 </data>
 <data>Remapped</data>

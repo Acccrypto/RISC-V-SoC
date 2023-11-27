@@ -2,67 +2,55 @@ Resource Usage Report for MPFS_ICICLE_KIT_BASE_DESIGN
 
 Mapping to part: mpfs250tfcg1152std
 Cell usage:
-AND2            2 uses
-AND3            1 use
-AND4            2 uses
-CLKINT          10 uses
-DRI             1 use
-ICB_CLKDIV      1 use
-ICB_NGMUX       1 use
+AND2            1 use
+AND4            1 use
+CLKINT          6 uses
 INIT            1 use
 INV             4 uses
 MSS             1 use
-OR2             7 uses
-OSC_RC160MHZ    1 use
-PCIE            1 use
-PCIE_COMMON     1 use
+OR2             3 uses
 PLL             1 use
-TX_PLL          1 use
-XCVR_APB_LINK   1 use
-XCVR_PIPE_AXI0  2 uses
-XCVR_PIPE_AXI1  2 uses
-XCVR_REF_CLK    1 use
-CFG1           144 uses
-CFG2           1450 uses
-CFG3           5225 uses
-CFG4           6355 uses
+CFG1           132 uses
+CFG2           938 uses
+CFG3           3571 uses
+CFG4           4896 uses
 
 Carry cells:
-ARI1            2431 uses - used for arithmetic functions
-ARI1            2244 uses - used for Wide-Mux implementation
-Total ARI1      4675 uses
+ARI1            2367 uses - used for arithmetic functions
+ARI1            1498 uses - used for Wide-Mux implementation
+Total ARI1      3865 uses
 
 
 Sequential Cells: 
-SLE            9126 uses
+SLE            4011 uses
 SLE_INIT       4 uses - used for Seqshift to URAM mapping
-Total SLE          9130 uses
+Total SLE          4015 uses
 
 DSP Blocks:   16 of 784 (2%)
- MACC_PA:         8 MultAdds
  MACC_PA:         8 Mults
+ MACC_PA:         8 MultAdds
 
-I/O ports: 179
-I/O primitives: 151
+I/O ports: 158
+I/O primitives: 148
 BIBUF          71 uses
 BIBUF_DIFF     4 uses
 INBUF          19 uses
 INBUF_DIFF     3 uses
-OUTBUF         51 uses
+OUTBUF         48 uses
 OUTBUF_DIFF    3 uses
 
 
-Global Clock Buffers: 10
+Global Clock Buffers: 6
 
-Total LUTs:    17849
+Total LUTs:    13402
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
-RAM64X12 Interface Logic : SLEs = 1476; LUTs = 1476;
+RAM64X12 Interface Logic : SLEs = 1284; LUTs = 1284;
 RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA     Interface Logic : SLEs = 576; LUTs = 576;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  9130 + 1476 + 0 + 576 = 11182;
-Total number of LUTs after P&R:  17849 + 1476 + 0 + 576 = 19901;
+Total number of SLEs after P&R:  4015 + 1284 + 0 + 576 = 5875;
+Total number of LUTs after P&R:  13402 + 1284 + 0 + 576 = 15262;
 

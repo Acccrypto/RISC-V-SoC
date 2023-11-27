@@ -1,27 +1,13 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
-. MPFS_ICICLE_KIT_BASE_DESIGN, 8400, 10101, 2480, 0, 4, 0, 61, 10, 151
-.	. CLOCKS_AND_RESETS, 48, 1, 0, 0, 0, 0, 0, 6, 0
-.	.	. CLK_DIV, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. CLK_DIV_CLK_DIV_0_PF_CLK_DIV, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	. CORERESET_0, 16, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. CORERESET_CORERESET_0_CORERESET_PF_3, 16, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	. CORERESET_2, 16, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. CORERESET_CORERESET_0_CORERESET_PF_1, 16, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	. CORERESET_3, 16, 1, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. CORERESET_CORERESET_0_CORERESET_PF_0, 16, 1, 0, 0, 0, 0, 0, 0, 0
-.	.	. GLITCHLESS_MUX, 0, 0, 0, 0, 0, 0, 0, 1, 0
-.	.	.	. GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX, 0, 0, 0, 0, 0, 0, 0, 1, 0
+. MPFS_ICICLE_KIT_BASE_DESIGN, 3285, 6464, 1670, 0, 4, 0, 45, 6, 148
+.	. CLOCKS_AND_RESETS, 16, 1, 0, 0, 0, 0, 0, 5, 0
+.	.	. CORERESET, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CORERESET_CORERESET_0_CORERESET_PF, 16, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	. INIT_MONITOR, 0, 0, 0, 0, 0, 0, 0, 0, 0
 .	.	.	. INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	. OSCILLATOR_160MHz, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	. PCIE_REF_CLK, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. PCIE_REF_CLK_PCIE_REF_CLK_0_PF_XCVR_REF_CLK, 0, 0, 0, 0, 0, 0, 0, 0, 0
 .	.	. PF_CCC_C0, 0, 0, 0, 0, 0, 0, 0, 4, 0
 .	.	.	. PF_CCC_C0_PF_CCC_C0_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 4, 0
-.	.	. TRANSMIT_PLL, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. TRANSMIT_PLL_TRANSMIT_PLL_0_PF_TX_PLL, 0, 0, 0, 0, 0, 0, 0, 0, 0
 .	. FIC_0_PERIPHERALS, 3269, 6458, 1670, 0, 4, 0, 45, 1, 0
 .	.	. Core_Poly_Z3, 1296, 4074, 1339, 0, 4, 0, 38, 0, 0
 .	.	.	. address_generator, 89, 831, 41, 0, 0, 0, 0, 0, 0
@@ -79,20 +65,20 @@
 .	.	.	. polyvec_ram_8s_256s_12s, 0, 16, 96, 0, 0, 0, 16, 0, 0
 .	.	. FIC0_INITIATOR, 1973, 2384, 331, 0, 0, 0, 7, 1, 0
 .	.	.	. COREAXI4INTERCONNECT_Z5, 1973, 2384, 331, 0, 0, 0, 7, 1, 0
-.	.	.	.	. caxi4interconnect_MasterConvertor_Z8_0, 512, 271, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_8s_38s_64s_0s_1s_0, 512, 271, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_11s_0_1_3_0, 18, 12, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_76s_0_1_3_0, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. caxi4interconnect_MasterConvertor_Z8, 512, 271, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s, 512, 271, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_11s_0_1_3_2, 18, 12, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_76s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_0, 120, 63, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_1, 120, 63, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_82s_0_1_3_0, 106, 56, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. caxi4interconnect_ResetSycnc_0, 2, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_2, 120, 63, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_82s_0_1_3_2, 106, 56, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. caxi4interconnect_ResetSycnc, 2, 0, 0, 0, 0, 0, 0, 1, 0
 .	.	.	.	. caxi4interconnect_SlaveConvertor_Z13, 1459, 2113, 331, 0, 0, 0, 7, 0, 0
 .	.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0, 498, 281, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	. caxi4interconnect_RegSliceFull_12s_0_1_3_0, 18, 11, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_1, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_78s_0_1_3_0, 114, 65, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	. caxi4interconnect_RegSliceFull_78s_0_1_3_2, 112, 69, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_78s_0_1_3_3, 114, 65, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	. caxi4interconnect_RegSliceFull_83s_0_1_3_0, 106, 59, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	. caxi4interconnect_SlvDataWidthConverter_Z9, 961, 1832, 331, 0, 0, 0, 7, 0, 0
 .	.	.	.	.	.	. caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0, 961, 1832, 331, 0, 0, 0, 7, 0, 0
@@ -120,141 +106,5 @@
 .	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0, 16, 41, 0, 0, 0, 0, 3, 0, 0
 .	.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13, 16, 40, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s_0, 0, 1, 0, 0, 0, 0, 3, 0, 0
-.	. FIC_1_PERIPHERALS, 2136, 1475, 108, 0, 0, 0, 16, 3, 0
-.	.	. AXI_ADDRESS_SHIM, 0, 2, 0, 0, 0, 0, 0, 0, 0
-.	.	. FIC_1_INITIATOR, 1114, 758, 64, 0, 0, 0, 8, 1, 0
-.	.	.	. COREAXI4INTERCONNECT_Z15, 1114, 758, 64, 0, 0, 0, 8, 1, 0
-.	.	.	.	. caxi4interconnect_MasterConvertor_Z8_1, 528, 279, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_8s_38s_64s_0s_1s_1, 528, 279, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_11s_0_1_3_1, 22, 14, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_76s_0_1_3_1, 152, 79, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_5, 106, 56, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_6, 100, 53, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_82s_0_1_3_1, 148, 77, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. caxi4interconnect_ResetSycnc_COREAXI4INTERCONNECT_Z15, 2, 0, 0, 0, 0, 0, 0, 1, 0
-.	.	.	.	. caxi4interconnect_SlaveConvertor_Z19, 584, 479, 64, 0, 0, 0, 8, 0, 0
-.	.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_1, 528, 304, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_12s_0_1_3_1, 22, 24, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_4, 152, 85, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_78s_0_1_3_0, 106, 59, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_78s_0_1_3_1, 100, 56, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_83s_0_1_3_1, 148, 80, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. caxi4interconnect_SlvProtocolConverter_Z17, 56, 175, 64, 0, 0, 0, 8, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_9s_8s_0_0, 28, 88, 32, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	.	. caxi4interconnect_FIFO_256s_9s_9s_255s_0s_256s_8s_0s_255s_COREAXI4INTERCONNECT_Z15_0, 28, 82, 32, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_COREAXI4INTERCONNECT_Z15_1, 28, 74, 16, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_256s_8s_9s_0s_0, 0, 8, 16, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_9s_8s_0_1, 28, 87, 32, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	.	. caxi4interconnect_FIFO_256s_9s_9s_255s_0s_256s_8s_0s_255s_COREAXI4INTERCONNECT_Z15, 28, 81, 32, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_COREAXI4INTERCONNECT_Z15, 28, 73, 16, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_256s_8s_9s_0s, 0, 8, 16, 0, 0, 0, 4, 0, 0
-.	.	. PCIE_INITIATOR, 1022, 715, 44, 0, 0, 0, 8, 1, 0
-.	.	.	. COREAXI4INTERCONNECT_Z22, 1022, 715, 44, 0, 0, 0, 8, 1, 0
-.	.	.	.	. caxi4interconnect_MasterConvertor_Z25, 482, 279, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_1_4s_38s_64s_0s_1s, 482, 279, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_72s_0_1_3_2, 144, 78, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_73s_0_1_3_0, 92, 53, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_73s_0_1_3_1, 88, 53, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_78s_0_1_3_5, 148, 83, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_7s_0_1_3_2, 10, 12, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. caxi4interconnect_ResetSycnc_COREAXI4INTERCONNECT_Z22, 2, 0, 0, 0, 0, 0, 0, 1, 0
-.	.	.	.	. caxi4interconnect_SlaveConvertor_Z29, 538, 436, 44, 0, 0, 0, 8, 0, 0
-.	.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_1_5s_38s_64s_0s_1s, 482, 256, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_73s_0_1_3_3, 144, 75, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_74s_0_1_3_0, 92, 49, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_74s_0_1_3_1, 88, 47, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_79s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_RegSliceFull_8s_0_1_3_2, 10, 8, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. caxi4interconnect_SlvProtocolConverter_Z27, 56, 180, 44, 0, 0, 0, 8, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_5s_8s_0_0, 28, 90, 20, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	.	. caxi4interconnect_FIFO_256s_5s_5s_255s_0s_256s_8s_0s_255s_1, 28, 84, 20, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_COREAXI4INTERCONNECT_Z22_1, 28, 76, 16, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_256s_8s_5s_0s_1, 0, 8, 4, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	. caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_5s_8s_0_1, 28, 90, 24, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	.	. caxi4interconnect_FIFO_256s_5s_5s_255s_0s_256s_8s_0s_255s_0, 28, 84, 24, 0, 0, 0, 4, 0, 0
-.	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_COREAXI4INTERCONNECT_Z22, 28, 76, 16, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_256s_8s_5s_0s_0, 0, 8, 8, 0, 0, 0, 4, 0, 0
-.	.	. PF_PCIE_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
-.	.	.	. PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE, 0, 0, 0, 0, 0, 0, 0, 1, 0
-.	. FIC_3_PERIPHERALS, 2947, 2162, 702, 0, 0, 0, 0, 0, 0
-.	.	. FIC_3_ADDRESS_GENERATION, 0, 85, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. APB_ARBITER_28s, 0, 36, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. FIC_3_0x4000_0xxx, 0, 35, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. CoreAPB3_Z33, 0, 35, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. COREAPB3_MUXPTOB3_2, 0, 32, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. FIC_3_0x4FFF_Fxxx, 0, 5, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. CoreAPB3_Z31, 0, 5, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. COREAPB3_MUXPTOB3_0, 0, 4, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. FIC_3_0x4xxx_xxxx, 0, 9, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. CoreAPB3_Z32, 0, 9, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. COREAPB3_MUXPTOB3_1, 0, 5, 0, 0, 0, 0, 0, 0, 0
-.	.	. GPIO, 4, 3, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. GPIO_GPIO_0_CoreGPIO_Z30, 4, 3, 0, 0, 0, 0, 0, 0, 0
-.	.	. IHC_SUBSYSTEM, 2879, 2057, 702, 0, 0, 0, 0, 0, 0
-.	.	.	. APB_ARBITER_12s, 0, 189, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. IHC_APB_0, 0, 15, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. CoreAPB3_Z34_1, 0, 15, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. COREAPB3_MUXPTOB3_3_1, 0, 12, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. IHC_APB_1, 0, 153, 190, 0, 0, 0, 0, 0, 0
-.	.	.	.	. CoreAPB3_Z34_0, 0, 153, 190, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. COREAPB3_MUXPTOB3_3_0, 0, 145, 190, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_2s_1s_2s, 226, 161, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_2s_1s_2s_1s_3s, 226, 157, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_3, 22, 13, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11, 64, 34, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_0, 64, 7, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_2s_1s_3s, 226, 177, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_2s_1s_3s_1s_3s, 226, 173, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_4, 22, 11, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_1, 64, 32, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_2, 64, 37, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_2s_1s_4s, 226, 161, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_2s_1s_4s_1s_3s, 226, 157, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_5, 22, 13, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_3, 64, 32, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_4, 64, 12, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_2s_2s_3s, 226, 142, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_2s_2s_3s_1s_3s, 226, 135, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_6, 22, 11, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_5, 64, 7, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_6, 64, 12, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_2s_2s_4s, 226, 146, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_2s_2s_4s_1s_3s, 226, 141, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_7, 22, 13, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_7, 64, 8, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_8, 64, 12, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_2s_3s_4s, 226, 153, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_2s_3s_4s_1s_3s, 226, 146, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_8, 22, 13, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_10, 64, 13, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_9, 64, 14, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_4s_0s_1s, 356, 185, 128, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_4s_0s_1s_1s_3s, 356, 179, 128, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs, 22, 18, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7, 128, 8, 64, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_0, 128, 4, 64, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_4s_0s_2s, 354, 149, 128, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_4s_0s_2s_1s_3s, 354, 144, 128, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_0, 22, 17, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_1, 128, 11, 64, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_2, 128, 8, 64, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_4s_0s_3s, 354, 146, 128, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_4s_0s_3s_1s_3s, 354, 140, 128, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_1, 22, 17, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_3, 128, 10, 64, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_4, 128, 9, 64, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCC_4s_0s_4s, 354, 133, 128, 0, 0, 0, 0, 0, 0
-.	.	.	.	. miv_ihcc_ctrl_4s_0s_4s_1s_3s, 354, 127, 128, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_irqs_2, 22, 17, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_5, 128, 8, 64, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_6, 128, 4, 64, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCIA_0, 21, 22, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCIA_1, 21, 31, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCIA_2, 21, 32, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCIA_3, 21, 31, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. MIV_IHCIA_4, 21, 31, 0, 0, 0, 0, 0, 0, 0
-.	.	. RECONFIGURATION_INTERFACE, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. RECONFIGURATION_INTERFACE_RECONFIGURATION_INTERFACE_0_PF_DRI, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	. fabric_sd_emmc_demux_select, 64, 17, 0, 0, 0, 0, 0, 0, 0
 .	. MSS_WRAPPER, 0, 2, 0, 0, 0, 0, 0, 0, 114
 .	.	. ICICLE_MSS, 0, 2, 0, 0, 0, 0, 0, 0, 93

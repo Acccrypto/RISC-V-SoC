@@ -1,4 +1,4 @@
-# Tue Mar 28 21:13:44 2023
+# Sun Nov 26 15:59:22 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -17,54 +17,54 @@ Implementation : synthesis
 Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 126MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
 
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 139MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 139MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 139MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 134MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 139MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 134MB)
 
 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\work\ihc_subsystem\ihc_subsystem.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+@N: MF104 :"e:\mpfs_projects\kyber_hw\component\work\ihc_subsystem\ihc_subsystem.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
 
 
 @N: MF105 |Performing bottom-up mapping of Compile point view:work.IHC_SUBSYSTEM(verilog) 
 
-Begin environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 193MB)
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 178MB peak: 178MB)
 
 
-Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
+Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 179MB)
 
 
-Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 179MB)
 
 
-Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 179MB)
 
 
 Begin compile point sub-process log
 
-@N: MF106 :"f:\mpfs_projects\mpfs_icicle\component\work\ihc_subsystem\ihc_subsystem.v":9:7:9:19|Mapping Compile point view:work.IHC_SUBSYSTEM(verilog) because 
+@N: MF106 :"e:\mpfs_projects\kyber_hw\component\work\ihc_subsystem\ihc_subsystem.v":9:7:9:19|Mapping Compile point view:work.IHC_SUBSYSTEM(verilog) because 
 		 RTL and/or Constraints changed.
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 179MB)
 
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_3_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_3_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 #### START OF SSF LOG MESSAGES ####
 
@@ -106,85 +106,85 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapse
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
-@W: FA239 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z34_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z34_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@N: MO106 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z34_0(verilog)) with 16 words by 16 bits.
-@W: FA239 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z34_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z34_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@N: MO106 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z34_1(verilog)) with 16 words by 16 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z18_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z18_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z18_0(verilog)) with 16 words by 16 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z18_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z18_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_11[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z18_1(verilog)) with 16 words by 16 bits.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 191MB peak: 196MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 187MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 194MB peak: 196MB)
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 188MB peak: 188MB)
 
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"f:\mpfs_projects\mpfs_icicle\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\hdl\miv_ihcc_ctrl.v":135:4:135:9|Removing instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 205MB peak: 205MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 199MB peak: 199MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 212MB peak: 228MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 207MB peak: 223MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 214MB peak: 228MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 209MB peak: 223MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 214MB peak: 228MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 210MB peak: 223MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 214MB peak: 228MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 210MB peak: 223MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 214MB peak: 228MB)
+Finished preparing to map (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 210MB peak: 223MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 228MB peak: 228MB)
+Finished technology mapping (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 223MB peak: 223MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:12s		    10.02ns		2846 /      3013
+   1		0h:00m:09s		     9.03ns		2846 /      2883
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 230MB peak: 230MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 226MB peak: 226MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 230MB peak: 230MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 226MB peak: 227MB)
 
 
 End compile point sub-process log
 
 @N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 9.09ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 7.27ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 7.27ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 20.91ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 6.06ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 19.91ns 
+@W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_8_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0_clkint_8.
+@W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0_clkint_4.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Mar 28 21:13:59 2023
+# Timing report written on Sun Nov 26 15:59:34 2023
 #
 
 
 Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
-Requested Frequency:    47.8 MHz
+Requested Frequency:    50.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+Constraint File(s):    E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -196,21 +196,17 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 12.163
+Worst slack in design: 11.167
 
-                                                                                        Requested     Estimated     Requested     Estimated                Clock                                                                                                    Clock           
-Starting Clock                                                                          Frequency     Frequency     Period        Period        Slack      Type                                                                                                     Group           
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0                      110.0 MHz     NA            9.091         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC0_clks       
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1                      137.5 MHz     NA            7.273         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC1_clks       
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2                      137.5 MHz     NA            7.273         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC2_clks       
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3                      47.8 MHz      114.3 MHz     20.909        8.746         12.163     generated (from REF_CLK_50MHz)                                                                           FIC3_clks       
-CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV                   80.0 MHz      NA            12.500        NA            NA         generated (from CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK)     default_clkgroup
-CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK     160.0 MHz     NA            6.250         NA            NA         declared                                                                                                 default_clkgroup
-CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK             125.0 MHz     NA            8.000         NA            NA         declared                                                                                                 default_clkgroup
-REF_CLK_50MHz                                                                           50.0 MHz      NA            20.000        NA            NA         declared                                                                                                 default_clkgroup
-REF_CLK_PAD_P                                                                           100.0 MHz     NA            10.000        NA            NA         declared                                                                                                 default_clkgroup
-====================================================================================================================================================================================================================================================================================
+                                                                       Requested     Estimated     Requested     Estimated                Clock                              Clock                
+Starting Clock                                                         Frequency     Frequency     Period        Period        Slack      Type                               Group                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     165.0 MHz     NA            6.061         NA            NA         generated (from REF_CLK_50MHz)     FIC0_clks            
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     50.2 MHz      114.3 MHz     19.913        8.746         11.167     generated (from REF_CLK_50MHz)     FIC3_clks            
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock        100.0 MHz     NA            10.000        NA            NA         inferred                           Inferred_clkgroup_0_2
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_8_inferred_clock        100.0 MHz     NA            10.000        NA            NA         inferred                           Inferred_clkgroup_0_1
+REF_CLK_50MHz                                                          50.0 MHz      NA            20.000        NA            NA         declared                           default_clkgroup     
+==================================================================================================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
 
 
@@ -224,7 +220,7 @@ Clocks                                                                          
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  20.909      12.163  |  No paths    -      |  No paths    -      |  No paths    -    
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  19.913      11.167  |  No paths    -      |  No paths    -      |  No paths    -    
 ===============================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -251,16 +247,16 @@ Starting Points with Worst Slack
 Instance                                  Reference                                                              Type     Pin                       Net                                                                                                  Time        Slack 
                                           Clock                                                                                                                                                                                                                            
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[28]     FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.APB_ARBITER_0.in_paddr[28]                            1.793       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PSEL          FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.APB_ARBITER_0.in_psel                                 1.678       12.270
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[11]     FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.PADDR[11]     1.768       12.737
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[10]     FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.PADDR[10]     1.772       13.119
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[12]     FIC_3_PERIPHERALS_1.APB_MMASTER_in_paddr[12]                                                         1.758       13.369
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[8]      FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.PADDR[8]      1.763       13.722
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[9]      FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.PADDR[9]      1.716       13.818
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PENABLE       FIC_3_PERIPHERALS_1.RECONFIGURATION_INTERFACE_0.RECONFIGURATION_INTERFACE_0.PENABLE                  1.693       13.915
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[5]      FIC_3_PERIPHERALS_1.PWM.corepwm_C0_0.genblk3\.corepwm_reg_if.PADDR[3]                                1.731       13.925
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[2]      FIC_3_PERIPHERALS_1.PWM.corepwm_C0_0.genblk3\.corepwm_reg_if.PADDR[0]                                1.739       14.103
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[28]     FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.APB_ARBITER_0.in_paddr[28]                            1.793       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PSEL          FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.APB_ARBITER_0.in_psel                                 1.678       11.275
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[11]     FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.PADDR[11]     1.768       11.742
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[10]     FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.PADDR[10]     1.772       12.138
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[12]     FIC_3_PERIPHERALS_1.APB_MMASTER_in_paddr[12]                                                         1.758       12.373
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[8]      FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.PADDR[8]      1.763       12.736
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[9]      FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.PADDR[9]      1.716       12.822
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[5]      FIC_3_PERIPHERALS_1.RECONFIGURATION_INTERFACE_0.RECONFIGURATION_INTERFACE_0.PADDR[5]                 1.731       12.929
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PENABLE       FIC_3_PERIPHERALS_1.RECONFIGURATION_INTERFACE_0.RECONFIGURATION_INTERFACE_0.PENABLE                  1.693       12.938
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[2]      FIC_3_PERIPHERALS_1.RECONFIGURATION_INTERFACE_0.RECONFIGURATION_INTERFACE_0.PADDR[2]                 1.739       13.149
 ===========================================================================================================================================================================================================================================================================
 
 
@@ -271,16 +267,16 @@ Ending Points with Worst Slack
 Instance                                  Reference                                                              Type     Pin                        Net                                                        Time         Slack 
                                           Clock                                                                                                                                                                                    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[10]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[10]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[11]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[11]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[12]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[12]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[13]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[13]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[14]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[14]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[15]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[15]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[16]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[16]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[17]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[17]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[18]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[18]     20.909       12.163
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[19]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[19]     20.909       12.163
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[10]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[10]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[11]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[11]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[12]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[12]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[13]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[13]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[14]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[14]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[15]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[15]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[16]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[16]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[17]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[17]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[18]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[18]     19.913       11.167
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[19]     MSS_WRAPPER_1.ICICLE_MSS_inst_0.FIC_3_APB_M_PRDATA[19]     19.913       11.167
 ===================================================================================================================================================================================================================================
 
 
@@ -290,20 +286,20 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      20.909
+      Requested Period:                      19.913
     - Setup time:                            0.000
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         20.909
+    = Required time:                         19.913
 
     - Propagation time:                      8.746
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     12.163
+    = Slack (critical) :                     11.167
 
     Number of logic level(s):                9
     Starting point:                          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS / FIC_3_APB_M_PADDR[28]
     Ending point:                            MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS / FIC_3_APB_M_PRDATA[10]
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.454 period=20.909) on pin FIC_3_PCLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.454 period=20.909) on pin FIC_3_PCLK
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=9.957 period=19.913) on pin FIC_3_PCLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=9.957 period=19.913) on pin FIC_3_PCLK
 
 Instance / Net                                                                                        Pin                        Pin               Arrival     No. of    
 Name                                                                                         Type     Name                       Dir     Delay     Time        Fan Out(s)
@@ -347,13 +343,9 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 ##### END OF TIMING REPORT #####]
 
 Timing exceptions that could not be applied
-@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
-@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
-@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
-@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
-@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"e:/mpfs_projects/kyber_hw/designer/mpfs_icicle_kit_base_design/synthesis.fdc":11:0:11:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
 None
-Writing compile point status file F:\MPFS_Projects\MPFS_ICICLE\synthesis\IHC_SUBSYSTEM\cpprop
+Writing compile point status file E:\MPFS_Projects\Kyber_HW\synthesis\IHC_SUBSYSTEM\cpprop
 
 Summary of Compile Points :
 *************************** 
@@ -362,7 +354,7 @@ Name              Status       Reason
 IHC_SUBSYSTEM     Remapped     Design changed
 =============================================
 
-Process took 0h:00m:15s realtime, 0h:00m:15s cputime
-# Tue Mar 28 21:14:00 2023
+Process took 0h:00m:11s realtime, 0h:00m:11s cputime
+# Sun Nov 26 15:59:34 2023
 
 ###########################################################]

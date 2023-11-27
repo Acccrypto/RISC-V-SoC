@@ -15,6 +15,6 @@ set_def {RTG4_MITIGATION_ON} {0}
 set_def USE_CONSTRAINTS_FLOW 1
 set_def NETLIST_TYPE EDIF
 set_name MPFS_ICICLE_KIT_BASE_DESIGN
-set_workdir {F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN}
-set_log     {F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_sdc.log}
+set_workdir {E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN}
+set_log     {E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_sdc.log}
 set_design_state pre_layout

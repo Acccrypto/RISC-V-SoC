@@ -19,13 +19,10 @@ set_defvar -name {RTG4_MITIGATION_ON} -value {0}
 set_defvar -name {USE_CONSTRAINT_FLOW} -value True
 set_defvar -name {FHB_AUTO_INSTANTIATION} -value {0}
 
-set_partition_info -name "/MPFS_ICICLE_KIT_BASE_DESIGN" -timestamp "1692779223"
+set_partition_info -name "/MPFS_ICICLE_KIT_BASE_DESIGN" -timestamp "1700993537"
 set_partition_info -name "/MPFS_ICICLE_KIT_BASE_DESIGN/FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0" -timestamp "1691822492"
 set_partition_info -name "/MPFS_ICICLE_KIT_BASE_DESIGN/FIC_0_PERIPHERALS_1/Core_Poly_0" -timestamp "1692780230"
 set_partition_info -name "/MPFS_ICICLE_KIT_BASE_DESIGN/FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop\[0\]\.slvcnv" -timestamp "1681177133"
-set_partition_info -name "/MPFS_ICICLE_KIT_BASE_DESIGN/FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0" -timestamp "1681177133"
-set_partition_info -name "/MPFS_ICICLE_KIT_BASE_DESIGN/FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0" -timestamp "1680009190"
-set_partition_info -name "/MPFS_ICICLE_KIT_BASE_DESIGN/FIC_3_PERIPHERALS_1/IHC_SUBSYSTEM_0" -timestamp "1680009190"
 set_compile_info \
     -category {"Device Selection"} \
     -name {"Family"} \
@@ -69,16 +66,16 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"F:\MPFS_Projects\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm"}
+    -value {"E:\MPFS_Projects\Dilithium_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN} \
+    -desdir {E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN} \
     -design MPFS_ICICLE_KIT_BASE_DESIGN \
     -fam PolarFireSoC \
     -die PA5SOC250T_ES \
     -pkg fcvg484 \
-    -partition_pdc_file {F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.nmatinit.pdc} \
+    -partition_pdc_file {E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.nmatinit.pdc} \
     -merge_pdc 0

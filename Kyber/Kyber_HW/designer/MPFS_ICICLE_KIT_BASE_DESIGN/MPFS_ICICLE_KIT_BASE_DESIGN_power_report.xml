@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text></text>
+<title>Power Report for design MPFS_ICICLE_KIT_BASE_DESIGN with the following settings:</title>
+<text></text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Vendor:</cell>
+ <cell>Microsemi Corporation</cell>
+</row>
+<row>
+ <cell>Program:</cell>
+ <cell>Microchip Libero Software, Release v2022.2 (Version 2022.2.0.10)</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Copyright (C) 1989-</cell>
+</row>
+<row>
+ <cell>Date:</cell>
+ <cell>Sun Nov 26 17:51:16 2023</cell>
+</row>
+<row>
+ <cell>Version:</cell>
+ <cell>3.0</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design:</cell>
+ <cell>MPFS_ICICLE_KIT_BASE_DESIGN</cell>
+</row>
+<row>
+ <cell>Family:</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die:</cell>
+ <cell>MPFS250T_ES</cell>
+</row>
+<row>
+ <cell>Package:</cell>
+ <cell>FCVG484</cell>
+</row>
+<row>
+ <cell>Temperature Range:</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Voltage Range:</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Operating Conditions:</cell>
+ <cell>Typical</cell>
+</row>
+<row>
+ <cell>Operating Mode:</cell>
+ <cell>Active</cell>
+</row>
+<row>
+ <cell>Process:</cell>
+ <cell>Typical</cell>
+</row>
+<row>
+ <cell>Data Source:</cell>
+ <cell>Production</cell>
+</row>
+</table>
+<text></text>
+<section><name>Power Summary</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>Total Power</cell>
+ <cell>  1832.988</cell>
+ <cell>    100.0%</cell>
+</row>
+<row>
+ <cell>Static Power</cell>
+ <cell>   521.924</cell>
+ <cell>     28.5%</cell>
+</row>
+<row>
+ <cell>Dynamic Power</cell>
+ <cell>  1311.065</cell>
+ <cell>     71.5%</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Rail</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Voltage (V)</cell>
+ <cell>Current (mA)</cell>
+</header>
+<row>
+ <cell>Rail VDD</cell>
+ <cell>  1473.152</cell>
+ <cell>     1.050</cell>
+ <cell>  1403.002</cell>
+</row>
+<row>
+ <cell>Rail VDDAUX</cell>
+ <cell>    65.294</cell>
+ <cell>     2.500</cell>
+ <cell>    26.117</cell>
+</row>
+<row>
+ <cell>Rail VDDI 3.3</cell>
+ <cell>    19.634</cell>
+ <cell>     3.300</cell>
+ <cell>     5.950</cell>
+</row>
+<row>
+ <cell>Rail VDDI 1.8</cell>
+ <cell>     3.713</cell>
+ <cell>     1.800</cell>
+ <cell>     2.063</cell>
+</row>
+<row>
+ <cell>Rail VDD18</cell>
+ <cell>    24.888</cell>
+ <cell>     1.800</cell>
+ <cell>    13.827</cell>
+</row>
+<row>
+ <cell>Rail VDDI 1.1</cell>
+ <cell>   226.703</cell>
+ <cell>     1.100</cell>
+ <cell>   206.094</cell>
+</row>
+<row>
+ <cell>Rail VDD25</cell>
+ <cell>    19.606</cell>
+ <cell>     2.500</cell>
+ <cell>     7.842</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Clock</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>REF_CLK_50MHz (clocks)</cell>
+ <cell>     0.430</cell>
+ <cell>      0.4%</cell>
+</row>
+<row>
+ <cell>REF_CLK_50MHz (register outputs)</cell>
+ <cell>     0.003</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>REF_CLK_50MHz (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>REF_CLK_50MHz (combinational outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>REF_CLK_50MHz (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>REFCLK (clocks)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>REFCLK (register outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>REFCLK (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>REFCLK (combinational outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>REFCLK (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT2 (clocks)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT2 (register outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT2 (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT2 (combinational outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT2 (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (clocks)</cell>
+ <cell>    11.016</cell>
+ <cell>     10.1%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (register outputs)</cell>
+ <cell>    18.199</cell>
+ <cell>     16.8%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (combinational outputs)</cell>
+ <cell>    78.966</cell>
+ <cell>     72.7%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT3 (clocks)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT3 (register outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT3 (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT3 (combinational outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT3 (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT1 (clocks)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT1 (register outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT1 (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT1 (combinational outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT1 (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>Input to Output</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Type</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>Type Net</cell>
+ <cell>    41.894</cell>
+ <cell>      2.3%</cell>
+</row>
+<row>
+ <cell>Type Gate</cell>
+ <cell>  1220.948</cell>
+ <cell>     66.6%</cell>
+</row>
+<row>
+ <cell>Type I/O</cell>
+ <cell>   377.580</cell>
+ <cell>     20.6%</cell>
+</row>
+<row>
+ <cell>Type Memory</cell>
+ <cell>     0.717</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>Type Core Static</cell>
+ <cell>   189.070</cell>
+ <cell>     10.3%</cell>
+</row>
+<row>
+ <cell>Type Other Rails Static</cell>
+ <cell>     0.450</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>Type DSP</cell>
+ <cell>     2.330</cell>
+ <cell>      0.1%</cell>
+</row>
+</table>
+<text></text>
+</doc>

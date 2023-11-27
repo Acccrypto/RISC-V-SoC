@@ -1,14 +1,14 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
-#--  Project file F:\mypaper2\Projects\Dilithium_HW\synthesis\mont_syn.prj
+#--  Project file E:\MPFS_Projects\Dilithium_HW\synthesis\mont_syn.prj
 #--  Written on Mon May 15 12:43:04 2023
 
 
 #project files
 add_file -verilog "../component/polarfire_syn_comps.v"
-add_file -verilog "F:/mypaper2/Projects/Dilithium_HW/hdl/mont.v"
+add_file -verilog "E:/MPFS_Projects/Dilithium_HW/hdl/mont.v"
 add_file -verilog "../component/MSS_syn_comps.v"
-add_file -fpga_constraint "F:/mypaper2/Projects/Dilithium_HW/designer/mont/synthesis.fdc"
+add_file -fpga_constraint "E:/MPFS_Projects/Dilithium_HW/designer/mont/synthesis.fdc"
 
 
 #implementation: "synthesis"

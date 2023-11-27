@@ -5,30 +5,16 @@
   <drc>
     <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin CLOCKS_AND_RESETS:RESETN_FIC2_CLK</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/MPFS_ICICLE_KIT_BASE_DESIGN/pins/CLOCKS_AND_RESETS:RESETN_FIC2_CLK</crossprobe>
-  </drc>
-  <drc>
-    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message> bus interface ID width mismatch</message>
-    <detail> There is an ID width mismatch between FIC_1_PERIPHERALS_1:AXI4mslave0:AXI4mslave0_SLAVE0_AWID[0-4] and MSS_WRAPPER_1:FIC_1_AXI4_TARGET:FIC_1_AXI4_TARGET_FIC_1_AXI4_S_AWID[0-3] which may result in a loss of data.</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/MPFS_ICICLE_KIT_BASE_DESIGN/pins/FIC_1_PERIPHERALS_1:AXI4mslave0</crossprobe>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin MSS_WRAPPER_1:FIC_1_AXI4_INITIATOR</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MPFS_ICICLE_KIT_BASE_DESIGN/pins/MSS_WRAPPER_1:FIC_1_AXI4_INITIATOR</crossprobe>
   </drc>
   <drc>
     <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Unconnected Bus Interface</message>
-    <detail>Unconnected bus interface pin FIC_1_PERIPHERALS_1:APB_SLAVE</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/MPFS_ICICLE_KIT_BASE_DESIGN/pins/FIC_1_PERIPHERALS_1:APB_SLAVE</crossprobe>
-  </drc>
-  <drc>
-    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Unconnected Bus Interface</message>
-    <detail>Unconnected bus interface pin FIC_3_PERIPHERALS_1:PLL0_SW_DRI</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/MPFS_ICICLE_KIT_BASE_DESIGN/pins/FIC_3_PERIPHERALS_1:PLL0_SW_DRI</crossprobe>
+    <detail>Unconnected bus interface pin MSS_WRAPPER_1:FIC_3_APB_INITIATOR</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MPFS_ICICLE_KIT_BASE_DESIGN/pins/MSS_WRAPPER_1:FIC_3_APB_INITIATOR</crossprobe>
   </drc>
   <drc>
     <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
@@ -36,6 +22,13 @@
     <message>Unconnected Bus Interface</message>
     <detail>Unconnected bus interface pin MSS_WRAPPER_1:FIC_0_AXI4_TARGET</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/MPFS_ICICLE_KIT_BASE_DESIGN/pins/MSS_WRAPPER_1:FIC_0_AXI4_TARGET</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin MSS_WRAPPER_1:FIC_1_AXI4_TARGET</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MPFS_ICICLE_KIT_BASE_DESIGN/pins/MSS_WRAPPER_1:FIC_1_AXI4_TARGET</crossprobe>
   </drc>
   <drc>
     <status>D:\Microchip\Libero_SoC_v2022.2\Designer/data/drcreport\warn.png</status>

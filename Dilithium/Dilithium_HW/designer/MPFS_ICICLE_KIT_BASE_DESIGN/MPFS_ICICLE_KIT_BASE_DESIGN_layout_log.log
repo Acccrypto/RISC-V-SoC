@@ -1,5 +1,5 @@
-INFO: Reading User SDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc.
-INFO: Reading User SDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\fic_clocks.sdc.
+INFO: Reading User SDC file E:\MPFS_Projects\Dilithium_HW\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc.
+INFO: Reading User SDC file E:\MPFS_Projects\Dilithium_HW\constraint\fic_clocks.sdc.
 INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
 
 No errors or warnings found.
@@ -15,27 +15,26 @@ Repair min-delay         : OFF
 Incremental              : OFF
 Inter-clock optimization : ON
 
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_CAN0.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MAC.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MIKROBUS.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MMUART0.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MMUART1.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MMUART2.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_MMUART3.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_PCIE.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_USB.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_SDIO.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\io\ICICLE_RPi.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file F:\MPFS_Projects\MPFS_ICICLE\constraint\fp\NW_PLL.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_CAN0.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_MAC.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_MIKROBUS.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_MMUART0.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_MMUART1.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_MMUART2.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_MMUART3.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_USB.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_SDIO.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\io\ICICLE_RPi.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\MPFS_Projects\Dilithium_HW\constraint\fp\NW_PLL.pdc. 0 error(s) and 0 warning(s)
 
  Running Timing based Global Demotion. 
-        Moved all 1910 async pins from global to its source 'FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset'.
+        Demoted 0 global pins.
 
  Timing based Global Demotion completed successfully. 
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 68 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 65 fixed I/O macros, 0 unfixed I/O macros
 Info:  I/O Bank and Globals Assigner identified bank 'Bank0' as being fixed at VCCI:1.80V VCCR:n/a
 Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at VCCI:3.30V VCCR:n/a
 Info:  I/O Bank and Globals Assigner detected (2) out of (5) I/O Bank(s) with locked I/O technologies.
@@ -44,7 +43,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 5 seconds
 
 Placer V5.0 - 2022.2.0 
-Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Wed Aug 23 16:47:15 2023
+Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Mon Nov 27 09:06:27 2023
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -53,46 +52,46 @@ Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 7 seconds
-Placement                : 38 seconds
-Improvement              : 103 seconds
+Clustering (1 pass)      : 4 seconds
+Placement                : 22 seconds
+Improvement              : 63 seconds
 
 Placer completed successfully.
 
 Design: MPFS_ICICLE_KIT_BASE_DESIGN     
-Finished: Wed Aug 23 16:50:34 2023
-Total CPU Time:     00:03:49            Total Elapsed Time: 00:03:19
-Total Memory Usage: 1483.9 Mbytes
+Finished: Mon Nov 27 09:08:34 2023
+Total CPU Time:     00:02:22            Total Elapsed Time: 00:02:07
+Total Memory Usage: 1321.3 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Wed Aug 23 16:51:02 2023
+Design: E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Mon Nov 27 09:08:46 2023
 
 
 Router completed successfully.
 
-Design: F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
-Finished: Wed Aug 23 16:51:41 2023
-Total CPU Time:     00:00:49            Total Elapsed Time: 00:00:39
-Total Memory Usage: 4596.0 Mbytes
+Design: E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
+Finished: Mon Nov 27 09:09:20 2023
+Total CPU Time:     00:00:44            Total Elapsed Time: 00:00:34
+Total Memory Usage: 4579.1 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+-------+--------+------------+
 | Type          | Used  | Total  | Percentage |
 +---------------+-------+--------+------------+
-| 4LUT          | 19940 | 254196 | 7.84       |
-| DFF           | 11158 | 254196 | 4.39       |
+| 4LUT          | 15298 | 254196 | 6.02       |
+| DFF           | 5851  | 254196 | 2.30       |
 | I/O Register  | 0     | 142    | 0.00       |
-| Logic Element | 22543 | 254196 | 8.87       |
+| Logic Element | 15897 | 254196 | 6.25       |
 +---------------+-------+--------+------------+
 
 I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  58   | 100.00%    |
+| Locked |  55   | 100.00%    |
 | Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

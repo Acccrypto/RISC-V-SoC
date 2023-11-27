@@ -15,7 +15,7 @@ The file contains the information about all compile points from mapper to be dis
 <data>
 <value>poly_mul</value>
 <report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\poly_mul\poly_mul.srr</data>
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\poly_mul\poly_mul.srr</data>
 </report_link>
 </data>
 <data>Unchanged</data>
@@ -25,9 +25,21 @@ The file contains the information about all compile points from mapper to be dis
 </row>
 <row>
 <data>
+<value>Core_Poly_Z3</value>
+<report_link name="Report">
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:40s</data>
+<data>0h:00m:40s</data>
+</row>
+<row>
+<data>
 <value>caxi4interconnect_SlaveConvertor_Z13</value>
 <report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\caxi4interconnect_SlaveConvertor_Z13\caxi4interconnect_SlaveConvertor_Z13.srr</data>
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\caxi4interconnect_SlaveConvertor_Z13\caxi4interconnect_SlaveConvertor_Z13.srr</data>
 </report_link>
 </data>
 <data>Unchanged</data>
@@ -37,62 +49,14 @@ The file contains the information about all compile points from mapper to be dis
 </row>
 <row>
 <data>
-<value>COREAXI4INTERCONNECT_Z15</value>
-<report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\COREAXI4INTERCONNECT_Z15\COREAXI4INTERCONNECT_Z15.srr</data>
-</report_link>
-</data>
-<data>Unchanged</data>
-<data>-</data>
-<data>0h:00m:33s</data>
-<data>0h:00m:33s</data>
-</row>
-<row>
-<data>
-<value>COREAXI4INTERCONNECT_Z22</value>
-<report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\COREAXI4INTERCONNECT_Z22\COREAXI4INTERCONNECT_Z22.srr</data>
-</report_link>
-</data>
-<data>Unchanged</data>
-<data>-</data>
-<data>0h:00m:32s</data>
-<data>0h:00m:32s</data>
-</row>
-<row>
-<data>
-<value>IHC_SUBSYSTEM</value>
-<report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\IHC_SUBSYSTEM\IHC_SUBSYSTEM.srr</data>
-</report_link>
-</data>
-<data>Unchanged</data>
-<data>-</data>
-<data>0h:00m:15s</data>
-<data>0h:00m:15s</data>
-</row>
-<row>
-<data>
 <value>MPFS_ICICLE_KIT_BASE_DESIGN</value>
 <report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
-</report_link>
-</data>
-<data>Unchanged</data>
-<data>-</data>
-<data>0h:00m:40s</data>
-<data>0h:00m:40s</data>
-</row>
-<row>
-<data>
-<value>Core_Poly_Z3</value>
-<report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
 </report_link>
 </data>
 <data>Remapped</data>
-<data>Design changed</data>
-<data>0h:00m:40s</data>
-<data>0h:00m:40s</data>
+<data>Interface of Compile Point changed</data>
+<data>0h:00m:16s</data>
+<data>0h:00m:16s</data>
 </row>
 </report_table>

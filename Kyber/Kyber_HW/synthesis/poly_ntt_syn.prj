@@ -1,21 +1,21 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
-#--  Project file F:\mypaper2\Projects\Kyber_HW\synthesis\poly_ntt_syn.prj
+#--  Project file E:\MPFS_Projects\Kyber_HW\synthesis\poly_ntt_syn.prj
 #--  Written on Thu Mar  2 19:08:42 2023
 
 
 #project files
 add_file -verilog "../component/polarfire_syn_comps.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/arbiter.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/delay.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/network_bank_in.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/network_bf_in.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/network_bf_out.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/poly_bank.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/poly_ram.v"
-add_file -verilog "F:/mypaper2/Projects/Kyber_HW/hdl/poly_ntt.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/arbiter.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/delay.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/network_bank_in.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/network_bf_in.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/network_bf_out.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/poly_bank.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/poly_ram.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/poly_ntt.v"
 add_file -verilog "../component/MSS_syn_comps.v"
-add_file -fpga_constraint "F:/mypaper2/Projects/Kyber_HW/designer/poly_ntt/synthesis.fdc"
+add_file -fpga_constraint "E:/MPFS_Projects/Kyber_HW/designer/poly_ntt/synthesis.fdc"
 
 
 #implementation: "synthesis"

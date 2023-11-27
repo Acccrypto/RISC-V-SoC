@@ -1,4 +1,4 @@
-# Tue Sep 12 21:39:37 2023
+# Sun Nov 26 17:38:38 2023
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -23,66 +23,197 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 131MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 131MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 132MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 131MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 131MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
 
 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z15(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z22(verilog) 
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\component\work\ihc_subsystem\ihc_subsystem.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+@N: MF104 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
+@N: MF104 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) 
 
 Synthesis running in Multiprocessing mode
 Maximum number of parallel jobs set to 4
-Multiprocessing started at : Tue Sep 12 21:39:39 2023
-@N: MF107 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Old database up-to-date, remapping Compile point view:work.Core_Poly_Z3(verilog) unnecessary 
-@N: MF107 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Old database up-to-date, remapping Compile point view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) unnecessary 
-@N: MF107 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Old database up-to-date, remapping Compile point view:work.COREAXI4INTERCONNECT_Z15(verilog) unnecessary 
-@N: MF107 :"f:\mpfs_projects\mpfs_icicle\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Old database up-to-date, remapping Compile point view:work.COREAXI4INTERCONNECT_Z22(verilog) unnecessary 
-@N: MF107 :"f:\mpfs_projects\mpfs_icicle\component\work\ihc_subsystem\ihc_subsystem.v":9:7:9:19|Old database up-to-date, remapping Compile point view:work.IHC_SUBSYSTEM(verilog) unnecessary 
-@N: MF107 :"f:\mpfs_projects\mpfs_icicle\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Old database up-to-date, remapping Compile point view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) unnecessary 
-Multiprocessing finished at : Tue Sep 12 21:39:44 2023
-Multiprocessing took 0h:00m:04s realtime, 0h:00m:04s cputime
+Multiprocessing started at : Sun Nov 26 17:38:39 2023
+@N: MF107 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":21:7:21:15|Old database up-to-date, remapping Compile point view:work.Core_Poly_Z3(verilog) unnecessary 
+@N: MF107 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Old database up-to-date, remapping Compile point view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) unnecessary 
+Mapping MPFS_ICICLE_KIT_BASE_DESIGN as a separate process
+MCP Status: 1 jobs running
+
+@N: MF106 :"e:\mpfs_projects\kyber_hw\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
+		 RTL and/or Constraints changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 212MB peak: 213MB)
+
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2721:2:2721:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2713:2:2713:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2705:2:2705:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2697:2:2697:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2689:2:2689:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2681:2:2681:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2673:2:2673:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s(verilog) (flattening)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 196MB peak: 220MB)
+
+Encoding state machine CS[8:0] (in view: work.Core_Poly_Z3(verilog))
+original code -> new code
+   0000 -> 000000000
+   0001 -> 000000011
+   0010 -> 000000101
+   0011 -> 000001001
+   0100 -> 000010001
+   0101 -> 000100001
+   0110 -> 001000001
+   0111 -> 010000001
+   1000 -> 100000001
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+Encoding state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 198MB peak: 220MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 199MB peak: 220MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 200MB peak: 220MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 201MB peak: 220MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 201MB peak: 220MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 201MB peak: 220MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 201MB peak: 220MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 202MB peak: 220MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:14s		     2.44ns		 665 /       750
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 202MB peak: 220MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 202MB peak: 220MB)
+
+
+Finished mapping MPFS_ICICLE_KIT_BASE_DESIGN
+Multiprocessing finished at : Sun Nov 26 17:38:59 2023
+Multiprocessing took 0h:00m:19s realtime, 0h:00m:01s cputime
 
 Summary of Compile Points :
 *************************** 
-Name                                     Status        Reason     Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Core_Poly_Z3                             Unchanged     -          Tue Aug  8 16:41:16 2023     Tue Aug  8 16:41:36 2023     0h:00m:20s     0h:00m:20s     No            
-caxi4interconnect_SlaveConvertor_Z13     Unchanged     -          Tue Jul 11 21:04:04 2023     Tue Jul 11 21:04:28 2023     0h:00m:24s     0h:00m:24s     No            
-COREAXI4INTERCONNECT_Z15                 Unchanged     -          Tue Apr 11 09:39:00 2023     Tue Apr 11 09:39:34 2023     0h:00m:33s     0h:00m:33s     No            
-COREAXI4INTERCONNECT_Z22                 Unchanged     -          Tue Mar 28 21:13:16 2023     Tue Mar 28 21:13:49 2023     0h:00m:32s     0h:00m:32s     No            
-IHC_SUBSYSTEM                            Unchanged     -          Tue Mar 28 21:13:44 2023     Tue Mar 28 21:13:59 2023     0h:00m:15s     0h:00m:15s     No            
-MPFS_ICICLE_KIT_BASE_DESIGN              Unchanged     -          Tue Aug  8 15:52:59 2023     Tue Aug  8 15:53:42 2023     0h:00m:43s     0h:00m:43s     No            
-========================================================================================================================================================================
-Total number of compile points: 6
+Name                                     Status        Reason             Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Core_Poly_Z3                             Unchanged     -                  Tue Aug  8 16:41:16 2023     Tue Aug  8 16:41:36 2023     0h:00m:20s     0h:00m:20s     No            
+caxi4interconnect_SlaveConvertor_Z13     Unchanged     -                  Tue Jul 11 21:04:04 2023     Tue Jul 11 21:04:28 2023     0h:00m:24s     0h:00m:24s     No            
+MPFS_ICICLE_KIT_BASE_DESIGN              Remapped      Design changed     Sun Nov 26 17:38:42 2023     Sun Nov 26 17:38:59 2023     0h:00m:17s     0h:00m:17s     No            
+================================================================================================================================================================================
+Total number of compile points: 3
 ===================================
 
 Links to Compile point Reports:
 ******************************
-@L: "F:\MPFS_Projects\MPFS_ICICLE\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr"
-@L: "F:\MPFS_Projects\MPFS_ICICLE\synthesis\IHC_SUBSYSTEM\IHC_SUBSYSTEM.srr"
-@L: "F:\MPFS_Projects\MPFS_ICICLE\synthesis\COREAXI4INTERCONNECT_Z22\COREAXI4INTERCONNECT_Z22.srr"
-@L: "F:\MPFS_Projects\MPFS_ICICLE\synthesis\COREAXI4INTERCONNECT_Z15\COREAXI4INTERCONNECT_Z15.srr"
-@L: "F:\MPFS_Projects\MPFS_ICICLE\synthesis\caxi4interconnect_SlaveConvertor_Z13\caxi4interconnect_SlaveConvertor_Z13.srr"
-@L: "F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr"
+@L: "E:\MPFS_Projects\Kyber_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr"
+@L: "E:\MPFS_Projects\Kyber_HW\synthesis\caxi4interconnect_SlaveConvertor_Z13\caxi4interconnect_SlaveConvertor_Z13.srr"
+@L: "E:\MPFS_Projects\Kyber_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr"
 
 ==============================
 
 
-Start loading CP mapped netlist (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 432MB peak: 435MB)
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:02s; Memory used current: 289MB peak: 291MB)
 
 
-Finished loading CP mapped netlist (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 435MB peak: 435MB)
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:03s; Memory used current: 290MB peak: 291MB)
 
 
 
@@ -92,67 +223,60 @@ Finished loading CP mapped netlist (Real Time elapsed 0h:00m:08s; CPU Time elaps
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-2 non-gated/non-generated clock tree(s) driving 2 clock pin(s) of sequential element(s)
-5 gated/generated clock tree(s) driving 8498 clock pin(s) of sequential element(s)
-0 instances converted, 8498 sequential instances remain driven by gated/generated clocks
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+4 gated/generated clock tree(s) driving 3360 clock pin(s) of sequential element(s)
+0 instances converted, 3360 sequential instances remain driven by gated/generated clocks
 
-========================================================================================== Non-Gated/Non-Generated Clocks ===========================================================================================
-Clock Tree ID     Driving Element                                                                     Drive Element Type                   Fanout     Sample Instance                                                
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0006       REF_CLK_50MHz                                                                       clock definition on port             1          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0  
-@K:CKID0007       CLOCKS_AND_RESETS_inst_0.OSCILLATOR_160MHz_inst_0.OSCILLATOR_160MHz_0.I_OSC_160     clock definition on OSC_RC160MHZ     1          CLOCKS_AND_RESETS_inst_0.CLK_160MHz_to_CLK_80MHz.CLK_DIV_0.I_CD
-=====================================================================================================================================================================================================================
-================================================================================================================ Gated/Generated Clocks =================================================================================================================
-Clock Tree ID     Driving Element                                                   Drive Element Type     Fanout     Sample Instance                                                  Explanation                                                       
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    3357       CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_1       No gated clock conversion method for cell cell:ACG4.SLE           
-@K:CKID0002       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    2966       CLOCKS_AND_RESETS_inst_0.RESET_FIC_3_CLK.CORERESET_0.dff_9       No gated clock conversion method for cell cell:ACG4.SLE           
-@K:CKID0003       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    2169       CLOCKS_AND_RESETS_inst_0.RESET_FIC_1_CLK.CORERESET_0.dff_14      No gated clock conversion method for cell cell:ACG4.SLE           
-@K:CKID0004       FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_COMMON_INSTANCE        PCIE_COMMON            5          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIESS_LANE1_Pipe_AXI1     No gated clock conversion method for cell cell:work.XCVR_PIPE_AXI1
-@K:CKID0005       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                            No gated clock conversion method for cell cell:work.MSS           
-=========================================================================================================================================================================================================================================================
+===================================================== Non-Gated/Non-Generated Clocks ======================================================
+Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sample Instance                                              
+-------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0005       REF_CLK_50MHz       clock definition on port     1          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0
+===========================================================================================================================================
+========================================================================================================== Gated/Generated Clocks ==========================================================================================================
+Clock Tree ID     Driving Element                                                   Drive Element Type     Fanout     Sample Instance                                                Explanation                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    3357       CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0002       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS
+@K:CKID0003       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS
+@K:CKID0004       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS
+============================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 151MB peak: 438MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:04s; Memory used current: 146MB peak: 291MB)
 
-Writing Analyst data base F:\MPFS_Projects\MPFS_ICICLE\synthesis\synwork\MPFS_ICICLE_KIT_BASE_DESIGN_m.srm
+Writing Analyst data base E:\MPFS_Projects\Kyber_HW\synthesis\synwork\MPFS_ICICLE_KIT_BASE_DESIGN_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:16s; Memory used current: 272MB peak: 438MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:06s; Memory used current: 212MB peak: 291MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
-@W: BW156 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":22:0:22:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
-@W: BW156 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":23:0:23:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
-@W: BW156 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":24:0:24:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
-@W: BW156 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":25:0:25:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :"e:/mpfs_projects/kyber_hw/designer/mpfs_icicle_kit_base_design/synthesis.fdc":11:0:11:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:23s; Memory used current: 265MB peak: 438MB)
-
-
-Finished Writing Netlists (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:23s; Memory used current: 265MB peak: 438MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:09s; Memory used current: 207MB peak: 291MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 264MB peak: 438MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:09s; Memory used current: 207MB peak: 291MB)
 
-@W: MT246 :"f:\mpfs_projects\mpfs_icicle\component\work\oscillator_160mhz\oscillator_160mhz_0\oscillator_160mhz_oscillator_160mhz_0_pf_osc.v":15:17:15:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT246 :"f:\mpfs_projects\mpfs_icicle\component\work\init_monitor\init_monitor_0\init_monitor_init_monitor_0_pfsoc_init_monitor.v":38:53:38:58|Blackbox INIT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+
+Start final timing analysis (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:09s; Memory used current: 206MB peak: 291MB)
+
+@W: MT246 :"e:\mpfs_projects\kyber_hw\component\work\init_monitor\init_monitor_0\init_monitor_init_monitor_0_pfsoc_init_monitor.v":38:53:38:58|Blackbox INIT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
-@N: MT615 |Found clock REF_CLK_PAD_P with period 10.00ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK with period 8.00ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK with period 6.25ns 
 @N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 6.06ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 7.79ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 7.79ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 19.91ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV with period 12.50ns 
+@W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_12_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0_clkint_12.
+@W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_8_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0_clkint_8.
+@W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0_clkint_4.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Sep 12 21:40:04 2023
+# Timing report written on Sun Nov 26 17:39:07 2023
 #
 
 
@@ -160,7 +284,7 @@ Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
 Requested Frequency:    50.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    F:\MPFS_Projects\MPFS_ICICLE\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+Constraint File(s):    E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -174,20 +298,16 @@ Performance Summary
 
 Worst slack in design: -3.256
 
-                                                                                        Requested     Estimated     Requested     Estimated                Clock                                                                                                    Clock           
-Starting Clock                                                                          Frequency     Frequency     Period        Period        Slack      Type                                                                                                     Group           
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0                      165.0 MHz     107.3 MHz     6.061         9.316         -3.256     generated (from REF_CLK_50MHz)                                                                           FIC0_clks       
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1                      128.3 MHz     110.3 MHz     7.792         9.065         -0.636     generated (from REF_CLK_50MHz)                                                                           FIC1_clks       
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2                      128.3 MHz     NA            7.792         NA            NA         generated (from REF_CLK_50MHz)                                                                           FIC2_clks       
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3                      50.2 MHz      114.4 MHz     19.913        8.744         11.169     generated (from REF_CLK_50MHz)                                                                           FIC3_clks       
-CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV                   80.0 MHz      NA            12.500        NA            NA         generated (from CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK)     default_clkgroup
-CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160/CLK     160.0 MHz     NA            6.250         NA            NA         declared                                                                                                 default_clkgroup
-CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK             125.0 MHz     NA            8.000         NA            NA         declared                                                                                                 default_clkgroup
-REF_CLK_50MHz                                                                           50.0 MHz      NA            20.000        NA            NA         declared                                                                                                 default_clkgroup
-REF_CLK_PAD_P                                                                           100.0 MHz     NA            10.000        NA            NA         declared                                                                                                 default_clkgroup
-System                                                                                  100.0 MHz     183.4 MHz     10.000        5.451         4.549      system                                                                                                   system_clkgroup 
-====================================================================================================================================================================================================================================================================================
+                                                                       Requested     Estimated     Requested     Estimated                Clock                              Clock                
+Starting Clock                                                         Frequency     Frequency     Period        Period        Slack      Type                               Group                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     165.0 MHz     107.3 MHz     6.061         9.316         -3.256     generated (from REF_CLK_50MHz)     FIC0_clks            
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock        100.0 MHz     NA            10.000        NA            NA         inferred                           Inferred_clkgroup_0_3
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_8_inferred_clock        100.0 MHz     NA            10.000        NA            NA         inferred                           Inferred_clkgroup_0_2
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_12_inferred_clock       100.0 MHz     NA            10.000        NA            NA         inferred                           Inferred_clkgroup_0_1
+REF_CLK_50MHz                                                          50.0 MHz      NA            20.000        NA            NA         declared                           default_clkgroup     
+System                                                                 100.0 MHz     185.1 MHz     10.000        5.402         4.598      system                             system_clkgroup      
+==================================================================================================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
 
 
@@ -197,17 +317,13 @@ Estimated period and frequency reported as NA means no slack depends directly on
 Clock Relationships
 *******************
 
-Clocks                                                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise  
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                                                              CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  6.061       4.549   |  No paths    -      |  No paths    -      |  No paths    -     
-System                                                              CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1  |  7.792       6.280   |  No paths    -      |  No paths    -      |  No paths    -     
-System                                                              CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  19.913      18.402  |  No paths    -      |  No paths    -      |  No paths    -     
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  6.061       -3.256  |  No paths    -      |  No paths    -      |  No paths    -     
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1  |  7.792       3.067   |  No paths    -      |  No paths    -      |  3.896       -0.637
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  19.913      11.169  |  No paths    -      |  No paths    -      |  No paths    -     
-================================================================================================================================================================================================================================
+Clocks                                                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                              CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  6.061       4.598   |  No paths    -      |  No paths    -      |  No paths    -    
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  6.061       -3.256  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -679,328 +795,6 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 
 ====================================
-Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                                 Starting                                                                                                                                Arrival           
-Instance                                         Reference                                                              Type     Pin           Net                                       Time        Slack 
-                                                 Clock                                                                                                                                                     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     S_AWREADY     FIC_1_INITIATOR_0_AXI4mslave0_AWREADY     2.174       -0.636
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     S_ARREADY     FIC_1_INITIATOR_0_AXI4mslave0_ARREADY     2.112       -0.565
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     S_RLAST       FIC_1_INITIATOR_0_AXI4mslave0_RLAST       2.211       -0.498
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     S_RVALID      FIC_1_INITIATOR_0_AXI4mslave0_RVALID      2.225       -0.303
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     M_WVALID      PCIE_AXI_1_MASTER_WVALID                  2.122       -0.071
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     S_WREADY      FIC_1_INITIATOR_0_AXI4mslave0_WREADY      2.130       -0.037
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     M_RREADY      PCIE_AXI_1_MASTER_RREADY                  2.134       -0.012
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     M_ARVALID     PCIE_AXI_1_MASTER_ARVALID                 2.121       0.064 
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     M_AWVALID     PCIE_AXI_1_MASTER_AWVALID                 2.203       0.086 
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     PCIE     S_BVALID      FIC_1_INITIATOR_0_AXI4mslave0_BVALID      2.129       0.160 
-===========================================================================================================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                                                                                                                                                                                                  Starting                                                                                                                  Required           
-Instance                                                                                                                                                                                          Reference                                                              Type     Pin     Net                               Time         Slack 
-                                                                                                                                                                                                  Clock                                                                                                                                        
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[1]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[3]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[4]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[5]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[6]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[7]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[8]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.fifo_nearly_full       CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1     SLE      EN      entries_in_fifo_2_sqmuxa_i_x2     3.746        -0.636
-===============================================================================================================================================================================================================================================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      3.896
-    - Setup time:                            0.150
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.746
-
-    - Propagation time:                      4.383
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -0.637
-
-    Number of logic level(s):                2
-    Starting point:                          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1 / S_AWREADY
-    Ending point:                            FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[0] / EN
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [falling] (rise=0.000 fall=3.896 period=7.792) on pin AXI_CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.896 period=7.792) on pin CLK
-
-Instance / Net                                                                                                                                                                                                        Pin           Pin               Arrival     No. of    
-Name                                                                                                                                                                                                         Type     Name          Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1                                                                                                                                                                 PCIE     S_AWREADY     Out     2.174     2.174 r     -         
-FIC_1_INITIATOR_0_AXI4mslave0_AWREADY                                                                                                                                                                        Net      -             -       0.665     -           4         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     B             In      -         2.839 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     Y             Out     0.098     2.937 r     -         
-we                                                                                                                                                                                                           Net      -             -       0.921     -           31        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     A             In      -         3.858 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     Y             Out     0.060     3.918 r     -         
-entries_in_fifo_2_sqmuxa_i_x2                                                                                                                                                                                Net      -             -       0.465     -           10        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[0]                SLE      EN            In      -         4.383 r     -         
-============================================================================================================================================================================================================================================================================
-Total path delay (propagation time + setup) of 4.533 is 2.482(54.7%) logic and 2.051(45.3%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 2: 
-      Requested Period:                      3.896
-    - Setup time:                            0.150
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.746
-
-    - Propagation time:                      4.383
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -0.637
-
-    Number of logic level(s):                2
-    Starting point:                          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1 / S_AWREADY
-    Ending point:                            FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[1] / EN
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [falling] (rise=0.000 fall=3.896 period=7.792) on pin AXI_CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.896 period=7.792) on pin CLK
-
-Instance / Net                                                                                                                                                                                                        Pin           Pin               Arrival     No. of    
-Name                                                                                                                                                                                                         Type     Name          Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1                                                                                                                                                                 PCIE     S_AWREADY     Out     2.174     2.174 r     -         
-FIC_1_INITIATOR_0_AXI4mslave0_AWREADY                                                                                                                                                                        Net      -             -       0.665     -           4         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     B             In      -         2.839 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     Y             Out     0.098     2.937 r     -         
-we                                                                                                                                                                                                           Net      -             -       0.921     -           31        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     A             In      -         3.858 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     Y             Out     0.060     3.918 r     -         
-entries_in_fifo_2_sqmuxa_i_x2                                                                                                                                                                                Net      -             -       0.465     -           10        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[1]                SLE      EN            In      -         4.383 r     -         
-============================================================================================================================================================================================================================================================================
-Total path delay (propagation time + setup) of 4.533 is 2.482(54.7%) logic and 2.051(45.3%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 3: 
-      Requested Period:                      3.896
-    - Setup time:                            0.150
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.746
-
-    - Propagation time:                      4.383
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -0.637
-
-    Number of logic level(s):                2
-    Starting point:                          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1 / S_AWREADY
-    Ending point:                            FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[2] / EN
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [falling] (rise=0.000 fall=3.896 period=7.792) on pin AXI_CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.896 period=7.792) on pin CLK
-
-Instance / Net                                                                                                                                                                                                        Pin           Pin               Arrival     No. of    
-Name                                                                                                                                                                                                         Type     Name          Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1                                                                                                                                                                 PCIE     S_AWREADY     Out     2.174     2.174 r     -         
-FIC_1_INITIATOR_0_AXI4mslave0_AWREADY                                                                                                                                                                        Net      -             -       0.665     -           4         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     B             In      -         2.839 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     Y             Out     0.098     2.937 r     -         
-we                                                                                                                                                                                                           Net      -             -       0.921     -           31        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     A             In      -         3.858 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     Y             Out     0.060     3.918 r     -         
-entries_in_fifo_2_sqmuxa_i_x2                                                                                                                                                                                Net      -             -       0.465     -           10        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[2]                SLE      EN            In      -         4.383 r     -         
-============================================================================================================================================================================================================================================================================
-Total path delay (propagation time + setup) of 4.533 is 2.482(54.7%) logic and 2.051(45.3%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 4: 
-      Requested Period:                      3.896
-    - Setup time:                            0.150
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.746
-
-    - Propagation time:                      4.383
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -0.637
-
-    Number of logic level(s):                2
-    Starting point:                          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1 / S_AWREADY
-    Ending point:                            FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[3] / EN
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [falling] (rise=0.000 fall=3.896 period=7.792) on pin AXI_CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.896 period=7.792) on pin CLK
-
-Instance / Net                                                                                                                                                                                                        Pin           Pin               Arrival     No. of    
-Name                                                                                                                                                                                                         Type     Name          Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1                                                                                                                                                                 PCIE     S_AWREADY     Out     2.174     2.174 r     -         
-FIC_1_INITIATOR_0_AXI4mslave0_AWREADY                                                                                                                                                                        Net      -             -       0.665     -           4         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     B             In      -         2.839 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     Y             Out     0.098     2.937 r     -         
-we                                                                                                                                                                                                           Net      -             -       0.921     -           31        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     A             In      -         3.858 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     Y             Out     0.060     3.918 r     -         
-entries_in_fifo_2_sqmuxa_i_x2                                                                                                                                                                                Net      -             -       0.465     -           10        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[3]                SLE      EN            In      -         4.383 r     -         
-============================================================================================================================================================================================================================================================================
-Total path delay (propagation time + setup) of 4.533 is 2.482(54.7%) logic and 2.051(45.3%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 5: 
-      Requested Period:                      3.896
-    - Setup time:                            0.150
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         3.746
-
-    - Propagation time:                      4.383
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -0.637
-
-    Number of logic level(s):                2
-    Starting point:                          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1 / S_AWREADY
-    Ending point:                            FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[4] / EN
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [falling] (rise=0.000 fall=3.896 period=7.792) on pin AXI_CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 [rising] (rise=0.000 fall=3.896 period=7.792) on pin CLK
-
-Instance / Net                                                                                                                                                                                                        Pin           Pin               Arrival     No. of    
-Name                                                                                                                                                                                                         Type     Name          Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1                                                                                                                                                                 PCIE     S_AWREADY     Out     2.174     2.174 r     -         
-FIC_1_INITIATOR_0_AXI4mslave0_AWREADY                                                                                                                                                                        Net      -             -       0.665     -           4         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     B             In      -         2.839 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.we_m1_e                           CFG4     Y             Out     0.098     2.937 r     -         
-we                                                                                                                                                                                                           Net      -             -       0.921     -           31        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     A             In      -         3.858 r     -         
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo_2_sqmuxa_i_x2     CFG2     Y             Out     0.060     3.918 r     -         
-entries_in_fifo_2_sqmuxa_i_x2                                                                                                                                                                                Net      -             -       0.465     -           10        
-FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.FIC_1_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.entries_in_fifo[4]                SLE      EN            In      -         4.383 r     -         
-============================================================================================================================================================================================================================================================================
-Total path delay (propagation time + setup) of 4.533 is 2.482(54.7%) logic and 2.051(45.3%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
-
-====================================
-Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                          Starting                                                                                                                                                  Arrival           
-Instance                                  Reference                                                              Type     Pin                       Net                                             Time        Slack 
-                                          Clock                                                                                                                                                                       
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[28]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[28]     1.793       11.169
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PSEL          MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PSELx         1.678       11.681
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[11]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[11]     1.768       11.710
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[10]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[10]     1.772       12.122
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[12]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[12]     1.758       12.344
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[8]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[8]      1.763       12.732
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[9]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[9]      1.716       12.816
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[5]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[5]      1.731       12.923
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PENABLE       MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PENABLE       1.693       12.969
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[2]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[2]      1.739       13.188
-======================================================================================================================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                                          Starting                                                                                                                                                    Required           
-Instance                                  Reference                                                              Type     Pin                        Net                                              Time         Slack 
-                                          Clock                                                                                                                                                                          
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[0]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[0]      19.913       11.169
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[1]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[1]      19.913       11.169
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[2]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[2]      19.913       11.169
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[3]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[3]      19.913       11.169
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[10]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[10]     19.913       11.198
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[11]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[11]     19.913       11.198
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[12]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[12]     19.913       11.198
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[13]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[13]     19.913       11.198
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[14]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[14]     19.913       11.198
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PRDATA[15]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[15]     19.913       11.198
-=========================================================================================================================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      19.913
-    - Setup time:                            0.000
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         19.913
-
-    - Propagation time:                      8.744
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 11.169
-
-    Number of logic level(s):                8
-    Starting point:                          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS / FIC_3_APB_M_PADDR[28]
-    Ending point:                            MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS / FIC_3_APB_M_PRDATA[0]
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=9.957 period=19.913) on pin FIC_3_PCLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=9.957 period=19.913) on pin FIC_3_PCLK
-
-Instance / Net                                                                                        Pin                       Pin               Arrival     No. of    
-Name                                                                                         Type     Name                      Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                                                        MSS      FIC_3_APB_M_PADDR[28]     Out     1.793     1.793 r     -         
-MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[28]                                                  Net      -                         -       1.119     -           6         
-FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.APB_ARBITER_0.out_high_psel                   CFG2     A                         In      -         2.912 r     -         
-FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.APB_ARBITER_0.out_high_psel                   CFG2     Y                         Out     0.060     2.971 r     -         
-FIC_3_ADDRESS_GENERATION_1_FIC_3_0x5xxx_xxxx_PSELx                                           Net      -                         -       0.146     -           2         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.APB_ARBITER_0.out_high_psel                              CFG2     A                         In      -         3.118 r     -         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.APB_ARBITER_0.out_high_psel                              CFG2     Y                         Out     0.060     3.178 r     -         
-APB_ARBITER_0_APB_MASTER_high_PSELx                                                          Net      -                         -       0.683     -           5         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.IHC_APB_1.IHC_APB_0.u_mux_p_to_b3.PSELSBUS_2_0_a2[1]     CFG2     A                         In      -         3.861 r     -         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.IHC_APB_1.IHC_APB_0.u_mux_p_to_b3.PSELSBUS_2_0_a2[1]     CFG2     Y                         Out     0.060     3.921 r     -         
-N_2310                                                                                       Net      -                         -       0.719     -           7         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.IHC_APB_1.IHC_APB_0.u_mux_p_to_b3.PSELSBUS_1_0[1]        CFG2     A                         In      -         4.639 r     -         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.IHC_APB_1.IHC_APB_0.u_mux_p_to_b3.PSELSBUS_1_0[1]        CFG2     Y                         Out     0.060     4.699 r     -         
-PSELSBUS_1_0[1]                                                                              Net      -                         -       0.835     -           15        
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.APB_ARBITER_0.in_prdata_0_a2_0[31]                       CFG4     D                         In      -         5.534 r     -         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.APB_ARBITER_0.in_prdata_0_a2_0[31]                       CFG4     Y                         Out     0.250     5.784 f     -         
-N_336                                                                                        Net      -                         -       0.993     -           32        
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.APB_ARBITER_0.in_prdata_0_6[0]                           CFG4     C                         In      -         6.778 f     -         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.APB_ARBITER_0.in_prdata_0_6[0]                           CFG4     Y                         Out     0.172     6.949 f     -         
-in_prdata_0_6[0]                                                                             Net      -                         -       0.139     -           1         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.APB_ARBITER_0.in_prdata_0[0]                             CFG4     D                         In      -         7.089 f     -         
-FIC_3_PERIPHERALS_1.IHC_SUBSYSTEM_0.APB_ARBITER_0.in_prdata_0[0]                             CFG4     Y                         Out     0.226     7.315 f     -         
-PRDATA[0]                                                                                    Net      -                         -       0.139     -           1         
-FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.APB_ARBITER_0.in_prdata[0]                    CFG4     C                         In      -         7.454 f     -         
-FIC_3_PERIPHERALS_1.FIC_3_ADDRESS_GENERATION_1.APB_ARBITER_0.in_prdata[0]                    CFG4     Y                         Out     0.172     7.626 f     -         
-MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA[0]                                                  Net      -                         -       1.119     -           1         
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                                                        MSS      FIC_3_APB_M_PRDATA[0]     In      -         8.744 f     -         
-========================================================================================================================================================================
-Total path delay (propagation time + setup) of 8.744 is 2.852(32.6%) logic and 5.893(67.4%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
-
-====================================
 Detailed Report for Clock: System
 ====================================
 
@@ -1013,28 +807,28 @@ Starting Points with Worst Slack
 Instance                                                          Reference     Type     Pin               Net                                 Time        Slack
                                                                   Clock                                                                                         
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT     System        INIT     UIC_INIT_DONE     INIT_MONITOR_0_DEVICE_INIT_DONE     0.000       4.549
+CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT     System        INIT     UIC_INIT_DONE     INIT_MONITOR_0_DEVICE_INIT_DONE     0.000       4.598
 ================================================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                                               Starting                                                   Required          
-Instance                                                       Reference     Type     Pin     Net                         Time         Slack
-                                                               Clock                                                                        
---------------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_0     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_1     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_3     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_4     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_5     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_6     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_7     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_8     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_9     System        SLE      ALn     un1_INTERNAL_RST_arst_i     6.037        4.549
-============================================================================================================================================
+                                                               Starting                                              Required          
+Instance                                                       Reference     Type     Pin     Net                    Time         Slack
+                                                               Clock                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_0     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_1     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_3     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_4     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_5     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_6     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_7     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_8     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_9     System        SLE      ALn     un1_INTERNAL_RST_i     6.037        4.598
+=======================================================================================================================================
 
 
 
@@ -1048,10 +842,10 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         6.037
 
-    - Propagation time:                      1.488
+    - Propagation time:                      1.439
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 4.549
+    = Slack (non-critical) :                 4.598
 
     Number of logic level(s):                1
     Starting point:                          CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT / UIC_INIT_DONE
@@ -1066,10 +860,10 @@ CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT     INIT     UIC_I
 INIT_MONITOR_0_DEVICE_INIT_DONE                                   Net      -                 -       0.139     -           1         
 CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.un1_D        CFG3     A                 In      -         0.139 f     -         
 CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.un1_D        CFG3     Y                 Out     0.056     0.195 f     -         
-un1_INTERNAL_RST_arst_i                                           Net      -                 -       1.293     -           48        
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_0        SLE      ALn               In      -         1.488 f     -         
+un1_INTERNAL_RST_i                                                Net      -                 -       1.244     -           16        
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_0        SLE      ALn               In      -         1.439 f     -         
 =====================================================================================================================================
-Total path delay (propagation time + setup) of 1.512 is 0.079(5.2%) logic and 1.432(94.8%) route.
+Total path delay (propagation time + setup) of 1.462 is 0.079(5.4%) logic and 1.383(94.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1077,93 +871,78 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 ##### END OF TIMING REPORT #####]
 
 Timing exceptions that could not be applied
-@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
-@W: MT447 :"f:/mpfs_projects/mpfs_icicle/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because the from list is incorrect: it contains no clock, primary input, sequential cell, or sequential cell clock pin 
-None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 270MB peak: 438MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:10s; Memory used current: 210MB peak: 291MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 270MB peak: 438MB)
+Finished timing report (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:10s; Memory used current: 210MB peak: 291MB)
 
 ---------------------------------------
 Resource Usage Report for MPFS_ICICLE_KIT_BASE_DESIGN 
 
 Mapping to part: mpfs250tfcg1152std
 Cell usage:
-AND2            2 uses
-AND3            1 use
-AND4            2 uses
-CLKINT          10 uses
-DRI             1 use
-ICB_CLKDIV      1 use
-ICB_NGMUX       1 use
+AND2            1 use
+AND4            1 use
+CLKINT          6 uses
 INIT            1 use
 INV             4 uses
 MSS             1 use
-OR2             7 uses
-OSC_RC160MHZ    1 use
-PCIE            1 use
-PCIE_COMMON     1 use
+OR2             3 uses
 PLL             1 use
-TX_PLL          1 use
-XCVR_APB_LINK   1 use
-XCVR_PIPE_AXI0  2 uses
-XCVR_PIPE_AXI1  2 uses
-XCVR_REF_CLK    1 use
-CFG1           39 uses
-CFG2           1335 uses
-CFG3           4110 uses
-CFG4           4617 uses
+CFG1           27 uses
+CFG2           823 uses
+CFG3           2456 uses
+CFG4           3158 uses
 
 Carry cells:
-ARI1            1110 uses - used for arithmetic functions
-ARI1            1370 uses - used for Wide-Mux implementation
-Total ARI1      2480 uses
+ARI1            1046 uses - used for arithmetic functions
+ARI1            624 uses - used for Wide-Mux implementation
+Total ARI1      1670 uses
 
 
 Sequential Cells: 
-SLE            8388 uses
+SLE            3273 uses
 SLE_INIT       12 uses - used for Seqshift to URAM mapping
-Total SLE          8400 uses
+Total SLE          3285 uses
 
 DSP Blocks:    4 of 784 (0%)
  MACC_PA:         4 Mults
 
-I/O ports: 179
-I/O primitives: 151
+I/O ports: 158
+I/O primitives: 148
 BIBUF          71 uses
 BIBUF_DIFF     4 uses
 INBUF          19 uses
 INBUF_DIFF     3 uses
-OUTBUF         51 uses
+OUTBUF         48 uses
 OUTBUF_DIFF    3 uses
 
 
-Global Clock Buffers: 10
+Global Clock Buffers: 6
 
 RAM/ROM usage summary
-Block RAMs (RAM64x12) : 55
+Block RAMs (RAM64x12) : 39
 Block RAMs (RAM64x12) : 6 - RAMs inferred for SeqShift
-Total Block RAMs (RAM64x12) : 61 of 2352 (2%)
+Total Block RAMs (RAM64x12) : 45 of 2352 (1%)
 
-Total LUTs:    12581
+Total LUTs:    8134
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
-RAM64X12 Interface Logic : SLEs = 732; LUTs = 732;
+RAM64X12 Interface Logic : SLEs = 540; LUTs = 540;
 RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA     Interface Logic : SLEs = 144; LUTs = 144;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  8400 + 732 + 0 + 144 = 9276;
-Total number of LUTs after P&R:  12581 + 732 + 0 + 144 = 13457;
+Total number of SLEs after P&R:  3285 + 540 + 0 + 144 = 3969;
+Total number of LUTs after P&R:  8134 + 540 + 0 + 144 = 8818;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 81MB peak: 438MB)
+At Mapper Exit (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:10s; Memory used current: 75MB peak: 291MB)
 
-Process took 0h:00m:27s realtime, 0h:00m:26s cputime
-# Tue Sep 12 21:40:05 2023
+Process took 0h:00m:28s realtime, 0h:00m:10s cputime
+# Sun Nov 26 17:39:07 2023
 
 ###########################################################]

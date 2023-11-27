@@ -1,0 +1,2 @@
+**** Begin Compile Point : MPFS_ICICLE_KIT_BASE_DESIGN ****
+**** End Compile Point : MPFS_ICICLE_KIT_BASE_DESIGN ****

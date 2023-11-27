@@ -3,12 +3,12 @@ Software Version: 2022.2.0.10
 Programmer: Embedded FP6 'ED997378' : Version = EF9B
 ===============================================================
 programmer 'ED997378' : Embedded FlashPro6
-Opened 'F:\mypaper2\Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp\MPFS_ICICLE_KIT_BASE_DESIGN.pro'
+Opened 'E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp\MPFS_ICICLE_KIT_BASE_DESIGN.pro'
 The 'open_project' command succeeded.
 Info: Programming is already enabled for device 'MPFS250T_ES'.
 The 'enable_device' command succeeded.
-PPD file 'F:/mypaper2/Projects/Dilithium_HW/designer/MPFS_ICICLE_KIT_BASE_DESIGN/MPFS_ICICLE_KIT_BASE_DESIGN.ppd' has been loaded successfully.
-DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : E57B;  PDB_VERSION : 1.0
+PPD file 'E:/MPFS_Projects/Dilithium_HW/designer/MPFS_ICICLE_KIT_BASE_DESIGN/MPFS_ICICLE_KIT_BASE_DESIGN.ppd' has been loaded successfully.
+DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : 4F7E;  PDB_VERSION : 1.0
 The 'set_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
 programmer 'ED997378' : Scan Chain...
@@ -39,10 +39,10 @@ ISC_ENABLE_RESULT: 00000000
 CRCERR: 00
 
 BITS component bitstream digest: AEE355E728BED157183D65B414803CA9422E59D42B06365E61DDF1ED5EC41D74
-Security component bitstream digest: BFD905DECB768E283EE6627A713C664E806DF8E60D26A0997E38B171FB3795EC
-Fabric component bitstream digest: 47BC549097AE1D375C5BE34684FE66FF4F8A0D2EF878522F73AD3FCE53258C72
-sNVM component bitstream digest: 9D5E4A7FAC0E54EB93A9D8C34108C355A7FCF505EF1BFB63EEBEE9E871461593
-EOB component bitstream digest: C6810E0415CE09841004491F5E856709B51F4F9C83FCB5B6CB8314FEA25D5929
+Security component bitstream digest: 2B6E210B086BD75820ADA6C1935D194AC0A08400AAFC1F9EC757DC0A2A0B2980
+Fabric component bitstream digest: 9133BB869636C6187124862551304434BB3C96B95EF3666873B43B34FAA44127
+sNVM component bitstream digest: D72F718F70559F88DE6E74ED8428648FE377FB4F2178325D77A5D36B92665B28
+EOB component bitstream digest: CB0E085234DA24E34EB192B90F3A37C45BE47CBCA929942AFF8212B5D2A8B9C2
 =====================================================================
 DSN: 3AA001249A1C109E7752BC0ECA5D12A4
 =====================================================================
@@ -50,7 +50,7 @@ DSN: 3AA001249A1C109E7752BC0ECA5D12A4
 
 programmer 'ED997378' : device 'MPFS250T_ES' : Executing action PROGRAM PASSED.
 programmer 'ED997378' : Chain programming PASSED.
-Chain Programming Finished: Thu Sep 28 10:07:37 2023 (Elapsed time 00:00:57)
+Chain Programming Finished: Mon Nov 27 09:15:42 2023 (Elapsed time 00:00:57)
 
                         o - o - o - o - o - o
 

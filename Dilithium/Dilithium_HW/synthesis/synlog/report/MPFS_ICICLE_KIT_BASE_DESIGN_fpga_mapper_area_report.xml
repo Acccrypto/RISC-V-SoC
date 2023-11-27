@@ -5,32 +5,32 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\synlog\report\MPFS_ICICLE_KIT_BASE_DESIGN_fpga_mapper_resourceusage.rpt</data>
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\synlog\report\MPFS_ICICLE_KIT_BASE_DESIGN_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <report_link name="Hierarchical Area report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\synlog\report\MPFS_ICICLE_KIT_BASE_DESIGN_fpga_mapper_hier_area_report.xml</data>
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\synlog\report\MPFS_ICICLE_KIT_BASE_DESIGN_fpga_mapper_hier_area_report.xml</data>
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tooltip="Total Carry Cells used" name="Carry Cells">
-<data>4675</data>
+<data>3865</data>
 </parameter>
 <parameter tooltip="Total Sequential Cells used" name="Sequential Cells">
-<data>9130</data>
+<data>4015</data>
 </parameter>
 <parameter tcl_name="dsp_used" tooltip="Total DSP Blocks used" name="DSP Blocks">
 <data>16</data>
 </parameter>
 <parameter tooltip="Total I/O Cells used" name="I/O Cells">
-<data>151</data>
+<data>148</data>
 </parameter>
 <parameter tooltip="Total Global Clock Buffers used" name="Global Clock Buffers">
-<data>10</data>
+<data>6</data>
 </parameter>
 <parameter tcl_name="v_ram" tooltip="Total RAM64x12 used" name="RAM64x12">
-<data>123</data>
+<data>107</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total LUTs used" name="LUTs">
-<data>17849</data>
+<data>13402</data>
 </parameter>
 </report_table>

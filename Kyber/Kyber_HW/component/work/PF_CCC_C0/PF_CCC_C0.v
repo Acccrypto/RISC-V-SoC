@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Tue Sep 12 21:36:36 2023
+// Created by SmartDesign Sun Nov 26 17:36:17 2023
 // Version: 2022.2 2022.2.0.10
 //////////////////////////////////////////////////////////////////////
 
@@ -238,7 +238,7 @@ create_and_configure_core -core_vlnv {Actel:SgCore:PF_CCC:2.2.214} -component_na
 "PLL_POSTDIVIDERADDSOFTLOGIC_0:true"  \
 "PLL_REF_CLK_SEL_0:false"  \
 "PLL_REF_CLK_SEL_1:false"  \
-"PLL_REFDIV_0:5"  \
+"PLL_REFDIV_0:25"  \
 "PLL_REFDIV_1:1"  \
 "PLL_RESET_ON_LOCK_0:true"  \
 "PLL_SPREAD_MODE_0:false"  \
