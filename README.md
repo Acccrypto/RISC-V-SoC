@@ -6,6 +6,8 @@ This repository provides implementations of Kyber and Dilithium based on Multi-C
 - Hardware-software co-design implementation on a single core.
 - Hardware-software co-design implementation on multiple cores.
 
+Additionally, the implementation with contermeasures against side-channel analysis (SCA) for the hardware accelerator is also provided.
+
 ## Pre-Requisites
 
 Here are the devices and tools we use for evaluating our implementations:
@@ -21,7 +23,8 @@ Here are the devices and tools we use for evaluating our implementations:
 - Implementation projects for Kyber and Dilithium are under documents [Kyber](./Kyber/) and [Dilithium](./Dilithium/), respectively.
 - `XX/XX_HW/` contains the SoC design and hardware code for XX (Kyber or Dilithium). This project can be opened by Libero SoC.
 - `XX/XX_SW_baseline/` contains the baseline software implementation of XX (Kyber or Dilithium) on a single RISC-V core. This project can be opened by SoftConsole.
-- `XX/XX_SW_acceleration/` contains the hardware-software co-design implementation of XX (Kyber or Dilithium) on a single RISC-V core. This project can be opened by SoftConsole.
+- `XX/XX_SW_acceleration_mask/` contains the hardware-software co-design implementation with masking countermeasures of XX (Kyber or Dilithium) on a single RISC-V core. This project can be opened by SoftConsole.
+- `XX/XX_SW_acceleration/` contains the hardware-software co-design implementation of XX (Kyber or Dilithium) with software optimization for SHA-3 on a single RISC-V core. This project can be opened by SoftConsole.
 - `XX/XX_SW_multicore/` contains the hardware-software co-design implementation of XX (Kyber or Dilithium) on multiple RISC-V cores. This project can be opened by SoftConsole.
 
 ## On-Board Test
