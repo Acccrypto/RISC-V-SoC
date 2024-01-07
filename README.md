@@ -6,7 +6,7 @@ This repository provides implementations of Kyber and Dilithium based on Multi-C
 - Hardware-software co-design implementation on a single core.
 - Hardware-software co-design implementation on multiple cores.
 
-Additionally, the implementation with contermeasures against side-channel analysis (SCA) for the hardware accelerator is also provided.
+Additionally, the implementation with countermeasures against side-channel analysis (SCA) for the hardware accelerator is also provided.
 
 ## Pre-Requisites
 
