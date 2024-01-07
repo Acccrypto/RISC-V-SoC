@@ -7,6 +7,7 @@ read_verilog -mode system_verilog {E:\MPFS_Projects\Kyber_HW\component\work\PF_C
 read_verilog -mode system_verilog {E:\MPFS_Projects\Kyber_HW\component\work\PF_CCC_C0\PF_CCC_C0.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Kyber_HW\component\work\CLOCKS_AND_RESETS\CLOCKS_AND_RESETS.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Kyber_HW\hdl\delay.v}
+read_verilog -mode system_verilog {E:\MPFS_Projects\Kyber_HW\hdl\shuffle_rom.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Kyber_HW\hdl\conflict_free_memory_map.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Kyber_HW\hdl\fp_modop.v}

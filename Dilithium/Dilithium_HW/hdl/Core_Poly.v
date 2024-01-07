@@ -524,6 +524,7 @@ module Core_Poly #
 	end   
     
 	// Add user logic here
+    `define SHUFFLE
     
     // Interface signals
     wire                    pwen, pren;
@@ -566,7 +567,7 @@ module Core_Poly #
     reg                     hdvec;
     reg                     wr0_ntt0, wr0_pwm, wr0_macc;
     
-    wire                    pm_wen;
+    wire [1:0]              pm_wen;
     wire                    pm_done;
     wire [6:0]              agen_oldaddr0, agen_oldaddr1, agen_oldaddr2, agen_oldaddr3;
     wire [7:0]              tf_address;
@@ -830,7 +831,7 @@ module Core_Poly #
                 end 
                 NTT0, INTT0: begin
                     pram1_wen      <=    0;
-                    pram0_wen      <=    pm_wen;
+                    pram0_wen      <=    pm_wen[0];
                     cf_oldaddr_0   <=    agen_oldaddr0;
                     cf_oldaddr_1   <=    agen_oldaddr1;
                     cf_oldaddr_2   <=    agen_oldaddr2;
@@ -846,7 +847,7 @@ module Core_Poly #
                 end
                 NTT1: begin
                     pram0_wen      <=    0;
-                    pram1_wen      <=    pm_wen;
+                    pram1_wen      <=    pm_wen[0];
                     cf_oldaddr_0   <=    agen_oldaddr0;
                     cf_oldaddr_1   <=    agen_oldaddr1;
                     cf_oldaddr_2   <=    agen_oldaddr2;
@@ -863,7 +864,7 @@ module Core_Poly #
                 end
                 PWM: begin
                     pram1_wen      <=    0;
-                    pram0_wen      <=    pm_wen;
+                    pram0_wen      <=    pm_wen[0];
                     cf_oldaddr_0   <=    agen_oldaddr0;
                     cf_oldaddr_1   <=    agen_oldaddr1;
                     cf_oldaddr_2   <=    agen_oldaddr2;
@@ -888,14 +889,10 @@ module Core_Poly #
                     pm_a1          <=    (tf_address[0])? pram0_dout3 : pram0_dout1;
                     pm_b0          <=    { pvram_dout0, pvram_dout1 };
                     pm_b1          <=    { pvram_dout2, pvram_dout3 };
-                    if (cf_oldaddr_0 >= 4)
-                        pram1_din0[5:0]  <=    pram1_din0[5:0] + 1;
-                    else
-                        pram1_din0[5:0]  <=    0;
-                    pram1_din1[5:0]  <=    pram1_din0[5:0];    
-                    pram1_din2[5:0]  <=    pram1_din1[5:0];
-                    pvram_wen      <=    pm_wen;
-                    pvram_waddr    <=    { vec_index, pram1_din2[5:0] };
+                    pram1_din0     <=    tf_address;
+                    pram1_din1     <=    pram1_din0;    
+                    pvram_wen      <=    pm_wen[1];
+                    pvram_waddr    <=    { vec_index, pram1_din1[5:0] };
                     pvram_din0     <=    pm_d0[45:23];
                     pvram_din1     <=    pm_d0[22:0];
                     pvram_din2     <=    pm_d1[45:23];
@@ -918,7 +915,7 @@ module Core_Poly #
     always @(*) begin
         case (CS)
             MACC: begin
-                pvram_raddr     =    { vec_index, pram1_din0[5:0] };
+                pvram_raddr     =    { vec_index, tf_address[5:0] };
                 axi_rdata       =    0;
             end
             READ: begin
@@ -933,13 +930,23 @@ module Core_Poly #
         endcase
     end
     
-    address_generator address_generator_0(
+`ifdef SHUFFLE
+    address_generator_shuffling address_generator_0(
         .clk(S_AXI_ACLK), .rstn(S_AXI_ARESETN), .sel(pm_sel), 
         .old_address_0(agen_oldaddr0), .old_address_1(agen_oldaddr1),
         .old_address_2(agen_oldaddr2), .old_address_3(agen_oldaddr3),
         .tf_address(tf_address), .ntt_l(ntt_l),
         .wen(pm_wen), .done_flag(pm_done)
     );
+`else
+    address_generator_inplace address_generator_0(
+        .clk(S_AXI_ACLK), .rstn(S_AXI_ARESETN), .sel(pm_sel), 
+        .old_address_0(agen_oldaddr0), .old_address_1(agen_oldaddr1),
+        .old_address_2(agen_oldaddr2), .old_address_3(agen_oldaddr3),
+        .tf_address(tf_address), .ntt_l(ntt_l),
+        .wen(pm_wen), .done_flag(pm_done)
+    );
+`endif
     
     conflict_free_memory_map cf_mmap_0(
         .clk(S_AXI_ACLK), .rst(S_AXI_ARESETN),
@@ -978,7 +985,7 @@ module Core_Poly #
         .clk(S_AXI_ACLK), .wen(pvram_wen), .raddr(pvram_raddr), .waddr(pvram_waddr),
         .din0(pvram_din0), .din1(pvram_din1), .din2(pvram_din2), .din3(pvram_din3),
         .dout0(pvram_dout0), .dout1(pvram_dout1), .dout2(pvram_dout2), .dout3(pvram_dout3)
-    );      
+    );     
     
 	// User logic ends
     

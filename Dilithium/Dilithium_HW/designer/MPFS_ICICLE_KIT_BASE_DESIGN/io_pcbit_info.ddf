@@ -1,5 +1,5 @@
 ;--------------------------------------------------------------------------------
-; Date:    Mon Nov 27 09:10:40 2023
+; Date:    Sat Jan  6 17:09:05 2024
 ; version: 2022.2 2022.2.0.10
 ; Design:  MPFS_ICICLE_KIT_BASE_DESIGN
 ; Family:  PolarFireSoC
@@ -48,12 +48,12 @@ Module  PLL_NW_0                              732  377      727  1442 PLL       
         DIV2_VAL                              "7'h9"                   U. 
         DIV3_CLK_SEL                          "1'h0"                   U. 
         DIV3_RST_DELAY                        "3'h0"                   U. 
-        DIV3_VAL                              "7'h18"                  U. 
+        DIV3_VAL                              "7'h17"                  U. 
         DRI_EN                                "1'h1"                   U. 
         FB_CLK_SEL_0                          "2'h0"                   U. 
         FB_CLK_SEL_1                          "1'h0"                   U. 
         FB_FRAC_VAL                           "24'h0"                  U. 
-        FB_INT_VAL                            "12'h1E6"                U. 
+        FB_INT_VAL                            "12'h936"                U. 
         FF_REQUIRES_LOCK                      "1'h0"                   U. 
         FRAC_DAC_EN                           "1'h0"                   U. 
         FRAC_EN                               "1'h0"                   U. 
@@ -70,7 +70,7 @@ Module  PLL_NW_0                              732  377      727  1442 PLL       
         OUT3_DIV_EN                           "1'h1"                   U. 
         OUT3_PHASE_SEL                        "3'h0"                   U. 
         RESET_ON_LOCK                         "1'h1"                   U. 
-        RFDIV                                 "6'h5"                   U. 
+        RFDIV                                 "6'h19"                  U. 
         RFDIV_EN                              "1'h1"                   U. 
         SOFTRESET                             "1'h0"                   U. 
         SOFT_LOAD_PHASE_N                     "1'h1"                   U. 

@@ -1,32 +1,33 @@
-#OPTIONS:"|-layerid|0|-orig_srs|E:\\MPFS_Projects\\Dilithium_HW\\synthesis\\synwork\\MPFS_ICICLE_KIT_BASE_DESIGN_comp.srs|-top|MPFS_ICICLE_KIT_BASE_DESIGN|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|E:\\MPFS_Projects\\Dilithium_HW\\synthesis\\|-I|D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib|-sysv|-devicelib|D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\MPFS_Projects\\Dilithium_HW\\synthesis\\synwork\\MPFS_ICICLE_KIT_BASE_DESIGN_comp.srs|-top|MPFS_ICICLE_KIT_BASE_DESIGN|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|E:\\MPFS_Projects\\Dilithium_HW\\synthesis\\|-I|D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib|-sysv|-devicelib|D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\bin64\\c_ver.exe":1655988517
 #CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\generic\\acg5.v":1655988526
 #CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vlog\\hypermods.v":1655988528
 #CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vlog\\umr_capim.v":1655988528
 #CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1655988528
 #CUR:"D:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1655988528
-#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\polarfire_syn_comps.v":1700993486
+#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\polarfire_syn_comps.v":1704531523
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\CORERESET\\CORERESET_0\\core\\corereset_pf.v":1688206959
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\CORERESET\\CORERESET.v":1688206960
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\INIT_MONITOR\\INIT_MONITOR_0\\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":1670841316
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\INIT_MONITOR\\INIT_MONITOR.v":1670841316
-#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\PF_CCC_C0\\PF_CCC_C0_0\\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":1692779071
-#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\PF_CCC_C0\\PF_CCC_C0.v":1692779071
+#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\PF_CCC_C0\\PF_CCC_C0_0\\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":1704531493
+#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\PF_CCC_C0\\PF_CCC_C0.v":1704531493
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\work\\CLOCKS_AND_RESETS\\CLOCKS_AND_RESETS.v":1700993163
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\delay.v":1677753784
-#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\address_generator.v":1688190155
+#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\shuffle_rom.v":1701940241
+#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\address_generator.v":1704530527
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\conflict_free_memory_map.v":1687690296
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\polyvec_ram.v":1688035610
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\fp_modop.v":1691822291
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\tf_ROM.v":1687786718
-#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\poly_mul.v":1688117016
+#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\poly_mul.v":1702264707
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\arbiter.v":1677739958
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\network_bank_in.v":1677752720
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\network_bf_in.v":1677753470
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\network_bf_out.v":1688117047
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\poly_bank.v":1687694381
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\poly_ram.v":1688117034
-#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\Core_Poly.v":1692780054
+#CUR:"E:\\MPFS_Projects\\Dilithium_HW\\hdl\\Core_Poly.v":1704530623
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\ResetSycnc.v":1669025868
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\MasterAddressDecoder.v":1669025868
 #CUR:"E:\\MPFS_Projects\\Dilithium_HW\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\DependenceChecker.v":1669025868
@@ -122,103 +123,104 @@
 6			"E:\MPFS_Projects\Dilithium_HW\component\work\PF_CCC_C0\PF_CCC_C0.v" verilog
 7			"E:\MPFS_Projects\Dilithium_HW\component\work\CLOCKS_AND_RESETS\CLOCKS_AND_RESETS.v" verilog
 8			"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v" verilog
-9			"E:\MPFS_Projects\Dilithium_HW\hdl\address_generator.v" verilog
-10			"E:\MPFS_Projects\Dilithium_HW\hdl\conflict_free_memory_map.v" verilog
-11			"E:\MPFS_Projects\Dilithium_HW\hdl\polyvec_ram.v" verilog
-12			"E:\MPFS_Projects\Dilithium_HW\hdl\fp_modop.v" verilog
-13			"E:\MPFS_Projects\Dilithium_HW\hdl\tf_ROM.v" verilog
-14			"E:\MPFS_Projects\Dilithium_HW\hdl\poly_mul.v" verilog
-15			"E:\MPFS_Projects\Dilithium_HW\hdl\arbiter.v" verilog
-16			"E:\MPFS_Projects\Dilithium_HW\hdl\network_bank_in.v" verilog
-17			"E:\MPFS_Projects\Dilithium_HW\hdl\network_bf_in.v" verilog
-18			"E:\MPFS_Projects\Dilithium_HW\hdl\network_bf_out.v" verilog
-19			"E:\MPFS_Projects\Dilithium_HW\hdl\poly_bank.v" verilog
-20			"E:\MPFS_Projects\Dilithium_HW\hdl\poly_ram.v" verilog
-21			"E:\MPFS_Projects\Dilithium_HW\hdl\Core_Poly.v" verilog
-22			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ResetSycnc.v" verilog
-23			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\MasterAddressDecoder.v" verilog
-24			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DependenceChecker.v" verilog
-25			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\BitScan0.v" verilog
-26			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\TransactionController.v" verilog
-27			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\MasterControl.v" verilog
-28			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RoundRobinArb.v" verilog
-29			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\TargetMuxController.v" verilog
-30			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\AddressController.v" verilog
-31			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Revision.v" verilog
-32			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DERR_Slave.v" verilog
-33			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DualPort_FF_SyncWr_SyncRd.v" verilog
-34			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DualPort_Ram_SyncWr_SyncRd.v" verilog
-35			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RdFifoDualPort.v" verilog
-36			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ReadDataMux.v" verilog
-37			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RequestQual.v" verilog
-38			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ReadDataController.v" verilog
-39			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RDataController.v" verilog
-40			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\SlaveDataMuxController.v" verilog
-41			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RespController.v" verilog
-42			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\FifoDualPort.v" verilog
-43			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WriteDataMux.v" verilog
-44			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WDataController.v" verilog
-45			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v" verilog
-46			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AHBL_Ctrl.v" verilog
-47			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AXI4_Read_Ctrl.v" verilog
-48			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AXI4_Write_Ctrl.v" verilog
-49			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AHB_SM.v" verilog
-50			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrAHBtoAXI4Converter.v" verilog
-51			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Bin2Gray.v" verilog
-52			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_grayCodeCounter.v" verilog
-53			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_rdCtrl.v" verilog
-54			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_wrCtrl.v" verilog
-55			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v" verilog
-56			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_FIFO.v" verilog
-57			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v" verilog
-58			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v" verilog
-59			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Hold_Reg_Ctrl.v" verilog
-60			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Rd.v" verilog
-61			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v" verilog
-62			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v" verilog
-63			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v" verilog
-64			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v" verilog
-65			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\byte2bit.v" verilog
-66			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v" verilog
-67			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Wr.v" verilog
-68			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v" verilog
-69			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_brespCtrl.v" verilog
-70			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v" verilog
-71			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DownConverter.v" verilog
-72			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_AChannel.v" verilog
-73			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_BChannel.v" verilog
-74			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel_SlvRid_Arb.v" verilog
-75			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChan_Ctrl.v" verilog
-76			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcRChan_Ctrl.v" verilog
-77			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_downsizing.v" verilog
-78			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel.v" verilog
-79			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_Hold_Reg.v" verilog
-80			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_ReadDataFifoCtrl.v" verilog
-81			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_Wchan_WriteDataFifoCtrl.v" verilog
-82			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_upsizing.v" verilog
-83			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChannel.v" verilog
-84			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcAChannel.v" verilog
-85			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\UpConverter.v" verilog
-86			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v" verilog
-87			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v" verilog
-88			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v" verilog
-89			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v" verilog
-90			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v" verilog
-91			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v" verilog
-92			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v" verilog
-93			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvRead.v" verilog
-94			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvWrite.v" verilog
-95			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtocolConv.v" verilog
-96			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v" verilog
-97			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v" verilog
-98			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v" verilog
-99			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v" verilog
-100			"E:\MPFS_Projects\Dilithium_HW\component\work\FIC0_INITIATOR\FIC0_INITIATOR.v" verilog
-101			"E:\MPFS_Projects\Dilithium_HW\component\work\FIC_0_PERIPHERALS\FIC_0_PERIPHERALS.v" verilog
-102			"E:\MPFS_Projects\Dilithium_HW\component\work\ICICLE_MSS\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v" verilog
-103			"E:\MPFS_Projects\Dilithium_HW\component\work\ICICLE_MSS\ICICLE_MSS.v" verilog
-104			"E:\MPFS_Projects\Dilithium_HW\component\work\MSS_WRAPPER\MSS_WRAPPER.v" verilog
-105			"E:\MPFS_Projects\Dilithium_HW\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v" verilog
+9			"E:\MPFS_Projects\Dilithium_HW\hdl\shuffle_rom.v" verilog
+10			"E:\MPFS_Projects\Dilithium_HW\hdl\address_generator.v" verilog
+11			"E:\MPFS_Projects\Dilithium_HW\hdl\conflict_free_memory_map.v" verilog
+12			"E:\MPFS_Projects\Dilithium_HW\hdl\polyvec_ram.v" verilog
+13			"E:\MPFS_Projects\Dilithium_HW\hdl\fp_modop.v" verilog
+14			"E:\MPFS_Projects\Dilithium_HW\hdl\tf_ROM.v" verilog
+15			"E:\MPFS_Projects\Dilithium_HW\hdl\poly_mul.v" verilog
+16			"E:\MPFS_Projects\Dilithium_HW\hdl\arbiter.v" verilog
+17			"E:\MPFS_Projects\Dilithium_HW\hdl\network_bank_in.v" verilog
+18			"E:\MPFS_Projects\Dilithium_HW\hdl\network_bf_in.v" verilog
+19			"E:\MPFS_Projects\Dilithium_HW\hdl\network_bf_out.v" verilog
+20			"E:\MPFS_Projects\Dilithium_HW\hdl\poly_bank.v" verilog
+21			"E:\MPFS_Projects\Dilithium_HW\hdl\poly_ram.v" verilog
+22			"E:\MPFS_Projects\Dilithium_HW\hdl\Core_Poly.v" verilog
+23			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ResetSycnc.v" verilog
+24			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\MasterAddressDecoder.v" verilog
+25			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DependenceChecker.v" verilog
+26			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\BitScan0.v" verilog
+27			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\TransactionController.v" verilog
+28			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\MasterControl.v" verilog
+29			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RoundRobinArb.v" verilog
+30			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\TargetMuxController.v" verilog
+31			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\AddressController.v" verilog
+32			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Revision.v" verilog
+33			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DERR_Slave.v" verilog
+34			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DualPort_FF_SyncWr_SyncRd.v" verilog
+35			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DualPort_Ram_SyncWr_SyncRd.v" verilog
+36			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RdFifoDualPort.v" verilog
+37			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ReadDataMux.v" verilog
+38			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RequestQual.v" verilog
+39			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ReadDataController.v" verilog
+40			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RDataController.v" verilog
+41			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\SlaveDataMuxController.v" verilog
+42			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RespController.v" verilog
+43			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\FifoDualPort.v" verilog
+44			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WriteDataMux.v" verilog
+45			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WDataController.v" verilog
+46			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v" verilog
+47			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AHBL_Ctrl.v" verilog
+48			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AXI4_Read_Ctrl.v" verilog
+49			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AXI4_Write_Ctrl.v" verilog
+50			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AHB_SM.v" verilog
+51			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrAHBtoAXI4Converter.v" verilog
+52			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Bin2Gray.v" verilog
+53			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_grayCodeCounter.v" verilog
+54			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_rdCtrl.v" verilog
+55			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_wrCtrl.v" verilog
+56			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v" verilog
+57			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_FIFO.v" verilog
+58			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v" verilog
+59			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v" verilog
+60			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Hold_Reg_Ctrl.v" verilog
+61			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Rd.v" verilog
+62			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v" verilog
+63			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v" verilog
+64			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v" verilog
+65			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v" verilog
+66			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\byte2bit.v" verilog
+67			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v" verilog
+68			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Wr.v" verilog
+69			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v" verilog
+70			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_brespCtrl.v" verilog
+71			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v" verilog
+72			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DownConverter.v" verilog
+73			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_AChannel.v" verilog
+74			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_BChannel.v" verilog
+75			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel_SlvRid_Arb.v" verilog
+76			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChan_Ctrl.v" verilog
+77			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcRChan_Ctrl.v" verilog
+78			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_downsizing.v" verilog
+79			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel.v" verilog
+80			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_Hold_Reg.v" verilog
+81			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_ReadDataFifoCtrl.v" verilog
+82			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_Wchan_WriteDataFifoCtrl.v" verilog
+83			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_upsizing.v" verilog
+84			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChannel.v" verilog
+85			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcAChannel.v" verilog
+86			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\UpConverter.v" verilog
+87			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v" verilog
+88			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v" verilog
+89			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v" verilog
+90			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v" verilog
+91			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v" verilog
+92			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v" verilog
+93			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v" verilog
+94			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvRead.v" verilog
+95			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvWrite.v" verilog
+96			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtocolConv.v" verilog
+97			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v" verilog
+98			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v" verilog
+99			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v" verilog
+100			"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v" verilog
+101			"E:\MPFS_Projects\Dilithium_HW\component\work\FIC0_INITIATOR\FIC0_INITIATOR.v" verilog
+102			"E:\MPFS_Projects\Dilithium_HW\component\work\FIC_0_PERIPHERALS\FIC_0_PERIPHERALS.v" verilog
+103			"E:\MPFS_Projects\Dilithium_HW\component\work\ICICLE_MSS\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v" verilog
+104			"E:\MPFS_Projects\Dilithium_HW\component\work\ICICLE_MSS\ICICLE_MSS.v" verilog
+105			"E:\MPFS_Projects\Dilithium_HW\component\work\MSS_WRAPPER\MSS_WRAPPER.v" verilog
+106			"E:\MPFS_Projects\Dilithium_HW\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
@@ -229,103 +231,104 @@
 6 5
 7 6 4 2
 8 -1
-9 8
-10 -1
+9 -1
+10 8 9
 11 -1
 12 -1
 13 -1
-14 8 12 13
-15 -1
+14 -1
+15 8 13 14
 16 -1
 17 -1
-18 8
-19 -1
-20 15 16 8 19 17 18
-21 9 10 20 14 11
-22 -1
+18 -1
+19 8
+20 -1
+21 16 17 8 20 18 19
+22 10 11 21 15 12
 23 -1
-24 23
-25 -1
-26 25
-27 24 26
-28 -1
+24 -1
+25 24
+26 -1
+27 26
+28 25 27
 29 -1
-30 29 27 28
-31 -1
-32 31
-33 -1
+30 -1
+31 30 28 29
+32 -1
+33 32
 34 -1
-35 33 34
-36 -1
+35 -1
+36 34 35
 37 -1
-38 36 37 28 35
-39 38
-40 -1
-41 28 40
-42 33 34
-43 -1
-44 42 43
-45 30 39 44 41 32
-46 -1
+38 -1
+39 37 38 29 36
+40 39
+41 -1
+42 29 41
+43 34 35
+44 -1
+45 43 44
+46 31 40 45 42 33
 47 -1
 48 -1
-49 46 48 47
-50 49
-51 -1
-52 51
-53 -1
+49 -1
+50 47 49 48
+51 50
+52 -1
+53 52
 54 -1
 55 -1
-56 55 52 54 53
-57 56
-58 -1
+56 -1
+57 56 53 55 54
+58 57
 59 -1
-60 59
-61 59
-62 -1
+60 -1
+61 60
+62 60
 63 -1
-64 55 63
-65 -1
-66 64 60 62 65 58 61
-67 59
-68 -1
+64 -1
+65 56 64
+66 -1
+67 65 61 63 66 59 62
+68 60
 69 -1
-70 64 67 68 69 58 61
-71 70 66
-72 -1
-73 64 69
-74 -1
+70 -1
+71 65 68 69 70 59 62
+72 71 67
+73 -1
+74 65 70
 75 -1
-76 59
-77 55 63
-78 64 77 75 76 74
-79 59
-80 -1
+76 -1
+77 60
+78 56 64
+79 65 78 76 77 75
+80 60
 81 -1
-82 63 55
-83 82 64 79 81 80
-84 59
-85 72 84 83 73 78
-86 71 85
-87 -1
+82 -1
+83 64 56
+84 83 65 80 82 81
+85 60
+86 73 85 84 74 79
+87 72 86
 88 -1
-89 88
-90 89 87 86 57 22 50
-91 56
-92 71 85
-93 42
-94 42
-95 94 93
-96 64
-97 96 95
-98 89 92 97 91 22
-99 22 45 90 98
-100 99
-101 21 100
-102 -1
-103 102
+89 -1
+90 89
+91 90 88 87 58 23 51
+92 57
+93 72 86
+94 43
+95 43
+96 95 94
+97 65
+98 97 96
+99 90 93 98 92 23
+100 23 46 91 99
+101 100
+102 22 101
+103 -1
 104 103
-105 7 101 104
+105 104
+106 7 102 105
 #Dependency Lists(Users Of)
 0 3 5
 1 2
@@ -334,105 +337,106 @@
 4 7
 5 6
 6 7
-7 105
-8 9 14 18 20
-9 21
-10 21
-11 21
-12 14
-13 14
-14 21
-15 20
-16 20
-17 20
-18 20
-19 20
+7 106
+8 10 15 19 21
+9 10
+10 22
+11 22
+12 22
+13 15
+14 15
+15 22
+16 21
+17 21
+18 21
+19 21
 20 21
-21 101
-22 90 98 99
-23 24
-24 27
-25 26
+21 22
+22 102
+23 91 99 100
+24 25
+25 28
 26 27
-27 30
-28 30 38 41
-29 30
-30 45
-31 32
-32 45
-33 35 42
-34 35 42
-35 38
-36 38
-37 38
+27 28
+28 31
+29 31 39 42
+30 31
+31 46
+32 33
+33 46
+34 36 43
+35 36 43
+36 39
+37 39
 38 39
-39 45
-40 41
-41 45
-42 44 93 94
-43 44
+39 40
+40 46
+41 42
+42 46
+43 45 94 95
 44 45
-45 99
-46 49
-47 49
-48 49
+45 46
+46 100
+47 50
+48 50
 49 50
-50 90
-51 52
-52 56
-53 56
-54 56
-55 56 64 77 82
-56 57 91
-57 90
-58 66 70
-59 60 61 67 76 79 84
-60 66
-61 66 70
-62 66
-63 64 77 82
-64 66 70 73 78 83 96
-65 66
-66 71
-67 70
-68 70
-69 70 73
-70 71
-71 86 92
-72 85
-73 85
-74 78
-75 78
-76 78
-77 78
-78 85
-79 83
-80 83
-81 83
-82 83
-83 85
-84 85
-85 86 92
-86 90
-87 90
-88 89
-89 90 98
-90 99
-91 98
-92 98
-93 95
-94 95
-95 97
-96 97
+50 51
+51 91
+52 53
+53 57
+54 57
+55 57
+56 57 65 78 83
+57 58 92
+58 91
+59 67 71
+60 61 62 68 77 80 85
+61 67
+62 67 71
+63 67
+64 65 78 83
+65 67 71 74 79 84 97
+66 67
+67 72
+68 71
+69 71
+70 71 74
+71 72
+72 87 93
+73 86
+74 86
+75 79
+76 79
+77 79
+78 79
+79 86
+80 84
+81 84
+82 84
+83 84
+84 86
+85 86
+86 87 93
+87 91
+88 91
+89 90
+90 91 99
+91 100
+92 99
+93 99
+94 96
+95 96
+96 98
 97 98
 98 99
 99 100
 100 101
-101 105
-102 103
+101 102
+102 106
 103 104
 104 105
-105 -1
+105 106
+106 -1
 #Design Unit to File Association
 module work APBM 0
 module work APBS 0
@@ -513,105 +517,107 @@ module work PF_CCC_C0_PF_CCC_C0_0_PF_CCC 5
 module work PF_CCC_C0 6
 module work CLOCKS_AND_RESETS 7
 module work delay 8
-module work address_generator 9
-module work conflict_free_memory_map 10
-module work polyvec_ram 11
-module work mult_rd 12
-module work mult_half 12
-module work add_rd 12
-module work sub_rd 12
-module work tf0_ROM 13
-module work tf1_ROM 13
-module work tf2_ROM 13
-module work poly_mul 14
-module work arbiter 15
-module work network_bank_in 16
-module work network_bf_in 17
-module work network_bf_out 18
-module work poly_bank 19
-module work poly_ram 20
-module work Core_Poly 21
-module work caxi4interconnect_ResetSycnc 22
-module work caxi4interconnect_MasterAddressDecoder 23
-module work caxi4interconnect_DependenceChecker 24
-module work caxi4interconnect_BitScan0 25
-module work caxi4interconnect_TransactionController 26
-module work caxi4interconnect_MasterControl 27
-module work caxi4interconnect_RoundRobinArb 28
-module work caxi4interconnect_TargetMuxController 29
-module work caxi4interconnect_AddressController 30
-module work caxi4interconnect_revision 31
-module work caxi4interconnect_DERR_Slave 32
-module work caxi4interconnect_DualPort_FF_SyncWr_SyncRd 33
-module work caxi4interconnect_DualPort_RAM_SyncWr_SyncRd 34
-module work caxi4interconnect_RdFifoDualPort 35
-module work caxi4interconnect_ReadDataMux 36
-module work caxi4interconnect_RequestQual 37
-module work caxi4interconnect_ReadDataController 38
-module work caxi4interconnect_RDataController 39
-module work caxi4interconnect_SlaveDataMuxController 40
-module work caxi4interconnect_RespController 41
-module work caxi4interconnect_FifoDualPort 42
-module work caxi4interconnect_WriteDataMux 43
-module work caxi4interconnect_WDataController 44
-module work caxi4interconnect_Axi4CrossBar 45
-module work caxi4interconnect_AHBL_Ctrl 46
-module work caxi4interconnect_AXI4_Read_Ctrl 47
-module work caxi4interconnect_AXI4_Write_Ctrl 48
-module work caxi4interconnect_AHB_SM 49
-module work caxi4interconnect_MstrAHBtoAXI4Converter 50
-module work caxi4interconnect_Bin2Gray 51
-module work caxi4interconnect_CDC_grayCodeCounter 52
-module work caxi4interconnect_CDC_rdCtrl 53
-module work caxi4interconnect_CDC_wrCtrl 54
-module work caxi4interconnect_RAM_BLOCK 55
-module work caxi4interconnect_CDC_FIFO 56
-module work caxi4interconnect_MstrClockDomainCrossing 57
-module work caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl 58
-module work caxi4interconnect_Hold_Reg_Ctrl 59
-module work caxi4interconnect_DWC_DownConv_Hold_Reg_Rd 60
-module work caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl 61
-module work caxi4interconnect_DWC_DownConv_widthConvrd 62
-module work caxi4interconnect_FIFO_CTRL 63
-module work caxi4interconnect_FIFO 64
-module work caxi4interconnect_byte2bit 65
-module work caxi4interconnect_DWC_DownConv_readWidthConv 66
-module work caxi4interconnect_DWC_DownConv_Hold_Reg_Wr 67
-module work caxi4interconnect_DWC_DownConv_widthConvwr 68
-module work caxi4interconnect_DWC_brespCtrl 69
-module work caxi4interconnect_DWC_DownConv_writeWidthConv 70
-module work caxi4interconnect_DownConverter 71
-module work caxi4interconnect_DWC_UpConv_AChannel 72
-module work caxi4interconnect_DWC_UpConv_BChannel 73
-module work caxi4interconnect_DWC_RChannel_SlvRid_Arb 74
-module work caxi4interconnect_DWC_UpConv_RChan_Ctrl 75
-module work caxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl 76
-module work caxi4interconnect_FIFO_downsizing 77
-module work caxi4interconnect_DWC_UpConv_RChannel 78
-module work caxi4interconnect_DWC_UpConv_WChan_Hold_Reg 79
-module work caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl 80
-module work caxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl 81
-module work caxi4interconnect_FIFO_upsizing 82
-module work caxi4interconnect_DWC_UpConv_WChannel 83
-module work caxi4interconnect_DWC_UpConv_preCalcAChannel 84
-module work caxi4interconnect_UpConverter 85
-module work caxi4interconnect_MstrDataWidthConv 86
-module work caxi4interconnect_MstrProtocolConverter 87
-module work caxi4interconnect_RegSliceFull 88
-module work caxi4interconnect_RegisterSlice 89
-module work caxi4interconnect_MasterConvertor 90
-module work caxi4interconnect_SlvClockDomainCrossing 91
-module work caxi4interconnect_SlvDataWidthConverter 92
-module work caxi4interconnect_SlvAxi4ProtConvRead 93
-module work caxi4interconnect_SlvAxi4ProtConvWrite 94
-module work caxi4interconnect_SlvAxi4ProtocolConv 95
-module work caxi4interconnect_SlvAxi4ProtConvAXI4ID 96
-module work caxi4interconnect_SlvProtocolConverter 97
-module work caxi4interconnect_SlaveConvertor 98
-module work COREAXI4INTERCONNECT 99
-module work FIC0_INITIATOR 100
-module work FIC_0_PERIPHERALS 101
-module work MSS 102
-module work ICICLE_MSS 103
-module work MSS_WRAPPER 104
-module work MPFS_ICICLE_KIT_BASE_DESIGN 105
+module work shuffle_rom 9
+module work address_generator_shuffling 10
+module work address_generator_inplace 10
+module work conflict_free_memory_map 11
+module work polyvec_ram 12
+module work mult_rd 13
+module work mult_half 13
+module work add_rd 13
+module work sub_rd 13
+module work tf0_ROM 14
+module work tf1_ROM 14
+module work tf2_ROM 14
+module work poly_mul 15
+module work arbiter 16
+module work network_bank_in 17
+module work network_bf_in 18
+module work network_bf_out 19
+module work poly_bank 20
+module work poly_ram 21
+module work Core_Poly 22
+module work caxi4interconnect_ResetSycnc 23
+module work caxi4interconnect_MasterAddressDecoder 24
+module work caxi4interconnect_DependenceChecker 25
+module work caxi4interconnect_BitScan0 26
+module work caxi4interconnect_TransactionController 27
+module work caxi4interconnect_MasterControl 28
+module work caxi4interconnect_RoundRobinArb 29
+module work caxi4interconnect_TargetMuxController 30
+module work caxi4interconnect_AddressController 31
+module work caxi4interconnect_revision 32
+module work caxi4interconnect_DERR_Slave 33
+module work caxi4interconnect_DualPort_FF_SyncWr_SyncRd 34
+module work caxi4interconnect_DualPort_RAM_SyncWr_SyncRd 35
+module work caxi4interconnect_RdFifoDualPort 36
+module work caxi4interconnect_ReadDataMux 37
+module work caxi4interconnect_RequestQual 38
+module work caxi4interconnect_ReadDataController 39
+module work caxi4interconnect_RDataController 40
+module work caxi4interconnect_SlaveDataMuxController 41
+module work caxi4interconnect_RespController 42
+module work caxi4interconnect_FifoDualPort 43
+module work caxi4interconnect_WriteDataMux 44
+module work caxi4interconnect_WDataController 45
+module work caxi4interconnect_Axi4CrossBar 46
+module work caxi4interconnect_AHBL_Ctrl 47
+module work caxi4interconnect_AXI4_Read_Ctrl 48
+module work caxi4interconnect_AXI4_Write_Ctrl 49
+module work caxi4interconnect_AHB_SM 50
+module work caxi4interconnect_MstrAHBtoAXI4Converter 51
+module work caxi4interconnect_Bin2Gray 52
+module work caxi4interconnect_CDC_grayCodeCounter 53
+module work caxi4interconnect_CDC_rdCtrl 54
+module work caxi4interconnect_CDC_wrCtrl 55
+module work caxi4interconnect_RAM_BLOCK 56
+module work caxi4interconnect_CDC_FIFO 57
+module work caxi4interconnect_MstrClockDomainCrossing 58
+module work caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl 59
+module work caxi4interconnect_Hold_Reg_Ctrl 60
+module work caxi4interconnect_DWC_DownConv_Hold_Reg_Rd 61
+module work caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl 62
+module work caxi4interconnect_DWC_DownConv_widthConvrd 63
+module work caxi4interconnect_FIFO_CTRL 64
+module work caxi4interconnect_FIFO 65
+module work caxi4interconnect_byte2bit 66
+module work caxi4interconnect_DWC_DownConv_readWidthConv 67
+module work caxi4interconnect_DWC_DownConv_Hold_Reg_Wr 68
+module work caxi4interconnect_DWC_DownConv_widthConvwr 69
+module work caxi4interconnect_DWC_brespCtrl 70
+module work caxi4interconnect_DWC_DownConv_writeWidthConv 71
+module work caxi4interconnect_DownConverter 72
+module work caxi4interconnect_DWC_UpConv_AChannel 73
+module work caxi4interconnect_DWC_UpConv_BChannel 74
+module work caxi4interconnect_DWC_RChannel_SlvRid_Arb 75
+module work caxi4interconnect_DWC_UpConv_RChan_Ctrl 76
+module work caxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl 77
+module work caxi4interconnect_FIFO_downsizing 78
+module work caxi4interconnect_DWC_UpConv_RChannel 79
+module work caxi4interconnect_DWC_UpConv_WChan_Hold_Reg 80
+module work caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl 81
+module work caxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl 82
+module work caxi4interconnect_FIFO_upsizing 83
+module work caxi4interconnect_DWC_UpConv_WChannel 84
+module work caxi4interconnect_DWC_UpConv_preCalcAChannel 85
+module work caxi4interconnect_UpConverter 86
+module work caxi4interconnect_MstrDataWidthConv 87
+module work caxi4interconnect_MstrProtocolConverter 88
+module work caxi4interconnect_RegSliceFull 89
+module work caxi4interconnect_RegisterSlice 90
+module work caxi4interconnect_MasterConvertor 91
+module work caxi4interconnect_SlvClockDomainCrossing 92
+module work caxi4interconnect_SlvDataWidthConverter 93
+module work caxi4interconnect_SlvAxi4ProtConvRead 94
+module work caxi4interconnect_SlvAxi4ProtConvWrite 95
+module work caxi4interconnect_SlvAxi4ProtocolConv 96
+module work caxi4interconnect_SlvAxi4ProtConvAXI4ID 97
+module work caxi4interconnect_SlvProtocolConverter 98
+module work caxi4interconnect_SlaveConvertor 99
+module work COREAXI4INTERCONNECT 100
+module work FIC0_INITIATOR 101
+module work FIC_0_PERIPHERALS 102
+module work MSS 103
+module work ICICLE_MSS 104
+module work MSS_WRAPPER 105
+module work MPFS_ICICLE_KIT_BASE_DESIGN 106

@@ -1,9 +1,9 @@
-@P:  Worst Slack : -3.036
-@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Estimated Frequency : 95.8 MHz
-@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Requested Frequency : 135.0 MHz
-@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Estimated Period : 10.444
-@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Requested Period : 7.407
-@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Slack : -3.036
+@P:  Worst Slack : -2.854
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Estimated Frequency : 95.4 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Requested Frequency : 131.0 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Estimated Period : 10.487
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Requested Period : 7.633
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Slack : -2.854
 @P:  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock - Estimated Frequency : NA
 @P:  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock - Requested Frequency : 100.0 MHz
 @P:  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock - Estimated Period : NA
@@ -24,14 +24,14 @@
 @P:  REF_CLK_50MHz - Estimated Period : NA
 @P:  REF_CLK_50MHz - Requested Period : 20.000
 @P:  REF_CLK_50MHz - Slack : NA
-@P:  System - Estimated Frequency : 246.6 MHz
+@P:  System - Estimated Frequency : 261.2 MHz
 @P:  System - Requested Frequency : 100.0 MHz
-@P:  System - Estimated Period : 4.055
+@P:  System - Estimated Period : 3.829
 @P:  System - Requested Period : 10.000
-@P:  System - Slack : 5.945
+@P:  System - Slack : 6.171
 @P: MPFS_ICICLE_KIT_BASE_DESIGN Part : mpfs250tfcg1152std
-@P: MPFS_ICICLE_KIT_BASE_DESIGN Register bits  : 4015 
+@P: MPFS_ICICLE_KIT_BASE_DESIGN Register bits  : 4013 
 @P: MPFS_ICICLE_KIT_BASE_DESIGN DSP Blocks  : 16
 @P: MPFS_ICICLE_KIT_BASE_DESIGN I/O primitives : 148
 @P: MPFS_ICICLE_KIT_BASE_DESIGN RAM64x12 :  107
-@P:  CPU Time : 0h:00m:14s
+@P:  CPU Time : 0h:00m:13s

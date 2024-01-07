@@ -1,36 +1,36 @@
 
-fsm_encoding {36605460515} onehot
+fsm_encoding {2760646068} onehot
 
-fsm_state_encoding {36605460515} IDLE {000000000}
+fsm_state_encoding {2760646068} IDLE {000000000}
 
-fsm_state_encoding {36605460515} WRITE0 {000000011}
+fsm_state_encoding {2760646068} WRITE0 {000000011}
 
-fsm_state_encoding {36605460515} WRITE1 {000000101}
+fsm_state_encoding {2760646068} WRITE1 {000000101}
 
-fsm_state_encoding {36605460515} WRITE2 {000001001}
+fsm_state_encoding {2760646068} WRITE2 {000001001}
 
-fsm_state_encoding {36605460515} NTT0 {000010001}
+fsm_state_encoding {2760646068} NTT0 {000010001}
 
-fsm_state_encoding {36605460515} PWM {000100001}
+fsm_state_encoding {2760646068} PWM {000100001}
 
-fsm_state_encoding {36605460515} INTT0 {001000001}
+fsm_state_encoding {2760646068} INTT0 {001000001}
 
-fsm_state_encoding {36605460515} MACC {010000001}
+fsm_state_encoding {2760646068} MACC {010000001}
 
-fsm_state_encoding {36605460515} READ {100000001}
+fsm_state_encoding {2760646068} READ {100000001}
 
-fsm_registers {36605460515} {CS[8]}  {CS[7]}  {CS[6]}  {CS[5]}  {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 
+fsm_registers {2760646068} {CS[8]}  {CS[7]}  {CS[6]}  {CS[5]}  {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 
 
-fsm_encoding {244944916} onehot
+fsm_encoding {15534539} onehot
 
-fsm_state_encoding {244944916} IDLE {00000}
+fsm_state_encoding {15534539} IDLE {00000}
 
-fsm_state_encoding {244944916} NTT {00011}
+fsm_state_encoding {15534539} NTT {00011}
 
-fsm_state_encoding {244944916} PWMA {00101}
+fsm_state_encoding {15534539} PWMA {00101}
 
-fsm_state_encoding {244944916} INTT {01001}
+fsm_state_encoding {15534539} INTT {01001}
 
-fsm_state_encoding {244944916} DONE {10001}
+fsm_state_encoding {15534539} DONE {10001}
 
-fsm_registers {244944916} {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 
+fsm_registers {15534539} {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 

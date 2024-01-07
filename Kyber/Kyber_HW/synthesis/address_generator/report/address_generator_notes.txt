@@ -1,0 +1,27 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"e:\mpfs_projects\kyber_hw\hdl\address_generator.v":21:7:21:23|Found compile point of type hard on View view:work.address_generator(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.address_generator(verilog) 
+@N: MF106 :"e:\mpfs_projects\kyber_hw\hdl\address_generator.v":21:7:21:23|Mapping Compile point view:work.address_generator(verilog) because 
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":74:8:74:11|Found ROM new_addr_1[5] (in view: work.shuffle_rom1(verilog)) with 32 words by 1 bit.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":74:8:74:11|Found ROM new_addr_1[3:0] (in view: work.shuffle_rom1(verilog)) with 32 words by 4 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":119:8:119:11|Found ROM new_addr_1[5:4] (in view: work.shuffle_rom2(verilog)) with 32 words by 2 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":119:8:119:11|Found ROM new_addr_1[2:0] (in view: work.shuffle_rom2(verilog)) with 32 words by 3 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":164:8:164:11|Found ROM new_addr_1[5:3] (in view: work.shuffle_rom3(verilog)) with 32 words by 3 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":164:8:164:11|Found ROM new_addr_1[1:0] (in view: work.shuffle_rom3(verilog)) with 32 words by 2 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":209:8:209:11|Found ROM new_addr_1[5:2] (in view: work.shuffle_rom4(verilog)) with 32 words by 4 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":209:8:209:11|Found ROM new_addr_1[0] (in view: work.shuffle_rom4(verilog)) with 32 words by 1 bit.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":299:8:299:11|Found ROM shuffle_rom_6.new_addr_1[5:1] (in view: work.address_generator(verilog)) with 32 words by 5 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":254:8:254:11|Found ROM shuffle_rom_5.new_addr_1[5:1] (in view: work.address_generator(verilog)) with 32 words by 5 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":29:8:29:11|Found ROM shuffle_rom_0.new_addr_1[4:0] (in view: work.address_generator(verilog)) with 32 words by 5 bits.
+@N: FX493 |Applying initial value "0" on instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS_i[0].
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":605:4:605:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 31 loads 1 time to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":605:4:605:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":605:4:605:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":605:4:605:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[4] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 4 loads 1 time to improve timing.
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 6.06ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -524,6 +524,7 @@ module Core_Poly #
 	end   
     
 	// Add user logic here
+    `define SHUFFLE
     
     // Interface signals
     wire                    pwen, pren;
@@ -846,7 +847,7 @@ module Core_Poly #
                     pram0_din1     <=    pm_c1;
                     pram0_din2     <=    pm_d0;
                     pram0_din3     <=    pm_d1;
-                    wcnt[1:0]       <=    wcnt[1:0] + 1;
+                    wcnt[1:0]      <=    wcnt[1:0] + 1;
                     case (wcnt[1:0])
                         2'b00: begin
                             pm_a0          <=    pram0_dout0;
@@ -924,13 +925,23 @@ module Core_Poly #
         endcase
     end
     
-    address_generator address_generator_0(
+`ifdef SHUFFLE
+    address_generator_shuffling address_generator_0(
         .clk(S_AXI_ACLK), .rstn(S_AXI_ARESETN), .sel(pm_sel), 
         .old_address_0(agen_oldaddr0), .old_address_1(agen_oldaddr1),
         .old_address_2(agen_oldaddr2), .old_address_3(agen_oldaddr3),
         .tf_address(tf_address), .ntt_l(ntt_l),
         .wen(pm_wen), .done_flag(pm_done)
     );
+`else
+    address_generator_inplace address_generator_0(
+        .clk(S_AXI_ACLK), .rstn(S_AXI_ARESETN), .sel(pm_sel), 
+        .old_address_0(agen_oldaddr0), .old_address_1(agen_oldaddr1),
+        .old_address_2(agen_oldaddr2), .old_address_3(agen_oldaddr3),
+        .tf_address(tf_address), .ntt_l(ntt_l),
+        .wen(pm_wen), .done_flag(pm_done)
+    );
+`endif
     
     conflict_free_memory_map cf_mmap_0(
         .clk(S_AXI_ACLK), .rst(S_AXI_ARESETN),

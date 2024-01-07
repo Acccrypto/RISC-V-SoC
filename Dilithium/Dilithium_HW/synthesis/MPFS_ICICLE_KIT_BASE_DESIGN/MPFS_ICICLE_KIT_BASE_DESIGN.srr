@@ -1,4 +1,4 @@
-# Sun Nov 26 18:12:22 2023
+# Sat Jan  6 16:59:40 2024
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -51,7 +51,7 @@ Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s
 Begin compile point sub-process log
 
 @N: MF106 :"e:\mpfs_projects\dilithium_hw\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
-		 Interface of Compile Point has changed.
+		 RTL and/or Constraints changed.
 
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 217MB)
@@ -78,7 +78,7 @@ Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_8
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 197MB peak: 222MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 196MB peak: 222MB)
 
 Encoding state machine CS[9:0] (in view: work.Core_Poly_Z3(verilog))
 original code -> new code
@@ -142,17 +142,17 @@ original code -> new code
 Starting factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 200MB peak: 222MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 200MB peak: 222MB)
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 200MB peak: 222MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 202MB peak: 222MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 201MB peak: 222MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 202MB peak: 222MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 201MB peak: 222MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 202MB peak: 222MB)
@@ -168,7 +168,7 @@ Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:0
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:12s		     2.82ns		 740 /       743
+   1		0h:00m:12s		     3.05ns		 740 /       743
 
 Added 0 Buffers
 Added 0 Cells via replication
@@ -197,12 +197,12 @@ Writing compile point status file E:\MPFS_Projects\Dilithium_HW\synthesis\MPFS_I
 
 Summary of Compile Points :
 *************************** 
-Name                            Status       Reason                            
--------------------------------------------------------------------------------
-MPFS_ICICLE_KIT_BASE_DESIGN     Remapped     Interface of Compile Point changed
-===============================================================================
+Name                            Status       Reason        
+-----------------------------------------------------------
+MPFS_ICICLE_KIT_BASE_DESIGN     Remapped     Design changed
+===========================================================
 
 Process took 0h:00m:16s realtime, 0h:00m:16s cputime
-# Sun Nov 26 18:12:38 2023
+# Sat Jan  6 16:59:56 2024
 
 ###########################################################]

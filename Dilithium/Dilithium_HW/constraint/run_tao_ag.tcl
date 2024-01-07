@@ -7,6 +7,7 @@ read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\component\work\
 read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\component\work\PF_CCC_C0\PF_CCC_C0.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\component\work\CLOCKS_AND_RESETS\CLOCKS_AND_RESETS.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\hdl\delay.v}
+read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\hdl\shuffle_rom.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\hdl\address_generator.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\hdl\conflict_free_memory_map.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\hdl\polyvec_ram.v}
@@ -104,14 +105,9 @@ read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\component\work\
 read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\component\work\MSS_WRAPPER\MSS_WRAPPER.v}
 read_verilog -mode system_verilog {E:\MPFS_Projects\Dilithium_HW\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v}
 set_top_level {MPFS_ICICLE_KIT_BASE_DESIGN}
-read_sdc -component {E:\MPFS_Projects\Dilithium_HW\component\work\CLK_DIV\CLK_DIV_0\CLK_DIV_CLK_DIV_0_PF_CLK_DIV.sdc}
 read_sdc -component {E:\MPFS_Projects\Dilithium_HW\component\work\FIC0_INITIATOR\FIC0_INITIATOR_0\FIC0_INITIATOR.sdc}
-read_sdc -component {E:\MPFS_Projects\Dilithium_HW\component\work\FIC_1_INITIATOR\FIC_1_INITIATOR_0\FIC_1_INITIATOR.sdc}
 read_sdc -component {E:\MPFS_Projects\Dilithium_HW\component\work\ICICLE_MSS\ICICLE_MSS.sdc}
-read_sdc -component {E:\MPFS_Projects\Dilithium_HW\component\work\PCIE_INITIATOR\PCIE_INITIATOR_0\PCIE_INITIATOR.sdc}
 read_sdc -component {E:\MPFS_Projects\Dilithium_HW\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.sdc}
-read_sdc -component {E:\MPFS_Projects\Dilithium_HW\component\work\PF_PCIE_C0\PF_PCIE_C0_0\PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE.sdc}
-read_sdc -component {E:\MPFS_Projects\Dilithium_HW\component\work\TRANSMIT_PLL\TRANSMIT_PLL_0\TRANSMIT_PLL_TRANSMIT_PLL_0_PF_TX_PLL.sdc}
 derive_constraints
 write_sdc {E:\MPFS_Projects\Dilithium_HW\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc}
 write_ndc {E:\MPFS_Projects\Dilithium_HW\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.ndc}

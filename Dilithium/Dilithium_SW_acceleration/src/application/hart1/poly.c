@@ -162,7 +162,7 @@ int poly_chknorm_mod(const poly_instance_t *a, int32_t B)
 * Returns number of sampled coefficients. Can be smaller than len if not enough
 * random bytes were given.
 **************************************************/
-/*static unsigned int rej_uniform(int32_t *a,
+static unsigned int rej_uniform(int32_t *a,
                                 unsigned int len,
                                 const uint8_t *buf,
                                 unsigned int buflen)
@@ -180,57 +180,6 @@ int poly_chknorm_mod(const poly_instance_t *a, int32_t B)
     if(t < Q)
       a[ctr++] = t;
   }
-
-  return ctr;
-}*/
-
-static unsigned int rej_uniform(int32_t *a,
-                                unsigned int len,
-                                const uint8_t *buf,
-                                unsigned int buflen)
-{
-  unsigned int ctr;
-  asm volatile(
-       "mv         t6,   %[PE]        \n\t" //t6=Q
-       "mv         t5,   %[PD]        \n\t" //t5=buf
-       "mv         t3,   %[PC]        \n\t" //t3=len
-       "mv         s6,   %[PF]        \n\t" //s6=buflen
-       "mv         t4,   %[PB]        \n\t" //t4=a
-       "addi       s3,   x0,   -1     \n\t" //s3=0xffffffff
-       "slli       t3,   t3,   2      \n\t"
-       "addi       s6,   s6,   -2     \n\t"
-       "lui        s2,   0xff800      \n\t"
-       "add        t1,   x0,   t4     \n\t"
-       "xor        s2,   s2,   s3     \n\t" //s2=0x7fffff
-       "add        t3,   t3,   t4     \n\t"
-       "add        s6,   s6,   t5     \n\t"
-       "jal        x0,   mLOOP1%=       \n\t"
-
-       "mLOOP1%=:                        \n\t"
-       "lbu        s0,   0(t5)         \n\t"
-       "lbu        s1,   1(t5)         \n\t"
-       "lbu        s5,   2(t5)         \n\t"
-       "slli       s1,   s1,   8       \n\t"
-       "slli       s5,   s5,   16      \n\t"
-       "or         s0,   s0,   s1      \n\t"
-       "or         s0,   s0,   s5      \n\t"
-       "and        s0,   s0,   s2      \n\t"
-       "sw         s0,   0(t4)         \n\t"
-       "addi       t5,   t5,   3       \n\t"
-       "bgeu       s0,   t6,   mLOOP1%=  \n\t"
-       "addi       t4,   t4,   4       \n\t"
-       "bgeu       t4,   t3,   OUT%=    \n\t"
-       "bgeu       t5,   s6,   OUT%=   \n\t"
-       "jal        x0,   mLOOP1%=       \n\t"
-
-       "OUT%=:                          \n\t"
-       "sub        t4,   t4,   t1     \n\t"
-       "srli       t1,   t4,   2      \n\t"
-       "sw         t1,   (%[PA])      \n\t"
-       :
-       :[PA]"r"(&ctr),[PB]"r"(a),[PC]"r"(len),[PD]"r"(buf),[PF]"r"(buflen),[PE]"r"(Q)
-       :"cc","memory","t1", "t3", "t4", "t5", "t6", "s0", "s1", "s2", "s3","s5","s6"
-       );
 
   return ctr;
 }

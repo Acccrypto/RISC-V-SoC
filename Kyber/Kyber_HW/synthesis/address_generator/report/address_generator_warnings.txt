@@ -1,0 +1,19 @@
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":74:8:74:11|ROM new_addr_1[5] (in view: work.shuffle_rom1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":74:8:74:11|ROM new_addr_1[3:0] (in view: work.shuffle_rom1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":119:8:119:11|ROM new_addr_1[5:4] (in view: work.shuffle_rom2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":119:8:119:11|ROM new_addr_1[2:0] (in view: work.shuffle_rom2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":164:8:164:11|ROM new_addr_1[5:3] (in view: work.shuffle_rom3(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":164:8:164:11|ROM new_addr_1[1:0] (in view: work.shuffle_rom3(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":209:8:209:11|ROM new_addr_1[5:2] (in view: work.shuffle_rom4(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":209:8:209:11|ROM new_addr_1[0] (in view: work.shuffle_rom4(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":29:8:29:11|ROM shuffle_rom_0.new_addr_1[4:0] (in view: work.address_generator(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":299:8:299:11|ROM shuffle_rom_6.new_addr_1[5:1] (in view: work.address_generator(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":254:8:254:11|ROM shuffle_rom_5.new_addr_1[5:1] (in view: work.address_generator(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":29:8:29:11|ROM shuffle_rom_0.new_addr_1[4:0] (in view: work.address_generator(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT447 :"e:/mpfs_projects/kyber_hw/designer/mpfs_icicle_kit_base_design/synthesis.fdc":10:0:10:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 

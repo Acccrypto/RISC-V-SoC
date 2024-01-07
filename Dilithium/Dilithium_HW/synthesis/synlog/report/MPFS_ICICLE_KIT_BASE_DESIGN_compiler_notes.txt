@@ -17,7 +17,8 @@
 @N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
 @N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
 @N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
-@N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\address_generator.v":21:7:21:23|Synthesizing module address_generator in library work.
+@N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\shuffle_rom.v":22:7:22:17|Synthesizing module shuffle_rom in library work.
+@N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\address_generator.v":21:7:21:33|Synthesizing module address_generator_shuffling in library work.
 @N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\conflict_free_memory_map.v":21:7:21:30|Synthesizing module conflict_free_memory_map in library work.
 @N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\arbiter.v":21:7:21:13|Synthesizing module arbiter in library work.
 @N: CG364 :"E:\MPFS_Projects\Dilithium_HW\hdl\network_bank_in.v":21:7:21:21|Synthesizing module network_bank_in in library work.
@@ -214,12 +215,11 @@
 @N: CL159 :"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":119:2:119:15|Input MASTER2_AWLOCK is unused.
 @N: CL159 :"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":120:2:120:16|Input MASTER2_AWCACHE is unused.
 @N: CL159 :"E:\MPFS_Projects\Dilithium_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":121:2:121:15|Input MASTER2_AWPROT is unused.
-@N: CL201 :"E:\MPFS_Projects\Dilithium_HW\hdl\Core_Poly.v":602:4:602:9|Trying to extract state machine for register CS.
+@N: CL201 :"E:\MPFS_Projects\Dilithium_HW\hdl\Core_Poly.v":603:4:603:9|Trying to extract state machine for register CS.
 @N: CL135 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 8.
 @N: CL135 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 20.
 @N: CL135 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 20.
-@N: CL189 :"E:\MPFS_Projects\Dilithium_HW\hdl\address_generator.v":51:4:51:9|Register bit start[0] is always 0.
-@N: CL201 :"E:\MPFS_Projects\Dilithium_HW\hdl\address_generator.v":51:4:51:9|Trying to extract state machine for register CS.
+@N: CL201 :"E:\MPFS_Projects\Dilithium_HW\hdl\address_generator.v":52:4:52:9|Trying to extract state machine for register CS.
 @N: CL135 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 8.
 @N: CL135 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 2.
 @N: CL135 :"E:\MPFS_Projects\Dilithium_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 2.

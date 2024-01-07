@@ -7,6 +7,6 @@ GLOBAL THRESHOLD - 5000
 
 NET NAME                                                                     CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_FIC_0_CLK                                                  3487            0                   0              3487             YES                  
+CLOCKS_AND_RESETS_FIC_0_CLK                                                  3468            0                   0              3468             YES                  
 FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.sysReset_arst     0               1955                0              1955             YES                  
 ======================================================================================================================================================================

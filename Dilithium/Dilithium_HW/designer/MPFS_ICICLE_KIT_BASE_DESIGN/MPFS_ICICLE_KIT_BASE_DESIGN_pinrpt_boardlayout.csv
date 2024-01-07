@@ -1,6 +1,6 @@
 Device Selection
 Report Version,Date,Product,Release,Version,Design Name,Family,Die,Package
-0.1,Mon Nov 27 09:09:30 2023,Designer,v2022.2,2022.2.0.10,MPFS_ICICLE_KIT_BASE_DESIGN,PolarFireSoC,MPFS250T_ES,FCVG484
+0.1,Sat Jan  6 17:06:41 2024,Designer,v2022.2,2022.2.0.10,MPFS_ICICLE_KIT_BASE_DESIGN,PolarFireSoC,MPFS250T_ES,FCVG484
 Pin Report
 Pin,Port,Function,Bank,State,I/O Std,Direction,Used I/O Reg,User I/O Lock Down,Clamp Diode,Resistor Pull,Use I/O Calibration from the lane,Schmitt Trigger,Vcm Input Range,On Die Termination,Odt Value (Ohm),Input Delay,Slew,Output Drive (mA),Impedance (ohm),Output Load (pF),Source Termination (Ohm),Output Delay,MSS Resistor Pull,MSS Clamp Diode,MSS Persist,MSS User I/O Lock Down,MSS Odt (Ohm),MSS Thevenin (Ohm),MSS Schmitt Trigger,MSS Vcm Input Range,MSS Low Power Mode Input Receiver,MSS Low Power Mode Output Buffer,MSS Output Drive (mA),MSS Source Termination (Ohm),Board Layout
 A1,---,VSS,---,Reserved,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,VSS

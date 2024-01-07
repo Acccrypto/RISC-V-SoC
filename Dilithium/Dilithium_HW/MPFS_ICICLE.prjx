@@ -786,7 +786,7 @@ PARENT="<project>\component\work\CORERESET\CORERESET.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\PF_CCC\2.2.214\PF_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1692779071"
+TIME="1704531493"
 SIZE="279"
 PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
 ENDFILE
@@ -948,25 +948,25 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf,actgen_cxf"
 STATE="utd"
-TIME="1692779073"
-SIZE="18837"
+TIME="1704531495"
+SIZE="18836"
 ENDFILE
 VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0.v,hdl"
 STATE="utd"
-TIME="1692779071"
-SIZE="11084"
+TIME="1704531493"
+SIZE="11083"
 PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1692779071"
+TIME="1704531493"
 SIZE="479"
 PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
 ENDFILE
 VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v,hdl"
 STATE="utd"
-TIME="1692779071"
+TIME="1704531493"
 SIZE="4404"
 PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.cxf"
 IS_READONLY="TRUE"
@@ -1073,13 +1073,13 @@ SIZE="252"
 ENDFILE
 VALUE "<project>\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc,sdc"
 STATE="utd"
-TIME="1700993425"
-SIZE="984"
+TIME="1704531511"
+SIZE="985"
 ENDFILE
 VALUE "<project>\hdl\address_generator.v,hdl"
 STATE="utd"
-TIME="1688190155"
-SIZE="7438"
+TIME="1704530527"
+SIZE="15745"
 ENDFILE
 VALUE "<project>\hdl\arbiter.v,hdl"
 STATE="utd"
@@ -1093,8 +1093,8 @@ SIZE="3292"
 ENDFILE
 VALUE "<project>\hdl\Core_Poly.v,hdl"
 STATE="utd"
-TIME="1692780054"
-SIZE="39568"
+TIME="1704530623"
+SIZE="39795"
 ENDFILE
 VALUE "<project>\hdl\delay.v,hdl"
 STATE="utd"
@@ -1133,13 +1133,18 @@ SIZE="1261"
 ENDFILE
 VALUE "<project>\hdl\poly_mul.v,hdl"
 STATE="utd"
-TIME="1688117016"
-SIZE="15871"
+TIME="1702264707"
+SIZE="15822"
 ENDFILE
 VALUE "<project>\hdl\poly_ram.v,hdl"
 STATE="utd"
 TIME="1688117034"
 SIZE="4965"
+ENDFILE
+VALUE "<project>\hdl\shuffle_rom.v,hdl"
+STATE="utd"
+TIME="1701940241"
+SIZE="11278"
 ENDFILE
 VALUE "<project>\hdl\tf_ROM.v,hdl"
 STATE="utd"
@@ -1269,22 +1274,22 @@ SIZE="960"
 ENDFILE
 VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.so,so"
 STATE="utd"
-TIME="1700993569"
+TIME="1702630882"
 SIZE="258"
 ENDFILE
 VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm,syn_vm"
 STATE="utd"
-TIME="1700993565"
-SIZE="4829020"
+TIME="1702630878"
+SIZE="4850020"
 ENDFILE
 VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_syn.prj,prj"
 STATE="utd"
-TIME="1700993569"
+TIME="1702630883"
 SIZE="17157"
 ENDFILE
 VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1700993566"
+TIME="1702630879"
 SIZE="2417"
 ENDFILE
 VALUE "<project>\synthesis\mult23.so,so"
@@ -1665,16 +1670,24 @@ ReportsCurrentItem;Verify Power:MPFS_ICICLE_KIT_BASE_DESIGN_power_report.xml
 Timing Report Explorer;Timing Report Explorer;0
 Constraint Manager;Constraint Manager;0
 SmartDesign;MPFS_ICICLE_KIT_BASE_DESIGN;0
+HDL;hdl\address_generator.v;0
+HDL;hdl\Core_Poly.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;Timing Report Explorer
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "add_rd::work","hdl\fp_modop.v","FALSE","FALSE"
 ENDLIST
-LIST "address_generator::work","hdl\address_generator.v","FALSE","FALSE"
+LIST "address_generator_inplace::work","hdl\address_generator.v","FALSE","FALSE"
 SUBBLOCK "delay::work","hdl\delay.v","FALSE","FALSE"
 SUBBLOCK "delay::work","hdl\delay.v","FALSE","FALSE"
 SUBBLOCK "delay::work","hdl\delay.v","FALSE","FALSE"
+ENDLIST
+LIST "address_generator_shuffling::work","hdl\address_generator.v","FALSE","FALSE"
+SUBBLOCK "delay::work","hdl\delay.v","FALSE","FALSE"
+SUBBLOCK "delay::work","hdl\delay.v","FALSE","FALSE"
+SUBBLOCK "delay::work","hdl\delay.v","FALSE","FALSE"
+SUBBLOCK "shuffle_rom::work","hdl\shuffle_rom.v","FALSE","FALSE"
 ENDLIST
 LIST "arbiter::work","hdl\arbiter.v","FALSE","FALSE"
 ENDLIST
@@ -1893,7 +1906,7 @@ ENDLIST
 LIST "conflict_free_memory_map::work","hdl\conflict_free_memory_map.v","FALSE","FALSE"
 ENDLIST
 LIST "Core_Poly::work","hdl\Core_Poly.v","FALSE","FALSE"
-SUBBLOCK "address_generator::work","hdl\address_generator.v","FALSE","FALSE"
+SUBBLOCK "address_generator_shuffling::work","hdl\address_generator.v","FALSE","FALSE"
 SUBBLOCK "conflict_free_memory_map::work","hdl\conflict_free_memory_map.v","FALSE","FALSE"
 SUBBLOCK "polyvec_ram::work","hdl\polyvec_ram.v","FALSE","FALSE"
 SUBBLOCK "poly_mul::work","hdl\poly_mul.v","FALSE","FALSE"
@@ -2143,6 +2156,8 @@ SUBBLOCK "network_bf_out::work","hdl\network_bf_out.v","FALSE","FALSE"
 SUBBLOCK "delay::work","hdl\delay.v","FALSE","FALSE"
 SUBBLOCK "delay::work","hdl\delay.v","FALSE","FALSE"
 SUBBLOCK "poly_bank::work","hdl\poly_bank.v","FALSE","FALSE"
+ENDLIST
+LIST "shuffle_rom::work","hdl\shuffle_rom.v","FALSE","FALSE"
 ENDLIST
 LIST "sub_rd::work","hdl\fp_modop.v","FALSE","FALSE"
 ENDLIST

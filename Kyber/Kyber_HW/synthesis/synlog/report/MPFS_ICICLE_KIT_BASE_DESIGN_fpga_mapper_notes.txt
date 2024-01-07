@@ -3,33 +3,94 @@
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 @N: MF104 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
 @N: MF104 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) 
-@N: MF107 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":21:7:21:15|Old database up-to-date, remapping Compile point view:work.Core_Poly_Z3(verilog) unnecessary 
 @N: MF107 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Old database up-to-date, remapping Compile point view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) unnecessary 
-**** Begin Compile Point : MPFS_ICICLE_KIT_BASE_DESIGN ****
+@N: MF107 :"e:\mpfs_projects\kyber_hw\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Old database up-to-date, remapping Compile point view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) unnecessary 
+**** Begin Compile Point : Core_Poly_Z3 ****
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 @N: MF104 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
-@N: MF104 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) 
-@N: MF105 |Performing bottom-up mapping of Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) 
-@N: MF106 :"e:\mpfs_projects\kyber_hw\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2721:2:2721:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2713:2:2713:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2705:2:2705:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2697:2:2697:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2689:2:2689:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2681:2:2681:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2673:2:2673:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
-@N: MO111 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z5(verilog)) has its enable tied to GND.
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.Core_Poly_Z3(verilog) 
+@N: MF106 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":21:7:21:15|Mapping Compile point view:work.Core_Poly_Z3(verilog) because 
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":28:8:28:11|Found ROM shuffle_rom_0.new_addr_1[5:0] (in view: work.address_generator_shuffling(verilog)) with 224 words by 6 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\tf_rom.v":104:8:104:11|Found ROM Q_2[23:0] (in view: work.tf1_ROM(verilog)) with 32 words by 24 bits.
 @N: FX493 |Applying initial value "0" on instance CS_i[0].
-@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
-@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
-@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
-@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
-@N: MO225 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine FIC0_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.FIC0_INITIATOR(verilog)); safe FSM implementation is not required.
-**** End Compile Point : MPFS_ICICLE_KIT_BASE_DESIGN ****
+@N: MO231 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":422:1:422:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_arlen_cntr[7:0] 
+@N: MO231 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":266:1:266:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_awlen_cntr[7:0] 
+@N: FX702 :"e:\mpfs_projects\kyber_hw\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[35:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"e:\mpfs_projects\kyber_hw\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[35:0]
+@N: FX702 :"e:\mpfs_projects\kyber_hw\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[11:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"e:\mpfs_projects\kyber_hw\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[11:0]
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+@N: MO231 :"e:\mpfs_projects\kyber_hw\hdl\address_generator.v":53:4:53:9|Found counter in view:work.address_generator_shuffling(verilog) instance k[6:0] 
+@N: FX403 :"e:\mpfs_projects\kyber_hw\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[6\]\.level_buf_seqshift[19:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"e:\mpfs_projects\kyber_hw\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[6\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":132:8:132:9|Replicating instance poly_mul_0.t1_8_a4_0[0] (in view: work.Core_Poly_Z3(verilog)) with 58 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":606:4:606:9|Replicating instance CS_rep[7] (in view: work.Core_Poly_Z3(verilog)) with 73 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":282:8:282:9|Replicating instance poly_mul_0.mr0_dinas2 (in view: work.Core_Poly_Z3(verilog)) with 212 loads 3 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":132:8:132:9|Replicating instance poly_mul_0.t1_8_a0_0[0] (in view: work.Core_Poly_Z3(verilog)) with 107 loads 3 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":132:8:132:9|Replicating instance poly_mul_0.t1_8_a2_0[0] (in view: work.Core_Poly_Z3(verilog)) with 41 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":282:8:282:9|Replicating instance poly_mul_0.ar0_dinb_ss0 (in view: work.Core_Poly_Z3(verilog)) with 56 loads 3 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":94:21:94:30|Replicating instance poly_mul_0.tf1_ROM_0.Q_2_23_0_.un1_sel_4_i_i (in view: work.Core_Poly_Z3(verilog)) with 17 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":132:8:132:9|Replicating instance poly_mul_0.t21_8_a3_0[10] (in view: work.Core_Poly_Z3(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":110:13:246:18|Replicating instance poly_mul_0.sr1_dina_sn_m2_0 (in view: work.Core_Poly_Z3(verilog)) with 10 loads 1 time to improve timing.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 6.06ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : Core_Poly_Z3 ****
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 

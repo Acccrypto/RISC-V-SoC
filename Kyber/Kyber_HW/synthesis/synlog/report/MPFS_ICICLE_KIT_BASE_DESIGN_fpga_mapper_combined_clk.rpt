@@ -7,8 +7,8 @@
 
 Clock optimization not enabled
 1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
-4 gated/generated clock tree(s) driving 3360 clock pin(s) of sequential element(s)
-0 instances converted, 3360 sequential instances remain driven by gated/generated clocks
+4 gated/generated clock tree(s) driving 3341 clock pin(s) of sequential element(s)
+0 instances converted, 3341 sequential instances remain driven by gated/generated clocks
 
 ===================================================== Non-Gated/Non-Generated Clocks ======================================================
 Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sample Instance                                              
@@ -18,7 +18,7 @@ Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sa
 ========================================================================================================== Gated/Generated Clocks ==========================================================================================================
 Clock Tree ID     Driving Element                                                   Drive Element Type     Fanout     Sample Instance                                                Explanation                                            
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    3357       CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0001       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    3338       CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     No gated clock conversion method for cell cell:ACG4.SLE
 @K:CKID0002       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS
 @K:CKID0003       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS
 @K:CKID0004       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS

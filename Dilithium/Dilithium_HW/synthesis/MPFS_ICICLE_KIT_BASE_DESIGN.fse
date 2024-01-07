@@ -1,162 +1,162 @@
 
-fsm_encoding {2660246028} onehot
+fsm_encoding {2760346038} onehot
 
-fsm_state_encoding {2660246028} IDLE {0000000000}
+fsm_state_encoding {2760346038} IDLE {0000000000}
 
-fsm_state_encoding {2660246028} WRITE0 {0000000011}
+fsm_state_encoding {2760346038} WRITE0 {0000000011}
 
-fsm_state_encoding {2660246028} WRITE1 {0000000101}
+fsm_state_encoding {2760346038} WRITE1 {0000000101}
 
-fsm_state_encoding {2660246028} WRITE2 {0000001001}
+fsm_state_encoding {2760346038} WRITE2 {0000001001}
 
-fsm_state_encoding {2660246028} NTT0 {0000010001}
+fsm_state_encoding {2760346038} NTT0 {0000010001}
 
-fsm_state_encoding {2660246028} NTT1 {0000100001}
+fsm_state_encoding {2760346038} NTT1 {0000100001}
 
-fsm_state_encoding {2660246028} PWM {0001000001}
+fsm_state_encoding {2760346038} PWM {0001000001}
 
-fsm_state_encoding {2660246028} INTT0 {0010000001}
+fsm_state_encoding {2760346038} INTT0 {0010000001}
 
-fsm_state_encoding {2660246028} MACC {0100000001}
+fsm_state_encoding {2760346038} MACC {0100000001}
 
-fsm_state_encoding {2660246028} READ {1000000001}
+fsm_state_encoding {2760346038} READ {1000000001}
 
-fsm_registers {2660246028} {CS[9]}  {CS[8]}  {CS[7]}  {CS[6]}  {CS[5]}  {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 
-
-
-fsm_encoding {9318511854} sequential
-
-fsm_state_encoding {9318511854} IDLE {00}
-
-fsm_state_encoding {9318511854} NO_DAT {01}
-
-fsm_state_encoding {9318511854} TWO_DAT {10}
-
-fsm_state_encoding {9318511854} ONE_DAT {11}
-
-fsm_registers {9318511854} {currState[1]}  {currState[0]} 
+fsm_registers {2760346038} {CS[9]}  {CS[8]}  {CS[7]}  {CS[6]}  {CS[5]}  {CS[4]}  {CS[3]}  {CS[2]}  {CS[1]}  {CS_i[0]} 
 
 
-fsm_encoding {9318511855} sequential
+fsm_encoding {9418511854} sequential
 
-fsm_state_encoding {9318511855} IDLE {00}
+fsm_state_encoding {9418511854} IDLE {00}
 
-fsm_state_encoding {9318511855} NO_DAT {01}
+fsm_state_encoding {9418511854} NO_DAT {01}
 
-fsm_state_encoding {9318511855} TWO_DAT {10}
+fsm_state_encoding {9418511854} TWO_DAT {10}
 
-fsm_state_encoding {9318511855} ONE_DAT {11}
+fsm_state_encoding {9418511854} ONE_DAT {11}
 
-fsm_registers {9318511855} {currState[1]}  {currState[0]} 
-
-
-fsm_encoding {9318511856} sequential
-
-fsm_state_encoding {9318511856} IDLE {00}
-
-fsm_state_encoding {9318511856} NO_DAT {01}
-
-fsm_state_encoding {9318511856} TWO_DAT {10}
-
-fsm_state_encoding {9318511856} ONE_DAT {11}
-
-fsm_registers {9318511856} {currState[1]}  {currState[0]} 
+fsm_registers {9418511854} {currState[1]}  {currState[0]} 
 
 
-fsm_encoding {9318511857} sequential
+fsm_encoding {9418511855} sequential
 
-fsm_state_encoding {9318511857} IDLE {00}
+fsm_state_encoding {9418511855} IDLE {00}
 
-fsm_state_encoding {9318511857} NO_DAT {01}
+fsm_state_encoding {9418511855} NO_DAT {01}
 
-fsm_state_encoding {9318511857} TWO_DAT {10}
+fsm_state_encoding {9418511855} TWO_DAT {10}
 
-fsm_state_encoding {9318511857} ONE_DAT {11}
+fsm_state_encoding {9418511855} ONE_DAT {11}
 
-fsm_registers {9318511857} {currState[1]}  {currState[0]} 
+fsm_registers {9418511855} {currState[1]}  {currState[0]} 
+
+
+fsm_encoding {9418511856} sequential
+
+fsm_state_encoding {9418511856} IDLE {00}
+
+fsm_state_encoding {9418511856} NO_DAT {01}
+
+fsm_state_encoding {9418511856} TWO_DAT {10}
+
+fsm_state_encoding {9418511856} ONE_DAT {11}
+
+fsm_registers {9418511856} {currState[1]}  {currState[0]} 
+
+
+fsm_encoding {9418511857} sequential
+
+fsm_state_encoding {9418511857} IDLE {00}
+
+fsm_state_encoding {9418511857} NO_DAT {01}
+
+fsm_state_encoding {9418511857} TWO_DAT {10}
+
+fsm_state_encoding {9418511857} ONE_DAT {11}
+
+fsm_registers {9418511857} {currState[1]}  {currState[0]} 
 
 856} {currState[1]}  {currState[0]} 
 
-fsm_encoding {9318511855} sequential
+fsm_encoding {9418511855} sequential
 
-fsm_state_encoding {9318511855} IDLE {00}
+fsm_state_encoding {9418511855} IDLE {00}
 
-fsm_state_encoding {9318511855} NO_DAT {01}
+fsm_state_encoding {9418511855} NO_DAT {01}
 
-fsm_state_encoding {9318511855} TWO_DAT {10}
+fsm_state_encoding {9418511855} TWO_DAT {10}
 
-fsm_state_encoding {9318511855} ONE_DAT {11}
+fsm_state_encoding {9418511855} ONE_DAT {11}
 
-fsm_registers {9318511855} {currState[1]}  {currState[0]} 
+fsm_registers {9418511855} {currState[1]}  {currState[0]} 
 
-fsm_encoding {9318511854} sequential
+fsm_encoding {9418511854} sequential
 
-fsm_state_encoding {9318511854} IDLE {00}
+fsm_state_encoding {9418511854} IDLE {00}
 
-fsm_state_encoding {9318511854} NO_DAT {01}
+fsm_state_encoding {9418511854} NO_DAT {01}
 
-fsm_state_encoding {9318511854} TWO_DAT {10}
+fsm_state_encoding {9418511854} TWO_DAT {10}
 
-fsm_state_encoding {9318511854} ONE_DAT {11}
+fsm_state_encoding {9418511854} ONE_DAT {11}
 
-fsm_registers {9318511854} {currState[1]}  {currState[0]} 
+fsm_registers {9418511854} {currState[1]}  {currState[0]} 
 
-fsm_encoding {9318511853} sequential
+fsm_encoding {9418511853} sequential
 
-fsm_state_encoding {9318511853} IDLE {00}
+fsm_state_encoding {9418511853} IDLE {00}
 
-fsm_state_encoding {9318511853} NO_DAT {01}
+fsm_state_encoding {9418511853} NO_DAT {01}
 
-fsm_state_encoding {9318511853} TWO_DAT {10}
+fsm_state_encoding {9418511853} TWO_DAT {10}
 
-fsm_state_encoding {9318511853} ONE_DAT {11}
+fsm_state_encoding {9418511853} ONE_DAT {11}
 
-fsm_registers {9318511853} {currState[1]}  {currState[0]} 
+fsm_registers {9418511853} {currState[1]}  {currState[0]} 
 
-fsm_encoding {9318511853} sequential
+fsm_encoding {9418511853} sequential
 
-fsm_state_encoding {9318511853} IDLE {00}
+fsm_state_encoding {9418511853} IDLE {00}
 
-fsm_state_encoding {9318511853} NO_DAT {01}
+fsm_state_encoding {9418511853} NO_DAT {01}
 
-fsm_state_encoding {9318511853} TWO_DAT {10}
+fsm_state_encoding {9418511853} TWO_DAT {10}
 
-fsm_state_encoding {9318511853} ONE_DAT {11}
+fsm_state_encoding {9418511853} ONE_DAT {11}
 
-fsm_registers {9318511853} {currState[1]}  {currState[0]} 
+fsm_registers {9418511853} {currState[1]}  {currState[0]} 
 
-fsm_encoding {9318511857} sequential
+fsm_encoding {9418511857} sequential
 
-fsm_state_encoding {9318511857} IDLE {00}
+fsm_state_encoding {9418511857} IDLE {00}
 
-fsm_state_encoding {9318511857} NO_DAT {01}
+fsm_state_encoding {9418511857} NO_DAT {01}
 
-fsm_state_encoding {9318511857} TWO_DAT {10}
+fsm_state_encoding {9418511857} TWO_DAT {10}
 
-fsm_state_encoding {9318511857} ONE_DAT {11}
+fsm_state_encoding {9418511857} ONE_DAT {11}
 
-fsm_registers {9318511857} {currState[1]}  {currState[0]} 
+fsm_registers {9418511857} {currState[1]}  {currState[0]} 
 
-fsm_encoding {9318511852} sequential
+fsm_encoding {9418511852} sequential
 
-fsm_state_encoding {9318511852} IDLE {00}
+fsm_state_encoding {9418511852} IDLE {00}
 
-fsm_state_encoding {9318511852} NO_DAT {01}
+fsm_state_encoding {9418511852} NO_DAT {01}
 
-fsm_state_encoding {9318511852} TWO_DAT {10}
+fsm_state_encoding {9418511852} TWO_DAT {10}
 
-fsm_state_encoding {9318511852} ONE_DAT {11}
+fsm_state_encoding {9418511852} ONE_DAT {11}
 
-fsm_registers {9318511852} {currState[1]}  {currState[0]} 
+fsm_registers {9418511852} {currState[1]}  {currState[0]} 
 
-fsm_encoding {9318511851} sequential
+fsm_encoding {9418511851} sequential
 
-fsm_state_encoding {9318511851} IDLE {00}
+fsm_state_encoding {9418511851} IDLE {00}
 
-fsm_state_encoding {9318511851} NO_DAT {01}
+fsm_state_encoding {9418511851} NO_DAT {01}
 
-fsm_state_encoding {9318511851} TWO_DAT {10}
+fsm_state_encoding {9418511851} TWO_DAT {10}
 
-fsm_state_encoding {9318511851} ONE_DAT {11}
+fsm_state_encoding {9418511851} ONE_DAT {11}
 
-fsm_registers {9318511851} {currState[1]}  {currState[0]} 
+fsm_registers {9418511851} {currState[1]}  {currState[0]} 

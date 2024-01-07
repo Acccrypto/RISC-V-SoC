@@ -13,7 +13,7 @@ Hostname: DESKTOP-DD7N7QM
 
 Implementation : synthesis
 
-# Written on Sun Nov 26 18:12:17 2023
+# Written on Sat Jan  6 16:59:36 2024
 
 ##### DESIGN INFO #######################################################
 
@@ -37,8 +37,8 @@ Clock Relationships
 
 Starting                                                               Ending                                                                 |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                                                                 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     |     7.407            |     No paths         |     No paths         |     No paths                         
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     |     7.407            |     No paths         |     No paths         |     No paths                         
+System                                                                 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     |     7.634            |     No paths         |     No paths         |     No paths                         
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     |     7.634            |     No paths         |     No paths         |     No paths                         
 =========================================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.

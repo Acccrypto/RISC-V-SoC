@@ -21,7 +21,7 @@
 </row>
 <row>
  <cell>Date:</cell>
- <cell>Sun Nov 26 17:51:16 2023</cell>
+ <cell>Sat Jan  6 16:33:21 2024</cell>
 </row>
 <row>
  <cell>Version:</cell>
@@ -83,7 +83,7 @@
 </header>
 <row>
  <cell>Total Power</cell>
- <cell>  1832.988</cell>
+ <cell>  1832.401</cell>
  <cell>    100.0%</cell>
 </row>
 <row>
@@ -93,7 +93,7 @@
 </row>
 <row>
  <cell>Dynamic Power</cell>
- <cell>  1311.065</cell>
+ <cell>  1310.477</cell>
  <cell>     71.5%</cell>
 </row>
 </table>
@@ -108,9 +108,9 @@
 </header>
 <row>
  <cell>Rail VDD</cell>
- <cell>  1473.152</cell>
+ <cell>  1472.564</cell>
  <cell>     1.050</cell>
- <cell>  1403.002</cell>
+ <cell>  1402.442</cell>
 </row>
 <row>
  <cell>Rail VDDAUX</cell>
@@ -234,13 +234,13 @@
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (clocks)</cell>
- <cell>    11.016</cell>
- <cell>     10.1%</cell>
+ <cell>     9.742</cell>
+ <cell>      9.0%</cell>
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (register outputs)</cell>
- <cell>    18.199</cell>
- <cell>     16.8%</cell>
+ <cell>    18.560</cell>
+ <cell>     17.2%</cell>
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (primary inputs)</cell>
@@ -249,8 +249,8 @@
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (combinational outputs)</cell>
- <cell>    78.966</cell>
- <cell>     72.7%</cell>
+ <cell>    79.292</cell>
+ <cell>     73.4%</cell>
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (set/reset nets)</cell>
@@ -323,12 +323,12 @@
 </header>
 <row>
  <cell>Type Net</cell>
- <cell>    41.894</cell>
+ <cell>    42.321</cell>
  <cell>      2.3%</cell>
 </row>
 <row>
  <cell>Type Gate</cell>
- <cell>  1220.948</cell>
+ <cell>  1219.941</cell>
  <cell>     66.6%</cell>
 </row>
 <row>
@@ -353,7 +353,7 @@
 </row>
 <row>
  <cell>Type DSP</cell>
- <cell>     2.330</cell>
+ <cell>     2.323</cell>
  <cell>      0.1%</cell>
 </row>
 </table>

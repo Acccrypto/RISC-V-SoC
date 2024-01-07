@@ -40,10 +40,10 @@ Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at V
 Info:  I/O Bank and Globals Assigner detected (2) out of (5) I/O Bank(s) with locked I/O technologies.
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 5 seconds
+Total time spent in I/O Bank and Globals Assigner: 4 seconds
 
 Placer V5.0 - 2022.2.0 
-Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Sun Nov 26 17:40:11 2023
+Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Sat Jan  6 16:18:48 2024
 
 Initializing High-Effort Timing-Driven Placement ...
 Clustering ...
@@ -53,28 +53,28 @@ End of placement.
 
 Placer Runtime Summary   :
 Clustering (1 pass)      : 2 seconds
-Placement                : 17 seconds
-Improvement              : 36 seconds
+Placement                : 16 seconds
+Improvement              : 43 seconds
 
 Placer completed successfully.
 
 Design: MPFS_ICICLE_KIT_BASE_DESIGN     
-Finished: Sun Nov 26 17:41:42 2023
-Total CPU Time:     00:01:39            Total Elapsed Time: 00:01:31
-Total Memory Usage: 1214.8 Mbytes
+Finished: Sat Jan  6 16:20:25 2024
+Total CPU Time:     00:01:43            Total Elapsed Time: 00:01:37
+Total Memory Usage: 1214.4 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Sun Nov 26 17:41:53 2023
+Design: E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Sat Jan  6 16:20:36 2024
 
 
 Router completed successfully.
 
 Design: E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
-Finished: Sun Nov 26 17:42:35 2023
-Total CPU Time:     00:01:05            Total Elapsed Time: 00:00:42
-Total Memory Usage: 4566.3 Mbytes
+Finished: Sat Jan  6 16:21:45 2024
+Total CPU Time:     00:01:59            Total Elapsed Time: 00:01:09
+Total Memory Usage: 4566.6 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 1:
@@ -85,10 +85,10 @@ Resource Usage
 +---------------+------+--------+------------+
 | Type          | Used | Total  | Percentage |
 +---------------+------+--------+------------+
-| 4LUT          | 8844 | 254196 | 3.48       |
-| DFF           | 3945 | 254196 | 1.55       |
+| 4LUT          | 9134 | 254196 | 3.59       |
+| DFF           | 3926 | 254196 | 1.54       |
 | I/O Register  | 0    | 142    | 0.00       |
-| Logic Element | 9463 | 254196 | 3.72       |
+| Logic Element | 9739 | 254196 | 3.83       |
 +---------------+------+--------+------------+
 
 I/O Placement

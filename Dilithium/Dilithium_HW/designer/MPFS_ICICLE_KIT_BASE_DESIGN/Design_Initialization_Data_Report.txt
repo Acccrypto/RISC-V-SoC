@@ -3,7 +3,7 @@ Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2
 Family: PolarFireSoC
 Die: MPFS250T_ES
 Package: FCVG484
-Date: Mon Nov 27 09:12:52 2023
+Date: Sat Jan  6 17:11:24 2024
 
 Report path: E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\Design_Initialization_Data_Report.txt
 
@@ -2530,16 +2530,16 @@ PLL_NW_0   (CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0)
 +---------------+-----------+-----------------------+------------------+----------+---------------+
 | SOFT_RESET    | 0x8100000 | 0x00000000            | 0x00000000       | No       | N/A           |
 | PLL_CTRL      | 0x8100004 | 0x0000107C            | 0x000010BF       | Yes      | N/A           |
-| PLL_REF_FB    | 0x8100008 | 0x00000000            | 0x00000500       | Yes      | N/A           |
+| PLL_REF_FB    | 0x8100008 | 0x00000000            | 0x00001900       | Yes      | N/A           |
 | PLL_FRACN     | 0x810000C | 0x00000000            | 0x00000000       | No       | N/A           |
 | PLL_DIV_0_1   | 0x8100010 | 0x00000000            | 0x09000900       | Yes      | N/A           |
-| PLL_DIV_2_3   | 0x8100014 | 0x00000000            | 0x18000900       | Yes      | N/A           |
+| PLL_DIV_2_3   | 0x8100014 | 0x00000000            | 0x17000900       | Yes      | N/A           |
 | PLL_CTRL2     | 0x8100018 | 0x00001006            | 0x00000014       | Yes      | N/A           |
 | PLL_CAL       | 0x810001C | 0x00000000            | 0x0000000E       | Yes      | N/A           |
 | PLL_PHADJ     | 0x8100020 | 0x00004001            | 0x00004000       | Yes      | N/A           |
 | SSCG_REG_0    | 0x8100024 | 0x00000000            | 0x00000001       | Yes      | N/A           |
 | SSCG_REG_1    | 0x8100028 | 0x00000000            | 0x0000000A       | Yes      | N/A           |
-| SSCG_REG_2    | 0x810002C | 0x00000000            | 0x000001E6       | Yes      | N/A           |
+| SSCG_REG_2    | 0x810002C | 0x00000000            | 0x00000936       | Yes      | N/A           |
 | SSCG_REG_3    | 0x8100030 | 0x00000000            | 0x00000001       | Yes      | N/A           |
 +---------------+-----------+-----------------------+------------------+----------+---------------+
 

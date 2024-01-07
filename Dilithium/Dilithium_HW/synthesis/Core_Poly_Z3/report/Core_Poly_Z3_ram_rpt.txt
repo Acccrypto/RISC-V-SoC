@@ -128,9 +128,10 @@ NO               FIC_0_PERIPHERALS_1.Core_Poly_0.poly_ram_1.delay_0.gen_delay\[3
 
 #####  REG/LOGIC REPORT  #####
 
-RTL_INSTANCE     PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS
----------------------------------------------------------------
-===============================================================
+RTL_INSTANCE                                                                          PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS                                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_0.new_addr_1[5:0]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+================================================================================================================================================================================================================
 
 #####  END OF RAM REPORT FOR COMPILE POINT: Core_Poly_Z3  #####
 

@@ -5,7 +5,7 @@
 </title>
 <text>SmartTime Version 2022.2.0.10</text>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Mon Nov 27 09:18:39 2023
+<text>Date: Sat Jan  6 17:07:56 2024
 </text>
 <table>
 <header>
@@ -64,9 +64,9 @@
 </header>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0</cell>
- <cell>7.407</cell>
- <cell>135.007</cell>
- <cell>0.059</cell>
+ <cell>7.634</cell>
+ <cell>130.993</cell>
+ <cell>0.040</cell>
  <cell>fast_hv_lt</cell>
 </row>
 <row>
@@ -124,56 +124,56 @@
 </header>
 <row>
  <cell>Path 1</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_8:CLK</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_9:D</cell>
- <cell>0.129</cell>
- <cell>0.059</cell>
- <cell>3.786</cell>
- <cell>3.727</cell>
- <cell>0.065</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_1_.level_buf_2__18_:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_2_.level_buf_3__18_:D</cell>
+ <cell>0.162</cell>
+ <cell>0.040</cell>
+ <cell>3.848</cell>
+ <cell>3.808</cell>
+ <cell>0.062</cell>
  <cell>fast_hv_lt</cell>
 </row>
 <row>
  <cell>Path 2</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_11:CLK</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_12:D</cell>
- <cell>0.130</cell>
- <cell>0.060</cell>
- <cell>3.787</cell>
- <cell>3.727</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_0/mux3/delay_0/gen_delay_0_.level_buf_1__7_:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_0/mux3/delay_0/gen_delay_1_.level_buf_2__7_:D</cell>
+ <cell>0.129</cell>
+ <cell>0.059</cell>
+ <cell>3.814</cell>
+ <cell>3.755</cell>
  <cell>0.065</cell>
  <cell>fast_hv_lt</cell>
 </row>
 <row>
  <cell>Path 3</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/DWC_DownConv_preCalcCmdFifoWrCtrl_inst/mask_addr_pre_1[2]:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/wrCmdFifoWriteCtrl/mask_addr_reg[2]:D</cell>
- <cell>0.132</cell>
- <cell>0.062</cell>
- <cell>3.794</cell>
- <cell>3.732</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_0/mux3/delay_0/gen_delay_3_.level_buf_4__4_:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_0/mux3/delay_1/gen_delay_0_.level_buf_1__4_:D</cell>
+ <cell>0.133</cell>
+ <cell>0.063</cell>
+ <cell>3.819</cell>
+ <cell>3.756</cell>
  <cell>0.065</cell>
  <cell>fast_hv_lt</cell>
 </row>
 <row>
  <cell>Path 4</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_0/mux3/delay_0/gen_delay_0_.level_buf_1__7_:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_0/mux3/delay_0/gen_delay_1_.level_buf_2__7_:D</cell>
- <cell>0.133</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_7:CLK</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_8:D</cell>
+ <cell>0.134</cell>
  <cell>0.063</cell>
- <cell>3.810</cell>
- <cell>3.747</cell>
+ <cell>3.812</cell>
+ <cell>3.749</cell>
  <cell>0.065</cell>
  <cell>fast_hv_lt</cell>
 </row>
 <row>
  <cell>Path 5</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_6:CLK</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_7:D</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_14:CLK</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15:D</cell>
  <cell>0.133</cell>
  <cell>0.063</cell>
- <cell>3.790</cell>
- <cell>3.727</cell>
+ <cell>3.809</cell>
+ <cell>3.746</cell>
  <cell>0.065</cell>
  <cell>fast_hv_lt</cell>
 </row>
@@ -193,7 +193,7 @@
  <cell>Edge</cell>
 </header>
 <row>
- <cell>From: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_8:CLK</cell>
+ <cell>From: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_1_.level_buf_2__18_:CLK</cell>
  <cell></cell>
  <cell></cell>
  <cell></cell>
@@ -204,7 +204,7 @@
  <cell></cell>
 </row>
 <row>
- <cell>To: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_9:D</cell>
+ <cell>To: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_2_.level_buf_3__18_:D</cell>
  <cell></cell>
  <cell></cell>
  <cell></cell>
@@ -221,7 +221,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>3.786</cell>
+ <cell>3.848</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -232,7 +232,7 @@
  <cell></cell>
  <cell>-</cell>
  <cell></cell>
- <cell>3.727</cell>
+ <cell>3.808</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -243,7 +243,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>0.059</cell>
+ <cell>0.040</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -288,8 +288,8 @@
  <cell></cell>
  <cell></cell>
  <cell>+</cell>
- <cell>2.421</cell>
- <cell>2.421</cell>
+ <cell>2.422</cell>
+ <cell>2.422</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -300,7 +300,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.109</cell>
- <cell>2.530</cell>
+ <cell>2.531</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -311,7 +311,7 @@
  <cell>ADLIB:ICB_CLKINT</cell>
  <cell>+</cell>
  <cell>0.080</cell>
- <cell>2.610</cell>
+ <cell>2.611</cell>
  <cell>2</cell>
  <cell>r</cell>
 </row>
@@ -322,7 +322,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.387</cell>
- <cell>2.997</cell>
+ <cell>2.998</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -333,62 +333,62 @@
  <cell>ADLIB:GB</cell>
  <cell>+</cell>
  <cell>0.108</cell>
- <cell>3.105</cell>
- <cell>5</cell>
+ <cell>3.106</cell>
+ <cell>6</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3:A</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:A</cell>
  <cell>net</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.260</cell>
- <cell>3.365</cell>
+ <cell>0.263</cell>
+ <cell>3.369</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3:Y</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:RGB</cell>
  <cell>+</cell>
  <cell>0.035</cell>
- <cell>3.400</cell>
- <cell>692</cell>
+ <cell>3.404</cell>
+ <cell>1322</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_8:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_1_.level_buf_2__18_:CLK</cell>
  <cell>net</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3_rgb_net_1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.257</cell>
- <cell>3.657</cell>
+ <cell>0.282</cell>
+ <cell>3.686</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_8:Q</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_1_.level_buf_2__18_:Q</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:SLE</cell>
  <cell>+</cell>
- <cell>0.068</cell>
- <cell>3.725</cell>
+ <cell>0.069</cell>
+ <cell>3.755</cell>
  <cell>1</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_9:D</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_2_.level_buf_3__18_:D</cell>
  <cell>net</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_8_Z</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/level_buf_2__18__0</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.061</cell>
- <cell>3.786</cell>
+ <cell>0.093</cell>
+ <cell>3.848</cell>
  <cell></cell>
  <cell>f</cell>
 </row>
@@ -399,7 +399,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>3.786</cell>
+ <cell>3.848</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -444,8 +444,8 @@
  <cell></cell>
  <cell></cell>
  <cell>+</cell>
- <cell>2.682</cell>
- <cell>2.682</cell>
+ <cell>2.684</cell>
+ <cell>2.684</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -456,7 +456,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.120</cell>
- <cell>2.802</cell>
+ <cell>2.804</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -467,7 +467,7 @@
  <cell>ADLIB:ICB_CLKINT</cell>
  <cell>+</cell>
  <cell>0.092</cell>
- <cell>2.894</cell>
+ <cell>2.896</cell>
  <cell>2</cell>
  <cell>r</cell>
 </row>
@@ -478,7 +478,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.424</cell>
- <cell>3.318</cell>
+ <cell>3.320</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -489,40 +489,40 @@
  <cell>ADLIB:GB</cell>
  <cell>+</cell>
  <cell>0.119</cell>
- <cell>3.437</cell>
- <cell>5</cell>
+ <cell>3.439</cell>
+ <cell>6</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3:A</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1:A</cell>
  <cell>net</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.287</cell>
- <cell>3.724</cell>
+ <cell>0.289</cell>
+ <cell>3.728</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3:Y</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:RGB</cell>
  <cell>+</cell>
  <cell>0.039</cell>
- <cell>3.763</cell>
- <cell>692</cell>
+ <cell>3.767</cell>
+ <cell>1081</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_9:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_2_.level_buf_3__18_:CLK</cell>
  <cell>net</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3_rgb_net_1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.291</cell>
- <cell>4.054</cell>
+ <cell>0.316</cell>
+ <cell>4.083</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -532,19 +532,19 @@
  <cell></cell>
  <cell></cell>
  <cell>+</cell>
- <cell>-0.392</cell>
- <cell>3.662</cell>
+ <cell>-0.337</cell>
+ <cell>3.746</cell>
  <cell></cell>
  <cell></cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_9:D</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_ram_1/delay_1/gen_delay_2_.level_buf_3__18_:D</cell>
  <cell>Library hold time</cell>
  <cell></cell>
  <cell>ADLIB:SLE</cell>
  <cell>+</cell>
- <cell>0.065</cell>
- <cell>3.727</cell>
+ <cell>0.062</cell>
+ <cell>3.808</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -555,7 +555,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>3.727</cell>
+ <cell>3.808</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -593,11 +593,11 @@
 <row>
  <cell>Path 1</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/sizeCnt_reg[2]:ALn</cell>
- <cell>2.932</cell>
- <cell>2.891</cell>
- <cell>6.601</cell>
- <cell>3.710</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/holdDat[49]:ALn</cell>
+ <cell>2.802</cell>
+ <cell>2.761</cell>
+ <cell>6.472</cell>
+ <cell>3.711</cell>
  <cell>-0.029</cell>
  <cell>-0.070</cell>
  <cell>fast_hv_lt</cell>
@@ -605,49 +605,49 @@
 <row>
  <cell>Path 2</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/fixed_burst_sizecnt[5]:ALn</cell>
- <cell>2.932</cell>
- <cell>2.891</cell>
- <cell>6.601</cell>
- <cell>3.710</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/currState[1]:ALn</cell>
+ <cell>2.798</cell>
+ <cell>2.761</cell>
+ <cell>6.468</cell>
+ <cell>3.707</cell>
  <cell>-0.029</cell>
- <cell>-0.070</cell>
+ <cell>-0.066</cell>
  <cell>fast_hv_lt</cell>
 </row>
 <row>
  <cell>Path 3</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/DWC_DownConv_preCalcCmdFifoWrCtrl_inst/MASTER_AADDR_mux_pre[18]:ALn</cell>
- <cell>2.931</cell>
- <cell>2.892</cell>
- <cell>6.600</cell>
- <cell>3.708</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/currState[0]:ALn</cell>
+ <cell>2.798</cell>
+ <cell>2.761</cell>
+ <cell>6.468</cell>
+ <cell>3.707</cell>
  <cell>-0.029</cell>
- <cell>-0.068</cell>
+ <cell>-0.066</cell>
  <cell>fast_hv_lt</cell>
 </row>
 <row>
  <cell>Path 4</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/DWC_DownConv_preCalcCmdFifoWrCtrl_inst/MASTER_AADDR_mux_pre[12]:ALn</cell>
- <cell>2.935</cell>
- <cell>2.892</cell>
- <cell>6.604</cell>
- <cell>3.712</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/currState[1]:ALn</cell>
+ <cell>2.798</cell>
+ <cell>2.761</cell>
+ <cell>6.468</cell>
+ <cell>3.707</cell>
  <cell>-0.029</cell>
- <cell>-0.072</cell>
+ <cell>-0.066</cell>
  <cell>fast_hv_lt</cell>
 </row>
 <row>
  <cell>Path 5</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk2.arrs/holdDat[53]:ALn</cell>
- <cell>2.931</cell>
- <cell>2.892</cell>
- <cell>6.600</cell>
- <cell>3.708</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/currState[0]:ALn</cell>
+ <cell>2.798</cell>
+ <cell>2.761</cell>
+ <cell>6.468</cell>
+ <cell>3.707</cell>
  <cell>-0.029</cell>
- <cell>-0.068</cell>
+ <cell>-0.066</cell>
  <cell>fast_hv_lt</cell>
 </row>
 </table>
@@ -677,7 +677,7 @@
  <cell></cell>
 </row>
 <row>
- <cell>To: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/sizeCnt_reg[2]:ALn</cell>
+ <cell>To: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/holdDat[49]:ALn</cell>
  <cell></cell>
  <cell></cell>
  <cell></cell>
@@ -694,7 +694,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>6.601</cell>
+ <cell>6.472</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -705,7 +705,7 @@
  <cell></cell>
  <cell>-</cell>
  <cell></cell>
- <cell>3.710</cell>
+ <cell>3.711</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -716,7 +716,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>2.891</cell>
+ <cell>2.761</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -761,8 +761,8 @@
  <cell></cell>
  <cell></cell>
  <cell>+</cell>
- <cell>2.421</cell>
- <cell>2.421</cell>
+ <cell>2.422</cell>
+ <cell>2.422</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -773,7 +773,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.109</cell>
- <cell>2.530</cell>
+ <cell>2.531</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -784,7 +784,7 @@
  <cell>ADLIB:ICB_CLKINT</cell>
  <cell>+</cell>
  <cell>0.080</cell>
- <cell>2.610</cell>
+ <cell>2.611</cell>
  <cell>2</cell>
  <cell>r</cell>
 </row>
@@ -795,7 +795,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.387</cell>
- <cell>2.997</cell>
+ <cell>2.998</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -806,40 +806,40 @@
  <cell>ADLIB:GB</cell>
  <cell>+</cell>
  <cell>0.108</cell>
- <cell>3.105</cell>
- <cell>5</cell>
+ <cell>3.106</cell>
+ <cell>6</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1:A</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:A</cell>
  <cell>net</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
  <cell></cell>
  <cell>+</cell>
  <cell>0.263</cell>
- <cell>3.368</cell>
+ <cell>3.369</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1:Y</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:RGB</cell>
  <cell>+</cell>
  <cell>0.035</cell>
- <cell>3.403</cell>
- <cell>461</cell>
+ <cell>3.404</cell>
+ <cell>1322</cell>
  <cell>f</cell>
 </row>
 <row>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
  <cell>net</cell>
- <cell>CLOCKS_AND_RESETS_FIC_0_CLK</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
  <cell>0.266</cell>
- <cell>3.669</cell>
+ <cell>3.670</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -850,7 +850,7 @@
  <cell>ADLIB:SLE</cell>
  <cell>+</cell>
  <cell>0.065</cell>
- <cell>3.734</cell>
+ <cell>3.735</cell>
  <cell>5</cell>
  <cell>r</cell>
 </row>
@@ -860,8 +860,8 @@
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/sysReset</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>2.219</cell>
- <cell>5.953</cell>
+ <cell>2.090</cell>
+ <cell>5.825</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -872,40 +872,40 @@
  <cell>ADLIB:GB</cell>
  <cell>+</cell>
  <cell>0.075</cell>
- <cell>6.028</cell>
- <cell>3</cell>
+ <cell>5.900</cell>
+ <cell>4</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB0:A</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB1:A</cell>
  <cell>net</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_Y</cell>
  <cell></cell>
  <cell>+</cell>
  <cell>0.264</cell>
- <cell>6.292</cell>
+ <cell>6.164</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB0:Y</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB1:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:RGB</cell>
  <cell>+</cell>
  <cell>0.035</cell>
- <cell>6.327</cell>
- <cell>875</cell>
+ <cell>6.199</cell>
+ <cell>638</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/sizeCnt_reg[2]:ALn</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/holdDat[49]:ALn</cell>
  <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB0_rgb_net_1</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB1_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.274</cell>
- <cell>6.601</cell>
+ <cell>0.273</cell>
+ <cell>6.472</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -916,7 +916,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>6.601</cell>
+ <cell>6.472</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -961,8 +961,8 @@
  <cell></cell>
  <cell></cell>
  <cell>+</cell>
- <cell>2.682</cell>
- <cell>2.682</cell>
+ <cell>2.684</cell>
+ <cell>2.684</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -973,7 +973,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.120</cell>
- <cell>2.802</cell>
+ <cell>2.804</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -984,7 +984,7 @@
  <cell>ADLIB:ICB_CLKINT</cell>
  <cell>+</cell>
  <cell>0.092</cell>
- <cell>2.894</cell>
+ <cell>2.896</cell>
  <cell>2</cell>
  <cell>r</cell>
 </row>
@@ -995,7 +995,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.424</cell>
- <cell>3.318</cell>
+ <cell>3.320</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -1006,40 +1006,40 @@
  <cell>ADLIB:GB</cell>
  <cell>+</cell>
  <cell>0.119</cell>
- <cell>3.437</cell>
- <cell>5</cell>
+ <cell>3.439</cell>
+ <cell>6</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:A</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1:A</cell>
  <cell>net</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.290</cell>
- <cell>3.727</cell>
+ <cell>0.289</cell>
+ <cell>3.728</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:Y</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:RGB</cell>
  <cell>+</cell>
  <cell>0.039</cell>
- <cell>3.766</cell>
- <cell>1220</cell>
+ <cell>3.767</cell>
+ <cell>1081</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/sizeCnt_reg[2]:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/holdDat[49]:CLK</cell>
  <cell>net</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0_rgb_net_1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.309</cell>
- <cell>4.075</cell>
+ <cell>0.310</cell>
+ <cell>4.077</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -1049,19 +1049,19 @@
  <cell></cell>
  <cell></cell>
  <cell>+</cell>
- <cell>-0.336</cell>
- <cell>3.739</cell>
+ <cell>-0.337</cell>
+ <cell>3.740</cell>
  <cell></cell>
  <cell></cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/sizeCnt_reg[2]:ALn</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/holdDat[49]:ALn</cell>
  <cell>Library removal time</cell>
  <cell></cell>
  <cell>ADLIB:SLE</cell>
  <cell>+</cell>
  <cell>-0.029</cell>
- <cell>3.710</cell>
+ <cell>3.711</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -1072,7 +1072,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>3.710</cell>
+ <cell>3.711</cell>
  <cell></cell>
  <cell></cell>
 </row>

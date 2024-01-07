@@ -1,0 +1,622 @@
+# Wed Dec  6 11:25:01 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: D:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-DD7N7QM
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 134MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 134MB)
+
+
+@N: MF104 :"e:\mpfs_projects\kyber_hw\hdl\address_generator.v":21:7:21:23|Found compile point of type hard on View view:work.address_generator(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.address_generator(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"e:\mpfs_projects\kyber_hw\hdl\address_generator.v":21:7:21:23|Mapping Compile point view:work.address_generator(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":74:8:74:11|ROM new_addr_1[5] (in view: work.shuffle_rom1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":74:8:74:11|Found ROM new_addr_1[5] (in view: work.shuffle_rom1(verilog)) with 32 words by 1 bit.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":74:8:74:11|ROM new_addr_1[3:0] (in view: work.shuffle_rom1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":74:8:74:11|Found ROM new_addr_1[3:0] (in view: work.shuffle_rom1(verilog)) with 32 words by 4 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":119:8:119:11|ROM new_addr_1[5:4] (in view: work.shuffle_rom2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":119:8:119:11|Found ROM new_addr_1[5:4] (in view: work.shuffle_rom2(verilog)) with 32 words by 2 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":119:8:119:11|ROM new_addr_1[2:0] (in view: work.shuffle_rom2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":119:8:119:11|Found ROM new_addr_1[2:0] (in view: work.shuffle_rom2(verilog)) with 32 words by 3 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":164:8:164:11|ROM new_addr_1[5:3] (in view: work.shuffle_rom3(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":164:8:164:11|Found ROM new_addr_1[5:3] (in view: work.shuffle_rom3(verilog)) with 32 words by 3 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":164:8:164:11|ROM new_addr_1[1:0] (in view: work.shuffle_rom3(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":164:8:164:11|Found ROM new_addr_1[1:0] (in view: work.shuffle_rom3(verilog)) with 32 words by 2 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":209:8:209:11|ROM new_addr_1[5:2] (in view: work.shuffle_rom4(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":209:8:209:11|Found ROM new_addr_1[5:2] (in view: work.shuffle_rom4(verilog)) with 32 words by 4 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":209:8:209:11|ROM new_addr_1[0] (in view: work.shuffle_rom4(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":209:8:209:11|Found ROM new_addr_1[0] (in view: work.shuffle_rom4(verilog)) with 32 words by 1 bit.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":29:8:29:11|ROM shuffle_rom_0.new_addr_1[4:0] (in view: work.address_generator(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":299:8:299:11|ROM shuffle_rom_6.new_addr_1[5:1] (in view: work.address_generator(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":299:8:299:11|Found ROM shuffle_rom_6.new_addr_1[5:1] (in view: work.address_generator(verilog)) with 32 words by 5 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":254:8:254:11|ROM shuffle_rom_5.new_addr_1[5:1] (in view: work.address_generator(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":254:8:254:11|Found ROM shuffle_rom_5.new_addr_1[5:1] (in view: work.address_generator(verilog)) with 32 words by 5 bits.
+@W: FA239 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":29:8:29:11|ROM shuffle_rom_0.new_addr_1[4:0] (in view: work.address_generator(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":29:8:29:11|Found ROM shuffle_rom_0.new_addr_1[4:0] (in view: work.address_generator(verilog)) with 32 words by 5 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+Encoding state machine FIC_0_PERIPHERALS_1.Core_Poly_0.CS[8:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   0000 -> 000000000
+   0001 -> 000000011
+   0010 -> 000000101
+   0011 -> 000001001
+   0100 -> 000010001
+   0101 -> 000100001
+   0110 -> 001000001
+   0111 -> 010000001
+   1000 -> 100000001
+@N: FX493 |Applying initial value "0" on instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS_i[0].
+Encoding state machine CS[4:0] (in view: work.address_generator(verilog))
+original code -> new code
+   000 -> 00000
+   001 -> 00011
+   010 -> 00101
+   011 -> 01001
+   100 -> 10001
+@N: FX493 |Applying initial value "0" on instance CS_i[0].
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 185MB peak: 185MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 185MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 185MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 185MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 185MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 185MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 193MB peak: 193MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    -4.79ns		 545 /       125
+   2		0h:00m:03s		    -4.78ns		 517 /       125
+   3		0h:00m:03s		    -4.78ns		 518 /       125
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":605:4:605:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 31 loads 1 time to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":605:4:605:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":605:4:605:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 4 loads 1 time to improve timing.
+Timing driven replication report
+Added 3 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+   4		0h:00m:04s		    -4.05ns		 534 /       128
+   5		0h:00m:04s		    -3.83ns		 535 /       128
+   6		0h:00m:04s		    -3.63ns		 537 /       128
+   7		0h:00m:04s		    -3.40ns		 539 /       128
+   8		0h:00m:04s		    -3.28ns		 543 /       128
+   9		0h:00m:04s		    -3.40ns		 544 /       128
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":605:4:605:9|Replicating instance FIC_0_PERIPHERALS_1.Core_Poly_0.CS[4] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) with 4 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+
+  10		0h:00m:04s		    -3.17ns		 550 /       129
+  11		0h:00m:04s		    -3.17ns		 550 /       129
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 198MB peak: 198MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 198MB peak: 198MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 6.06ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Dec  6 11:25:06 2023
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.069
+
+                                                                       Requested     Estimated     Requested     Estimated                Clock                              Clock           
+Starting Clock                                                         Frequency     Frequency     Period        Period        Slack      Type                               Group           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     165.0 MHz     140.3 MHz     6.061         7.130         -1.069     generated (from REF_CLK_50MHz)     FIC0_clks       
+REF_CLK_50MHz                                                          50.0 MHz      NA            20.000        NA            NA         declared                           default_clkgroup
+=============================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  6.061       -1.069  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                               Starting                                                                                                                               Arrival           
+Instance                                                       Reference                                                              Type     Pin     Net                                            Time        Slack 
+                                                               Clock                                                                                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[3]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[3]                                         0.257       -1.069
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[5]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[5]                                         0.257       -1.055
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[2]                                         0.257       -1.032
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[4]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[4]                                         0.257       -1.026
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[6]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[6]                                         0.257       -1.015
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[1]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[1]                                         0.257       -0.842
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[7]                     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[7]     0.257       -0.752
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       len[0]                                         0.257       -0.731
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.j[2]       CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       j[2]                                           0.257       -0.602
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.j[1]       CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       j[1]                                           0.257       -0.563
+========================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                              Starting                                                                                                                                       Required           
+Instance                                                      Reference                                                              Type     Pin     Net                                                    Time         Slack 
+                                                              Clock                                                                                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      EN      done_RNO                                               5.911        -1.069
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.CS[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       N_127_i                                                6.061        -1.028
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.CS[4]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       CS_ns[4]                                               6.061        -0.845
+FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_1[4]               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_1_12[4]     6.061        -0.752
+FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_1[5]               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_1_12[5]     6.061        -0.752
+FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_1[6]               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_1_12[6]     6.061        -0.681
+FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_2[6]               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_2_12[6]     6.061        -0.521
+FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_2[5]               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_2_12[5]     6.061        -0.511
+FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_2[4]               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       FIC_0_PERIPHERALS_1.Core_Poly_0.cf_oldaddr_2_12[4]     6.061        -0.502
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.k[6]      CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       k_13[6]                                                6.061        -0.447
+================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.061
+    - Setup time:                            0.150
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.911
+
+    - Propagation time:                      6.980
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.069
+
+    Number of logic level(s):                12
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[3] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done / EN
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+
+Instance / Net                                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[3]                                                SLE      Q        Out     0.257     0.257 r     -         
+len[3]                                                                                                    Net      -        -       0.847     -           16        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25_2                                              CFG2     B        In      -         1.105 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25_2                                              CFG2     Y        Out     0.103     1.208 f     -         
+N_161_1                                                                                                   Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     D        In      -         1.354 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     Y        Out     0.226     1.581 f     -         
+done25                                                                                                    Net      -        -       0.822     -           14        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     A        In      -         2.403 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     Y        Out     0.056     2.459 f     -         
+un1_done19_0                                                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     D        In      -         2.598 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     Y        Out     0.226     2.824 f     -         
+un1_done19_i                                                                                              Net      -        -       0.701     -           6         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     A        In      -         3.526 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     Y        Out     0.056     3.581 r     -         
+un1_old_address_041                                                                                       Net      -        -       0.902     -           21        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_1                                   ARI1     D        In      -         4.483 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_1                                   ARI1     FCO      Out     0.581     5.064 r     -         
+old_address_3_cry_1                                                                                       Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     FCI      In      -         5.064 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     FCO      Out     0.009     5.073 r     -         
+old_address_3_cry_2                                                                                       Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_3                                   ARI1     FCI      In      -         5.073 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_3                                   ARI1     S        Out     0.354     5.427 r     -         
+old_address_3[3]                                                                                          Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     D        In      -         5.574 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     Y        Out     0.198     5.771 r     -         
+done39_1                                                                                                  Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     B        In      -         5.910 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     Y        Out     0.098     6.008 r     -         
+done39                                                                                                    Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     B        In      -         6.654 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     Y        Out     0.098     6.752 r     -         
+un1_j_1_sqmuxa_3_or                                                                                       Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     A        In      -         6.891 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     Y        Out     0.060     6.951 r     -         
+done_RNO                                                                                                  Net      -        -       0.029     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done                                                  SLE      EN       In      -         6.980 r     -         
+====================================================================================================================================================================
+Total path delay (propagation time + setup) of 7.130 is 2.472(34.7%) logic and 4.658(65.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.061
+    - Setup time:                            0.150
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.911
+
+    - Propagation time:                      6.971
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.060
+
+    Number of logic level(s):                11
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[3] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done / EN
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+
+Instance / Net                                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[3]                                                SLE      Q        Out     0.257     0.257 r     -         
+len[3]                                                                                                    Net      -        -       0.847     -           16        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25_2                                              CFG2     B        In      -         1.105 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25_2                                              CFG2     Y        Out     0.103     1.208 f     -         
+N_161_1                                                                                                   Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     D        In      -         1.354 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     Y        Out     0.226     1.581 f     -         
+done25                                                                                                    Net      -        -       0.822     -           14        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     A        In      -         2.403 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     Y        Out     0.056     2.459 f     -         
+un1_done19_0                                                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     D        In      -         2.598 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     Y        Out     0.226     2.824 f     -         
+un1_done19_i                                                                                              Net      -        -       0.701     -           6         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     A        In      -         3.526 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     Y        Out     0.056     3.581 r     -         
+un1_old_address_041                                                                                       Net      -        -       0.902     -           21        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     D        In      -         4.483 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     FCO      Out     0.581     5.064 r     -         
+old_address_3_cry_2                                                                                       Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_3                                   ARI1     FCI      In      -         5.064 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_3                                   ARI1     S        Out     0.354     5.418 r     -         
+old_address_3[3]                                                                                          Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     D        In      -         5.564 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     Y        Out     0.198     5.762 r     -         
+done39_1                                                                                                  Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     B        In      -         5.901 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     Y        Out     0.098     5.999 r     -         
+done39                                                                                                    Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     B        In      -         6.644 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     Y        Out     0.098     6.742 r     -         
+un1_j_1_sqmuxa_3_or                                                                                       Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     A        In      -         6.881 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     Y        Out     0.060     6.941 r     -         
+done_RNO                                                                                                  Net      -        -       0.029     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done                                                  SLE      EN       In      -         6.971 r     -         
+====================================================================================================================================================================
+Total path delay (propagation time + setup) of 7.120 is 2.463(34.6%) logic and 4.658(65.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.061
+    - Setup time:                            0.150
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.911
+
+    - Propagation time:                      6.966
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.055
+
+    Number of logic level(s):                12
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done / EN
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+
+Instance / Net                                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[5]                                                SLE      Q        Out     0.257     0.257 r     -         
+len[5]                                                                                                    Net      -        -       0.835     -           15        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.done25_2_0              CFG3     C        In      -         1.093 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.done25_2_0              CFG3     Y        Out     0.156     1.248 f     -         
+done25_1                                                                                                  Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     C        In      -         1.395 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     Y        Out     0.172     1.566 f     -         
+done25                                                                                                    Net      -        -       0.822     -           14        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     A        In      -         2.389 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     Y        Out     0.056     2.445 f     -         
+un1_done19_0                                                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     D        In      -         2.584 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     Y        Out     0.226     2.810 f     -         
+un1_done19_i                                                                                              Net      -        -       0.701     -           6         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     A        In      -         3.511 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     Y        Out     0.056     3.567 r     -         
+un1_old_address_041                                                                                       Net      -        -       0.902     -           21        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_1                                   ARI1     D        In      -         4.469 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_1                                   ARI1     FCO      Out     0.581     5.050 r     -         
+old_address_3_cry_1                                                                                       Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     FCI      In      -         5.050 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     FCO      Out     0.009     5.059 r     -         
+old_address_3_cry_2                                                                                       Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_3                                   ARI1     FCI      In      -         5.059 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_3                                   ARI1     S        Out     0.354     5.413 r     -         
+old_address_3[3]                                                                                          Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     D        In      -         5.559 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     Y        Out     0.198     5.757 r     -         
+done39_1                                                                                                  Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     B        In      -         5.896 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     Y        Out     0.098     5.994 r     -         
+done39                                                                                                    Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     B        In      -         6.639 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     Y        Out     0.098     6.737 r     -         
+un1_j_1_sqmuxa_3_or                                                                                       Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     A        In      -         6.877 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     Y        Out     0.060     6.936 r     -         
+done_RNO                                                                                                  Net      -        -       0.029     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done                                                  SLE      EN       In      -         6.966 r     -         
+====================================================================================================================================================================
+Total path delay (propagation time + setup) of 7.116 is 2.470(34.7%) logic and 4.646(65.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.061
+    - Setup time:                            0.150
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.911
+
+    - Propagation time:                      6.957
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.046
+
+    Number of logic level(s):                11
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[5] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done / EN
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+
+Instance / Net                                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[5]                                                SLE      Q        Out     0.257     0.257 r     -         
+len[5]                                                                                                    Net      -        -       0.835     -           15        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.done25_2_0              CFG3     C        In      -         1.093 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.done25_2_0              CFG3     Y        Out     0.156     1.248 f     -         
+done25_1                                                                                                  Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     C        In      -         1.395 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     Y        Out     0.172     1.566 f     -         
+done25                                                                                                    Net      -        -       0.822     -           14        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     A        In      -         2.389 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     Y        Out     0.056     2.445 f     -         
+un1_done19_0                                                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     D        In      -         2.584 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     Y        Out     0.226     2.810 f     -         
+un1_done19_i                                                                                              Net      -        -       0.701     -           6         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     A        In      -         3.511 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     Y        Out     0.056     3.567 r     -         
+un1_old_address_041                                                                                       Net      -        -       0.902     -           21        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     D        In      -         4.469 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     FCO      Out     0.581     5.050 r     -         
+old_address_3_cry_2                                                                                       Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_3                                   ARI1     FCI      In      -         5.050 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_3                                   ARI1     S        Out     0.354     5.404 r     -         
+old_address_3[3]                                                                                          Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     D        In      -         5.550 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     Y        Out     0.198     5.748 r     -         
+done39_1                                                                                                  Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     B        In      -         5.887 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     Y        Out     0.098     5.985 r     -         
+done39                                                                                                    Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     B        In      -         6.630 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     Y        Out     0.098     6.728 r     -         
+un1_j_1_sqmuxa_3_or                                                                                       Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     A        In      -         6.867 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     Y        Out     0.060     6.927 r     -         
+done_RNO                                                                                                  Net      -        -       0.029     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done                                                  SLE      EN       In      -         6.957 r     -         
+====================================================================================================================================================================
+Total path delay (propagation time + setup) of 7.106 is 2.460(34.6%) logic and 4.646(65.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.061
+    - Setup time:                            0.150
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.911
+
+    - Propagation time:                      6.948
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.037
+
+    Number of logic level(s):                11
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[3] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done / EN
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.030 period=6.061) on pin CLK
+
+Instance / Net                                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.len[3]                                                SLE      Q        Out     0.257     0.257 r     -         
+len[3]                                                                                                    Net      -        -       0.847     -           16        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25_2                                              CFG2     B        In      -         1.105 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25_2                                              CFG2     Y        Out     0.103     1.208 f     -         
+N_161_1                                                                                                   Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     D        In      -         1.354 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done25                                                CFG4     Y        Out     0.226     1.581 f     -         
+done25                                                                                                    Net      -        -       0.822     -           14        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     A        In      -         2.403 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19_0            CFG2     Y        Out     0.056     2.459 f     -         
+un1_done19_0                                                                                              Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     D        In      -         2.598 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_done19              CFG4     Y        Out     0.226     2.824 f     -         
+un1_done19_i                                                                                              Net      -        -       0.701     -           6         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     A        In      -         3.526 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1_3_0_.un1_old_address_041     CFG2     Y        Out     0.056     3.581 r     -         
+un1_old_address_041                                                                                       Net      -        -       0.902     -           21        
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_1                                   ARI1     D        In      -         4.483 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_1                                   ARI1     FCO      Out     0.581     5.064 r     -         
+old_address_3_cry_1                                                                                       Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     FCI      In      -         5.064 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.old_address_3_cry_2                                   ARI1     S        Out     0.354     5.418 r     -         
+old_address_3[2]                                                                                          Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     C        In      -         5.564 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39_RNO                                            CFG4     Y        Out     0.175     5.739 r     -         
+done39_1                                                                                                  Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     B        In      -         5.878 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done39                                                CFG4     Y        Out     0.098     5.976 r     -         
+done39                                                                                                    Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     B        In      -         6.621 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO_0                                            CFG4     Y        Out     0.098     6.719 r     -         
+un1_j_1_sqmuxa_3_or                                                                                       Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     A        In      -         6.858 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done_RNO                                              CFG2     Y        Out     0.060     6.918 r     -         
+done_RNO                                                                                                  Net      -        -       0.029     -           1         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.done                                                  SLE      EN       In      -         6.948 r     -         
+====================================================================================================================================================================
+Total path delay (propagation time + setup) of 7.097 is 2.439(34.4%) logic and 4.658(65.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"e:/mpfs_projects/kyber_hw/designer/mpfs_icicle_kit_base_design/synthesis.fdc":10:0:10:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file E:\MPFS_Projects\Kyber_HW\synthesis\address_generator\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                  Status     Reason     
+--------------------------------------------
+address_generator     Mapped     No database
+============================================
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Wed Dec  6 11:25:06 2023
+
+###########################################################]

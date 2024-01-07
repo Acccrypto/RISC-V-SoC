@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-Date: Sun Nov 26 17:39:23 2023
+Date: Sat Jan  6 16:18:00 2024
 
 Device Selection
 +--------------------------------------------+--------------+
@@ -30,8 +30,8 @@ Resource Usage
 +---------------------------+------+--------+------------+
 | Type                      | Used | Total  | Percentage |
 +---------------------------+------+--------+------------+
-| 4LUT                      | 8844 | 254196 | 3.48       |
-| DFF                       | 3945 | 254196 | 1.55       |
+| 4LUT                      | 9134 | 254196 | 3.59       |
+| DFF                       | 3926 | 254196 | 1.54       |
 | I/O Register              | 0    | 432    | 0.00       |
 | User I/O                  | 55   | 144    | 38.19      |
 | -- Single-ended I/O       | 55   | 144    | 38.19      |
@@ -55,36 +55,37 @@ Detailed Logic Resource Usage
 +-----------------------+------+------+
 | Type                  | 4LUT | DFF  |
 +-----------------------+------+------+
-| Fabric Logic          | 8160 | 3261 |
+| Fabric Logic          | 8450 | 3242 |
 | uSRAM Interface Logic | 540  | 540  |
 | LSRAM Interface Logic | 0    | 0    |
 | Math Interface Logic  | 144  | 144  |
-| Total Used            | 8844 | 3945 |
+| Total Used            | 9134 | 3926 |
 +-----------------------+------+------+
 
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 6      | 7    |
-| 7      | 9    |
-| 8      | 7    |
+| 6      | 6    |
+| 7      | 8    |
+| 8      | 8    |
 | 9      | 4    |
 | 10     | 1    |
 | 11     | 2    |
-| 12     | 16   |
-| 13     | 25   |
-| 14     | 11   |
+| 12     | 19   |
+| 13     | 26   |
+| 14     | 9    |
+| 16     | 1    |
 | 30     | 2    |
 | 31     | 2    |
 | 32     | 2    |
-| Total  | 88   |
+| Total  | 90   |
 +--------+------+
 
 Detailed 4LUT Groups Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 312  |
-| Total  | 312  |
+| 2      | 320  |
+| Total  | 320  |
 +--------+------+
 
 Detailed Math Chains Resource Usage
@@ -109,7 +110,7 @@ Nets assigned to chip global resources
 +--------+---------+------------------------------------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                                                       |
 +--------+---------+------------------------------------------------------------------------------------------------------------+
-| 3447   | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_0_CLK                                                                        |
+| 3428   | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_0_CLK                                                                        |
 |        |         | Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1                                |
 |        |         | Source: NETLIST                                                                                            |
 | 1931   | INT_NET | Net   : FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/sysReset_arst                           |
@@ -136,54 +137,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+--------------------------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                                             |
-+--------+---------+--------------------------------------------------------------------------------------------------+
-| 1049   | INT_NET | Net   : CLOCKS_AND_RESETS_RESETN_FIC_0_CLK                                                       |
-|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15                              |
-| 459    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0_sel[1]                                        |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/NS83.NS83_i_a2_i                     |
-| 324    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t013                                          |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t0_8_iv_0_a2_2[2]                             |
-| 240    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/un1_sel_6_or_Z                                |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/un1_sel_6_or                                  |
-| 235    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_165_i                                                  |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_165_i                              |
-| 205    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/pm_sel[0]                                                |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/pm_sel_iv_0[0]                       |
-| 149    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_684_i                              |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/pram0_wen14_i_a2_0_a2_RNIL3DD        |
-| 133    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t012                                          |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/sr1_dinb_sn_m2                                |
-| 122    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/CS_Z[2]                                                  |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/CS[2]                                                    |
-| 119    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[0]                                            |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__0_ |
-+--------+---------+--------------------------------------------------------------------------------------------------+
++--------+---------+-------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                |
++--------+---------+-------------------------------------------------------------------------------------+
+| 961    | INT_NET | Net   : CLOCKS_AND_RESETS_RESETN_FIC_0_CLK                                          |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15                 |
+| 486    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/un1_CS_1[0]                                 |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a0_10_sn.un1_CS_1[0]                     |
+| 310    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t013                             |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.t013         |
+| 246    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_165_i                                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_165_i                 |
+| 240    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/un1_sel_6_or                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.un1_sel_6_or |
+| 236    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/pm_sel[0]                                   |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a0_10_sn.pm_sel_iv[0]                    |
+| 233    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/CS_Z[7]                                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/CS[7]                                       |
+| 168    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/CS_Z[2]                                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/CS[2]                                       |
+| 168    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t8_1_sqmuxa                      |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t1_8_a0_0_0_rep2                 |
+| 148    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_172_i                                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/un1_CS_16_i_a2                   |
++--------+---------+-------------------------------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+--------------------------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                                             |
-+--------+---------+--------------------------------------------------------------------------------------------------+
-| 1049   | INT_NET | Net   : CLOCKS_AND_RESETS_RESETN_FIC_0_CLK                                                       |
-|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15                              |
-| 459    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0_sel[1]                                        |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/NS83.NS83_i_a2_i                     |
-| 324    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t013                                          |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t0_8_iv_0_a2_2[2]                             |
-| 240    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/un1_sel_6_or_Z                                |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/un1_sel_6_or                                  |
-| 235    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_165_i                                                  |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_165_i                              |
-| 205    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/pm_sel[0]                                                |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/pm_sel_iv_0[0]                       |
-| 149    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_684_i                              |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/pram0_wen14_i_a2_0_a2_RNIL3DD        |
-| 133    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t012                                          |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/sr1_dinb_sn_m2                                |
-| 122    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/CS_Z[2]                                                  |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/CS[2]                                                    |
-| 119    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[0]                                            |
-|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__0_ |
-+--------+---------+--------------------------------------------------------------------------------------------------+
++--------+---------+-------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                |
++--------+---------+-------------------------------------------------------------------------------------+
+| 961    | INT_NET | Net   : CLOCKS_AND_RESETS_RESETN_FIC_0_CLK                                          |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15                 |
+| 486    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/un1_CS_1[0]                                 |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a0_10_sn.un1_CS_1[0]                     |
+| 310    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t013                             |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.t013         |
+| 246    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_165_i                                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_165_i                 |
+| 240    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/un1_sel_6_or                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.un1_sel_6_or |
+| 236    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/pm_sel[0]                                   |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a0_10_sn.pm_sel_iv[0]                    |
+| 233    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/CS_Z[7]                                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/CS[7]                                       |
+| 168    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/CS_Z[2]                                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/CS[2]                                       |
+| 168    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t8_1_sqmuxa                      |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t1_8_a0_0_0_rep2                 |
+| 148    | INT_NET | Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_172_i                                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/un1_CS_16_i_a2                   |
++--------+---------+-------------------------------------------------------------------------------------+
 

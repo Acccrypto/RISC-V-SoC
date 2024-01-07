@@ -1,4 +1,4 @@
-# Written by Synplify Pro version map202109actsp1, Build 056R. Synopsys Run ID: sid1700993537 
+# Written by Synplify Pro version map202109actsp1, Build 056R. Synopsys Run ID: sid1704531577 
 # Top Level Design Parameters 
 
 # Clocks 
@@ -10,7 +10,7 @@ create_clock -period 10.000 -waveform {0.000 5.000} -name {PF_CCC_C0_PF_CCC_C0_0
 # Virtual Clocks 
 
 # Generated Clocks 
-create_generated_clock -name {CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0} -multiply_by {27} -divide_by {10} -source [get_pins {CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/REF_CLK_0}]  [get_pins {CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0}] 
+create_generated_clock -name {CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0} -multiply_by {131} -divide_by {50} -source [get_pins {CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/REF_CLK_0}]  [get_pins {CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0}] 
 
 # Paths Between Clocks 
 

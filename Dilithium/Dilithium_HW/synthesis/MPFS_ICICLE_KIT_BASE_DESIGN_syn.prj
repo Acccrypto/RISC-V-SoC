@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
 #--  Project file E:\MPFS_Projects\Dilithium_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_syn.prj
-#--  Written on Sun Nov 26 18:12:49 2023
+#--  Written on Sat Jan  6 17:00:08 2024
 
 
 #project files
@@ -14,6 +14,7 @@ add_file -verilog "E:/MPFS_Projects/Dilithium_HW/component/work/PF_CCC_C0/PF_CCC
 add_file -verilog "E:/MPFS_Projects/Dilithium_HW/component/work/PF_CCC_C0/PF_CCC_C0.v"
 add_file -verilog "E:/MPFS_Projects/Dilithium_HW/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v"
 add_file -verilog "E:/MPFS_Projects/Dilithium_HW/hdl/delay.v"
+add_file -verilog "E:/MPFS_Projects/Dilithium_HW/hdl/shuffle_rom.v"
 add_file -verilog "E:/MPFS_Projects/Dilithium_HW/hdl/address_generator.v"
 add_file -verilog "E:/MPFS_Projects/Dilithium_HW/hdl/conflict_free_memory_map.v"
 add_file -verilog "E:/MPFS_Projects/Dilithium_HW/hdl/polyvec_ram.v"

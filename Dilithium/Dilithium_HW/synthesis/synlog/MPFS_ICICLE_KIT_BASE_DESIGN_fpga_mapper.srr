@@ -1,4 +1,4 @@
-# Sun Nov 26 18:12:17 2023
+# Sat Jan  6 16:59:37 2024
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -41,15 +41,15 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 Synthesis running in Multiprocessing mode
 Maximum number of parallel jobs set to 4
-Multiprocessing started at : Sun Nov 26 18:12:19 2023
-@N: MF107 :"e:\mpfs_projects\dilithium_hw\hdl\poly_mul.v":21:7:21:14|Old database up-to-date, remapping Compile point view:work.poly_mul(verilog) unnecessary 
+Multiprocessing started at : Sat Jan  6 16:59:38 2024
 @N: MF107 :"e:\mpfs_projects\dilithium_hw\hdl\core_poly.v":21:7:21:15|Old database up-to-date, remapping Compile point view:work.Core_Poly_Z3(verilog) unnecessary 
+@N: MF107 :"e:\mpfs_projects\dilithium_hw\hdl\poly_mul.v":21:7:21:14|Old database up-to-date, remapping Compile point view:work.poly_mul(verilog) unnecessary 
 @N: MF107 :"e:\mpfs_projects\dilithium_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Old database up-to-date, remapping Compile point view:work.caxi4interconnect_SlaveConvertor_Z13(verilog) unnecessary 
 Mapping MPFS_ICICLE_KIT_BASE_DESIGN as a separate process
 MCP Status: 1 jobs running
 
 @N: MF106 :"e:\mpfs_projects\dilithium_hw\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
-		 Interface of Compile Point has changed.
+		 RTL and/or Constraints changed.
 
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 217MB)
@@ -76,7 +76,7 @@ Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_8
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 @W: FX185 |Ignoring the attribute act_wide_mul_size=1 because it is less than the size of multiplier supported by architecture(18).
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 197MB peak: 222MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 196MB peak: 222MB)
 
 Encoding state machine CS[9:0] (in view: work.Core_Poly_Z3(verilog))
 original code -> new code
@@ -140,17 +140,17 @@ original code -> new code
 Starting factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 200MB peak: 222MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 200MB peak: 222MB)
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 200MB peak: 222MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 202MB peak: 222MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 201MB peak: 222MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 202MB peak: 222MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 201MB peak: 222MB)
 
 
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 202MB peak: 222MB)
@@ -166,7 +166,7 @@ Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:0
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:12s		     2.82ns		 740 /       743
+   1		0h:00m:12s		     3.05ns		 740 /       743
 
 Added 0 Buffers
 Added 0 Cells via replication
@@ -190,18 +190,18 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:
 
 
 Finished mapping MPFS_ICICLE_KIT_BASE_DESIGN
-Multiprocessing finished at : Sun Nov 26 18:12:38 2023
-Multiprocessing took 0h:00m:18s realtime, 0h:00m:02s cputime
+Multiprocessing finished at : Sat Jan  6 16:59:56 2024
+Multiprocessing took 0h:00m:17s realtime, 0h:00m:01s cputime
 
 Summary of Compile Points :
 *************************** 
-Name                                     Status        Reason                                 Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-poly_mul                                 Unchanged     -                                      Sat Aug 12 14:41:35 2023     Sat Aug 12 14:42:03 2023     0h:00m:28s     0h:00m:28s     No            
-Core_Poly_Z3                             Unchanged     -                                      Wed Aug 23 16:43:54 2023     Wed Aug 23 16:44:35 2023     0h:00m:40s     0h:00m:40s     No            
-caxi4interconnect_SlaveConvertor_Z13     Unchanged     -                                      Tue Apr 11 09:38:57 2023     Tue Apr 11 09:39:32 2023     0h:00m:35s     0h:00m:34s     No            
-MPFS_ICICLE_KIT_BASE_DESIGN              Remapped      Interface of Compile Point changed     Sun Nov 26 18:12:22 2023     Sun Nov 26 18:12:38 2023     0h:00m:16s     0h:00m:16s     No            
-====================================================================================================================================================================================================
+Name                                     Status        Reason             Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Core_Poly_Z3                             Unchanged     -                  Sat Jan  6 16:45:29 2024     Sat Jan  6 16:46:06 2024     0h:00m:37s     0h:00m:37s     No            
+poly_mul                                 Unchanged     -                  Sat Aug 12 14:41:35 2023     Sat Aug 12 14:42:03 2023     0h:00m:28s     0h:00m:28s     No            
+caxi4interconnect_SlaveConvertor_Z13     Unchanged     -                  Tue Apr 11 09:38:57 2023     Tue Apr 11 09:39:32 2023     0h:00m:35s     0h:00m:34s     No            
+MPFS_ICICLE_KIT_BASE_DESIGN              Remapped      Design changed     Sat Jan  6 16:59:40 2024     Sat Jan  6 16:59:56 2024     0h:00m:16s     0h:00m:16s     No            
+================================================================================================================================================================================
 Total number of compile points: 4
 ===================================
 
@@ -209,16 +209,16 @@ Links to Compile point Reports:
 ******************************
 @L: "E:\MPFS_Projects\Dilithium_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr"
 @L: "E:\MPFS_Projects\Dilithium_HW\synthesis\caxi4interconnect_SlaveConvertor_Z13\caxi4interconnect_SlaveConvertor_Z13.srr"
-@L: "E:\MPFS_Projects\Dilithium_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr"
 @L: "E:\MPFS_Projects\Dilithium_HW\synthesis\poly_mul\poly_mul.srr"
+@L: "E:\MPFS_Projects\Dilithium_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr"
 
 ==============================
 
 
-Start loading CP mapped netlist (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:04s; Memory used current: 348MB peak: 364MB)
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:02s; Memory used current: 287MB peak: 288MB)
 
 
-Finished loading CP mapped netlist (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:04s; Memory used current: 355MB peak: 364MB)
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:03s; Memory used current: 290MB peak: 290MB)
 
 
 
@@ -229,8 +229,8 @@ Finished loading CP mapped netlist (Real Time elapsed 0h:00m:21s; CPU Time elaps
 
 Clock optimization not enabled
 1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
-4 gated/generated clock tree(s) driving 4174 clock pin(s) of sequential element(s)
-0 instances converted, 4174 sequential instances remain driven by gated/generated clocks
+4 gated/generated clock tree(s) driving 4172 clock pin(s) of sequential element(s)
+0 instances converted, 4172 sequential instances remain driven by gated/generated clocks
 
 ===================================================== Non-Gated/Non-Generated Clocks ======================================================
 Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sample Instance                                              
@@ -240,7 +240,7 @@ Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sa
 ========================================================================================================== Gated/Generated Clocks ==========================================================================================================
 Clock Tree ID     Driving Element                                                   Drive Element Type     Fanout     Sample Instance                                                Explanation                                            
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    4171       CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0001       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    4169       CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     No gated clock conversion method for cell cell:ACG4.SLE
 @K:CKID0002       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS
 @K:CKID0003       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS
 @K:CKID0004       CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0     PLL                    1          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                          No gated clock conversion method for cell cell:work.MSS
@@ -250,11 +250,11 @@ Clock Tree ID     Driving Element                                               
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:05s; Memory used current: 150MB peak: 364MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:04s; Memory used current: 149MB peak: 292MB)
 
 Writing Analyst data base E:\MPFS_Projects\Dilithium_HW\synthesis\synwork\MPFS_ICICLE_KIT_BASE_DESIGN_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:08s; Memory used current: 231MB peak: 364MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:07s; Memory used current: 231MB peak: 292MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -264,24 +264,24 @@ Writing Verilog Simulation files
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:12s; Memory used current: 227MB peak: 364MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:11s; Memory used current: 225MB peak: 292MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:12s; Memory used current: 227MB peak: 364MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:11s; Memory used current: 225MB peak: 292MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:13s; Memory used current: 224MB peak: 364MB)
+Start final timing analysis (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:12s; Memory used current: 223MB peak: 292MB)
 
 @W: MT246 :"e:\mpfs_projects\dilithium_hw\component\work\init_monitor\init_monitor_0\init_monitor_init_monitor_0_pfsoc_init_monitor.v":38:53:38:58|Blackbox INIT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 7.41ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 7.63ns 
 @W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_12_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0_clkint_12.
 @W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_8_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0_clkint_8.
 @W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0_clkint_4.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sun Nov 26 18:12:48 2023
+# Timing report written on Sat Jan  6 17:00:06 2024
 #
 
 
@@ -301,17 +301,17 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -3.036
+Worst slack in design: -2.854
 
                                                                        Requested     Estimated     Requested     Estimated                Clock                              Clock                
 Starting Clock                                                         Frequency     Frequency     Period        Period        Slack      Type                               Group                
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     135.0 MHz     95.8 MHz      7.407         10.444        -3.036     generated (from REF_CLK_50MHz)     FIC0_clks            
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     131.0 MHz     95.4 MHz      7.633         10.487        -2.854     generated (from REF_CLK_50MHz)     FIC0_clks            
 PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_4_inferred_clock        100.0 MHz     NA            10.000        NA            NA         inferred                           Inferred_clkgroup_0_3
 PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_8_inferred_clock        100.0 MHz     NA            10.000        NA            NA         inferred                           Inferred_clkgroup_0_2
 PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_12_inferred_clock       100.0 MHz     NA            10.000        NA            NA         inferred                           Inferred_clkgroup_0_1
 REF_CLK_50MHz                                                          50.0 MHz      NA            20.000        NA            NA         declared                           default_clkgroup     
-System                                                                 100.0 MHz     246.6 MHz     10.000        4.055         5.945      system                             system_clkgroup      
+System                                                                 100.0 MHz     261.2 MHz     10.000        3.829         6.171      system                             system_clkgroup      
 ==================================================================================================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
 
@@ -326,8 +326,8 @@ Clocks                                                                          
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                                            Ending                                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                                                              CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  7.407       5.945   |  No paths    -      |  No paths    -      |  No paths    -    
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  7.407       -3.036  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                              CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  7.634       6.171   |  No paths    -      |  No paths    -      |  No paths    -    
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  7.634       -2.854  |  No paths    -      |  No paths    -      |  No paths    -    
 ===============================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -350,21 +350,21 @@ Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pl
 Starting Points with Worst Slack
 ********************************
 
-                                                                                             Starting                                                                                                     Arrival           
-Instance                                                                                     Reference                                                              Type     Pin     Net                  Time        Slack 
-                                                                                             Clock                                                                                                                          
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_2335_fast          0.257       -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6]                                                        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS[6]                0.257       -3.030
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[4]                                                   CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS_fast[4]           0.257       -3.005
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[8]                                               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_2334_fast          0.257       -2.496
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS[7]                                                        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS[7]                0.257       -2.370
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.delay_3.gen_delay_3_.level_buf_4__0_     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ntt_l[0]             0.257       -1.967
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.delay_3.gen_delay_3_.level_buf_4__1_     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ntt_l[1]             0.257       -1.915
-FIC_0_PERIPHERALS_1.Core_Poly_0.axi_arv_arr_flag                                             CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       axi_arv_arr_flag     0.257       -1.170
-FIC_0_PERIPHERALS_1.Core_Poly_0.axi_awv_awr_flag                                             CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       axi_awv_awr_flag     0.257       -0.996
-FIC_0_PERIPHERALS_1.Core_Poly_0.pm_a1[35]                                                    CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       pm_a1[35]            0.257       -0.868
-============================================================================================================================================================================================================================
+                                                                                             Starting                                                                                                Arrival           
+Instance                                                                                     Reference                                                              Type     Pin     Net             Time        Slack 
+                                                                                             Clock                                                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6]                                                        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS[6]           0.257       -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[8]                                               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_2567_fast     0.257       -2.824
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                               CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_2568_fast     0.257       -2.809
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS_fast[4]                                                   CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS_fast[4]      0.257       -2.778
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[7]                                                        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS[7]           0.257       -2.198
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.delay_3.gen_delay_3_.level_buf_4__0_     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ntt_l[0]        0.257       -1.741
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.delay_3.gen_delay_3_.level_buf_4__1_     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       ntt_l[1]        0.257       -1.689
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[9]                                                        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       CS[9]           0.257       -0.900
+FIC_0_PERIPHERALS_1.Core_Poly_0.axi_arv_arr_flag                                             CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       N_958_1         0.257       -0.895
+FIC_0_PERIPHERALS_1.Core_Poly_0.pm_a1[35]                                                    CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       pm_a1[35]       0.257       -0.641
+=======================================================================================================================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -374,16 +374,16 @@ Ending Points with Worst Slack
 Instance                                                                          Reference                                                              Type        Pin         Net            Time         Slack 
                                                                                   Clock                                                                                                                            
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[0]     un2_d_0[0]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[0]     un2_d_0[0]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_1.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[0]     un2_d_0[0]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[1]     un2_d_0[1]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[1]     un2_d_0[1]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_1.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[1]     un2_d_0[1]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[2]     un2_d_0[2]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[2]     un2_d_0[2]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_1.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[2]     un2_d_0[2]     5.743        -3.036
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[3]     un2_d_0[3]     5.743        -3.036
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[0]     un2_d_0[0]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[0]     un2_d_0[0]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_1.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[0]     un2_d_0[0]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[1]     un2_d_0[1]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_1.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[1]     un2_d_0[1]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[1]     un2_d_0[1]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[2]     un2_d_0[2]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_1.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[2]     un2_d_0[2]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[2]     un2_d_0[2]     5.969        -2.854
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_0.albh_mult_muladd_0[22:0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     MACC_PA     CDIN[3]     un2_d_0[3]     5.969        -2.854
 ===================================================================================================================================================================================================================
 
 
@@ -393,212 +393,212 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      7.407
+      Requested Period:                      7.633
     - Setup time:                            1.664
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         5.743
+    = Required time:                         5.969
 
-    - Propagation time:                      8.779
+    - Propagation time:                      8.823
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -3.036
+    = Slack (critical) :                     -2.854
 
     Number of logic level(s):                5
-    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] / Q
     Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0] / CDIN[43]
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
 
 Instance / Net                                                                                Pin           Pin               Arrival     No. of    
 Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
-N_2335_fast                                                                       Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
-N_2277_i                                                                          Net         -             -       1.995     -           968       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        C             In      -         2.490 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.175     2.664 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6]                                             SLE         Q             Out     0.257     0.257 r     -         
+CS[6]                                                                             Net         -             -       0.751     -           9         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        A             In      -         1.009 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        Y             Out     0.060     1.068 r     -         
+N_202_i                                                                           Net         -             -       1.536     -           320       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        B             In      -         2.605 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.103     2.708 f     -         
 sr0_dina_sn_N_4_mux_i_0_rep2                                                      Net         -             -       1.400     -           181       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[0]           CFG4        D             In      -         4.064 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[0]           CFG4        Y             Out     0.274     4.337 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[0]           CFG4        D             In      -         4.108 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[0]           CFG4        Y             Out     0.274     4.381 r     -         
 mr2_dinb_2[0]                                                                     Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[0]             CFG4        B             In      -         4.477 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[0]             CFG4        Y             Out     0.098     4.575 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[0]             CFG4        B             In      -         4.520 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[0]             CFG4        Y             Out     0.098     4.618 r     -         
 mr2_dinb[0]                                                                       Net         -             -       0.736     -           2         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[0]          In      -         5.311 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.057 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[0]          In      -         5.355 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.101 r     -         
 un2_d_0[43]                                                                       Net         -             -       0.722     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.779 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.823 r     -         
 ====================================================================================================================================================
-Total path delay (propagation time + setup) of 10.444 is 5.312(50.9%) logic and 5.132(49.1%) route.
+Total path delay (propagation time + setup) of 10.487 is 5.203(49.6%) logic and 5.285(50.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 2: 
-      Requested Period:                      7.407
+      Requested Period:                      7.633
     - Setup time:                            1.664
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         5.743
+    = Required time:                         5.969
 
-    - Propagation time:                      8.779
+    - Propagation time:                      8.823
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -3.036
+    = Slack (critical) :                     -2.854
 
     Number of logic level(s):                5
-    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] / Q
     Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0] / CDIN[43]
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
 
 Instance / Net                                                                                Pin           Pin               Arrival     No. of    
 Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
-N_2335_fast                                                                       Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
-N_2277_i                                                                          Net         -             -       1.995     -           968       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        C             In      -         2.490 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.175     2.664 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6]                                             SLE         Q             Out     0.257     0.257 r     -         
+CS[6]                                                                             Net         -             -       0.751     -           9         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        A             In      -         1.009 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        Y             Out     0.060     1.068 r     -         
+N_202_i                                                                           Net         -             -       1.536     -           320       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        B             In      -         2.605 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.103     2.708 f     -         
 sr0_dina_sn_N_4_mux_i_0_rep2                                                      Net         -             -       1.400     -           181       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[9]           CFG4        D             In      -         4.064 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[9]           CFG4        Y             Out     0.274     4.337 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[9]           CFG4        D             In      -         4.108 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[9]           CFG4        Y             Out     0.274     4.381 r     -         
 mr2_dinb_2[9]                                                                     Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[9]             CFG4        B             In      -         4.477 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[9]             CFG4        Y             Out     0.098     4.575 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[9]             CFG4        B             In      -         4.520 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[9]             CFG4        Y             Out     0.098     4.618 r     -         
 mr2_dinb[9]                                                                       Net         -             -       0.736     -           2         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[9]          In      -         5.311 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.057 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[9]          In      -         5.355 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.101 r     -         
 un2_d_0[43]                                                                       Net         -             -       0.722     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.779 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.823 r     -         
 ====================================================================================================================================================
-Total path delay (propagation time + setup) of 10.444 is 5.312(50.9%) logic and 5.132(49.1%) route.
+Total path delay (propagation time + setup) of 10.487 is 5.203(49.6%) logic and 5.285(50.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 3: 
-      Requested Period:                      7.407
+      Requested Period:                      7.633
     - Setup time:                            1.664
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         5.743
+    = Required time:                         5.969
 
-    - Propagation time:                      8.779
+    - Propagation time:                      8.823
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -3.036
+    = Slack (critical) :                     -2.854
 
     Number of logic level(s):                5
-    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] / Q
     Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0] / CDIN[43]
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
 
 Instance / Net                                                                                Pin           Pin               Arrival     No. of    
 Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
-N_2335_fast                                                                       Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
-N_2277_i                                                                          Net         -             -       1.995     -           968       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        C             In      -         2.490 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.175     2.664 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6]                                             SLE         Q             Out     0.257     0.257 r     -         
+CS[6]                                                                             Net         -             -       0.751     -           9         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        A             In      -         1.009 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        Y             Out     0.060     1.068 r     -         
+N_202_i                                                                           Net         -             -       1.536     -           320       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        B             In      -         2.605 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.103     2.708 f     -         
 sr0_dina_sn_N_4_mux_i_0_rep2                                                      Net         -             -       1.400     -           181       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[8]           CFG4        D             In      -         4.064 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[8]           CFG4        Y             Out     0.274     4.337 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[8]           CFG4        D             In      -         4.108 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[8]           CFG4        Y             Out     0.274     4.381 r     -         
 mr2_dinb_2[8]                                                                     Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[8]             CFG4        B             In      -         4.477 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[8]             CFG4        Y             Out     0.098     4.575 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[8]             CFG4        B             In      -         4.520 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[8]             CFG4        Y             Out     0.098     4.618 r     -         
 mr2_dinb[8]                                                                       Net         -             -       0.736     -           2         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[8]          In      -         5.311 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.057 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[8]          In      -         5.355 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.101 r     -         
 un2_d_0[43]                                                                       Net         -             -       0.722     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.779 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.823 r     -         
 ====================================================================================================================================================
-Total path delay (propagation time + setup) of 10.444 is 5.312(50.9%) logic and 5.132(49.1%) route.
+Total path delay (propagation time + setup) of 10.487 is 5.203(49.6%) logic and 5.285(50.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 4: 
-      Requested Period:                      7.407
+      Requested Period:                      7.633
     - Setup time:                            1.664
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         5.743
+    = Required time:                         5.969
 
-    - Propagation time:                      8.779
+    - Propagation time:                      8.823
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -3.036
+    = Slack (critical) :                     -2.854
 
     Number of logic level(s):                5
-    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] / Q
     Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0] / CDIN[43]
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
 
 Instance / Net                                                                                Pin           Pin               Arrival     No. of    
 Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
-N_2335_fast                                                                       Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
-N_2277_i                                                                          Net         -             -       1.995     -           968       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        C             In      -         2.490 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.175     2.664 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6]                                             SLE         Q             Out     0.257     0.257 r     -         
+CS[6]                                                                             Net         -             -       0.751     -           9         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        A             In      -         1.009 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        Y             Out     0.060     1.068 r     -         
+N_202_i                                                                           Net         -             -       1.536     -           320       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        B             In      -         2.605 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.103     2.708 f     -         
 sr0_dina_sn_N_4_mux_i_0_rep2                                                      Net         -             -       1.400     -           181       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[10]          CFG4        D             In      -         4.064 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[10]          CFG4        Y             Out     0.274     4.337 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[10]          CFG4        D             In      -         4.108 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0_2[10]          CFG4        Y             Out     0.274     4.381 r     -         
 mr2_dinb_2[10]                                                                    Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[10]            CFG4        B             In      -         4.477 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[10]            CFG4        Y             Out     0.098     4.575 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[10]            CFG4        B             In      -         4.520 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_0[10]            CFG4        Y             Out     0.098     4.618 r     -         
 mr2_dinb[10]                                                                      Net         -             -       0.736     -           2         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[10]         In      -         5.311 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.057 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[10]         In      -         5.355 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.101 r     -         
 un2_d_0[43]                                                                       Net         -             -       0.722     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.779 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.823 r     -         
 ====================================================================================================================================================
-Total path delay (propagation time + setup) of 10.444 is 5.312(50.9%) logic and 5.132(49.1%) route.
+Total path delay (propagation time + setup) of 10.487 is 5.203(49.6%) logic and 5.285(50.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 5: 
-      Requested Period:                      7.407
+      Requested Period:                      7.633
     - Setup time:                            1.664
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         5.743
+    = Required time:                         5.969
 
-    - Propagation time:                      8.779
+    - Propagation time:                      8.823
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -3.036
+    = Slack (critical) :                     -2.854
 
     Number of logic level(s):                5
-    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5] / Q
+    Starting point:                          FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6] / Q
     Ending point:                            FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0] / CDIN[43]
-    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
 
 Instance / Net                                                                                Pin           Pin               Arrival     No. of    
 Name                                                                              Type        Name          Dir     Delay     Time        Fan Out(s)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_0_PERIPHERALS_1.Core_Poly_0.CS_rep_fast[5]                                    SLE         Q             Out     0.257     0.257 r     -         
-N_2335_fast                                                                       Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        B             In      -         0.397 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_2277_i                      CFG2        Y             Out     0.098     0.495 r     -         
-N_2277_i                                                                          Net         -             -       1.995     -           968       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        C             In      -         2.490 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.175     2.664 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.CS[6]                                             SLE         Q             Out     0.257     0.257 r     -         
+CS[6]                                                                             Net         -             -       0.751     -           9         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        A             In      -         1.009 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.N_202_i                       CFG2        Y             Out     0.060     1.068 r     -         
+N_202_i                                                                           Net         -             -       1.536     -           320       
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        B             In      -         2.605 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.sub_rd_3.ar0_dinb_ss0_0_rep2           CFG3        Y             Out     0.103     2.708 f     -         
 sr0_dina_sn_N_4_mux_i_0_rep2                                                      Net         -             -       1.400     -           181       
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_2[11]            CFG4        D             In      -         4.064 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_2[11]            CFG4        Y             Out     0.274     4.337 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_2[11]            CFG4        D             In      -         4.108 f     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m_2[11]            CFG4        Y             Out     0.274     4.381 r     -         
 mr2_dinb_2[11]                                                                    Net         -             -       0.139     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m[11]              CFG4        B             In      -         4.477 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m[11]              CFG4        Y             Out     0.098     4.575 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m[11]              CFG4        B             In      -         4.520 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_m[11]              CFG4        Y             Out     0.098     4.618 r     -         
 mr2_dinb[11]                                                                      Net         -             -       0.736     -           2         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[11]         In      -         5.311 r     -         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.057 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     B[11]         In      -         5.355 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.ahbl_mult_muladd_0[22:0]     MACC_PA     CDOUT[43]     Out     2.746     8.101 r     -         
 un2_d_0[43]                                                                       Net         -             -       0.722     -           1         
-FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.779 r     -         
+FIC_0_PERIPHERALS_1.Core_Poly_0.poly_mul_0.mult_rd_2.albh_mult_muladd_0[22:0]     MACC_PA     CDIN[43]      In      -         8.823 r     -         
 ====================================================================================================================================================
-Total path delay (propagation time + setup) of 10.444 is 5.312(50.9%) logic and 5.132(49.1%) route.
+Total path delay (propagation time + setup) of 10.487 is 5.203(49.6%) logic and 5.285(50.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -617,7 +617,7 @@ Starting Points with Worst Slack
 Instance                                                          Reference     Type     Pin               Net                                 Time        Slack
                                                                   Clock                                                                                         
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT     System        INIT     UIC_INIT_DONE     INIT_MONITOR_0_DEVICE_INIT_DONE     0.000       5.945
+CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT     System        INIT     UIC_INIT_DONE     INIT_MONITOR_0_DEVICE_INIT_DONE     0.000       6.171
 ================================================================================================================================================================
 
 
@@ -628,16 +628,16 @@ Ending Points with Worst Slack
 Instance                                                       Reference     Type     Pin     Net                    Time         Slack
                                                                Clock                                                                   
 ---------------------------------------------------------------------------------------------------------------------------------------
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_0     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_1     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_3     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_4     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_5     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_6     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_7     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_8     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
-CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_9     System        SLE      ALn     un1_INTERNAL_RST_i     7.384        5.945
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_0     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_1     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_2     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_3     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_4     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_5     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_6     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_7     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_8     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
+CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_9     System        SLE      ALn     un1_INTERNAL_RST_i     7.610        6.171
 =======================================================================================================================================
 
 
@@ -647,21 +647,21 @@ Worst Path Information
 
 
 Path information for path number 1: 
-      Requested Period:                      7.407
+      Requested Period:                      7.633
     - Setup time:                            0.023
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         7.384
+    = Required time:                         7.610
 
     - Propagation time:                      1.439
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 5.945
+    = Slack (non-critical) :                 6.171
 
     Number of logic level(s):                1
     Starting point:                          CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT / UIC_INIT_DONE
     Ending point:                            CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_0 / ALn
     The start point is clocked by            System [rising]
-    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.704 period=7.407) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.817 period=7.633) on pin CLK
 
 Instance / Net                                                             Pin               Pin               Arrival     No. of    
 Name                                                              Type     Name              Dir     Delay     Time        Fan Out(s)
@@ -682,10 +682,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:14s; Memory used current: 229MB peak: 364MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:13s; Memory used current: 227MB peak: 292MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:14s; Memory used current: 229MB peak: 364MB)
+Finished timing report (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:13s; Memory used current: 227MB peak: 292MB)
 
 ---------------------------------------
 Resource Usage Report for MPFS_ICICLE_KIT_BASE_DESIGN 
@@ -700,21 +700,21 @@ INV             4 uses
 MSS             1 use
 OR2             3 uses
 PLL             1 use
-CFG1           132 uses
-CFG2           938 uses
-CFG3           3571 uses
-CFG4           4896 uses
+CFG1           130 uses
+CFG2           940 uses
+CFG3           3630 uses
+CFG4           4968 uses
 
 Carry cells:
-ARI1            2367 uses - used for arithmetic functions
-ARI1            1498 uses - used for Wide-Mux implementation
-Total ARI1      3865 uses
+ARI1            2355 uses - used for arithmetic functions
+ARI1            1556 uses - used for Wide-Mux implementation
+Total ARI1      3911 uses
 
 
 Sequential Cells: 
-SLE            4011 uses
+SLE            4009 uses
 SLE_INIT       4 uses - used for Seqshift to URAM mapping
-Total SLE          4015 uses
+Total SLE          4013 uses
 
 DSP Blocks:   16 of 784 (2%)
  MACC_PA:         8 Mults
@@ -737,7 +737,7 @@ Block RAMs (RAM64x12) : 103
 Block RAMs (RAM64x12) : 4 - RAMs inferred for SeqShift
 Total Block RAMs (RAM64x12) : 107 of 2352 (4%)
 
-Total LUTs:    13402
+Total LUTs:    13579
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
@@ -746,14 +746,14 @@ RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA     Interface Logic : SLEs = 576; LUTs = 576;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  4015 + 1284 + 0 + 576 = 5875;
-Total number of LUTs after P&R:  13402 + 1284 + 0 + 576 = 15262;
+Total number of SLEs after P&R:  4013 + 1284 + 0 + 576 = 5873;
+Total number of LUTs after P&R:  13579 + 1284 + 0 + 576 = 15439;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:14s; Memory used current: 81MB peak: 364MB)
+At Mapper Exit (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:13s; Memory used current: 77MB peak: 292MB)
 
-Process took 0h:00m:31s realtime, 0h:00m:14s cputime
-# Sun Nov 26 18:12:49 2023
+Process took 0h:00m:30s realtime, 0h:00m:13s cputime
+# Sat Jan  6 17:00:07 2024
 
 ###########################################################]

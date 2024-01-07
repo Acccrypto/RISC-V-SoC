@@ -5,7 +5,7 @@
 </title>
 <text>SmartTime Version 2022.2.0.10</text>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Sun Nov 26 17:44:16 2023
+<text>Date: Sat Jan  6 16:23:29 2024
 </text>
 <table>
 <header>
@@ -66,7 +66,7 @@
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0</cell>
  <cell>6.061</cell>
  <cell>164.989</cell>
- <cell>0.221</cell>
+ <cell>0.028</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
@@ -125,62 +125,62 @@
 </header>
 <row>
  <cell>Path 1</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a1[8]:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12[6]:D</cell>
- <cell>5.592</cell>
- <cell>0.221</cell>
- <cell>12.326</cell>
- <cell>12.547</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/CS_rep_7_rep1:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[4]:D</cell>
+ <cell>5.788</cell>
+ <cell>0.028</cell>
+ <cell>12.525</cell>
+ <cell>12.553</cell>
  <cell>0.000</cell>
- <cell>5.705</cell>
+ <cell>5.898</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
  <cell>Path 2</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a1[8]:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12[2]:D</cell>
- <cell>5.554</cell>
- <cell>0.259</cell>
- <cell>12.288</cell>
- <cell>12.547</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/CS_rep_fast[7]:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[4]:D</cell>
+ <cell>5.754</cell>
+ <cell>0.113</cell>
+ <cell>12.483</cell>
+ <cell>12.596</cell>
  <cell>0.000</cell>
- <cell>5.667</cell>
+ <cell>5.813</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
  <cell>Path 3</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_b0[8]:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12[6]:D</cell>
- <cell>5.537</cell>
- <cell>0.276</cell>
- <cell>12.271</cell>
- <cell>12.547</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/CS[4]:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[4]:D</cell>
+ <cell>5.733</cell>
+ <cell>0.134</cell>
+ <cell>12.462</cell>
+ <cell>12.596</cell>
  <cell>0.000</cell>
- <cell>5.650</cell>
+ <cell>5.792</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
  <cell>Path 4</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_3/gen_delay_3_.level_buf_4__0_:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12[6]:D</cell>
- <cell>5.528</cell>
- <cell>0.287</cell>
- <cell>12.260</cell>
- <cell>12.547</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/CS[5]:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[4]:D</cell>
+ <cell>5.722</cell>
+ <cell>0.145</cell>
+ <cell>12.451</cell>
+ <cell>12.596</cell>
  <cell>0.000</cell>
- <cell>5.639</cell>
+ <cell>5.781</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
  <cell>Path 5</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_3/gen_delay_3_.level_buf_4__1__fast:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[0]:D</cell>
- <cell>5.520</cell>
- <cell>0.295</cell>
- <cell>12.254</cell>
- <cell>12.549</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/CS_rep_7_rep1:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t22[7]:D</cell>
+ <cell>5.629</cell>
+ <cell>0.187</cell>
+ <cell>12.366</cell>
+ <cell>12.553</cell>
  <cell>0.000</cell>
- <cell>5.631</cell>
+ <cell>5.739</cell>
  <cell>slow_lv_ht</cell>
 </row>
 </table>
@@ -199,7 +199,7 @@
  <cell>Edge</cell>
 </header>
 <row>
- <cell>From: FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a1[8]:CLK</cell>
+ <cell>From: FIC_0_PERIPHERALS_1/Core_Poly_0/CS_rep_7_rep1:CLK</cell>
  <cell></cell>
  <cell></cell>
  <cell></cell>
@@ -210,7 +210,7 @@
  <cell></cell>
 </row>
 <row>
- <cell>To: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12[6]:D</cell>
+ <cell>To: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[4]:D</cell>
  <cell></cell>
  <cell></cell>
  <cell></cell>
@@ -227,7 +227,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>12.547</cell>
+ <cell>12.553</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -238,7 +238,7 @@
  <cell></cell>
  <cell>-</cell>
  <cell></cell>
- <cell>12.326</cell>
+ <cell>12.525</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -249,7 +249,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>0.221</cell>
+ <cell>0.028</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -362,303 +362,325 @@
  <cell>+</cell>
  <cell>0.056</cell>
  <cell>6.167</cell>
- <cell>1191</cell>
+ <cell>1304</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a1[8]:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/CS_rep_7_rep1:CLK</cell>
  <cell>net</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.567</cell>
- <cell>6.734</cell>
+ <cell>0.570</cell>
+ <cell>6.737</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a1[8]:Q</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/CS_rep_7_rep1:Q</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:SLE</cell>
  <cell>+</cell>
  <cell>0.206</cell>
- <cell>6.940</cell>
- <cell>2</cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/bf3_a[8]:B</cell>
- <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a1_Z[8]</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.582</cell>
- <cell>7.522</cell>
- <cell></cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/bf3_a[8]:Y</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:CFG4</cell>
- <cell>+</cell>
- <cell>0.235</cell>
- <cell>7.757</cell>
- <cell>6</cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/ar3_dina_1[8]:C</cell>
- <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/bf3_a_Z[8]</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.663</cell>
- <cell>8.420</cell>
- <cell></cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/ar3_dina_1[8]:Y</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:CFG3</cell>
- <cell>+</cell>
- <cell>0.053</cell>
- <cell>8.473</cell>
- <cell>1</cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/ar3_dina_2[8]:C</cell>
- <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/N_1542</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.291</cell>
- <cell>8.764</cell>
- <cell></cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/ar3_dina_2[8]:Y</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:CFG3</cell>
- <cell>+</cell>
- <cell>0.053</cell>
- <cell>8.817</cell>
- <cell>1</cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum0_cry_8_0:B</cell>
- <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/N_1555</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.483</cell>
- <cell>9.300</cell>
- <cell></cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum0_cry_8_0:P</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:ARI1_CC</cell>
- <cell>+</cell>
- <cell>0.261</cell>
- <cell>9.561</cell>
- <cell>1</cell>
- <cell>f</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum0_cry_0_0_CC_1:P[5]</cell>
- <cell>net</cell>
- <cell>NET_CC_CONFIG3947</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.016</cell>
- <cell>9.577</cell>
- <cell></cell>
- <cell>f</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum0_cry_0_0_CC_1:CC[6]</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:CC_CONFIG</cell>
- <cell>+</cell>
- <cell>0.235</cell>
- <cell>9.812</cell>
- <cell>1</cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum0_cry_9_0:CC</cell>
- <cell>net</cell>
- <cell>NET_CC_CONFIG3954</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.000</cell>
- <cell>9.812</cell>
- <cell></cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum0_cry_9_0:S</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:ARI1_CC</cell>
- <cell>+</cell>
- <cell>0.063</cell>
- <cell>9.875</cell>
+ <cell>6.943</cell>
  <cell>3</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum1_cry_9:B</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a0_10_sn.pm_sel_iv[0]:B</cell>
  <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/sum0_0[9]</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/N_1560_rep1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.434</cell>
- <cell>10.309</cell>
+ <cell>0.381</cell>
+ <cell>7.324</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum1_cry_9:P</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:ARI1_CC</cell>
- <cell>+</cell>
- <cell>0.095</cell>
- <cell>10.404</cell>
- <cell>1</cell>
- <cell>f</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum1_cry_0_CC_1:P[6]</cell>
- <cell>net</cell>
- <cell>NET_CC_CONFIG426</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.015</cell>
- <cell>10.419</cell>
- <cell></cell>
- <cell>f</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum1_cry_0_CC_1:CC[9]</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:CC_CONFIG</cell>
- <cell>+</cell>
- <cell>0.312</cell>
- <cell>10.731</cell>
- <cell>1</cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum1_s_12:CC</cell>
- <cell>net</cell>
- <cell>NET_CC_CONFIG441</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.000</cell>
- <cell>10.731</cell>
- <cell></cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum1_s_12:S</cell>
- <cell>cell</cell>
- <cell></cell>
- <cell>ADLIB:ARI1_CC</cell>
- <cell>+</cell>
- <cell>0.063</cell>
- <cell>10.794</cell>
- <cell>35</cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum1_cry_6_RNISCF41:C</cell>
- <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/sum1_1[12]</cell>
- <cell></cell>
- <cell>+</cell>
- <cell>0.279</cell>
- <cell>11.073</cell>
- <cell></cell>
- <cell>r</cell>
-</row>
-<row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/sum1_cry_6_RNISCF41:Y</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_a0_10_sn.pm_sel_iv[0]:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:CFG3</cell>
  <cell>+</cell>
  <cell>0.053</cell>
- <cell>11.126</cell>
- <cell>3</cell>
+ <cell>7.377</cell>
+ <cell>236</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12_RNO_0[6]:A</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/mr0_dinas2_fast:B</cell>
  <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/ar3_dout[6]</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/pm_sel[0]</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.944</cell>
- <cell>12.070</cell>
+ <cell>0.438</cell>
+ <cell>7.815</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12_RNO_0[6]:Y</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/mr0_dinas2_fast:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:CFG2</cell>
  <cell>+</cell>
  <cell>0.053</cell>
- <cell>12.123</cell>
+ <cell>7.868</cell>
+ <cell>36</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum0_m_i_1[5]:D</cell>
+ <cell>net</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/ar0_dinb_sm0_fast</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.556</cell>
+ <cell>8.424</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum0_m_i_1[5]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.077</cell>
+ <cell>8.501</cell>
  <cell>1</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12_RNO[6]:B</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_4_cry_5:B</cell>
  <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/N_819_2</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum0_m_i_1_Z[5]</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.126</cell>
- <cell>12.249</cell>
+ <cell>0.632</cell>
+ <cell>9.133</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12_RNO[6]:Y</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_4_cry_5:P</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ARI1_CC</cell>
+ <cell>+</cell>
+ <cell>0.090</cell>
+ <cell>9.223</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_4_cry_0_CC_0:P[5]</cell>
+ <cell>net</cell>
+ <cell>NET_CC_CONFIG3622</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.015</cell>
+ <cell>9.238</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_4_cry_0_CC_0:CC[11]</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CC_CONFIG</cell>
+ <cell>+</cell>
+ <cell>0.348</cell>
+ <cell>9.586</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_4_cry_11:CC</cell>
+ <cell>net</cell>
+ <cell>NET_CC_CONFIG3649</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>9.586</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_4_cry_11:S</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ARI1_CC</cell>
+ <cell>+</cell>
+ <cell>0.063</cell>
+ <cell>9.649</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_cry_11:A</cell>
+ <cell>net</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_4[11]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.619</cell>
+ <cell>10.268</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_cry_11:P</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ARI1_CC</cell>
+ <cell>+</cell>
+ <cell>0.053</cell>
+ <cell>10.321</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_cry_0_CC_0:P[11]</cell>
+ <cell>net</cell>
+ <cell>NET_CC_CONFIG2604</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.013</cell>
+ <cell>10.334</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_cry_0_CC_0:CO</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CC_CONFIG</cell>
+ <cell>+</cell>
+ <cell>0.163</cell>
+ <cell>10.497</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_cry_0_CC_1:CI</cell>
+ <cell>net</cell>
+ <cell>CI_TO_CO2559</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.008</cell>
+ <cell>10.505</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_cry_0_CC_1:CC[0]</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CC_CONFIG</cell>
+ <cell>+</cell>
+ <cell>0.056</cell>
+ <cell>10.561</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_s_12:CC</cell>
+ <cell>net</cell>
+ <cell>NET_CC_CONFIG2611</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>10.561</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_2/sum1_s_12:S</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ARI1_CC</cell>
+ <cell>+</cell>
+ <cell>0.063</cell>
+ <cell>10.624</cell>
+ <cell>49</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.t22_8_0[4]:C</cell>
+ <cell>net</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/sum1[12]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.722</cell>
+ <cell>11.346</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.t22_8_0[4]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG3</cell>
+ <cell>+</cell>
+ <cell>0.053</cell>
+ <cell>11.399</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.t4_12_5_1[4]:B</cell>
+ <cell>net</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/ar2_dout[4]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.551</cell>
+ <cell>11.950</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.t4_12_5_1[4]:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:CFG4</cell>
  <cell>+</cell>
  <cell>0.053</cell>
- <cell>12.302</cell>
+ <cell>12.003</cell>
  <cell>1</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12[6]:D</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.t4_12[4]:D</cell>
  <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12_8[6]</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/N_1285_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.408</cell>
+ <cell>12.411</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/tf1_ROM_0/Q_2_23_0_.t4_12[4]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.090</cell>
+ <cell>12.501</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[4]:D</cell>
+ <cell>net</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4_12[4]</cell>
  <cell></cell>
  <cell>+</cell>
  <cell>0.024</cell>
- <cell>12.326</cell>
+ <cell>12.525</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -669,7 +691,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>12.326</cell>
+ <cell>12.525</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -764,35 +786,35 @@
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3:A</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB2:A</cell>
  <cell>net</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.396</cell>
- <cell>11.578</cell>
+ <cell>0.395</cell>
+ <cell>11.577</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3:Y</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB2:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:RGB</cell>
  <cell>+</cell>
  <cell>0.050</cell>
- <cell>11.628</cell>
- <cell>216</cell>
+ <cell>11.627</cell>
+ <cell>655</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12[6]:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[4]:CLK</cell>
  <cell>net</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3_rgb_net_1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB2_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.500</cell>
- <cell>12.128</cell>
+ <cell>0.507</cell>
+ <cell>12.134</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -803,7 +825,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.554</cell>
- <cell>12.682</cell>
+ <cell>12.688</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -814,18 +836,18 @@
  <cell></cell>
  <cell>-</cell>
  <cell>0.135</cell>
- <cell>12.547</cell>
+ <cell>12.553</cell>
  <cell></cell>
  <cell></cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t12[6]:D</cell>
+ <cell>FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/t4[4]:D</cell>
  <cell>Library setup time</cell>
  <cell></cell>
  <cell>ADLIB:SLE</cell>
  <cell>-</cell>
  <cell>0.000</cell>
- <cell>12.547</cell>
+ <cell>12.553</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -836,7 +858,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>12.547</cell>
+ <cell>12.553</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -875,66 +897,66 @@
 <row>
  <cell>Path 1</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/sDat[21]:ALn</cell>
- <cell>3.706</cell>
- <cell>1.882</cell>
- <cell>10.429</cell>
- <cell>12.311</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/widthConvwr/MASTER_WDATA_reg[35]:ALn</cell>
+ <cell>3.624</cell>
+ <cell>1.970</cell>
+ <cell>10.352</cell>
+ <cell>12.322</cell>
  <cell>0.214</cell>
- <cell>4.044</cell>
- <cell>0.124</cell>
+ <cell>3.956</cell>
+ <cell>0.118</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
  <cell>Path 2</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/holdDat[14]:ALn</cell>
- <cell>3.706</cell>
- <cell>1.882</cell>
- <cell>10.429</cell>
- <cell>12.311</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/widthConvwr/MASTER_WDATA_reg[32]:ALn</cell>
+ <cell>3.624</cell>
+ <cell>1.970</cell>
+ <cell>10.352</cell>
+ <cell>12.322</cell>
  <cell>0.214</cell>
- <cell>4.044</cell>
- <cell>0.124</cell>
+ <cell>3.956</cell>
+ <cell>0.118</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
  <cell>Path 3</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk1.awrs/sDat[69]:ALn</cell>
- <cell>3.707</cell>
- <cell>1.882</cell>
- <cell>10.430</cell>
- <cell>12.312</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/widthConvwr/MASTER_WDATA_reg[1]:ALn</cell>
+ <cell>3.624</cell>
+ <cell>1.970</cell>
+ <cell>10.352</cell>
+ <cell>12.322</cell>
  <cell>0.214</cell>
- <cell>4.044</cell>
- <cell>0.123</cell>
+ <cell>3.956</cell>
+ <cell>0.118</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
  <cell>Path 4</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk1.awrs/holdDat[72]:ALn</cell>
- <cell>3.707</cell>
- <cell>1.882</cell>
- <cell>10.430</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk1.awrs/sDat[42]:ALn</cell>
+ <cell>3.613</cell>
+ <cell>1.971</cell>
+ <cell>10.341</cell>
  <cell>12.312</cell>
  <cell>0.214</cell>
- <cell>4.044</cell>
- <cell>0.123</cell>
+ <cell>3.955</cell>
+ <cell>0.128</cell>
  <cell>slow_lv_ht</cell>
 </row>
 <row>
  <cell>Path 5</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:CLK</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk1.awrs/holdDat[69]:ALn</cell>
- <cell>3.707</cell>
- <cell>1.882</cell>
- <cell>10.430</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk1.awrs/holdDat[37]:ALn</cell>
+ <cell>3.613</cell>
+ <cell>1.971</cell>
+ <cell>10.341</cell>
  <cell>12.312</cell>
  <cell>0.214</cell>
- <cell>4.044</cell>
- <cell>0.123</cell>
+ <cell>3.955</cell>
+ <cell>0.128</cell>
  <cell>slow_lv_ht</cell>
 </row>
 </table>
@@ -964,7 +986,7 @@
  <cell></cell>
 </row>
 <row>
- <cell>To: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/sDat[21]:ALn</cell>
+ <cell>To: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/widthConvwr/MASTER_WDATA_reg[35]:ALn</cell>
  <cell></cell>
  <cell></cell>
  <cell></cell>
@@ -981,7 +1003,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>12.311</cell>
+ <cell>12.322</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -992,7 +1014,7 @@
  <cell></cell>
  <cell>-</cell>
  <cell></cell>
- <cell>10.429</cell>
+ <cell>10.352</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -1003,7 +1025,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>1.882</cell>
+ <cell>1.970</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -1116,7 +1138,7 @@
  <cell>+</cell>
  <cell>0.056</cell>
  <cell>6.163</cell>
- <cell>216</cell>
+ <cell>6</cell>
  <cell>f</cell>
 </row>
 <row>
@@ -1125,8 +1147,8 @@
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB3_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.560</cell>
- <cell>6.723</cell>
+ <cell>0.565</cell>
+ <cell>6.728</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -1137,7 +1159,7 @@
  <cell>ADLIB:SLE</cell>
  <cell>+</cell>
  <cell>0.206</cell>
- <cell>6.929</cell>
+ <cell>6.934</cell>
  <cell>5</cell>
  <cell>r</cell>
 </row>
@@ -1147,8 +1169,8 @@
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/sysReset</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>2.312</cell>
- <cell>9.241</cell>
+ <cell>2.218</cell>
+ <cell>9.152</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -1159,40 +1181,40 @@
  <cell>ADLIB:GB</cell>
  <cell>+</cell>
  <cell>0.125</cell>
- <cell>9.366</cell>
+ <cell>9.277</cell>
  <cell>4</cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB1:A</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB0:A</cell>
  <cell>net</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_Y</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.445</cell>
- <cell>9.811</cell>
+ <cell>0.446</cell>
+ <cell>9.723</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB1:Y</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB0:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:RGB</cell>
  <cell>+</cell>
  <cell>0.056</cell>
- <cell>9.867</cell>
- <cell>731</cell>
+ <cell>9.779</cell>
+ <cell>988</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/sDat[21]:ALn</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/widthConvwr/MASTER_WDATA_reg[35]:ALn</cell>
  <cell>net</cell>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB1_rgb_net_1</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0_RGB1_RGB0_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.562</cell>
- <cell>10.429</cell>
+ <cell>0.573</cell>
+ <cell>10.352</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -1203,7 +1225,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>10.429</cell>
+ <cell>10.352</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -1298,35 +1320,35 @@
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1:A</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:A</cell>
  <cell>net</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.400</cell>
- <cell>11.582</cell>
+ <cell>0.401</cell>
+ <cell>11.583</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
 <row>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1:Y</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0:Y</cell>
  <cell>cell</cell>
  <cell></cell>
  <cell>ADLIB:RGB</cell>
  <cell>+</cell>
  <cell>0.050</cell>
- <cell>11.632</cell>
- <cell>1191</cell>
+ <cell>11.633</cell>
+ <cell>1195</cell>
  <cell>f</cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/sDat[21]:CLK</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/widthConvwr/MASTER_WDATA_reg[35]:CLK</cell>
  <cell>net</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB1_rgb_net_1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_RGB1_RGB0_rgb_net_1</cell>
  <cell></cell>
  <cell>+</cell>
- <cell>0.474</cell>
- <cell>12.106</cell>
+ <cell>0.484</cell>
+ <cell>12.117</cell>
  <cell></cell>
  <cell>r</cell>
 </row>
@@ -1337,7 +1359,7 @@
  <cell></cell>
  <cell>+</cell>
  <cell>0.554</cell>
- <cell>12.660</cell>
+ <cell>12.671</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -1348,18 +1370,18 @@
  <cell></cell>
  <cell>-</cell>
  <cell>0.135</cell>
- <cell>12.525</cell>
+ <cell>12.536</cell>
  <cell></cell>
  <cell></cell>
 </row>
 <row>
- <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/sDat[21]:ALn</cell>
+ <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/writeWidthConv/widthConvwr/MASTER_WDATA_reg[35]:ALn</cell>
  <cell>Library recovery time</cell>
  <cell></cell>
  <cell>ADLIB:SLE</cell>
  <cell>-</cell>
  <cell>0.214</cell>
- <cell>12.311</cell>
+ <cell>12.322</cell>
  <cell></cell>
  <cell></cell>
 </row>
@@ -1370,7 +1392,7 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>12.311</cell>
+ <cell>12.322</cell>
  <cell></cell>
  <cell></cell>
 </row>

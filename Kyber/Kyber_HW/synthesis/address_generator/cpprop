@@ -1,0 +1,9 @@
+n work address_generator verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 5.26562;
+av .compile_point_starttime_stamp "Wed Dec  6 11:25:01 2023";
+av .compile_point_endtime_stamp "Wed Dec  6 11:25:06 2023";
+av .compile_point_realtime_used 4.995;

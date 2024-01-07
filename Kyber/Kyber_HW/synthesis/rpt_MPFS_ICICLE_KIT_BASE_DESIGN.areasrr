@@ -24,19 +24,19 @@ Part:			MPFS250TFCG1152STD (Microchip)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      3285               100 %                
+SLE      3266               100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN:	3285 (27.72 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN:	3266 (26.94 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           6464               100 %                
-ARI1          1670               100 %                
+CFG           6705               100 %                
+ARI1          1718               100 %                
 BLACK BOX     12                 100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block MPFS_ICICLE_KIT_BASE_DESIGN:	8146 (68.74 % Utilization)
+Total COMBINATIONAL LOGIC in the block MPFS_ICICLE_KIT_BASE_DESIGN:	8435 (69.58 % Utilization)
 
 
 DSP
@@ -52,7 +52,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     45                 100 %                
 =====================================================
-Total MEMORY ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN:	45 (0.38 % Utilization)
+Total MEMORY ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN:	45 (0.37 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -68,7 +68,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       148                100 %                
 =================================================
-Total IO PADS in the block MPFS_ICICLE_KIT_BASE_DESIGN:	148 (1.25 % Utilization)
+Total IO PADS in the block MPFS_ICICLE_KIT_BASE_DESIGN:	148 (1.22 % Utilization)
 
 -----------------------------------------------------------------------
 ########   Utilization report for  cell:   CLOCKS_AND_RESETS   ########
@@ -78,15 +78,15 @@ Instance path:   MPFS_ICICLE_KIT_BASE_DESIGN.CLOCKS_AND_RESETS
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN.CLOCKS_AND_RESETS:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN.CLOCKS_AND_RESETS:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1                  0.01550 %            
+CFG           1                  0.01490 %            
 BLACK BOX     3                  25 %                 
 ======================================================
 Total COMBINATIONAL LOGIC in the block MPFS_ICICLE_KIT_BASE_DESIGN.CLOCKS_AND_RESETS:	4 (0.03 % Utilization)
@@ -107,15 +107,15 @@ Instance path:   CLOCKS_AND_RESETS.CORERESET
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CLOCKS_AND_RESETS.CORERESET:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CLOCKS_AND_RESETS.CORERESET:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.01550 %            
+CFG      1                  0.01490 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block CLOCKS_AND_RESETS.CORERESET:	1 (0.01 % Utilization)
 
@@ -127,15 +127,15 @@ Instance path:   CORERESET.CORERESET_CORERESET_0_CORERESET_PF
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CORERESET.CORERESET_CORERESET_0_CORERESET_PF:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CORERESET.CORERESET_CORERESET_0_CORERESET_PF:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.01550 %            
+CFG      1                  0.01490 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block CORERESET.CORERESET_CORERESET_0_CORERESET_PF:	1 (0.01 % Utilization)
 
@@ -211,18 +211,18 @@ Instance path:   MPFS_ICICLE_KIT_BASE_DESIGN.FIC_0_PERIPHERALS
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      3269               99.5 %               
+SLE      3250               99.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN.FIC_0_PERIPHERALS:	3269 (27.59 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN.FIC_0_PERIPHERALS:	3250 (26.81 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      6458               99.9 %               
-ARI1     1670               100 %                
+CFG      6699               99.9 %               
+ARI1     1718               100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block MPFS_ICICLE_KIT_BASE_DESIGN.FIC_0_PERIPHERALS:	8128 (68.59 % Utilization)
+Total COMBINATIONAL LOGIC in the block MPFS_ICICLE_KIT_BASE_DESIGN.FIC_0_PERIPHERALS:	8417 (69.44 % Utilization)
 
 
 DSP
@@ -238,7 +238,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     45                 100 %                
 =====================================================
-Total MEMORY ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN.FIC_0_PERIPHERALS:	45 (0.38 % Utilization)
+Total MEMORY ELEMENTS in the block MPFS_ICICLE_KIT_BASE_DESIGN.FIC_0_PERIPHERALS:	45 (0.37 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -256,18 +256,18 @@ Instance path:   FIC_0_PERIPHERALS.Core_Poly_Z3
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1296               39.5 %               
+SLE      1277               39.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block FIC_0_PERIPHERALS.Core_Poly_Z3:	1296 (10.94 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block FIC_0_PERIPHERALS.Core_Poly_Z3:	1277 (10.53 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      4074               63 %                 
-ARI1     1339               80.2 %               
+CFG      4315               64.4 %               
+ARI1     1387               80.7 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block FIC_0_PERIPHERALS.Core_Poly_Z3:	5413 (45.68 % Utilization)
+Total COMBINATIONAL LOGIC in the block FIC_0_PERIPHERALS.Core_Poly_Z3:	5702 (47.04 % Utilization)
 
 
 DSP
@@ -283,76 +283,98 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     38                 84.4 %               
 =====================================================
-Total MEMORY ELEMENTS in the block FIC_0_PERIPHERALS.Core_Poly_Z3:	38 (0.32 % Utilization)
+Total MEMORY ELEMENTS in the block FIC_0_PERIPHERALS.Core_Poly_Z3:	38 (0.31 % Utilization)
 
------------------------------------------------------------------------
-########   Utilization report for  cell:   address_generator   ########
-Instance path:   Core_Poly_Z3.address_generator                        
-=======================================================================
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   address_generator_shuffling   ########
+Instance path:   Core_Poly_Z3.address_generator_shuffling                        
+=================================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      89                 2.71 %               
+SLE      77                 2.36 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.address_generator:	89 (0.75 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.address_generator_shuffling:	77 (0.64 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      831                12.9 %               
-ARI1     41                 2.46 %               
+CFG      345                5.15 %               
+ARI1     62                 3.61 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.address_generator:	872 (7.36 % Utilization)
-
------------------------------------------------------------------
-########   Utilization report for  cell:   delay_2s_3s   ########
-Instance path:   address_generator.delay_2s_3s                   
-=================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      6                  0.1830 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block address_generator.delay_2s_3s:	6 (0.05 % Utilization)
-
------------------------------------------------------------------
-########   Utilization report for  cell:   delay_2s_4s   ########
-Instance path:   address_generator.delay_2s_4s                   
-=================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      11                 0.3350 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block address_generator.delay_2s_4s:	11 (0.09 % Utilization)
-
------------------------------------------------------------------
-########   Utilization report for  cell:   delay_2s_7s   ########
-Instance path:   address_generator.delay_2s_7s                   
-=================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      14                 0.4260 %             
-=================================================
-Total SEQUENTIAL ELEMENTS in the block address_generator.delay_2s_7s:	14 (0.12 % Utilization)
+Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.address_generator_shuffling:	407 (3.36 % Utilization)
 
 -------------------------------------------------------------------
-########   Utilization report for  cell:   delay_8s_3s_0   ########
-Instance path:   address_generator.delay_8s_3s_0                   
+########   Utilization report for  cell:   delay_2s_3s_0   ########
+Instance path:   address_generator_shuffling.delay_2s_3s_0         
 ===================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      21                 0.6390 %             
+SLE      6                  0.1840 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block address_generator.delay_8s_3s_0:	21 (0.18 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block address_generator_shuffling.delay_2s_3s_0:	6 (0.05 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_2s_4s   ########
+Instance path:   address_generator_shuffling.delay_2s_4s         
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      4                  0.1220 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block address_generator_shuffling.delay_2s_4s:	4 (0.03 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   delay_2s_7s   ########
+Instance path:   address_generator_shuffling.delay_2s_7s         
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 0.4290 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block address_generator_shuffling.delay_2s_7s:	14 (0.12 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   delay_8s_3s_0   ########
+Instance path:   address_generator_shuffling.delay_8s_3s_0         
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      21                 0.6430 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block address_generator_shuffling.delay_8s_3s_0:	21 (0.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.01490 %            
+ARI1     1                  0.05820 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block address_generator_shuffling.delay_8s_3s_0:	2 (0.02 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   shuffle_rom   ########
+Instance path:   address_generator_shuffling.shuffle_rom         
+=================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      149                2.22 %               
+ARI1     40                 2.33 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block address_generator_shuffling.shuffle_rom:	189 (1.56 % Utilization)
 
 ------------------------------------------------------------------------------
 ########   Utilization report for  cell:   conflict_free_memory_map   ########
@@ -362,15 +384,15 @@ Instance path:   Core_Poly_Z3.conflict_free_memory_map
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      28                 0.8520 %             
+SLE      28                 0.8570 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.conflict_free_memory_map:	28 (0.24 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.conflict_free_memory_map:	28 (0.23 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      8                  0.1240 %             
+CFG      8                  0.1190 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.conflict_free_memory_map:	8 (0.07 % Utilization)
 
@@ -382,18 +404,18 @@ Instance path:   Core_Poly_Z3.poly_mul_12s_767s_2385s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      482                14.7 %               
+SLE      475                14.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.poly_mul_12s_767s_2385s:	482 (4.07 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.poly_mul_12s_767s_2385s:	475 (3.92 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2014               31.2 %               
-ARI1     562                33.7 %               
+CFG      2650               39.5 %               
+ARI1     581                33.8 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.poly_mul_12s_767s_2385s:	2576 (21.74 % Utilization)
+Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.poly_mul_12s_767s_2385s:	3231 (26.65 % Utilization)
 
 
 DSP
@@ -411,10 +433,10 @@ Instance path:   poly_mul_12s_767s_2385s.add_rd_12s
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      46                 0.7120 %             
-ARI1     25                 1.5 %                
+CFG      80                 1.19 %               
+ARI1     25                 1.46 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.add_rd_12s:	71 (0.60 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.add_rd_12s:	105 (0.87 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   add_rd_12s_0   ########
@@ -424,10 +446,10 @@ Instance path:   poly_mul_12s_767s_2385s.add_rd_12s_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      36                 0.5570 %             
-ARI1     25                 1.5 %                
+CFG      38                 0.5670 %             
+ARI1     37                 2.15 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.add_rd_12s_0:	61 (0.51 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.add_rd_12s_0:	75 (0.62 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   add_rd_12s_1   ########
@@ -437,10 +459,10 @@ Instance path:   poly_mul_12s_767s_2385s.add_rd_12s_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      39                 0.6030 %             
-ARI1     25                 1.5 %                
+CFG      61                 0.910 %              
+ARI1     37                 2.15 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.add_rd_12s_1:	64 (0.54 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.add_rd_12s_1:	98 (0.81 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   add_rd_12s_2   ########
@@ -450,22 +472,22 @@ Instance path:   poly_mul_12s_767s_2385s.add_rd_12s_2
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      302                4.67 %               
-ARI1     35                 2.1 %                
+CFG      32                 0.4770 %             
+ARI1     37                 2.15 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.add_rd_12s_2:	337 (2.84 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.add_rd_12s_2:	69 (0.57 % Utilization)
 
 -------------------------------------------------------------------
-########   Utilization report for  cell:   delay_2s_3s_0   ########
-Instance path:   poly_mul_12s_767s_2385s.delay_2s_3s_0             
+########   Utilization report for  cell:   delay_2s_3s_1   ########
+Instance path:   poly_mul_12s_767s_2385s.delay_2s_3s_1             
 ===================================================================
 
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      6                  0.1830 %             
+SLE      3                  0.09190 %            
 =================================================
-Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.delay_2s_3s_0:	6 (0.05 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.delay_2s_3s_1:	3 (0.02 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   delay_2s_4s_0   ########
@@ -475,9 +497,9 @@ Instance path:   poly_mul_12s_767s_2385s.delay_2s_4s_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      8                  0.2440 %             
+SLE      4                  0.1220 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.delay_2s_4s_0:	8 (0.07 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.delay_2s_4s_0:	4 (0.03 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   mult_half_12s   ########
@@ -487,7 +509,7 @@ Instance path:   poly_mul_12s_767s_2385s.mult_half_12s
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-ARI1     11                 0.6590 %             
+ARI1     11                 0.640 %              
 =================================================
 Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_half_12s:	11 (0.09 % Utilization)
 
@@ -499,7 +521,7 @@ Instance path:   poly_mul_12s_767s_2385s.mult_half_12s_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-ARI1     11                 0.6590 %             
+ARI1     11                 0.640 %              
 =================================================
 Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_half_12s_0:	11 (0.09 % Utilization)
 
@@ -511,7 +533,7 @@ Instance path:   poly_mul_12s_767s_2385s.mult_half_12s_3
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-ARI1     11                 0.6590 %             
+ARI1     11                 0.640 %              
 =================================================
 Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_half_12s_3:	11 (0.09 % Utilization)
 
@@ -523,7 +545,7 @@ Instance path:   poly_mul_12s_767s_2385s.mult_half_12s_4
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-ARI1     11                 0.6590 %             
+ARI1     11                 0.640 %              
 =================================================
 Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_half_12s_4:	11 (0.09 % Utilization)
 
@@ -535,7 +557,7 @@ Instance path:   poly_mul_12s_767s_2385s.mult_rd_12s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.7310 %             
+SLE      24                 0.7350 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.mult_rd_12s:	24 (0.20 % Utilization)
 
@@ -543,10 +565,10 @@ Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.mult_rd_12s:	24 (
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      11                 0.170 %              
-ARI1     62                 3.71 %               
+CFG      18                 0.2680 %             
+ARI1     62                 3.61 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_rd_12s:	73 (0.62 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_rd_12s:	80 (0.66 % Utilization)
 
 
 DSP
@@ -564,7 +586,7 @@ Instance path:   poly_mul_12s_767s_2385s.mult_rd_12s_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.7310 %             
+SLE      24                 0.7350 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.mult_rd_12s_0:	24 (0.20 % Utilization)
 
@@ -572,10 +594,10 @@ Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.mult_rd_12s_0:	24
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      11                 0.170 %              
-ARI1     62                 3.71 %               
+CFG      23                 0.3430 %             
+ARI1     62                 3.61 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_rd_12s_0:	73 (0.62 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_rd_12s_0:	85 (0.70 % Utilization)
 
 
 DSP
@@ -593,7 +615,7 @@ Instance path:   poly_mul_12s_767s_2385s.mult_rd_12s_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.7310 %             
+SLE      24                 0.7350 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.mult_rd_12s_1:	24 (0.20 % Utilization)
 
@@ -601,10 +623,10 @@ Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.mult_rd_12s_1:	24
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      11                 0.170 %              
-ARI1     62                 3.71 %               
+CFG      17                 0.2540 %             
+ARI1     62                 3.61 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_rd_12s_1:	73 (0.62 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_rd_12s_1:	79 (0.65 % Utilization)
 
 
 DSP
@@ -622,7 +644,7 @@ Instance path:   poly_mul_12s_767s_2385s.mult_rd_12s_2
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.7310 %             
+SLE      24                 0.7350 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.mult_rd_12s_2:	24 (0.20 % Utilization)
 
@@ -630,10 +652,10 @@ Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.mult_rd_12s_2:	24
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      11                 0.170 %              
-ARI1     62                 3.71 %               
+CFG      10                 0.1490 %             
+ARI1     64                 3.73 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_rd_12s_2:	73 (0.62 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.mult_rd_12s_2:	74 (0.61 % Utilization)
 
 
 DSP
@@ -651,10 +673,10 @@ Instance path:   poly_mul_12s_767s_2385s.sub_rd_12s
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      11                 0.170 %              
-ARI1     26                 1.56 %               
+CFG      14                 0.2090 %             
+ARI1     24                 1.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.sub_rd_12s:	37 (0.31 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.sub_rd_12s:	38 (0.31 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   sub_rd_12s_0   ########
@@ -664,10 +686,10 @@ Instance path:   poly_mul_12s_767s_2385s.sub_rd_12s_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      33                 0.5110 %             
-ARI1     24                 1.44 %               
+CFG      12                 0.1790 %             
+ARI1     24                 1.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.sub_rd_12s_0:	57 (0.48 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.sub_rd_12s_0:	36 (0.30 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   sub_rd_12s_1   ########
@@ -677,10 +699,10 @@ Instance path:   poly_mul_12s_767s_2385s.sub_rd_12s_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      21                 0.3250 %             
-ARI1     24                 1.44 %               
+CFG      30                 0.4470 %             
+ARI1     24                 1.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.sub_rd_12s_1:	45 (0.38 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.sub_rd_12s_1:	54 (0.45 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   sub_rd_12s_2   ########
@@ -690,7 +712,7 @@ Instance path:   poly_mul_12s_767s_2385s.sub_rd_12s_2
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-ARI1     24                 1.44 %               
+ARI1     24                 1.4 %                
 =================================================
 Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.sub_rd_12s_2:	24 (0.20 % Utilization)
 
@@ -702,7 +724,7 @@ Instance path:   poly_mul_12s_767s_2385s.tf0_ROM
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      12                 0.3650 %             
+SLE      12                 0.3670 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.tf0_ROM:	12 (0.10 % Utilization)
 
@@ -710,10 +732,10 @@ Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.tf0_ROM:	12 (0.10
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      83                 1.28 %               
-ARI1     10                 0.5990 %             
+CFG      81                 1.21 %               
+ARI1     12                 0.6980 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.tf0_ROM:	93 (0.78 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.tf0_ROM:	93 (0.77 % Utilization)
 
 -------------------------------------------------------------
 ########   Utilization report for  cell:   tf1_ROM   ########
@@ -723,7 +745,7 @@ Instance path:   poly_mul_12s_767s_2385s.tf1_ROM
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.7310 %             
+SLE      24                 0.7350 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.tf1_ROM:	24 (0.20 % Utilization)
 
@@ -731,10 +753,10 @@ Total SEQUENTIAL ELEMENTS in the block poly_mul_12s_767s_2385s.tf1_ROM:	24 (0.20
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      107                1.66 %               
-ARI1     20                 1.2 %                
+CFG      1114               16.6 %               
+ARI1     14                 0.8150 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.tf1_ROM:	127 (1.07 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_mul_12s_767s_2385s.tf1_ROM:	1128 (9.31 % Utilization)
 
 ----------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   poly_ram_5s_32s_24s_Core_Poly_Z3_1   ########
@@ -744,18 +766,18 @@ Instance path:   Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      101                3.07 %               
+SLE      101                3.09 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1:	101 (0.85 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1:	101 (0.83 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      397                6.14 %               
-ARI1     232                13.9 %               
+CFG      397                5.92 %               
+ARI1     232                13.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1:	629 (5.31 % Utilization)
+Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1:	629 (5.19 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -773,9 +795,9 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1.arbiter
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      20                 0.3090 %             
+CFG      20                 0.2980 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.arbiter:	20 (0.17 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.arbiter:	20 (0.16 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   delay_3s_Z2   ########
@@ -785,9 +807,9 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1.delay_3s_Z2
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      60                 1.83 %               
+SLE      60                 1.84 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.delay_3s_Z2:	60 (0.51 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.delay_3s_Z2:	60 (0.49 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   delay_7s_Z1   ########
@@ -797,15 +819,15 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1.delay_7s_Z1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      3                  0.09130 %            
+SLE      3                  0.09190 %            
 =================================================
-Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.delay_7s_Z1:	3 (0.03 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.delay_7s_Z1:	3 (0.02 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.07740 %            
+CFG      5                  0.07460 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.delay_7s_Z1:	5 (0.04 % Utilization)
 
@@ -825,10 +847,10 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bank_in_5s_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 0.6190 %             
-ARI1     40                 2.4 %                
+CFG      40                 0.5970 %             
+ARI1     40                 2.33 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bank_in_5s_1:	80 (0.68 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bank_in_5s_1:	80 (0.66 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   network_bf_in_24s_1   ########
@@ -838,7 +860,7 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_in_24s_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      8                  0.2440 %             
+SLE      8                  0.2450 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_in_24s_1:	8 (0.07 % Utilization)
 
@@ -846,9 +868,9 @@ Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.networ
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      309                4.78 %               
+CFG      309                4.61 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_in_24s_1:	309 (2.61 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_in_24s_1:	309 (2.55 % Utilization)
 
 --------------------------------------------------------------------------
 ########   Utilization report for  cell:   network_bf_out_24s_1   ########
@@ -858,18 +880,18 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_out_24s_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      27                 0.8220 %             
+SLE      27                 0.8270 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_out_24s_1:	27 (0.23 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_out_24s_1:	27 (0.22 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      21                 0.3250 %             
-ARI1     192                11.5 %               
+CFG      21                 0.3130 %             
+ARI1     192                11.2 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_out_24s_1:	213 (1.80 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1.network_bf_out_24s_1:	213 (1.76 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -887,7 +909,7 @@ Instance path:   network_bf_out_24s_1.delay_8s_3s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.7310 %             
+SLE      24                 0.7350 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block network_bf_out_24s_1.delay_8s_3s:	24 (0.20 % Utilization)
 
@@ -899,15 +921,15 @@ Instance path:   network_bf_out_24s_1.delay_8s_7s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      3                  0.09130 %            
+SLE      3                  0.09190 %            
 =================================================
-Total SEQUENTIAL ELEMENTS in the block network_bf_out_24s_1.delay_8s_7s:	3 (0.03 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block network_bf_out_24s_1.delay_8s_7s:	3 (0.02 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.07740 %            
+CFG      5                  0.07460 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block network_bf_out_24s_1.delay_8s_7s:	5 (0.04 % Utilization)
 
@@ -975,18 +997,18 @@ Instance path:   Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      90                 2.74 %               
+SLE      90                 2.76 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1_0:	90 (0.76 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1_0:	90 (0.74 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      359                5.55 %               
-ARI1     232                13.9 %               
+CFG      359                5.35 %               
+ARI1     232                13.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1_0:	591 (4.99 % Utilization)
+Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.poly_ram_5s_32s_24s_Core_Poly_Z3_1_0:	591 (4.88 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1004,9 +1026,9 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.delay_3s_Z2_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      60                 1.83 %               
+SLE      60                 1.84 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.delay_3s_Z2_0:	60 (0.51 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.delay_3s_Z2_0:	60 (0.49 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   delay_7s_Z1_0   ########
@@ -1016,15 +1038,15 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.delay_7s_Z1_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      3                  0.09130 %            
+SLE      3                  0.09190 %            
 =================================================
-Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.delay_7s_Z1_0:	3 (0.03 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.delay_7s_Z1_0:	3 (0.02 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.07740 %            
+CFG      5                  0.07460 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.delay_7s_Z1_0:	5 (0.04 % Utilization)
 
@@ -1044,10 +1066,10 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bank_in_5s_1_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 0.6190 %             
-ARI1     40                 2.4 %                
+CFG      40                 0.5970 %             
+ARI1     40                 2.33 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bank_in_5s_1_0:	80 (0.68 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bank_in_5s_1_0:	80 (0.66 % Utilization)
 
 ---------------------------------------------------------------------------
 ########   Utilization report for  cell:   network_bf_in_24s_1_0   ########
@@ -1057,9 +1079,9 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bf_in_24s_1_0
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      293                4.53 %               
+CFG      293                4.37 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bf_in_24s_1_0:	293 (2.47 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bf_in_24s_1_0:	293 (2.42 % Utilization)
 
 ----------------------------------------------------------------------------
 ########   Utilization report for  cell:   network_bf_out_24s_1_0   ########
@@ -1069,18 +1091,18 @@ Instance path:   poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bf_out_24s_1_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      27                 0.8220 %             
+SLE      27                 0.8270 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bf_out_24s_1_0:	27 (0.23 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bf_out_24s_1_0:	27 (0.22 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      21                 0.3250 %             
-ARI1     192                11.5 %               
+CFG      21                 0.3130 %             
+ARI1     192                11.2 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bf_out_24s_1_0:	213 (1.80 % Utilization)
+Total COMBINATIONAL LOGIC in the block poly_ram_5s_32s_24s_Core_Poly_Z3_1_0.network_bf_out_24s_1_0:	213 (1.76 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1098,7 +1120,7 @@ Instance path:   network_bf_out_24s_1_0.delay_8s_3s_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      24                 0.7310 %             
+SLE      24                 0.7350 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block network_bf_out_24s_1_0.delay_8s_3s_1:	24 (0.20 % Utilization)
 
@@ -1110,15 +1132,15 @@ Instance path:   network_bf_out_24s_1_0.delay_8s_7s_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      3                  0.09130 %            
+SLE      3                  0.09190 %            
 =================================================
-Total SEQUENTIAL ELEMENTS in the block network_bf_out_24s_1_0.delay_8s_7s_0:	3 (0.03 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block network_bf_out_24s_1_0.delay_8s_7s_0:	3 (0.02 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.07740 %            
+CFG      5                  0.07460 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block network_bf_out_24s_1_0.delay_8s_7s_0:	5 (0.04 % Utilization)
 
@@ -1186,10 +1208,10 @@ Instance path:   Core_Poly_Z3.polyvec_ram_8s_256s_12s
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      16                 0.2480 %             
-ARI1     96                 5.75 %               
+CFG      16                 0.2390 %             
+ARI1     96                 5.59 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.polyvec_ram_8s_256s_12s:	112 (0.95 % Utilization)
+Total COMBINATIONAL LOGIC in the block Core_Poly_Z3.polyvec_ram_8s_256s_12s:	112 (0.92 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1197,7 +1219,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     16                 35.6 %               
 =====================================================
-Total MEMORY ELEMENTS in the block Core_Poly_Z3.polyvec_ram_8s_256s_12s:	16 (0.14 % Utilization)
+Total MEMORY ELEMENTS in the block Core_Poly_Z3.polyvec_ram_8s_256s_12s:	16 (0.13 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   FIC0_INITIATOR   ########
@@ -1207,18 +1229,18 @@ Instance path:   FIC_0_PERIPHERALS.FIC0_INITIATOR
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1973               60.1 %               
+SLE      1973               60.4 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block FIC_0_PERIPHERALS.FIC0_INITIATOR:	1973 (16.65 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block FIC_0_PERIPHERALS.FIC0_INITIATOR:	1973 (16.28 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2384               36.9 %               
-ARI1     331                19.8 %               
+CFG      2384               35.6 %               
+ARI1     331                19.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block FIC_0_PERIPHERALS.FIC0_INITIATOR:	2715 (22.91 % Utilization)
+Total COMBINATIONAL LOGIC in the block FIC_0_PERIPHERALS.FIC0_INITIATOR:	2715 (22.40 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1244,18 +1266,18 @@ Instance path:   FIC0_INITIATOR.COREAXI4INTERCONNECT_Z5
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1973               60.1 %               
+SLE      1973               60.4 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block FIC0_INITIATOR.COREAXI4INTERCONNECT_Z5:	1973 (16.65 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block FIC0_INITIATOR.COREAXI4INTERCONNECT_Z5:	1973 (16.28 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2384               36.9 %               
-ARI1     331                19.8 %               
+CFG      2384               35.6 %               
+ARI1     331                19.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block FIC0_INITIATOR.COREAXI4INTERCONNECT_Z5:	2715 (22.91 % Utilization)
+Total COMBINATIONAL LOGIC in the block FIC0_INITIATOR.COREAXI4INTERCONNECT_Z5:	2715 (22.40 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1281,17 +1303,17 @@ Instance path:   COREAXI4INTERCONNECT_Z5.caxi4interconnect_MasterConvertor_Z8
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      512                15.6 %               
+SLE      512                15.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_MasterConvertor_Z8:	512 (4.32 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_MasterConvertor_Z8:	512 (4.22 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      271                4.19 %               
+CFG      271                4.04 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_MasterConvertor_Z8:	271 (2.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_MasterConvertor_Z8:	271 (2.24 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s   ########
@@ -1301,17 +1323,17 @@ Instance path:   caxi4interconnect_MasterConvertor_Z8.caxi4interconnect_Register
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      512                15.6 %               
+SLE      512                15.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_MasterConvertor_Z8.caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s:	512 (4.32 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_MasterConvertor_Z8.caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s:	512 (4.22 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      271                4.19 %               
+CFG      271                4.04 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_MasterConvertor_Z8.caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s:	271 (2.29 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_MasterConvertor_Z8.caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s:	271 (2.24 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_11s_0_1_3_2   ########                      
@@ -1321,7 +1343,7 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      18                 0.5480 %             
+SLE      18                 0.5510 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_11s_0_1_3_2:	18 (0.15 % Utilization)
 
@@ -1329,7 +1351,7 @@ Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      12                 0.1860 %             
+CFG      12                 0.1790 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_11s_0_1_3_2:	12 (0.10 % Utilization)
 
@@ -1341,17 +1363,17 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      148                4.51 %               
+SLE      148                4.53 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_76s_0_1_3_2:	148 (1.25 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_76s_0_1_3_2:	148 (1.22 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      77                 1.19 %               
+CFG      77                 1.15 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_76s_0_1_3_2:	77 (0.65 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_76s_0_1_3_2:	77 (0.64 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_77s_0_1_3_0   ########                      
@@ -1361,17 +1383,17 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      120                3.65 %               
+SLE      120                3.67 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_77s_0_1_3_0:	120 (1.01 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_77s_0_1_3_0:	120 (0.99 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      63                 0.9750 %             
+CFG      63                 0.940 %              
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_77s_0_1_3_0:	63 (0.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_77s_0_1_3_0:	63 (0.52 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_77s_0_1_3_2   ########                      
@@ -1381,17 +1403,17 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      120                3.65 %               
+SLE      120                3.67 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_77s_0_1_3_2:	120 (1.01 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_77s_0_1_3_2:	120 (0.99 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      63                 0.9750 %             
+CFG      63                 0.940 %              
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_77s_0_1_3_2:	63 (0.53 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_77s_0_1_3_2:	63 (0.52 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_82s_0_1_3_2   ########                      
@@ -1401,17 +1423,17 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      106                3.23 %               
+SLE      106                3.25 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_82s_0_1_3_2:	106 (0.89 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_82s_0_1_3_2:	106 (0.87 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      56                 0.8660 %             
+CFG      56                 0.8350 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_82s_0_1_3_2:	56 (0.47 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s.caxi4interconnect_RegSliceFull_82s_0_1_3_2:	56 (0.46 % Utilization)
 
 ----------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_ResetSycnc   ########
@@ -1421,7 +1443,7 @@ Instance path:   COREAXI4INTERCONNECT_Z5.caxi4interconnect_ResetSycnc
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      2                  0.06090 %            
+SLE      2                  0.06120 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_ResetSycnc:	2 (0.02 % Utilization)
 
@@ -1441,18 +1463,18 @@ Instance path:   COREAXI4INTERCONNECT_Z5.caxi4interconnect_SlaveConvertor_Z13
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1459               44.4 %               
+SLE      1459               44.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_SlaveConvertor_Z13:	1459 (12.31 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_SlaveConvertor_Z13:	1459 (12.04 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2113               32.7 %               
-ARI1     331                19.8 %               
+CFG      2113               31.5 %               
+ARI1     331                19.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_SlaveConvertor_Z13:	2444 (20.62 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREAXI4INTERCONNECT_Z5.caxi4interconnect_SlaveConvertor_Z13:	2444 (20.16 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1472,15 +1494,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      498                15.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0:	498 (4.20 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0:	498 (4.11 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      281                4.35 %               
+CFG      281                4.19 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0:	281 (2.37 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0:	281 (2.32 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_12s_0_1_3_0   ########                      
@@ -1490,7 +1512,7 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      18                 0.5480 %             
+SLE      18                 0.5510 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_12s_0_1_3_0:	18 (0.15 % Utilization)
 
@@ -1498,7 +1520,7 @@ Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      11                 0.170 %              
+CFG      11                 0.1640 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_12s_0_1_3_0:	11 (0.09 % Utilization)
 
@@ -1510,17 +1532,17 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      148                4.51 %               
+SLE      148                4.53 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_77s_0_1_3_1:	148 (1.25 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_77s_0_1_3_1:	148 (1.22 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      77                 1.19 %               
+CFG      77                 1.15 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_77s_0_1_3_1:	77 (0.65 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_77s_0_1_3_1:	77 (0.64 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_78s_0_1_3_0   ########                      
@@ -1530,17 +1552,17 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      114                3.47 %               
+SLE      114                3.49 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_78s_0_1_3_0:	114 (0.96 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_78s_0_1_3_0:	114 (0.94 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      65                 1.01 %               
+CFG      65                 0.9690 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_78s_0_1_3_0:	65 (0.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_78s_0_1_3_0:	65 (0.54 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_78s_0_1_3_2   ########                      
@@ -1550,17 +1572,17 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      112                3.41 %               
+SLE      112                3.43 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_78s_0_1_3_2:	112 (0.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_78s_0_1_3_2:	112 (0.92 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      69                 1.07 %               
+CFG      69                 1.03 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_78s_0_1_3_2:	69 (0.58 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_78s_0_1_3_2:	69 (0.57 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_83s_0_1_3_0   ########                      
@@ -1570,17 +1592,17 @@ Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      106                3.23 %               
+SLE      106                3.25 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_83s_0_1_3_0:	106 (0.89 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_83s_0_1_3_0:	106 (0.87 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      59                 0.9130 %             
+CFG      59                 0.880 %              
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_83s_0_1_3_0:	59 (0.50 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_9s_38s_64s_0s_1s_0.caxi4interconnect_RegSliceFull_83s_0_1_3_0:	59 (0.49 % Utilization)
 
 ------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_SlvDataWidthConverter_Z9   ########
@@ -1590,18 +1612,18 @@ Instance path:   caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_SlvDataW
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      961                29.3 %               
+SLE      961                29.4 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_SlvDataWidthConverter_Z9:	961 (8.11 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_SlvDataWidthConverter_Z9:	961 (7.93 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1832               28.3 %               
-ARI1     331                19.8 %               
+CFG      1832               27.3 %               
+ARI1     331                19.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_SlvDataWidthConverter_Z9:	2163 (18.25 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlaveConvertor_Z13.caxi4interconnect_SlvDataWidthConverter_Z9:	2163 (17.84 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1619,18 +1641,18 @@ Instance path:   caxi4interconnect_SlvDataWidthConverter_Z9.caxi4interconnect_Do
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      961                29.3 %               
+SLE      961                29.4 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvDataWidthConverter_Z9.caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0:	961 (8.11 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvDataWidthConverter_Z9.caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0:	961 (7.93 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1832               28.3 %               
-ARI1     331                19.8 %               
+CFG      1832               27.3 %               
+ARI1     331                19.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvDataWidthConverter_Z9.caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0:	2163 (18.25 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvDataWidthConverter_Z9.caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0:	2163 (17.84 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1648,18 +1670,18 @@ Instance path:   caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.c
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      489                14.9 %               
+SLE      489                15 %                 
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s:	489 (4.13 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s:	489 (4.03 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      966                14.9 %               
-ARI1     162                9.7 %                
+CFG      966                14.4 %               
+ARI1     162                9.43 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s:	1128 (9.52 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s:	1128 (9.31 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1667,7 +1689,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     3                  6.67 %               
 =====================================================
-Total MEMORY ELEMENTS in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s:	3 (0.03 % Utilization)
+Total MEMORY ELEMENTS in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s:	3 (0.02 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1   ########                                       
@@ -1677,18 +1699,18 @@ Instance path:   caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      143                4.35 %               
+SLE      143                4.38 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1:	143 (1.21 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1:	143 (1.18 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      352                5.45 %               
-ARI1     94                 5.63 %               
+CFG      352                5.25 %               
+ARI1     94                 5.47 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1:	446 (3.76 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1:	446 (3.68 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s   ########                                       
@@ -1698,18 +1720,18 @@ Instance path:   caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      65                 1.98 %               
+SLE      65                 1.99 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s:	65 (0.55 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s:	65 (0.54 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      45                 0.6960 %             
-ARI1     6                  0.3590 %             
+CFG      45                 0.6710 %             
+ARI1     6                  0.3490 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s:	51 (0.43 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s:	51 (0.42 % Utilization)
 
 ----------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_Hold_Reg_Ctrl_1   ########             
@@ -1719,7 +1741,7 @@ Instance path:   caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1                  0.03040 %            
+SLE      1                  0.03060 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s.caxi4interconnect_Hold_Reg_Ctrl_1:	1 (0.01 % Utilization)
 
@@ -1727,7 +1749,7 @@ Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_Hold_Reg_R
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.03090 %            
+CFG      2                  0.02980 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s.caxi4interconnect_Hold_Reg_Ctrl_1:	2 (0.02 % Utilization)
 
@@ -1739,18 +1761,18 @@ Instance path:   caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      113                3.44 %               
+SLE      113                3.46 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s:	113 (0.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s:	113 (0.93 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      154                2.38 %               
-ARI1     33                 1.98 %               
+CFG      154                2.3 %                
+ARI1     33                 1.92 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s:	187 (1.58 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s:	187 (1.54 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_Hold_Reg_Ctrl_2   ########                                            
@@ -1760,7 +1782,7 @@ Instance path:   caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1                  0.03040 %            
+SLE      1                  0.03060 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s.caxi4interconnect_Hold_Reg_Ctrl_2:	1 (0.01 % Utilization)
 
@@ -1768,7 +1790,7 @@ Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_preCalcCmd
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.03090 %            
+CFG      2                  0.02980 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s.caxi4interconnect_Hold_Reg_Ctrl_2:	2 (0.02 % Utilization)
 
@@ -1780,18 +1802,18 @@ Instance path:   caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      152                4.63 %               
+SLE      152                4.65 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s:	152 (1.28 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s:	152 (1.25 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      375                5.8 %                
-ARI1     29                 1.74 %               
+CFG      375                5.59 %               
+ARI1     29                 1.69 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s:	404 (3.41 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s:	404 (3.33 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1   ########                                       
@@ -1801,17 +1823,17 @@ Instance path:   caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 0.6190 %             
+CFG      40                 0.5970 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1:	40 (0.34 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1:	40 (0.33 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1819,7 +1841,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     3                  6.67 %               
 =====================================================
-Total MEMORY ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1:	3 (0.03 % Utilization)
+Total MEMORY ELEMENTS in the block caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1:	3 (0.02 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_1   ########                         
@@ -1829,17 +1851,17 @@ Instance path:   caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1.c
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_1:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_1:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 0.6190 %             
+CFG      40                 0.5970 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_1:	40 (0.34 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_1:	40 (0.33 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s_1   ########                         
@@ -1851,7 +1873,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     3                  6.67 %               
 =====================================================
-Total MEMORY ELEMENTS in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1.caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s_1:	3 (0.03 % Utilization)
+Total MEMORY ELEMENTS in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_1.caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s_1:	3 (0.02 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_DWC_DownConv_writeWidthConv_Z10   ########                         
@@ -1861,18 +1883,18 @@ Instance path:   caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.c
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      472                14.4 %               
+SLE      472                14.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_writeWidthConv_Z10:	472 (3.98 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_writeWidthConv_Z10:	472 (3.89 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      866                13.4 %               
-ARI1     169                10.1 %               
+CFG      866                12.9 %               
+ARI1     169                9.84 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_writeWidthConv_Z10:	1035 (8.73 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0.caxi4interconnect_DWC_DownConv_writeWidthConv_Z10:	1035 (8.54 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1890,18 +1912,18 @@ Instance path:   caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      149                4.54 %               
+SLE      149                4.56 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1:	149 (1.26 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1:	149 (1.23 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      389                6.02 %               
-ARI1     92                 5.51 %               
+CFG      389                5.8 %                
+ARI1     92                 5.36 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1:	481 (4.06 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1:	481 (3.97 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s   ########             
@@ -1911,15 +1933,15 @@ Instance path:   caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      46                 1.4 %                
+SLE      46                 1.41 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s:	46 (0.39 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s:	46 (0.38 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      36                 0.5570 %             
+CFG      36                 0.5370 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s:	36 (0.30 % Utilization)
 
@@ -1931,7 +1953,7 @@ Instance path:   caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1                  0.03040 %            
+SLE      1                  0.03060 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s.caxi4interconnect_Hold_Reg_Ctrl:	1 (0.01 % Utilization)
 
@@ -1939,7 +1961,7 @@ Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_Hold_Reg_W
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2                  0.03090 %            
+CFG      2                  0.02980 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s.caxi4interconnect_Hold_Reg_Ctrl:	2 (0.02 % Utilization)
 
@@ -1951,18 +1973,18 @@ Instance path:   caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      106                3.23 %               
+SLE      106                3.25 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s:	106 (0.89 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s:	106 (0.87 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      172                2.66 %               
-ARI1     36                 2.16 %               
+CFG      172                2.57 %               
+ARI1     36                 2.1 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s:	208 (1.76 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s:	208 (1.72 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_Hold_Reg_Ctrl_0   ########                                            
@@ -1972,7 +1994,7 @@ Instance path:   caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1                  0.03040 %            
+SLE      1                  0.03060 %            
 =================================================
 Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s.caxi4interconnect_Hold_Reg_Ctrl_0:	1 (0.01 % Utilization)
 
@@ -1980,7 +2002,7 @@ Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_preCalcCmd
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      4                  0.06190 %            
+CFG      4                  0.05970 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s.caxi4interconnect_Hold_Reg_Ctrl_0:	4 (0.03 % Utilization)
 
@@ -1992,18 +2014,18 @@ Instance path:   caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      129                3.93 %               
+SLE      129                3.95 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s:	129 (1.09 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s:	129 (1.06 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      180                2.78 %               
-ARI1     41                 2.46 %               
+CFG      180                2.68 %               
+ARI1     41                 2.39 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s:	221 (1.86 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s:	221 (1.82 % Utilization)
 
 --------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_DWC_brespCtrl_1s_9s   ########             
@@ -2013,7 +2035,7 @@ Instance path:   caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      10                 0.3040 %             
+SLE      10                 0.3060 %             
 =================================================
 Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_brespCtrl_1s_9s:	10 (0.08 % Utilization)
 
@@ -2021,7 +2043,7 @@ Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidth
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      8                  0.1240 %             
+CFG      8                  0.1190 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_DWC_brespCtrl_1s_9s:	8 (0.07 % Utilization)
 
@@ -2033,17 +2055,17 @@ Instance path:   caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 0.6190 %             
+CFG      40                 0.5970 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s:	40 (0.34 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s:	40 (0.33 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -2061,17 +2083,17 @@ Instance path:   caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s.cax
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_0:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_0:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 0.6190 %             
+CFG      40                 0.5970 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_0:	40 (0.34 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13_0:	40 (0.33 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RAM_BLOCK_16s_4s_10s_0s   ########                       
@@ -2093,17 +2115,17 @@ Instance path:   caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4intercon
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      41                 0.6340 %             
+CFG      41                 0.6110 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0:	41 (0.35 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0:	41 (0.34 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -2111,7 +2133,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     3                  6.67 %               
 =====================================================
-Total MEMORY ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0:	3 (0.03 % Utilization)
+Total MEMORY ELEMENTS in the block caxi4interconnect_DWC_DownConv_writeWidthConv_Z10.caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0:	3 (0.02 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13   ########                         
@@ -2121,17 +2143,17 @@ Instance path:   caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.c
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      16                 0.4870 %             
+SLE      16                 0.490 %              
 =================================================
-Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13:	16 (0.14 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13:	16 (0.13 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 0.6190 %             
+CFG      40                 0.5970 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13:	40 (0.34 % Utilization)
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s_caxi4interconnect_SlaveConvertor_Z13:	40 (0.33 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s_0   ########                         
@@ -2141,7 +2163,7 @@ Instance path:   caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.c
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.01550 %            
+CFG      1                  0.01490 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s_0:	1 (0.01 % Utilization)
 
@@ -2151,7 +2173,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X12     3                  6.67 %               
 =====================================================
-Total MEMORY ELEMENTS in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s_0:	3 (0.03 % Utilization)
+Total MEMORY ELEMENTS in the block caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s_0.caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s_0:	3 (0.02 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   MSS_WRAPPER   ########
@@ -2161,7 +2183,7 @@ Instance path:   MPFS_ICICLE_KIT_BASE_DESIGN.MSS_WRAPPER
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.03090 %            
+CFG           2                  0.02980 %            
 BLACK BOX     6                  50 %                 
 ======================================================
 Total COMBINATIONAL LOGIC in the block MPFS_ICICLE_KIT_BASE_DESIGN.MSS_WRAPPER:	8 (0.07 % Utilization)
@@ -2172,7 +2194,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       114                77 %                 
 =================================================
-Total IO PADS in the block MPFS_ICICLE_KIT_BASE_DESIGN.MSS_WRAPPER:	114 (0.96 % Utilization)
+Total IO PADS in the block MPFS_ICICLE_KIT_BASE_DESIGN.MSS_WRAPPER:	114 (0.94 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   ICICLE_MSS   ########
@@ -2182,7 +2204,7 @@ Instance path:   MSS_WRAPPER.ICICLE_MSS
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2                  0.03090 %            
+CFG           2                  0.02980 %            
 BLACK BOX     5                  41.7 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block MSS_WRAPPER.ICICLE_MSS:	7 (0.06 % Utilization)
@@ -2193,7 +2215,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       93                 62.8 %               
 =================================================
-Total IO PADS in the block MSS_WRAPPER.ICICLE_MSS:	93 (0.78 % Utilization)
+Total IO PADS in the block MSS_WRAPPER.ICICLE_MSS:	93 (0.77 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

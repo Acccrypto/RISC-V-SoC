@@ -12,6 +12,7 @@ add_file -verilog "E:/MPFS_Projects/Kyber_HW/component/work/PF_CCC_C0/PF_CCC_C0_
 add_file -verilog "E:/MPFS_Projects/Kyber_HW/component/work/PF_CCC_C0/PF_CCC_C0.v"
 add_file -verilog "E:/MPFS_Projects/Kyber_HW/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v"
 add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/delay.v"
+add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/shuffle_rom.v"
 add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/address_generator.v"
 add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/conflict_free_memory_map.v"
 add_file -verilog "E:/MPFS_Projects/Kyber_HW/hdl/fp_modop.v"

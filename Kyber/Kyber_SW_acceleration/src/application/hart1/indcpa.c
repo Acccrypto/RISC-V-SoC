@@ -17,6 +17,9 @@
 #include "symmetric.h"
 #include "mpfs_hal/mss_hal.h"
 #include "inc/common.h"
+#include "masked_utils.h"
+
+//#define MASK
 
 uint8_t info_string[100];
 extern uint64_t mcycle_start, mcycle_end, delta_mcycle;
@@ -261,11 +264,28 @@ void indcpa_keypair(uint8_t pk[KYBER_INDCPA_PUBLICKEYBYTES],
 
   //mcycle_start = readmcycle();
 
+#ifdef MASK
+  polyvec_mask skpv_mask, e_mask, pkpv_mask;
+
+  masked_polyvec(&skpv_mask, &skpv);
+  for (i = 0; i < NSHARES; i++) {
+      polyvec_hw_ntt(&skpv_mask.share[i], 1);
+  }
+  unmasked_polyvec(&skpv, &skpv_mask);
+
+  masked_polyvec(&e_mask, &e);
+  for (i = 0; i < NSHARES; i++) {
+      polyvec_hw_ntt(&e_mask.share[i], 0);
+      polyvec_matrix_mult(&pkpv_mask.share[i], a, &skpv_mask.share[i]);
+  }
+  unmasked_polyvec(&pkpv, &pkpv_mask);
+#else
   polyvec_hw_ntt(&skpv, 1);
   polyvec_hw_ntt(&e, 0);
 
   // matrix-vector multiplication
   polyvec_matrix_mult(&pkpv, a, &skpv);
+#endif
 
   //mcycle_end = readmcycle();
   //delta_mcycle += (mcycle_end - mcycle_start);
@@ -315,11 +335,29 @@ void indcpa_enc(uint8_t c[KYBER_INDCPA_BYTES],
 
   //mcycle_start = readmcycle();
 
+#ifdef MASK
+  polyvec_mask sp_mask, ep_mask, bp_mask;
+  poly_mask k_mask, v_mask;
+
+  masked_polyvec(&sp_mask, &sp);
+  masked_polyvec(&ep_mask, &ep);
+  masked_poly(&k_mask, &k);
+  for (i = 0; i < NSHARES; i++) {
+      polyvec_hw_ntt(&sp_mask.share[i], 1);
+      polyvec_matrix_multadd(&bp_mask.share[i], at, &sp_mask.share[i], &ep_mask.share[i]);
+      write_coeffs_2(&k_mask.share[i]);
+      polyvec_mult(&v_mask.share[i], &pkpv, &sp_mask.share[i]);
+  }
+  unmasked_polyvec(&bp, &bp_mask);
+  unmasked_poly(&v, &v_mask);
+#else
   polyvec_hw_ntt(&sp, 1);
 
   // matrix-vector multiplication add
   polyvec_matrix_multadd(&bp, at, &sp, &ep);
-  polyvec_multadd(&v, &pkpv, &sp, &k);
+  write_coeffs_2(&k);
+  polyvec_mult(&v, &pkpv, &sp);
+#endif
 
   //mcycle_end = readmcycle();
   //delta_mcycle += (mcycle_end - mcycle_start);
@@ -354,7 +392,20 @@ void indcpa_dec(uint8_t m[KYBER_INDCPA_MSGBYTES],
   //mcycle_start = readmcycle();
 
   polyvec_hw_ntt(&bp, 1);
-  polyvec_multadd(&mp, &bp, &skpv, &v);
+  write_coeffs_2(&v);
+
+#ifdef MASK
+  polyvec_mask skpv_mask;
+  poly_mask mp_mask;
+
+  masked_polyvec(&skpv_mask, &skpv);
+  for (int i = 0; i < NSHARES; i++) {
+      polyvec_mult(&mp_mask.share[i], &bp, &skpv_mask.share[i]);
+  }
+  unmasked_poly(&mp, &mp_mask);
+#else
+  polyvec_mult(&mp, &bp, &skpv);
+#endif
 
   //mcycle_end = readmcycle();
   //delta_mcycle += (mcycle_end - mcycle_start);

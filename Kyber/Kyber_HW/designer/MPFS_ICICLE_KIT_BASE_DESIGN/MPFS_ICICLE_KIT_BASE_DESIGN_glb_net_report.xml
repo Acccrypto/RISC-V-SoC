@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Sun Nov 26 17:41:44 2023
+<text>Date: Sat Jan  6 16:20:26 2024
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -20,7 +20,7 @@
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0</cell>
  <cell>(1300, 162)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
- <cell>3447</cell>
+ <cell>3428</cell>
 </row>
 <row>
  <cell>2</cell>
@@ -105,7 +105,7 @@
 <row>
  <cell>1</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset:Q</cell>
- <cell>(1040, 247)</cell>
+ <cell>(1220, 262)</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNISJ65/U0</cell>
  <cell>FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/sysReset</cell>
  <cell>ROUTED</cell>
@@ -219,10 +219,10 @@
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0</cell>
  <cell>(1300, 162)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0/U0_Y</cell>
- <cell>3447</cell>
+ <cell>3428</cell>
  <cell>1</cell>
  <cell>(726, 259)</cell>
- <cell>216</cell>
+ <cell>6</cell>
 </row>
 <row>
  <cell> </cell>
@@ -232,7 +232,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(726, 286)</cell>
- <cell>661</cell>
+ <cell>655</cell>
 </row>
 <row>
  <cell> </cell>
@@ -242,7 +242,7 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(726, 313)</cell>
- <cell>1191</cell>
+ <cell>1304</cell>
 </row>
 <row>
  <cell> </cell>
@@ -252,7 +252,7 @@
  <cell></cell>
  <cell>4</cell>
  <cell>(726, 340)</cell>
- <cell>1212</cell>
+ <cell>1196</cell>
 </row>
 <row>
  <cell> </cell>
@@ -262,7 +262,7 @@
  <cell></cell>
  <cell>5</cell>
  <cell>(726, 367)</cell>
- <cell>167</cell>
+ <cell>267</cell>
 </row>
 <row>
  <cell>2</cell>
@@ -272,7 +272,7 @@
  <cell>1931</cell>
  <cell>1</cell>
  <cell>(729, 285)</cell>
- <cell>12</cell>
+ <cell>4</cell>
 </row>
 <row>
  <cell> </cell>
@@ -282,7 +282,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(729, 312)</cell>
- <cell>731</cell>
+ <cell>683</cell>
 </row>
 <row>
  <cell> </cell>
@@ -292,7 +292,7 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(729, 339)</cell>
- <cell>1025</cell>
+ <cell>988</cell>
 </row>
 <row>
  <cell> </cell>
@@ -302,7 +302,7 @@
  <cell></cell>
  <cell>4</cell>
  <cell>(729, 366)</cell>
- <cell>163</cell>
+ <cell>256</cell>
 </row>
 <row>
  <cell>3</cell>
@@ -362,11 +362,11 @@
 </row>
 <row>
  <cell>The number of clock signals through  Sector Global resources</cell>
- <cell>26</cell>
+ <cell>27</cell>
 </row>
 <row>
  <cell>The number of clock signals through Cluster Global resources</cell>
- <cell>553</cell>
+ <cell>568</cell>
 </row>
 </table>
 <text></text>

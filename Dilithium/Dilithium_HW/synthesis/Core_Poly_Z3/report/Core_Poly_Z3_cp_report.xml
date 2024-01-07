@@ -13,7 +13,7 @@ The file contains the information about all compile points from mapper to be dis
 <data>
 <value>Core_Poly_Z3</value>
 <report_link name="Report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
 </report_link>
 </data>
 <data>Remapped</data>

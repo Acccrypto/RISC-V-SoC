@@ -1,0 +1,44 @@
+
+#####  START OF RAM REPORT FOR COMPILE POINT: address_generator  #####
+
+#####  LSRAM REPORT  #####
+
+INSTANTIATED     RTL_INSTANCE     PRIMITIVE_TYPE     USER_ATTRIBUTE     MAPPED_INSTANCE     DEPTH_X_WIDTH(A/B)     LOW-POWER_MODE     ECC     A_DOUT_PIPE_REG(EN/ARST/SRST)     B_DOUT_PIPE_REG(EN/ARST/SRST)     WRITE_MODE(A/B)     COMMENTS
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==============================================================================================================================================================================================================================================
+
+#####  URAM REPORT  #####
+
+INSTANTIATED     RTL_INSTANCE     PRIMITIVE_TYPE     USER_ATTRIBUTE     MAPPED_INSTANCE     DEPTH_X_WIDTH     LOW-POWER_MODE     ECC     R_ADDR_REG(EN/ARST/SRST)     R_DATA_PIPE_REG(EN/ARST/SRST)     COMMENTS
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+================================================================================================================================================================================================================
+
+#####  REG/LOGIC REPORT  #####
+
+RTL_INSTANCE                                                                          PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS                                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_6.new_addr_1[5:1]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_5.new_addr_1[5:1]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_0.new_addr_1[4:0]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1[5]       ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_1.new_addr_1[3:0]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_2.new_addr_1[5:4]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_2.new_addr_1[2:0]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_3.new_addr_1[5:3]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_3.new_addr_1[1:0]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_4.new_addr_1[5:2]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+                                                                                                                                                                                                                
+FIC_0_PERIPHERALS_1.Core_Poly_0.address_generator_0.shuffle_rom_4.new_addr_1[0]       ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+================================================================================================================================================================================================================
+
+#####  END OF RAM REPORT FOR COMPILE POINT: address_generator  #####
+

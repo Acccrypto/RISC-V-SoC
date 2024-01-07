@@ -1,86 +1,84 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MF104 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
+@N: MF104 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":21:7:21:15|Found compile point of type hard on View view:work.Core_Poly_Z3(verilog) 
 @N: MF105 |Performing bottom-up mapping of Compile point view:work.Core_Poly_Z3(verilog) 
-@N: MF106 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":21:7:21:15|Mapping Compile point view:work.Core_Poly_Z3(verilog) because 
-@N: MO106 :"f:\mpfs_projects\mpfs_icicle\hdl\tf_rom.v":104:8:104:11|Found ROM Q_2[23:0] (in view: work.tf1_ROM(verilog)) with 32 words by 24 bits.
+@N: MF106 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":21:7:21:15|Mapping Compile point view:work.Core_Poly_Z3(verilog) because 
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\shuffle_rom.v":28:8:28:11|Found ROM shuffle_rom_0.new_addr_1[5:0] (in view: work.address_generator_shuffling(verilog)) with 224 words by 6 bits.
+@N: MO106 :"e:\mpfs_projects\kyber_hw\hdl\tf_rom.v":104:8:104:11|Found ROM Q_2[23:0] (in view: work.tf1_ROM(verilog)) with 32 words by 24 bits.
 @N: FX493 |Applying initial value "0" on instance CS_i[0].
-@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_arlen_cntr[7:0] 
-@N: MO231 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_awlen_cntr[7:0] 
-@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[35:0] (in view: work.Core_Poly_Z3(verilog)).
-@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[35:0]
-@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[11:0] (in view: work.Core_Poly_Z3(verilog)).
-@N: FX702 :"f:\mpfs_projects\mpfs_icicle\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[11:0]
+@N: MO231 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":422:1:422:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_arlen_cntr[7:0] 
+@N: MO231 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":266:1:266:6|Found counter in view:work.Core_Poly_Z3(verilog) instance axi_awlen_cntr[7:0] 
+@N: FX702 :"e:\mpfs_projects\kyber_hw\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[35:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"e:\mpfs_projects\kyber_hw\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank3[35:0]
+@N: FX702 :"e:\mpfs_projects\kyber_hw\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[11:0] (in view: work.Core_Poly_Z3(verilog)).
+@N: FX702 :"e:\mpfs_projects\kyber_hw\hdl\polyvec_ram.v":46:4:46:9|Found startup values on RAM instance polyvec_ram_0.bank0[11:0]
 @N: FX493 |Applying initial value "0" on instance CS_i[0].
-@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[6\]\.level_buf_seqshift[19:0] with specified coding style. Inferring block RAM.
-@N: FX403 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[6\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":110:13:246:18|Replicating instance poly_mul_0.ar2_dina_sn_m3 (in view: work.Core_Poly_Z3(verilog)) with 269 loads 3 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":605:4:605:9|Replicating instance CS_rep[7] (in view: work.Core_Poly_Z3(verilog)) with 173 loads 3 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":110:13:222:27|Replicating instance poly_mul_0.sr1_dinb_sn_m4 (in view: work.Core_Poly_Z3(verilog)) with 48 loads 3 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":282:8:282:9|Replicating instance poly_mul_0.ar0_dinb_ss0 (in view: work.Core_Poly_Z3(verilog)) with 74 loads 3 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\fp_modop.v":93:21:93:32|Replicating instance poly_mul_0.un1_sel_4_i_i (in view: work.Core_Poly_Z3(verilog)) with 45 loads 2 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":75:22:75:35|Replicating instance poly_mul_0.un2_ntt_ld_0 (in view: work.Core_Poly_Z3(verilog)) with 89 loads 3 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":110:13:246:18|Replicating instance poly_mul_0.ar2_dina_sn_m3_fast (in view: work.Core_Poly_Z3(verilog)) with 43 loads 3 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":110:13:246:18|Replicating instance poly_mul_0.ar2_dina_sn_m3_rep1 (in view: work.Core_Poly_Z3(verilog)) with 49 loads 3 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\poly_mul.v":110:13:246:18|Replicating instance poly_mul_0.ar2_dina_sn_m3_rep2 (in view: work.Core_Poly_Z3(verilog)) with 57 loads 2 times to improve timing.
-@N: FX271 :"f:\mpfs_projects\mpfs_icicle\hdl\delay.v":47:12:47:17|Replicating instance address_generator_0.delay_3.gen_delay_3_.level_buf_4__1_ (in view: work.Core_Poly_Z3(verilog)) with 137 loads 3 times to improve timing.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
-@N: BN362 :"f:\mpfs_projects\mpfs_icicle\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: MO231 :"e:\mpfs_projects\kyber_hw\hdl\address_generator.v":53:4:53:9|Found counter in view:work.address_generator_shuffling(verilog) instance k[6:0] 
+@N: FX403 :"e:\mpfs_projects\kyber_hw\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[6\]\.level_buf_seqshift[19:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"e:\mpfs_projects\kyber_hw\hdl\delay.v":47:12:47:17|Property "block_ram" or "no_rw_check" found for RAM delay_0.gen_delay\[6\]\.level_buf_seqshift[7:0] with specified coding style. Inferring block RAM.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_3.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_2.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_1.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[0] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[1] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[2] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[3] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[4] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[5] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[6] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[7] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[8] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[9] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[10] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":43:2:43:7|Removing sequential instance mult_rd_0.m1[11] (in view: work.poly_mul_12s_767s_2385s(verilog)) because it does not drive other instances.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":132:8:132:9|Replicating instance poly_mul_0.t1_8_a4_0[0] (in view: work.Core_Poly_Z3(verilog)) with 58 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":606:4:606:9|Replicating instance CS_rep[7] (in view: work.Core_Poly_Z3(verilog)) with 73 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":282:8:282:9|Replicating instance poly_mul_0.mr0_dinas2 (in view: work.Core_Poly_Z3(verilog)) with 212 loads 3 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":132:8:132:9|Replicating instance poly_mul_0.t1_8_a0_0[0] (in view: work.Core_Poly_Z3(verilog)) with 107 loads 3 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":132:8:132:9|Replicating instance poly_mul_0.t1_8_a2_0[0] (in view: work.Core_Poly_Z3(verilog)) with 41 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":282:8:282:9|Replicating instance poly_mul_0.ar0_dinb_ss0 (in view: work.Core_Poly_Z3(verilog)) with 56 loads 3 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\fp_modop.v":94:21:94:30|Replicating instance poly_mul_0.tf1_ROM_0.Q_2_23_0_.un1_sel_4_i_i (in view: work.Core_Poly_Z3(verilog)) with 17 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":132:8:132:9|Replicating instance poly_mul_0.t21_8_a3_0[10] (in view: work.Core_Poly_Z3(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"e:\mpfs_projects\kyber_hw\hdl\poly_mul.v":110:13:246:18|Replicating instance poly_mul_0.sr1_dina_sn_m2_0 (in view: work.Core_Poly_Z3(verilog)) with 10 loads 1 time to improve timing.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":422:1:422:6|Removing sequential instance axi_araddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[1] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"e:\mpfs_projects\kyber_hw\hdl\core_poly.v":266:1:266:6|Removing sequential instance axi_awaddr[0] (in view: work.Core_Poly_Z3(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
 @N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
 @N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 6.06ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 7.79ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 7.79ns 
-@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 19.91ns 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 @N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

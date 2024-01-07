@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Sun Nov 26 18:13:06 2023
+<text>Date: Sat Jan  6 17:00:24 2024
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -78,13 +78,13 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>15298</cell>
+ <cell>15475</cell>
  <cell>254196</cell>
- <cell>6.02</cell>
+ <cell>6.09</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>5851</cell>
+ <cell>5849</cell>
  <cell>254196</cell>
  <cell>2.30</cell>
 </row>
@@ -200,8 +200,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>13438</cell>
- <cell>3991</cell>
+ <cell>13615</cell>
+ <cell>3989</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -220,8 +220,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>15298</cell>
- <cell>5851</cell>
+ <cell>15475</cell>
+ <cell>5849</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -234,15 +234,15 @@
 </row>
 <row>
  <cell>6</cell>
- <cell>7</cell>
+ <cell>6</cell>
 </row>
 <row>
  <cell>7</cell>
- <cell>9</cell>
+ <cell>8</cell>
 </row>
 <row>
  <cell>8</cell>
- <cell>5</cell>
+ <cell>7</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -263,10 +263,6 @@
 <row>
  <cell>14</cell>
  <cell>10</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>1</cell>
 </row>
 <row>
  <cell>22</cell>
@@ -314,7 +310,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>114</cell>
+ <cell>113</cell>
 </row>
 </table>
 <section><name>Detailed 4LUT Groups Resource Usage</name></section>
@@ -327,15 +323,15 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>599</cell>
+ <cell>548</cell>
 </row>
 <row>
  <cell>5</cell>
- <cell>60</cell>
+ <cell>92</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>659</cell>
+ <cell>640</cell>
 </row>
 </table>
 <section><name>Detailed Math Chains Resource Usage</name></section>
@@ -406,7 +402,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>4311</cell>
+ <cell>4309</cell>
  <cell>INT_NET</cell>
  <cell>Net   : CLOCKS_AND_RESETS_FIC_0_CLK</cell>
 </row>
@@ -512,7 +508,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>1609</cell>
+ <cell>1604</cell>
  <cell>INT_NET</cell>
  <cell>Net   : CLOCKS_AND_RESETS_RESETN_FIC_0_CLK</cell>
 </row>
@@ -522,14 +518,24 @@
  <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15</cell>
 </row>
 <row>
- <cell>968</cell>
+ <cell>967</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_2277_i</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_154_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_2277_i</cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_154_i</cell>
+</row>
+<row>
+ <cell>377</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_187_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/un1_CS_9_i_a2_0_a3</cell>
 </row>
 <row>
  <cell>376</cell>
@@ -542,14 +548,14 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_3/gen_delay_3_.level_buf_4__1_</cell>
 </row>
 <row>
- <cell>375</cell>
+ <cell>368</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_189_i</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/pvram_raddr[7]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/un1_CS_9_i_a2_0_a4</cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/pvram_raddr_1[7]</cell>
 </row>
 <row>
  <cell>365</cell>
@@ -562,7 +568,7 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/t08</cell>
 </row>
 <row>
- <cell>342</cell>
+ <cell>344</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[2]</cell>
 </row>
@@ -572,7 +578,17 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__2_</cell>
 </row>
 <row>
- <cell>304</cell>
+ <cell>320</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_202_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_202_i</cell>
+</row>
+<row>
+ <cell>306</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[0]</cell>
 </row>
@@ -582,17 +598,7 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__0_</cell>
 </row>
 <row>
- <cell>295</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_203_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_203_i</cell>
-</row>
-<row>
- <cell>286</cell>
+ <cell>288</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[4]</cell>
 </row>
@@ -600,16 +606,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__4_</cell>
-</row>
-<row>
- <cell>284</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/ntt_l[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_3/gen_delay_3_.level_buf_4__0_</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -620,7 +616,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>1609</cell>
+ <cell>1604</cell>
  <cell>INT_NET</cell>
  <cell>Net   : CLOCKS_AND_RESETS_RESETN_FIC_0_CLK</cell>
 </row>
@@ -630,14 +626,24 @@
  <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15</cell>
 </row>
 <row>
- <cell>968</cell>
+ <cell>967</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_2277_i</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_154_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_2277_i</cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_154_i</cell>
+</row>
+<row>
+ <cell>377</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_187_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/un1_CS_9_i_a2_0_a3</cell>
 </row>
 <row>
  <cell>376</cell>
@@ -650,14 +656,14 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_3/gen_delay_3_.level_buf_4__1_</cell>
 </row>
 <row>
- <cell>375</cell>
+ <cell>368</cell>
  <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_189_i</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/pvram_raddr[7]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/un1_CS_9_i_a2_0_a4</cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/pvram_raddr_1[7]</cell>
 </row>
 <row>
  <cell>365</cell>
@@ -670,7 +676,7 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/poly_mul_0/add_rd_3/t08</cell>
 </row>
 <row>
- <cell>342</cell>
+ <cell>344</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[2]</cell>
 </row>
@@ -680,7 +686,17 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__2_</cell>
 </row>
 <row>
- <cell>304</cell>
+ <cell>320</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_202_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_202_i</cell>
+</row>
+<row>
+ <cell>306</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[0]</cell>
 </row>
@@ -690,17 +706,7 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__0_</cell>
 </row>
 <row>
- <cell>295</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/N_203_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/N_203_i</cell>
-</row>
-<row>
- <cell>286</cell>
+ <cell>288</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/tf_address[4]</cell>
 </row>
@@ -708,16 +714,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_2/gen_delay_2_.level_buf_3__4_</cell>
-</row>
-<row>
- <cell>284</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/Core_Poly_0/ntt_l[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/Core_Poly_0/address_generator_0/delay_3/gen_delay_3_.level_buf_4__0_</cell>
 </row>
 </table>
 </doc>

@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
+<data>E:\MPFS_Projects\Kyber_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
 <title></title>
 </report_link>
 <job_status>
@@ -13,34 +13,34 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>86</data>
+<data>84</data>
 <report_link name="more">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_notes.txt</data>
+<data>E:\MPFS_Projects\Kyber_HW\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>40</data>
+<data>37</data>
 <report_link name="more">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_warnings.txt</data>
+<data>E:\MPFS_Projects\Kyber_HW\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>F:\MPFS_Projects\MPFS_ICICLE\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_errors.txt</data>
+<data>E:\MPFS_Projects\Kyber_HW\synthesis\Core_Poly_Z3\report\Core_Poly_Z3_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:20s</data>
+<data>0h:00m:35s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:20s</data>
+<data>0h:00m:35s</data>
 </info>
 <info name="Peak Memory">
-<data>268MB</data>
+<data>278MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1691484096</data>
+<data type="timestamp">1704529055</data>
 </info>
 </job_info>
 </job_run_status>

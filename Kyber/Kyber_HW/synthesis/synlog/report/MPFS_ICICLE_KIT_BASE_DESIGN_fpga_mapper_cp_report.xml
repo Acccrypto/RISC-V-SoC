@@ -13,18 +13,6 @@ The file contains the information about all compile points from mapper to be dis
 </row>
 <row>
 <data>
-<value>Core_Poly_Z3</value>
-<report_link name="Report">
-<data>E:\MPFS_Projects\Kyber_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
-</report_link>
-</data>
-<data>Unchanged</data>
-<data>-</data>
-<data>0h:00m:20s</data>
-<data>0h:00m:20s</data>
-</row>
-<row>
-<data>
 <value>caxi4interconnect_SlaveConvertor_Z13</value>
 <report_link name="Report">
 <data>E:\MPFS_Projects\Kyber_HW\synthesis\caxi4interconnect_SlaveConvertor_Z13\caxi4interconnect_SlaveConvertor_Z13.srr</data>
@@ -42,9 +30,21 @@ The file contains the information about all compile points from mapper to be dis
 <data>E:\MPFS_Projects\Kyber_HW\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
 </report_link>
 </data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:17s</data>
+<data>0h:00m:17s</data>
+</row>
+<row>
+<data>
+<value>Core_Poly_Z3</value>
+<report_link name="Report">
+<data>E:\MPFS_Projects\Kyber_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
+</report_link>
+</data>
 <data>Remapped</data>
 <data>Design changed</data>
-<data>0h:00m:17s</data>
-<data>0h:00m:17s</data>
+<data>0h:00m:34s</data>
+<data>0h:00m:35s</data>
 </row>
 </report_table>

@@ -48,7 +48,7 @@ module poly_mul (
     wire   [22:0]    sr0_dout, sr1_dout, sr2_dout, sr3_dout;
 	wire   [22:0]    mh0_dout, mh1_dout, mh2_dout, mh3_dout, mh4_dout, mh5_dout, mh6_dout, mh7_dout;
 	wire   [5:0]     tf0_addr;
-	wire   [4:0]     tf1_addr, tf2_addr; 
+	wire   [4:0]     tf1_addr; 
 	wire   [22:0]    tf0_q;
 	wire   [45:0]    tf1_q;
 	wire   [91:0]    tf2_q;
@@ -56,7 +56,6 @@ module poly_mul (
 	
 	assign  tf0_addr = tf_address[5:0];
 	assign  tf1_addr = tf_address - 63;
-	assign  tf2_addr = tf_address - 127;
 	
     delay #(.WIDTH(2), .DELAY(1)) delay_0 (
         .clk(clk),
@@ -479,6 +478,6 @@ module poly_mul (
 	
 	tf1_ROM  tf1_ROM_0 (.clk(clk), .A(tf1_addr), .Q(tf1_q));
 	
-	tf2_ROM  tf2_ROM_0 (.clk(clk), .A(tf2_addr), .Q(tf2_q));
+	tf2_ROM  tf2_ROM_0 (.clk(clk), .A(tf1_addr), .Q(tf2_q));
 
 endmodule

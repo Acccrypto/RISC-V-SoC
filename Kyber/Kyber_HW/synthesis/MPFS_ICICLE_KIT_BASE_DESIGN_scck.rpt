@@ -13,7 +13,7 @@ Hostname: DESKTOP-DD7N7QM
 
 Implementation : synthesis
 
-# Written on Sun Nov 26 17:38:22 2023
+# Written on Sat Jan  6 16:16:41 2024
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "E:\MPFS_Projects\Kyber_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc"
@@ -34,7 +34,7 @@ Clock Summary
 Level     Clock                                                                    Frequency     Period        Type                               Group                     Load 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       REF_CLK_50MHz                                                            50.0 MHz      20.000        declared                           default_clkgroup          1    
-1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     165.0 MHz     6.061         generated (from REF_CLK_50MHz)     FIC0_clks                 4042 
+1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     165.0 MHz     6.061         generated (from REF_CLK_50MHz)     FIC0_clks                 4026 
                                                                                                                                                                                  
 0 -       System                                                                   100.0 MHz     10.000        system                             system_clkgroup           0    
                                                                                                                                                                                  
@@ -53,7 +53,7 @@ Clock Load Summary
 Clock                                                                  Load      Pin                                                                         Seq Example                                                                 Seq Example       Comb Example                                                        
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 REF_CLK_50MHz                                                          1         REF_CLK_50MHz(port)                                                         CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.REF_CLK_0     -                 CLOCKS_AND_RESETS_inst_0.CLKINT_REF_CLK_50MHz.I(BUFG)               
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     4042      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT0(PLL)     MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_0_ACLK                            -                 CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_0.I(BUFG) 
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     4026      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT0(PLL)     MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_0_ACLK                            -                 CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_0.I(BUFG) 
                                                                                                                                                                                                                                                                                                                                
 System                                                                 0         -                                                                           -                                                                           -                 -                                                                   
                                                                                                                                                                                                                                                                                                                                

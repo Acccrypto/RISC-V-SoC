@@ -1,26 +1,26 @@
 Selecting top level module MPFS_ICICLE_KIT_BASE_DESIGN
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
 Running optimization stage 1 on CLKINT .......
-Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 124MB)
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
 @W: CG168 :"E:\MPFS_Projects\Kyber_HW\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":47:27:47:36|Type of parameter VCOFREQUENCY on the instance pll_inst_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
 Running optimization stage 1 on PLL .......
-Finished optimization stage 1 on PLL (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 124MB)
+Finished optimization stage 1 on PLL (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 124MB)
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
 Running optimization stage 1 on GND .......
-Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 124MB)
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":5:7:5:34|Synthesizing module PF_CCC_C0_PF_CCC_C0_0_PF_CCC in library work.
 Running optimization stage 1 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC .......
-Finished optimization stage 1 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 125MB)
+Finished optimization stage 1 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\PF_CCC_C0\PF_CCC_C0.v":264:7:264:15|Synthesizing module PF_CCC_C0 in library work.
 Running optimization stage 1 on PF_CCC_C0 .......
-Finished optimization stage 1 on PF_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 125MB)
+Finished optimization stage 1 on PF_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
 Running optimization stage 1 on AND2 .......
-Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 125MB)
+Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
 @W: CG168 :"E:\MPFS_Projects\Kyber_HW\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter FABRIC_POR_N_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG168 :"E:\MPFS_Projects\Kyber_HW\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter PCIE_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG168 :"E:\MPFS_Projects\Kyber_HW\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter SRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
@@ -28,18 +28,18 @@ Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current:
 @W: CG168 :"E:\MPFS_Projects\Kyber_HW\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter USRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\polarfire_syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
 Running optimization stage 1 on INIT .......
-Finished optimization stage 1 on INIT (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 125MB)
+Finished optimization stage 1 on INIT (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 129MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":5:7:5:52|Synthesizing module INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR in library work.
 Running optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR .......
 @W: CL168 :"E:\MPFS_Projects\Kyber_HW\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":48:8:48:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL168 :"E:\MPFS_Projects\Kyber_HW\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":47:8:47:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-Finished optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 125MB)
+Finished optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 129MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\INIT_MONITOR\INIT_MONITOR.v":67:7:67:18|Synthesizing module INIT_MONITOR in library work.
 Running optimization stage 1 on INIT_MONITOR .......
-Finished optimization stage 1 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 124MB peak: 125MB)
+Finished optimization stage 1 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 129MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\CORERESET\CORERESET_0\core\corereset_pf.v":21:7:21:40|Synthesizing module CORERESET_CORERESET_0_CORERESET_PF in library work.
 Running optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF .......
-Finished optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 125MB)
+Finished optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 129MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\CORERESET\CORERESET.v":21:7:21:15|Synthesizing module CORERESET in library work.
 Running optimization stage 1 on CORERESET .......
 Finished optimization stage 1 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 129MB)
@@ -78,23 +78,28 @@ Finished optimization stage 1 on delay_8s_3s (CPU Time 0h:00m:00s, Memory Used c
 @W: CG532 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
 Running optimization stage 1 on delay_2s_4s .......
 Finished optimization stage 1 on delay_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 129MB)
-@N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":21:7:21:23|Synthesizing module address_generator in library work.
-@W: CS263 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":200:13:200:13|Port-width mismatch for port din. The port definition is 8 bits, but the actual port connection bit width is 7. Adjust either the definition or the instantiation of this port.
-@W: CS263 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":201:14:201:23|Port-width mismatch for port dout. The port definition is 8 bits, but the actual port connection bit width is 7. Adjust either the definition or the instantiation of this port.
-Running optimization stage 1 on address_generator .......
-Finished optimization stage 1 on address_generator (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+@N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\shuffle_rom.v":22:7:22:17|Synthesizing module shuffle_rom in library work.
+Running optimization stage 1 on shuffle_rom .......
+Finished optimization stage 1 on shuffle_rom (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+@N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":21:7:21:33|Synthesizing module address_generator_shuffling in library work.
+@W: CS263 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":179:13:179:23|Port-width mismatch for port din. The port definition is 8 bits, but the actual port connection bit width is 7. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":180:14:180:23|Port-width mismatch for port dout. The port definition is 8 bits, but the actual port connection bit width is 7. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on address_generator_shuffling .......
+@N: CL189 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":53:4:53:9|Register bit l[1] is always 0.
+@W: CL260 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":53:4:53:9|Pruning register bit 1 of l[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on address_generator_shuffling (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 132MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\conflict_free_memory_map.v":21:7:21:30|Synthesizing module conflict_free_memory_map in library work.
 Running optimization stage 1 on conflict_free_memory_map .......
-Finished optimization stage 1 on conflict_free_memory_map (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on conflict_free_memory_map (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 132MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\arbiter.v":21:7:21:13|Synthesizing module arbiter in library work.
 Running optimization stage 1 on arbiter .......
-Finished optimization stage 1 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\network_bank_in.v":21:7:21:21|Synthesizing module network_bank_in in library work.
 
 	addr_width=32'b00000000000000000000000000000101
    Generated name = network_bank_in_5s
 Running optimization stage 1 on network_bank_in_5s .......
-Finished optimization stage 1 on network_bank_in_5s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on network_bank_in_5s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
 
 	WIDTH=34'b0000000000000000000000000000010100
@@ -102,7 +107,7 @@ Finished optimization stage 1 on network_bank_in_5s (CPU Time 0h:00m:00s, Memory
    Generated name = delay_7s_Z1
 @W: CG532 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
 Running optimization stage 1 on delay_7s_Z1 .......
-Finished optimization stage 1 on delay_7s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on delay_7s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
 
 	WIDTH=34'b0000000000000000000000000000010100
@@ -110,7 +115,7 @@ Finished optimization stage 1 on delay_7s_Z1 (CPU Time 0h:00m:00s, Memory Used c
    Generated name = delay_3s_Z2
 @W: CG532 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
 Running optimization stage 1 on delay_3s_Z2 .......
-Finished optimization stage 1 on delay_3s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on delay_3s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\poly_bank.v":21:7:21:15|Synthesizing module poly_bank in library work.
 
 	addr_width=32'b00000000000000000000000000000101
@@ -119,13 +124,13 @@ Finished optimization stage 1 on delay_3s_Z2 (CPU Time 0h:00m:00s, Memory Used c
    Generated name = poly_bank_5s_32s_24s
 Running optimization stage 1 on poly_bank_5s_32s_24s .......
 @N: CL134 :"E:\MPFS_Projects\Kyber_HW\hdl\poly_bank.v":36:4:36:9|Found RAM bank, depth=32, width=24
-Finished optimization stage 1 on poly_bank_5s_32s_24s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on poly_bank_5s_32s_24s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\network_bf_in.v":21:7:21:19|Synthesizing module network_bf_in in library work.
 
 	data_width=32'b00000000000000000000000000011000
    Generated name = network_bf_in_24s
 Running optimization stage 1 on network_bf_in_24s .......
-Finished optimization stage 1 on network_bf_in_24s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on network_bf_in_24s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":21:7:21:11|Synthesizing module delay in library work.
 
 	WIDTH=32'b00000000000000000000000000001000
@@ -133,13 +138,13 @@ Finished optimization stage 1 on network_bf_in_24s (CPU Time 0h:00m:00s, Memory 
    Generated name = delay_8s_7s
 @W: CG532 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":39:4:39:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
 Running optimization stage 1 on delay_8s_7s .......
-Finished optimization stage 1 on delay_8s_7s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on delay_8s_7s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\network_bf_out.v":21:7:21:20|Synthesizing module network_bf_out in library work.
 
 	data_width=32'b00000000000000000000000000011000
    Generated name = network_bf_out_24s
 Running optimization stage 1 on network_bf_out_24s .......
-Finished optimization stage 1 on network_bf_out_24s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on network_bf_out_24s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\poly_ram.v":21:7:21:14|Synthesizing module poly_ram in library work.
 
 	addr_width=32'b00000000000000000000000000000101
@@ -147,38 +152,38 @@ Finished optimization stage 1 on network_bf_out_24s (CPU Time 0h:00m:00s, Memory
 	data_width=32'b00000000000000000000000000011000
    Generated name = poly_ram_5s_32s_24s
 Running optimization stage 1 on poly_ram_5s_32s_24s .......
-Finished optimization stage 1 on poly_ram_5s_32s_24s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on poly_ram_5s_32s_24s (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\fp_modop.v":23:7:23:13|Synthesizing module mult_rd in library work.
 
 	data_width=32'b00000000000000000000000000001100
    Generated name = mult_rd_12s
 Running optimization stage 1 on mult_rd_12s .......
 @W: CL279 :"E:\MPFS_Projects\Kyber_HW\hdl\fp_modop.v":43:2:43:7|Pruning register bits 7 to 0 of tq[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-Finished optimization stage 1 on mult_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on mult_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\fp_modop.v":82:7:82:12|Synthesizing module add_rd in library work.
 
 	data_width=32'b00000000000000000000000000001100
    Generated name = add_rd_12s
 Running optimization stage 1 on add_rd_12s .......
-Finished optimization stage 1 on add_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on add_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\fp_modop.v":101:7:101:12|Synthesizing module sub_rd in library work.
 
 	data_width=32'b00000000000000000000000000001100
    Generated name = sub_rd_12s
 Running optimization stage 1 on sub_rd_12s .......
-Finished optimization stage 1 on sub_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on sub_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\fp_modop.v":69:7:69:15|Synthesizing module mult_half in library work.
 
 	data_width=32'b00000000000000000000000000001100
    Generated name = mult_half_12s
 Running optimization stage 1 on mult_half_12s .......
-Finished optimization stage 1 on mult_half_12s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Finished optimization stage 1 on mult_half_12s (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\tf_ROM.v":21:7:21:13|Synthesizing module tf0_ROM in library work.
 Running optimization stage 1 on tf0_ROM .......
-Finished optimization stage 1 on tf0_ROM (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 132MB)
+Finished optimization stage 1 on tf0_ROM (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 133MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\tf_ROM.v":97:7:97:13|Synthesizing module tf1_ROM in library work.
 Running optimization stage 1 on tf1_ROM .......
-Finished optimization stage 1 on tf1_ROM (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 132MB)
+Finished optimization stage 1 on tf1_ROM (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 134MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\poly_mul.v":21:7:21:14|Synthesizing module poly_mul in library work.
 
 	data_width=32'b00000000000000000000000000001100
@@ -186,7 +191,7 @@ Finished optimization stage 1 on tf1_ROM (CPU Time 0h:00m:00s, Memory Used curre
 	mont_sqr=32'b00000000000000000000100101010001
    Generated name = poly_mul_12s_767s_2385s
 Running optimization stage 1 on poly_mul_12s_767s_2385s .......
-Finished optimization stage 1 on poly_mul_12s_767s_2385s (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 135MB)
+Finished optimization stage 1 on poly_mul_12s_767s_2385s (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 136MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\polyvec_ram.v":21:7:21:17|Synthesizing module polyvec_ram in library work.
 
 	addr_width=32'b00000000000000000000000000001000
@@ -199,7 +204,7 @@ Running optimization stage 1 on polyvec_ram_8s_256s_12s .......
 @N: CL134 :"E:\MPFS_Projects\Kyber_HW\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank2, depth=256, width=12
 @N: CL134 :"E:\MPFS_Projects\Kyber_HW\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank1, depth=256, width=12
 @N: CL134 :"E:\MPFS_Projects\Kyber_HW\hdl\polyvec_ram.v":46:4:46:9|Found RAM bank0, depth=256, width=12
-Finished optimization stage 1 on polyvec_ram_8s_256s_12s (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on polyvec_ram_8s_256s_12s (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":21:7:21:15|Synthesizing module Core_Poly in library work.
 
 	C_S_AXI_ID_WIDTH=32'b00000000000000000000000000000001
@@ -222,19 +227,19 @@ Finished optimization stage 1 on polyvec_ram_8s_256s_12s (CPU Time 0h:00m:00s, M
    Generated name = Core_Poly_Z3
 @N: CG179 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":295:31:295:40|Removing redundant assignment.
 @N: CG179 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":454:37:454:46|Removing redundant assignment.
-@W: CS263 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":969:50:969:60|Port-width mismatch for port raddr. The port definition is 8 bits, but the actual port connection bit width is 9. Adjust either the definition or the instantiation of this port.
-@W: CS263 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":969:71:969:81|Port-width mismatch for port waddr. The port definition is 8 bits, but the actual port connection bit width is 9. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":980:50:980:60|Port-width mismatch for port raddr. The port definition is 8 bits, but the actual port connection bit width is 9. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":980:71:980:81|Port-width mismatch for port waddr. The port definition is 8 bits, but the actual port connection bit width is 9. Adjust either the definition or the instantiation of this port.
 @W: CG133 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":205:8:205:8|Object i is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":206:8:206:8|Object j is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":207:8:207:21|Object mem_byte_index is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on Core_Poly_Z3 .......
-@W: CL265 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":703:4:703:9|Removing unused bit 8 of pvram_waddr[8:0]. Either assign all bits or reduce the width of the signal.
-@W: CL271 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":588:4:588:9|Pruning unused bits 31 to 7 of conf_reg[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":704:4:704:9|Removing unused bit 8 of pvram_waddr[8:0]. Either assign all bits or reduce the width of the signal.
+@W: CL271 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":589:4:589:9|Pruning unused bits 31 to 7 of conf_reg[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CL189 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[0] is always 0.
 @N: CL189 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":504:1:504:6|Register bit axi_rresp[1] is always 0.
 @N: CL189 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[0] is always 0.
 @N: CL189 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":359:1:359:6|Register bit axi_bresp[1] is always 0.
-Finished optimization stage 1 on Core_Poly_Z3 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 152MB)
+Finished optimization stage 1 on Core_Poly_Z3 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 153MB)
 @W: CG1283 :"E:\MPFS_Projects\Kyber_HW\component\work\FIC0_INITIATOR\FIC0_INITIATOR.v":4559:0:4559:15|Ignoring localparam ADDR_WIDTH_INT on the instance and using locally defined value
 @W: CG168 :"E:\MPFS_Projects\Kyber_HW\component\work\FIC0_INITIATOR\FIC0_INITIATOR.v":4559:0:4559:15|Type of parameter SLAVE0_START_ADDR on the instance FIC0_INITIATOR_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @W: CG168 :"E:\MPFS_Projects\Kyber_HW\component\work\FIC0_INITIATOR\FIC0_INITIATOR.v":4559:0:4559:15|Type of parameter SLAVE1_START_ADDR on the instance FIC0_INITIATOR_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
@@ -334,7 +339,7 @@ Finished optimization stage 1 on Core_Poly_Z3 (CPU Time 0h:00m:00s, Memory Used 
 Only the first 100 messages of id 'CG168' are reported. To see all messages use 'report_messages -log E:\MPFS_Projects\Kyber_HW\synthesis\synlog\MPFS_ICICLE_KIT_BASE_DESIGN_compiler.srr -id CG168' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG168} -count unlimited' in the Tcl shell.
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ResetSycnc.v":22:7:22:34|Synthesizing module caxi4interconnect_ResetSycnc in library work.
 Running optimization stage 1 on caxi4interconnect_ResetSycnc .......
-Finished optimization stage 1 on caxi4interconnect_ResetSycnc (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_ResetSycnc (CPU Time 0h:00m:00s, Memory Used current: 147MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":24:7:24:36|Synthesizing module caxi4interconnect_Axi4CrossBar in library work.
 
 	FAMILY=32'b00000000000000000000000000010011
@@ -412,7 +417,7 @@ Finished optimization stage 1 on caxi4interconnect_ResetSycnc (CPU Time 0h:00m:0
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":280:32:280:42|Removing wire DERR_BREADY, as there is no assignment to it.
 @W: CG133 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":318:7:318:7|Object i is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on caxi4interconnect_Axi4CrossBar_Z4 .......
-Finished optimization stage 1 on caxi4interconnect_Axi4CrossBar_Z4 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_Axi4CrossBar_Z4 (CPU Time 0h:00m:00s, Memory Used current: 147MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":25:7:25:26|Synthesizing module COREAXI4INTERCONNECT in library work.
 
 	FAMILY=32'b00000000000000000000000000010011
@@ -2477,7 +2482,7 @@ Finished optimization stage 1 on caxi4interconnect_Axi4CrossBar_Z4 (CPU Time 0h:
 	TWO_DAT=2'b10
    Generated name = caxi4interconnect_RegSliceFull_77s_0_1_3_2
 Running optimization stage 1 on caxi4interconnect_RegSliceFull_77s_0_1_3_2 .......
-Finished optimization stage 1 on caxi4interconnect_RegSliceFull_77s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 144MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegSliceFull_77s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 144MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
 
 	CHAN_WIDTH=32'b00000000000000000000000001001100
@@ -2487,7 +2492,7 @@ Finished optimization stage 1 on caxi4interconnect_RegSliceFull_77s_0_1_3_2 (CPU
 	TWO_DAT=2'b10
    Generated name = caxi4interconnect_RegSliceFull_76s_0_1_3_2
 Running optimization stage 1 on caxi4interconnect_RegSliceFull_76s_0_1_3_2 .......
-Finished optimization stage 1 on caxi4interconnect_RegSliceFull_76s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegSliceFull_76s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
 
 	CHAN_WIDTH=32'b00000000000000000000000001010010
@@ -2497,7 +2502,7 @@ Finished optimization stage 1 on caxi4interconnect_RegSliceFull_76s_0_1_3_2 (CPU
 	TWO_DAT=2'b10
    Generated name = caxi4interconnect_RegSliceFull_82s_0_1_3_2
 Running optimization stage 1 on caxi4interconnect_RegSliceFull_82s_0_1_3_2 .......
-Finished optimization stage 1 on caxi4interconnect_RegSliceFull_82s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegSliceFull_82s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
 
 	CHAN_WIDTH=32'b00000000000000000000000000001011
@@ -2507,9 +2512,9 @@ Finished optimization stage 1 on caxi4interconnect_RegSliceFull_82s_0_1_3_2 (CPU
 	TWO_DAT=2'b10
    Generated name = caxi4interconnect_RegSliceFull_11s_0_1_3_2
 Running optimization stage 1 on caxi4interconnect_RegSliceFull_11s_0_1_3_2 .......
-Finished optimization stage 1 on caxi4interconnect_RegSliceFull_11s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegSliceFull_11s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 153MB)
 Running optimization stage 1 on caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s .......
-Finished optimization stage 1 on caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v":23:7:23:41|Synthesizing module caxi4interconnect_MstrDataWidthConv in library work.
 
 	MASTER_TYPE=2'b00
@@ -2526,7 +2531,7 @@ Finished optimization stage 1 on caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38
 	NUM_THREADS=32'b00000000000000000000000000000100
    Generated name = caxi4interconnect_MstrDataWidthConv_Z6
 Running optimization stage 1 on caxi4interconnect_MstrDataWidthConv_Z6 .......
-Finished optimization stage 1 on caxi4interconnect_MstrDataWidthConv_Z6 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_MstrDataWidthConv_Z6 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":21:7:21:47|Synthesizing module caxi4interconnect_MstrClockDomainCrossing in library work.
 
 	ADDR_WIDTH=32'b00000000000000000000000000100110
@@ -2543,7 +2548,7 @@ Finished optimization stage 1 on caxi4interconnect_MstrDataWidthConv_Z6 (CPU Tim
 	MEM_DEPTH=32'b00000000000000000000000000001000
    Generated name = caxi4interconnect_MstrClockDomainCrossing_Z7
 Running optimization stage 1 on caxi4interconnect_MstrClockDomainCrossing_Z7 .......
-Finished optimization stage 1 on caxi4interconnect_MstrClockDomainCrossing_Z7 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_MstrClockDomainCrossing_Z7 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":23:7:23:39|Synthesizing module caxi4interconnect_MasterConvertor in library work.
 
 	MASTER_TYPE=2'b00
@@ -2580,9 +2585,9 @@ Finished optimization stage 1 on caxi4interconnect_MstrClockDomainCrossing_Z7 (C
 	ID_WIDTH=32'b00000000000000000000000000001000
    Generated name = caxi4interconnect_MstrProtocolConverter_4s_0s_38s_64s_0_1s_8s
 Running optimization stage 1 on caxi4interconnect_MstrProtocolConverter_4s_0s_38s_64s_0_1s_8s .......
-Finished optimization stage 1 on caxi4interconnect_MstrProtocolConverter_4s_0s_38s_64s_0_1s_8s (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_MstrProtocolConverter_4s_0s_38s_64s_0_1s_8s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 153MB)
 Running optimization stage 1 on caxi4interconnect_MasterConvertor_Z8 .......
-Finished optimization stage 1 on caxi4interconnect_MasterConvertor_Z8 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_MasterConvertor_Z8 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v":22:7:22:37|Synthesizing module caxi4interconnect_RegisterSlice in library work.
 
 	AWCHAN=1'b1
@@ -2605,7 +2610,7 @@ Finished optimization stage 1 on caxi4interconnect_MasterConvertor_Z8 (CPU Time 
 	TWO_DAT=2'b10
    Generated name = caxi4interconnect_RegSliceFull_78s_0_1_3_2
 Running optimization stage 1 on caxi4interconnect_RegSliceFull_78s_0_1_3_2 .......
-Finished optimization stage 1 on caxi4interconnect_RegSliceFull_78s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegSliceFull_78s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
 
 	CHAN_WIDTH=32'b00000000000000000000000001010011
@@ -2615,7 +2620,7 @@ Finished optimization stage 1 on caxi4interconnect_RegSliceFull_78s_0_1_3_2 (CPU
 	TWO_DAT=2'b10
    Generated name = caxi4interconnect_RegSliceFull_83s_0_1_3_2
 Running optimization stage 1 on caxi4interconnect_RegSliceFull_83s_0_1_3_2 .......
-Finished optimization stage 1 on caxi4interconnect_RegSliceFull_83s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegSliceFull_83s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":23:7:23:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
 
 	CHAN_WIDTH=32'b00000000000000000000000000001100
@@ -2625,9 +2630,9 @@ Finished optimization stage 1 on caxi4interconnect_RegSliceFull_83s_0_1_3_2 (CPU
 	TWO_DAT=2'b10
    Generated name = caxi4interconnect_RegSliceFull_12s_0_1_3_2
 Running optimization stage 1 on caxi4interconnect_RegSliceFull_12s_0_1_3_2 .......
-Finished optimization stage 1 on caxi4interconnect_RegSliceFull_12s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegSliceFull_12s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 153MB)
 Running optimization stage 1 on caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_38s_64s_0s_1s .......
-Finished optimization stage 1 on caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_38s_64s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_38s_64s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v":23:7:23:45|Synthesizing module caxi4interconnect_SlvDataWidthConverter in library work.
 
 	NUM_SLAVES=32'b00000000000000000000000000000100
@@ -2659,7 +2664,7 @@ Finished optimization stage 1 on caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_38
 	fdiff=32'b00000000000000000000000000000000
    Generated name = caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s
 Running optimization stage 1 on caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s .......
-Finished optimization stage 1 on caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s (CPU Time 0h:00m:00s, Memory Used current: 147MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
 
 	MEM_DEPTH=32'b00000000000000000000000000010000
@@ -2681,19 +2686,19 @@ Finished optimization stage 1 on caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s
    Generated name = caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s
 Running optimization stage 1 on caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s .......
 @N: CL134 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=16, width=46
-Finished optimization stage 1 on caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s (CPU Time 0h:00m:00s, Memory Used current: 147MB peak: 153MB)
 Running optimization stage 1 on caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s .......
-Finished optimization stage 1 on caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s (CPU Time 0h:00m:00s, Memory Used current: 147MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Hold_Reg_Ctrl.v":21:7:21:37|Synthesizing module caxi4interconnect_Hold_Reg_Ctrl in library work.
 Running optimization stage 1 on caxi4interconnect_Hold_Reg_Ctrl .......
-Finished optimization stage 1 on caxi4interconnect_Hold_Reg_Ctrl (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_Hold_Reg_Ctrl (CPU Time 0h:00m:00s, Memory Used current: 147MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Wr.v":24:7:24:48|Synthesizing module caxi4interconnect_DWC_DownConv_Hold_Reg_Wr in library work.
 
 	CMD_FIFO_DATA_WIDTH=32'b00000000000000000000000000101110
 	ID_WIDTH=32'b00000000000000000000000000001001
    Generated name = caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s .......
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s (CPU Time 0h:00m:00s, Memory Used current: 147MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v":20:7:20:48|Synthesizing module caxi4interconnect_DWC_DownConv_widthConvwr in library work.
 
 	DATA_WIDTH_IN=32'b00000000000000000000000001000000
@@ -2707,7 +2712,7 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_
 @W: CG133 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v":142:20:142:41|Object WVLID_FIXED_BURST_CTRL is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s .......
 @W: CL207 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v":396:3:396:8|All reachable assignments to cnt_plus_1_eq_0 assign 0, register removed by optimization.
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 152MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 153MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v":19:7:19:53|Synthesizing module caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl in library work.
 
 	ADDR_WIDTH=32'b00000000000000000000000000100110
@@ -2723,7 +2728,7 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_widthConvwr_64s_
    Generated name = caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1 .......
 @W: CL207 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v":627:3:627:8|All reachable assignments to SLAVE_AID[8:0] assign 0, register removed by optimization.
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":24:7:24:57|Synthesizing module caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl in library work.
 
 	DATA_WIDTH_OUT=32'b00000000000000000000000000100000
@@ -2739,7 +2744,7 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s .......
 @A: CL282 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":126:2:126:7|Feedback mux created for signal unaligned_fixed_len_iter_pre[6:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 @A: CL282 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":126:2:126:7|Feedback mux created for signal fixed_burst_pre. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":20:7:20:51|Synthesizing module caxi4interconnect_DWC_DownConv_writeWidthConv in library work.
 
 	CMD_FIFO_DATA_WIDTH=32'b00000000000000000000000000101110
@@ -2760,7 +2765,7 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWr
 	ID_WIDTH=32'b00000000000000000000000000001001
    Generated name = caxi4interconnect_DWC_brespCtrl_1s_9s
 Running optimization stage 1 on caxi4interconnect_DWC_brespCtrl_1s_9s .......
-Finished optimization stage 1 on caxi4interconnect_DWC_brespCtrl_1s_9s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_brespCtrl_1s_9s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v":20:7:20:28|Synthesizing module caxi4interconnect_FIFO in library work.
 
 	MEM_DEPTH=32'b00000000000000000000000000010000
@@ -2782,9 +2787,9 @@ Finished optimization stage 1 on caxi4interconnect_DWC_brespCtrl_1s_9s (CPU Time
    Generated name = caxi4interconnect_RAM_BLOCK_16s_4s_10s_0s
 Running optimization stage 1 on caxi4interconnect_RAM_BLOCK_16s_4s_10s_0s .......
 @N: CL134 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=16, width=10
-Finished optimization stage 1 on caxi4interconnect_RAM_BLOCK_16s_4s_10s_0s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_RAM_BLOCK_16s_4s_10s_0s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 Running optimization stage 1 on caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s .......
-Finished optimization stage 1 on caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":161:22:161:40|Removing wire brespFifoEmpty_temp, as there is no assignment to it.
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":165:15:165:25|Removing wire brespFifowe, as there is no assignment to it.
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":178:12:178:41|Removing wire tot_len_M_to_boundary_conv_pre, as there is no assignment to it.
@@ -2797,7 +2802,7 @@ Finished optimization stage 1 on caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":194:5:194:26|Removing wire to_ctrl_MASTER_AWVALID, as there is no assignment to it.
 @W: CG133 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":318:7:318:14|Object id_range is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_writeWidthConv_Z10 .......
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_writeWidthConv_Z10 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_writeWidthConv_Z10 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v":19:7:19:53|Synthesizing module caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl in library work.
 
 	ADDR_WIDTH=32'b00000000000000000000000000100110
@@ -2813,7 +2818,7 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_writeWidthConv_Z
    Generated name = caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1 .......
 @W: CL207 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v":627:3:627:8|All reachable assignments to SLAVE_AID[8:0] assign 0, register removed by optimization.
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":24:7:24:57|Synthesizing module caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl in library work.
 
 	DATA_WIDTH_OUT=32'b00000000000000000000000000100000
@@ -2829,7 +2834,7 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s .......
 @A: CL282 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":126:2:126:7|Feedback mux created for signal unaligned_fixed_len_iter_pre[6:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 @A: CL282 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":126:2:126:7|Feedback mux created for signal fixed_burst_pre. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v":20:7:20:50|Synthesizing module caxi4interconnect_DWC_DownConv_readWidthConv in library work.
 
 	DATA_WIDTH_IN=32'b00000000000000000000000000100000
@@ -2848,7 +2853,7 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWr
 	ID_WIDTH=32'b00000000000000000000000000001001
    Generated name = caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s .......
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v":20:7:20:48|Synthesizing module caxi4interconnect_DWC_DownConv_widthConvrd in library work.
 
 	CMD_FIFO_DATA_WIDTH=32'b00000000000000000000000000101110
@@ -2861,14 +2866,14 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s .......
 @W: CL169 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v":547:3:547:8|Pruning unused register rdCmdFifoEmpty_reg. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v":426:3:426:8|Pruning unused register cnt[8:0]. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\byte2bit.v":18:7:18:32|Synthesizing module caxi4interconnect_byte2bit in library work.
 
 	DATA_WIDTH_IN=32'b00000000000000000000000000100000
 	DATA_WIDTH_OUT=32'b00000000000000000000000001000000
    Generated name = caxi4interconnect_byte2bit_32s_64s
 Running optimization stage 1 on caxi4interconnect_byte2bit_32s_64s .......
-Finished optimization stage 1 on caxi4interconnect_byte2bit_32s_64s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_byte2bit_32s_64s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v":141:12:141:41|Removing wire tot_len_M_to_boundary_conv_pre, as there is no assignment to it.
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v":142:11:142:33|Removing wire to_boundary_conv_M1_pre, as there is no assignment to it.
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v":146:9:146:38|Removing wire tot_len_GT_max_length_comb_pre, as there is no assignment to it.
@@ -2881,7 +2886,7 @@ Finished optimization stage 1 on caxi4interconnect_byte2bit_32s_64s (CPU Time 0h
 @W: CG133 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v":502:7:502:7|Object k is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v":502:9:502:9|Object l is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s .......
-Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DownConverter.v":20:7:20:37|Synthesizing module caxi4interconnect_DownConverter in library work.
 
 	ADDR_FIFO_DEPTH=32'b00000000000000000000000000010000
@@ -2895,9 +2900,9 @@ Finished optimization stage 1 on caxi4interconnect_DWC_DownConv_readWidthConv_32
 	READ_INTERLEAVE=1'b0
    Generated name = caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0
 Running optimization stage 1 on caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0 .......
-Finished optimization stage 1 on caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 Running optimization stage 1 on caxi4interconnect_SlvDataWidthConverter_Z9 .......
-Finished optimization stage 1 on caxi4interconnect_SlvDataWidthConverter_Z9 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_SlvDataWidthConverter_Z9 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v":26:7:26:44|Synthesizing module caxi4interconnect_SlvProtocolConverter in library work.
 
 	NUM_SLAVES=32'b00000000000000000000000000000100
@@ -2928,9 +2933,9 @@ Finished optimization stage 1 on caxi4interconnect_SlvDataWidthConverter_Z9 (CPU
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":66:12:66:17|Removing wire fifoWr, as there is no assignment to it.
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":67:12:67:17|Removing wire fifoRd, as there is no assignment to it.
 Running optimization stage 1 on caxi4interconnect_SlvAxi4ProtConvAXI4ID_0_9s_8s_0 .......
-Finished optimization stage 1 on caxi4interconnect_SlvAxi4ProtConvAXI4ID_0_9s_8s_0 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_SlvAxi4ProtConvAXI4ID_0_9s_8s_0 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 Running optimization stage 1 on caxi4interconnect_SlvProtocolConverter_Z11 .......
-Finished optimization stage 1 on caxi4interconnect_SlvProtocolConverter_Z11 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_SlvProtocolConverter_Z11 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":21:7:21:46|Synthesizing module caxi4interconnect_SlvClockDomainCrossing in library work.
 
 	ADDR_WIDTH=32'b00000000000000000000000000100110
@@ -2947,7 +2952,7 @@ Finished optimization stage 1 on caxi4interconnect_SlvProtocolConverter_Z11 (CPU
 	MEM_DEPTH=32'b00000000000000000000000000001000
    Generated name = caxi4interconnect_SlvClockDomainCrossing_Z12
 Running optimization stage 1 on caxi4interconnect_SlvClockDomainCrossing_Z12 .......
-Finished optimization stage 1 on caxi4interconnect_SlvClockDomainCrossing_Z12 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_SlvClockDomainCrossing_Z12 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v":24:7:24:38|Synthesizing module caxi4interconnect_SlaveConvertor in library work.
 
 	ID_WIDTH=32'b00000000000000000000000000001001
@@ -2976,7 +2981,7 @@ Finished optimization stage 1 on caxi4interconnect_SlvClockDomainCrossing_Z12 (C
 	MAX_TRANS=32'b00000000000000000000000000100000
    Generated name = caxi4interconnect_SlaveConvertor_Z13
 Running optimization stage 1 on caxi4interconnect_SlaveConvertor_Z13 .......
-Finished optimization stage 1 on caxi4interconnect_SlaveConvertor_Z13 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 156MB)
+Finished optimization stage 1 on caxi4interconnect_SlaveConvertor_Z13 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 157MB)
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":112:2:112:16|Removing wire MASTER1_AWREADY, as there is no assignment to it.
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":126:2:126:16|Removing wire MASTER2_AWREADY, as there is no assignment to it.
 @W: CG360 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":140:2:140:16|Removing wire MASTER3_AWREADY, as there is no assignment to it.
@@ -3118,135 +3123,135 @@ Running optimization stage 1 on COREAXI4INTERCONNECT_Z5 .......
 @W: CL318 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":691:2:691:17|*Output MASTER10_ARREADY has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 
 Only the first 100 messages of id 'CL318' are reported. To see all messages use 'report_messages -log E:\MPFS_Projects\Kyber_HW\synthesis\synlog\MPFS_ICICLE_KIT_BASE_DESIGN_compiler.srr -id CL318' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL318} -count unlimited' in the Tcl shell.
-Finished optimization stage 1 on COREAXI4INTERCONNECT_Z5 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 156MB)
+Finished optimization stage 1 on COREAXI4INTERCONNECT_Z5 (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\FIC0_INITIATOR\FIC0_INITIATOR.v":1476:7:1476:20|Synthesizing module FIC0_INITIATOR in library work.
 Running optimization stage 1 on FIC0_INITIATOR .......
-Finished optimization stage 1 on FIC0_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 156MB)
+Finished optimization stage 1 on FIC0_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\FIC_0_PERIPHERALS\FIC_0_PERIPHERALS.v":9:7:9:23|Synthesizing module FIC_0_PERIPHERALS in library work.
 Running optimization stage 1 on FIC_0_PERIPHERALS .......
-Finished optimization stage 1 on FIC_0_PERIPHERALS (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 156MB)
+Finished optimization stage 1 on FIC_0_PERIPHERALS (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":187:7:187:10|Synthesizing module AND4 in library work.
 Running optimization stage 1 on AND4 .......
-Finished optimization stage 1 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 156MB)
+Finished optimization stage 1 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":333:7:333:11|Synthesizing module BIBUF in library work.
 Running optimization stage 1 on BIBUF .......
-Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 156MB)
+Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":287:7:287:12|Synthesizing module OUTBUF in library work.
 Running optimization stage 1 on OUTBUF .......
-Finished optimization stage 1 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 156MB)
+Finished optimization stage 1 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":264:7:264:11|Synthesizing module INBUF in library work.
 Running optimization stage 1 on INBUF .......
-Finished optimization stage 1 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 156MB)
+Finished optimization stage 1 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":223:7:223:9|Synthesizing module INV in library work.
 Running optimization stage 1 on INV .......
-Finished optimization stage 1 on INV (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 156MB)
+Finished optimization stage 1 on INV (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":357:7:357:16|Synthesizing module INBUF_DIFF in library work.
 Running optimization stage 1 on INBUF_DIFF .......
-Finished optimization stage 1 on INBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 156MB)
+Finished optimization stage 1 on INBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 157MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":403:7:403:17|Synthesizing module OUTBUF_DIFF in library work.
 Running optimization stage 1 on OUTBUF_DIFF .......
-Finished optimization stage 1 on OUTBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 156MB)
+Finished optimization stage 1 on OUTBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 157MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":449:7:449:16|Synthesizing module BIBUF_DIFF in library work.
 Running optimization stage 1 on BIBUF_DIFF .......
-Finished optimization stage 1 on BIBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 156MB)
+Finished optimization stage 1 on BIBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\ICICLE_MSS\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":5:7:5:9|Synthesizing module MSS in library work.
 Running optimization stage 1 on MSS .......
-Finished optimization stage 1 on MSS (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 156MB)
+Finished optimization stage 1 on MSS (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\ICICLE_MSS\ICICLE_MSS.v":5:7:5:16|Synthesizing module ICICLE_MSS in library work.
 Running optimization stage 1 on ICICLE_MSS .......
 Finished optimization stage 1 on ICICLE_MSS (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 157MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\MSS_WRAPPER\MSS_WRAPPER.v":9:7:9:17|Synthesizing module MSS_WRAPPER in library work.
 Running optimization stage 1 on MSS_WRAPPER .......
-Finished optimization stage 1 on MSS_WRAPPER (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 157MB)
+Finished optimization stage 1 on MSS_WRAPPER (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 @N: CG364 :"D:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\acg5.v":133:7:133:9|Synthesizing module OR2 in library work.
 Running optimization stage 1 on OR2 .......
-Finished optimization stage 1 on OR2 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 157MB)
+Finished optimization stage 1 on OR2 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 @N: CG364 :"E:\MPFS_Projects\Kyber_HW\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v":9:7:9:33|Synthesizing module MPFS_ICICLE_KIT_BASE_DESIGN in library work.
 Running optimization stage 1 on MPFS_ICICLE_KIT_BASE_DESIGN .......
-Finished optimization stage 1 on MPFS_ICICLE_KIT_BASE_DESIGN (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 157MB)
+Finished optimization stage 1 on MPFS_ICICLE_KIT_BASE_DESIGN (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 Running optimization stage 2 on MPFS_ICICLE_KIT_BASE_DESIGN .......
-Finished optimization stage 2 on MPFS_ICICLE_KIT_BASE_DESIGN (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on MPFS_ICICLE_KIT_BASE_DESIGN (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on OR2 .......
-Finished optimization stage 2 on OR2 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on OR2 (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on MSS_WRAPPER .......
-Finished optimization stage 2 on MSS_WRAPPER (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on MSS_WRAPPER (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on ICICLE_MSS .......
-Finished optimization stage 2 on ICICLE_MSS (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on ICICLE_MSS (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on MSS .......
-Finished optimization stage 2 on MSS (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on MSS (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on BIBUF_DIFF .......
-Finished optimization stage 2 on BIBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on BIBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on OUTBUF_DIFF .......
-Finished optimization stage 2 on OUTBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on OUTBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on INBUF_DIFF .......
-Finished optimization stage 2 on INBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on INBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on INV .......
-Finished optimization stage 2 on INV (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on INV (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on INBUF .......
-Finished optimization stage 2 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on OUTBUF .......
-Finished optimization stage 2 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on BIBUF .......
-Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on AND4 .......
-Finished optimization stage 2 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on FIC_0_PERIPHERALS .......
-Finished optimization stage 2 on FIC_0_PERIPHERALS (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on FIC_0_PERIPHERALS (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on FIC0_INITIATOR .......
-Finished optimization stage 2 on FIC0_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on FIC0_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on caxi4interconnect_SlaveConvertor_Z13 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v":63:30:63:36|Input ARESETN is unused.
-Finished optimization stage 2 on caxi4interconnect_SlaveConvertor_Z13 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on caxi4interconnect_SlaveConvertor_Z13 (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on caxi4interconnect_SlvClockDomainCrossing_Z12 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":35:26:35:32|Input SLV_CLK is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":36:33:36:40|Input XBAR_CLK is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":37:25:37:32|Input sysReset is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":38:25:38:38|Input ACLK_syncReset is unused.
-Finished optimization stage 2 on caxi4interconnect_SlvClockDomainCrossing_Z12 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on caxi4interconnect_SlvClockDomainCrossing_Z12 (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on caxi4interconnect_SlvAxi4ProtConvAXI4ID_0_9s_8s_0 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":30:26:30:29|Input ACLK is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":31:25:31:32|Input sysReset is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":46:30:46:39|Input SLAVE_LAST is unused.
-Finished optimization stage 2 on caxi4interconnect_SlvAxi4ProtConvAXI4ID_0_9s_8s_0 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on caxi4interconnect_SlvAxi4ProtConvAXI4ID_0_9s_8s_0 (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on caxi4interconnect_SlvProtocolConverter_Z11 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v":95:33:95:44|Input int_slaveWID is unused.
-Finished optimization stage 2 on caxi4interconnect_SlvProtocolConverter_Z11 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on caxi4interconnect_SlvProtocolConverter_Z11 (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0 .......
-Finished optimization stage 2 on caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0 (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on caxi4interconnect_DownConverter_16s_64s_32s_38s_9s_1s_8s_4s_0 (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on caxi4interconnect_byte2bit_32s_64s .......
-Finished optimization stage 2 on caxi4interconnect_byte2bit_32s_64s (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Finished optimization stage 2 on caxi4interconnect_byte2bit_32s_64s (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s .......
 @W: CL246 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v":83:41:83:57|Input port bits 44 to 30 of rdCmdFifoReadData[45:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v":83:41:83:57|Input port bits 22 to 8 of rdCmdFifoReadData[45:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v":89:20:89:31|Input port bits 5 to 3 of mask_slvSize[5:0] are unused. Assign logic for all port bits or change the input port size.
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 172MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_widthConvrd_46s_1s_9s_32s_64s_1s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 173MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s .......
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 172MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_Hold_Reg_Rd_46s_9s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 173MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v":103:21:103:29|Input SLAVE_RID is unused.
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 172MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_readWidthConv_32s_16s_46s_64s_38s_9s_1s_0_1s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 173MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s .......
 @W: CL279 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":126:2:126:7|Pruning register bits 5 to 3 of mask_addr_pre[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 172MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_0_3s_7s_1s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 173MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1 .......
 @W: CL246 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v":87:32:87:43|Input port bits 37 to 6 of MASTER_AADDR[37:0] are unused. Assign logic for all port bits or change the input port size.
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 174MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_1s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 175MB)
 Running optimization stage 2 on caxi4interconnect_RAM_BLOCK_16s_4s_10s_0s .......
-Finished optimization stage 2 on caxi4interconnect_RAM_BLOCK_16s_4s_10s_0s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 174MB)
+Finished optimization stage 2 on caxi4interconnect_RAM_BLOCK_16s_4s_10s_0s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 175MB)
 Running optimization stage 2 on caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s .......
-Finished optimization stage 2 on caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 174MB)
+Finished optimization stage 2 on caxi4interconnect_FIFO_16s_10s_10s_15s_128s_16s_4s_128s_15s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 175MB)
 Running optimization stage 2 on caxi4interconnect_DWC_brespCtrl_1s_9s .......
-Finished optimization stage 2 on caxi4interconnect_DWC_brespCtrl_1s_9s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 174MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_brespCtrl_1s_9s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 175MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_writeWidthConv_Z10 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":104:21:104:29|Input SLAVE_BID is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v":138:15:138:26|Input MASTER_WLAST is unused.
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_writeWidthConv_Z10 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 174MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_writeWidthConv_Z10 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 175MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s .......
 @W: CL279 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v":126:2:126:7|Pruning register bits 5 to 3 of mask_addr_pre[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s (CPU Time 0h:00m:00s, Memory Used current: 167MB peak: 174MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl_32s_64s_38s_1s_9s_1_3s_7s_1s (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 175MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1 .......
 @W: CL246 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v":87:32:87:43|Input port bits 37 to 6 of MASTER_AADDR[37:0] are unused. Assign logic for all port bits or change the input port size.
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 176MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl_38s_9s_1s_64s_32s_46s_0_512s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 177MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s .......
 @W: CL246 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v":71:41:71:55|Input port bits 44 to 30 of wrCmdFifoRdData[45:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v":71:41:71:55|Input port bits 28 to 26 of wrCmdFifoRdData[45:0] are unused. Assign logic for all port bits or change the input port size.
@@ -3255,17 +3260,17 @@ Running optimization stage 2 on caxi4interconnect_DWC_DownConv_widthConvwr_64s_3
 @W: CL246 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v":79:20:79:35|Input port bits 5 to 3 of second_Beat_Addr[5:0] are unused. Assign logic for all port bits or change the input port size.
 Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s .......
-Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_DWC_DownConv_Hold_Reg_Wr_46s_9s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_Hold_Reg_Ctrl .......
-Finished optimization stage 2 on caxi4interconnect_Hold_Reg_Ctrl (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_Hold_Reg_Ctrl (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s .......
-Finished optimization stage 2 on caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RAM_BLOCK_16s_4s_46s_0s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s .......
-Finished optimization stage 2 on caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_FIFO_16s_46s_46s_15s_128s_16s_4s_128s_15s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s .......
-Finished optimization stage 2 on caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_FIFO_CTRL_16s_15s_128s_4s_16s_0s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_SlvDataWidthConverter_Z9 .......
-Finished optimization stage 2 on caxi4interconnect_SlvDataWidthConverter_Z9 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_SlvDataWidthConverter_Z9 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegSliceFull_12s_0_1_3_2 .......
 @N: CL201 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 Extracted state machine for register currState
@@ -3274,7 +3279,7 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on caxi4interconnect_RegSliceFull_12s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegSliceFull_12s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegSliceFull_83s_0_1_3_2 .......
 @N: CL201 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 Extracted state machine for register currState
@@ -3283,7 +3288,7 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on caxi4interconnect_RegSliceFull_83s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegSliceFull_83s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegSliceFull_78s_0_1_3_2 .......
 @N: CL201 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 Extracted state machine for register currState
@@ -3292,14 +3297,14 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on caxi4interconnect_RegSliceFull_78s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegSliceFull_78s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_38s_64s_0s_1s .......
-Finished optimization stage 2 on caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_38s_64s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_38s_64s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_MstrProtocolConverter_4s_0s_38s_64s_0_1s_8s .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":43:38:43:41|Input ACLK is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":44:37:44:44|Input sysReset is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":142:31:142:40|Input MASTER_WID is unused.
-Finished optimization stage 2 on caxi4interconnect_MstrProtocolConverter_4s_0s_38s_64s_0_1s_8s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_MstrProtocolConverter_4s_0s_38s_64s_0_1s_8s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_MasterConvertor_Z8 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":57:25:57:31|Input ARESETN is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":174:18:174:29|Input MASTER_HADDR is unused.
@@ -3312,17 +3317,17 @@ Running optimization stage 2 on caxi4interconnect_MasterConvertor_Z8 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":181:35:181:47|Input MASTER_HWDATA is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":183:12:183:24|Input MASTER_HWRITE is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":186:12:186:22|Input MASTER_HSEL is unused.
-Finished optimization stage 2 on caxi4interconnect_MasterConvertor_Z8 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_MasterConvertor_Z8 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_MstrClockDomainCrossing_Z7 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":35:26:35:32|Input MST_CLK is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":36:33:36:40|Input XBAR_CLK is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":37:25:37:32|Input sysReset is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":38:25:38:38|Input ACLK_syncReset is unused.
-Finished optimization stage 2 on caxi4interconnect_MstrClockDomainCrossing_Z7 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_MstrClockDomainCrossing_Z7 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_MstrDataWidthConv_Z6 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v":44:26:44:29|Input ACLK is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v":45:25:45:32|Input sysReset is unused.
-Finished optimization stage 2 on caxi4interconnect_MstrDataWidthConv_Z6 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_MstrDataWidthConv_Z6 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegSliceFull_11s_0_1_3_2 .......
 @N: CL201 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 Extracted state machine for register currState
@@ -3331,7 +3336,7 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on caxi4interconnect_RegSliceFull_11s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegSliceFull_11s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegSliceFull_82s_0_1_3_2 .......
 @N: CL201 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 Extracted state machine for register currState
@@ -3340,7 +3345,7 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on caxi4interconnect_RegSliceFull_82s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegSliceFull_82s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegSliceFull_76s_0_1_3_2 .......
 @N: CL201 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 Extracted state machine for register currState
@@ -3349,7 +3354,7 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on caxi4interconnect_RegSliceFull_76s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegSliceFull_76s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegSliceFull_77s_0_1_3_2 .......
 @N: CL201 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 Extracted state machine for register currState
@@ -3358,9 +3363,9 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on caxi4interconnect_RegSliceFull_77s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegSliceFull_77s_0_1_3_2 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s .......
-Finished optimization stage 2 on caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_38s_64s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 195MB)
 Running optimization stage 2 on COREAXI4INTERCONNECT_Z5 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":33:2:33:7|Input M_CLK0 is unused.
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":34:2:34:7|Input M_CLK1 is unused.
@@ -3432,17 +3437,17 @@ Running optimization stage 2 on COREAXI4INTERCONNECT_Z5 .......
 @N: CL159 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v":121:2:121:15|Input MASTER2_AWPROT is unused.
 
 Only the first 100 messages of id 'CL159' are reported. To see all messages use 'report_messages -log E:\MPFS_Projects\Kyber_HW\synthesis\synlog\MPFS_ICICLE_KIT_BASE_DESIGN_compiler.srr -id CL159' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL159} -count unlimited' in the Tcl shell.
-Finished optimization stage 2 on COREAXI4INTERCONNECT_Z5 (CPU Time 0h:00m:00s, Memory Used current: 172MB peak: 195MB)
+Finished optimization stage 2 on COREAXI4INTERCONNECT_Z5 (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_Axi4CrossBar_Z4 .......
 @W: CL247 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":166:61:166:69|Input port bit 8 of SLAVE_BID[8:0] is unused
 
 @W: CL247 :"E:\MPFS_Projects\Kyber_HW\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":188:63:188:71|Input port bit 8 of SLAVE_RID[8:0] is unused
 
-Finished optimization stage 2 on caxi4interconnect_Axi4CrossBar_Z4 (CPU Time 0h:00m:00s, Memory Used current: 172MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_Axi4CrossBar_Z4 (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 195MB)
 Running optimization stage 2 on caxi4interconnect_ResetSycnc .......
-Finished optimization stage 2 on caxi4interconnect_ResetSycnc (CPU Time 0h:00m:00s, Memory Used current: 172MB peak: 195MB)
+Finished optimization stage 2 on caxi4interconnect_ResetSycnc (CPU Time 0h:00m:00s, Memory Used current: 174MB peak: 195MB)
 Running optimization stage 2 on Core_Poly_Z3 .......
-@N: CL201 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":605:4:605:9|Trying to extract state machine for register CS.
+@N: CL201 :"E:\MPFS_Projects\Kyber_HW\hdl\Core_Poly.v":606:4:606:9|Trying to extract state machine for register CS.
 Extracted state machine for register CS
 State machine has 9 reachable states with original encodings of:
    0000
@@ -3460,45 +3465,45 @@ Finished optimization stage 2 on Core_Poly_Z3 (CPU Time 0h:00m:01s, Memory Used 
 Running optimization stage 2 on polyvec_ram_8s_256s_12s .......
 Finished optimization stage 2 on polyvec_ram_8s_256s_12s (CPU Time 0h:00m:00s, Memory Used current: 182MB peak: 204MB)
 Running optimization stage 2 on poly_mul_12s_767s_2385s .......
-Finished optimization stage 2 on poly_mul_12s_767s_2385s (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 204MB)
+Finished optimization stage 2 on poly_mul_12s_767s_2385s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
 Running optimization stage 2 on tf1_ROM .......
-Finished optimization stage 2 on tf1_ROM (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 204MB)
+Finished optimization stage 2 on tf1_ROM (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
 Running optimization stage 2 on tf0_ROM .......
-Finished optimization stage 2 on tf0_ROM (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 204MB)
+Finished optimization stage 2 on tf0_ROM (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
 Running optimization stage 2 on mult_half_12s .......
-Finished optimization stage 2 on mult_half_12s (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 204MB)
+Finished optimization stage 2 on mult_half_12s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
 Running optimization stage 2 on sub_rd_12s .......
-Finished optimization stage 2 on sub_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 204MB)
+Finished optimization stage 2 on sub_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
 Running optimization stage 2 on add_rd_12s .......
-Finished optimization stage 2 on add_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 204MB)
+Finished optimization stage 2 on add_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
 Running optimization stage 2 on mult_rd_12s .......
 @W: CL279 :"E:\MPFS_Projects\Kyber_HW\hdl\fp_modop.v":43:2:43:7|Pruning register bits 11 to 8 of tq[23:8]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-Finished optimization stage 2 on mult_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 204MB)
+Finished optimization stage 2 on mult_rd_12s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
 Running optimization stage 2 on poly_ram_5s_32s_24s .......
-Finished optimization stage 2 on poly_ram_5s_32s_24s (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 204MB)
+Finished optimization stage 2 on poly_ram_5s_32s_24s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
 Running optimization stage 2 on network_bf_out_24s .......
-Finished optimization stage 2 on network_bf_out_24s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
+Finished optimization stage 2 on network_bf_out_24s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on delay_8s_7s .......
 @N: CL135 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[6].level_buf with address depth of 7 words and data bit width of 8.
-Finished optimization stage 2 on delay_8s_7s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
+Finished optimization stage 2 on delay_8s_7s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on network_bf_in_24s .......
-Finished optimization stage 2 on network_bf_in_24s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
+Finished optimization stage 2 on network_bf_in_24s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on poly_bank_5s_32s_24s .......
-Finished optimization stage 2 on poly_bank_5s_32s_24s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
+Finished optimization stage 2 on poly_bank_5s_32s_24s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on delay_3s_Z2 .......
 @N: CL135 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 20.
-Finished optimization stage 2 on delay_3s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
+Finished optimization stage 2 on delay_3s_Z2 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on delay_7s_Z1 .......
 @N: CL135 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[6].level_buf with address depth of 7 words and data bit width of 20.
-Finished optimization stage 2 on delay_7s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
+Finished optimization stage 2 on delay_7s_Z1 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on network_bank_in_5s .......
-Finished optimization stage 2 on network_bank_in_5s (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
+Finished optimization stage 2 on network_bank_in_5s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on arbiter .......
-Finished optimization stage 2 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
+Finished optimization stage 2 on arbiter (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on conflict_free_memory_map .......
-Finished optimization stage 2 on conflict_free_memory_map (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 204MB)
-Running optimization stage 2 on address_generator .......
-@N: CL201 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":49:4:49:9|Trying to extract state machine for register CS.
+Finished optimization stage 2 on conflict_free_memory_map (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
+Running optimization stage 2 on address_generator_shuffling .......
+@N: CL201 :"E:\MPFS_Projects\Kyber_HW\hdl\address_generator.v":53:4:53:9|Trying to extract state machine for register CS.
 Extracted state machine for register CS
 State machine has 5 reachable states with original encodings of:
    000
@@ -3506,46 +3511,48 @@ State machine has 5 reachable states with original encodings of:
    010
    011
    100
-Finished optimization stage 2 on address_generator (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on address_generator_shuffling (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
+Running optimization stage 2 on shuffle_rom .......
+Finished optimization stage 2 on shuffle_rom (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on delay_2s_4s .......
 @N: CL135 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[3].level_buf with address depth of 4 words and data bit width of 2.
-Finished optimization stage 2 on delay_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on delay_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on delay_8s_3s .......
 @N: CL135 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 8.
-Finished optimization stage 2 on delay_8s_3s (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on delay_8s_3s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on delay_2s_3s .......
 @N: CL135 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[2].level_buf with address depth of 3 words and data bit width of 2.
-Finished optimization stage 2 on delay_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on delay_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on delay_2s_7s .......
 @N: CL135 :"E:\MPFS_Projects\Kyber_HW\hdl\delay.v":47:12:47:17|Found sequential shift gen_delay[6].level_buf with address depth of 7 words and data bit width of 2.
-Finished optimization stage 2 on delay_2s_7s (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on delay_2s_7s (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on CLOCKS_AND_RESETS .......
-Finished optimization stage 2 on CLOCKS_AND_RESETS (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on CLOCKS_AND_RESETS (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on CORERESET .......
-Finished optimization stage 2 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF .......
 @N: CL135 :"E:\MPFS_Projects\Kyber_HW\component\work\CORERESET\CORERESET_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
-Finished optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on INIT_MONITOR .......
-Finished optimization stage 2 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR .......
-Finished optimization stage 2 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on INIT .......
-Finished optimization stage 2 on INIT (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on INIT (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on AND2 .......
-Finished optimization stage 2 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on PF_CCC_C0 .......
-Finished optimization stage 2 on PF_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on PF_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC .......
-Finished optimization stage 2 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on GND .......
-Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on VCC .......
-Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on PLL .......
-Finished optimization stage 2 on PLL (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on PLL (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 Running optimization stage 2 on CLKINT .......
-Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 204MB)
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 204MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================

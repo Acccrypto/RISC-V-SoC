@@ -14,6 +14,9 @@
 #include "mpfs_hal/mss_hal.h"
 #include "inc/common.h"
 #include <stdlib.h>
+#include "masked_utils.h"
+
+//#define MASK
 
 uint8_t info_string[100];
 HART_SHARED_DATA * hart_share;
@@ -49,9 +52,9 @@ int crypto_sign_keypair(uint8_t *pk, uint8_t *sk) {
     hart_share = (HART_SHARED_DATA *)hls->shared_mem;
 #endif
 
-    uint8_t seedbuf[3*SEEDBYTES] = { 0x7c, 0x99, 0x35, 0xa0, 0xb0, 0x76, 0x94, 0xaa,
-            0x0c, 0x6d, 0x10, 0xe4, 0xdb, 0x6b, 0x1a, 0xdd, 0x2f, 0xd8, 0x1a, 0x25,
-            0xcc, 0xb1, 0x48, 0x03, 0x2d, 0xcd, 0x73, 0x99, 0x36, 0x73, 0x7f, 0x2d };
+    uint8_t seedbuf[3*SEEDBYTES] = { 0x2f, 0x99, 0x07, 0xa0, 0x5e, 0x76, 0x70, 0xaa, 0x2c,
+            0x6d, 0x41, 0xe4, 0xdf, 0x6b, 0x03, 0xdd, 0x2f, 0xd8, 0x1a, 0x25, 0xcc, 0xb1,
+            0x48, 0x03, 0x2d, 0xcd, 0x73, 0x99, 0x36, 0x73, 0x7f, 0x2d };
     uint8_t tr[CRHBYTES];
     const uint8_t *rho, *rhoprime, *key;
     polyvecl mat[K];
@@ -77,8 +80,21 @@ int crypto_sign_keypair(uint8_t *pk, uint8_t *sk) {
     // t = A * s1 + s2
     //mcycle_start = readmcycle();
 
+#ifdef MASK
+    polyvecl_mask s1_mask;
+    polyveck_mask s2_mask, t1_mask;
+
+    masked_polyvecl(&s1_mask, &s1);
+    masked_polyveck(&s2_mask, &s2);
+    for (int i = 0; i < NSHARES; i++) {
+        write_polyveck(&s2_mask.share[i]);
+        polyvec_matrix_mult(&t1_mask.share[i], mat, &s1_mask.share[i], 1);
+    }
+    unmasked_polyveck(&t1, &t1_mask);
+#else
     write_polyveck(&s2);
     polyvec_matrix_mult(&t1, mat, &s1, 1);
+#endif
 
     //mcycle_end = readmcycle();
     //delta_mcycle += (mcycle_end - mcycle_start);
@@ -156,7 +172,18 @@ rej:
     // w = A * y
     //mcycle_start = readmcycle();
 
+#ifdef MASK
+    polyvecl_mask y_mask;
+    polyveck_mask w1_mask;
+
+    masked_polyvecl(&y_mask, &y);
+    for (int i = 0; i < NSHARES; i++) {
+        polyvec_matrix_mult(&w1_mask.share[i], mat, &y_mask.share[i], 1);
+    }
+    unmasked_polyveck(&w1, &w1_mask);
+#else
     polyvec_matrix_mult(&w1, mat, &y, 1);
+#endif
 
     //mcycle_end = readmcycle();
     //delta_mcycle += (mcycle_end - mcycle_start);
@@ -174,8 +201,34 @@ rej:
     // z = y + c * s1
     //mcycle_start = readmcycle();
 
+#ifdef MASK
+    polyvecl_mask s1_mask, z_mask;
+
+    masked_polyvecl(&s1_mask, &s1);
+    for (int i = 0; i < NSHARES; i++) {
+        write_polyvecl(&y_mask.share[i]);
+        polyvecl_mult(&z_mask.share[i], &cp, &s1_mask.share[i]);
+    }
+    unmasked_polyvecl(&z, &z_mask);
+#else
     write_polyvecl(&y);
     polyvecl_mult(&z, &cp, &s1);
+#endif
+
+#if 0
+    if (nonce == 1) {
+        for(int i = 0; i < L; ++i) {
+            sprintf(info_string, "vecl: %d\r\n", i);
+            MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
+            for (int k = 0; k < 256; k++) {
+                sprintf(info_string, "%d,\r\n", z.vec[i].coeffs[k]);
+                MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
+            }
+            sprintf(info_string, "\r\n");
+            MSS_UART_polled_tx(&g_mss_uart0_lo, info_string, strlen(info_string));
+        }
+    }
+#endif
 
     //mcycle_end = readmcycle();
     //delta_mcycle += (mcycle_end - mcycle_start);
@@ -188,8 +241,20 @@ rej:
     // w0 = w0 - c * s2
     //mcycle_start = readmcycle();
 
+#ifdef MASK
+    polyveck_mask w0_mask, s2_mask;
+
+    masked_polyveck(&w0_mask, &w0);
+    masked_polyveck(&s2_mask, &s2);
+    for (int i = 0; i < NSHARES; i++) {
+        write_polyveck(&w0_mask.share[i]);
+        polyveck_mult_cp(&w0_mask.share[i], &s2_mask.share[i]);
+    }
+    unmasked_polyveck(&w0, &w0_mask);
+#else
     write_polyveck(&w0);
     polyveck_mult_cp(&w0, &s2);
+#endif
 
     //mcycle_end = readmcycle();
     //delta_mcycle += (mcycle_end - mcycle_start);
@@ -201,7 +266,18 @@ rej:
     // h = c * t0, w0 = w0 + c * t0
     //mcycle_start = readmcycle();
 
+#ifdef MASK
+    polyveck_mask t0_mask, h_mask;
+
+    masked_polyveck(&t0_mask, &t0);
+    for (int i = 0; i < NSHARES; i++) {
+        polyveck_multadd_cp(&h_mask.share[i], &w0_mask.share[i], &t0_mask.share[i]);
+    }
+    unmasked_polyveck(&w0, &w0_mask);
+    unmasked_polyveck(&h, &h_mask);
+#else
     polyveck_multadd_cp(&h, &w0, &t0);
+#endif
 
     //mcycle_end = readmcycle();
     //delta_mcycle += (mcycle_end - mcycle_start);

@@ -10,21 +10,21 @@ INV             4 uses
 MSS             1 use
 OR2             3 uses
 PLL             1 use
-CFG1           27 uses
-CFG2           823 uses
-CFG3           2456 uses
-CFG4           3158 uses
+CFG1           30 uses
+CFG2           874 uses
+CFG3           2615 uses
+CFG4           3186 uses
 
 Carry cells:
-ARI1            1046 uses - used for arithmetic functions
-ARI1            624 uses - used for Wide-Mux implementation
-Total ARI1      1670 uses
+ARI1            1078 uses - used for arithmetic functions
+ARI1            640 uses - used for Wide-Mux implementation
+Total ARI1      1718 uses
 
 
 Sequential Cells: 
-SLE            3273 uses
+SLE            3254 uses
 SLE_INIT       12 uses - used for Seqshift to URAM mapping
-Total SLE          3285 uses
+Total SLE          3266 uses
 
 DSP Blocks:    4 of 784 (0%)
  MACC_PA:         4 Mults
@@ -41,7 +41,7 @@ OUTBUF_DIFF    3 uses
 
 Global Clock Buffers: 6
 
-Total LUTs:    8134
+Total LUTs:    8423
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
@@ -50,6 +50,6 @@ RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA     Interface Logic : SLEs = 144; LUTs = 144;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  3285 + 540 + 0 + 144 = 3969;
-Total number of LUTs after P&R:  8134 + 540 + 0 + 144 = 8818;
+Total number of SLEs after P&R:  3266 + 540 + 0 + 144 = 3950;
+Total number of LUTs after P&R:  8423 + 540 + 0 + 144 = 9107;
 

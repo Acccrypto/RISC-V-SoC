@@ -13,6 +13,18 @@ The file contains the information about all compile points from mapper to be dis
 </row>
 <row>
 <data>
+<value>Core_Poly_Z3</value>
+<report_link name="Report">
+<data>E:\MPFS_Projects\Dilithium_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:37s</data>
+<data>0h:00m:37s</data>
+</row>
+<row>
+<data>
 <value>poly_mul</value>
 <report_link name="Report">
 <data>E:\MPFS_Projects\Dilithium_HW\synthesis\poly_mul\poly_mul.srr</data>
@@ -22,18 +34,6 @@ The file contains the information about all compile points from mapper to be dis
 <data>-</data>
 <data>0h:00m:28s</data>
 <data>0h:00m:28s</data>
-</row>
-<row>
-<data>
-<value>Core_Poly_Z3</value>
-<report_link name="Report">
-<data>E:\MPFS_Projects\Dilithium_HW\synthesis\Core_Poly_Z3\Core_Poly_Z3.srr</data>
-</report_link>
-</data>
-<data>Unchanged</data>
-<data>-</data>
-<data>0h:00m:40s</data>
-<data>0h:00m:40s</data>
 </row>
 <row>
 <data>
@@ -55,7 +55,7 @@ The file contains the information about all compile points from mapper to be dis
 </report_link>
 </data>
 <data>Remapped</data>
-<data>Interface of Compile Point changed</data>
+<data>Design changed</data>
 <data>0h:00m:16s</data>
 <data>0h:00m:16s</data>
 </row>

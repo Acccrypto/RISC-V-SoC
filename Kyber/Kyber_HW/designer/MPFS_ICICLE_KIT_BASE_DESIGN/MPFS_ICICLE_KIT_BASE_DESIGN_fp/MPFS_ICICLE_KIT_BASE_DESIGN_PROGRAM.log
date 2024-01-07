@@ -8,7 +8,7 @@ The 'open_project' command succeeded.
 Info: Programming is already enabled for device 'MPFS250T_ES'.
 The 'enable_device' command succeeded.
 PPD file 'E:/MPFS_Projects/Kyber_HW/designer/MPFS_ICICLE_KIT_BASE_DESIGN/MPFS_ICICLE_KIT_BASE_DESIGN.ppd' has been loaded successfully.
-DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : 1705;  PDB_VERSION : 1.0
+DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : 08E0;  PDB_VERSION : 1.0
 The 'set_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
 programmer 'ED997378' : Scan Chain...
@@ -40,9 +40,9 @@ CRCERR: 00
 
 BITS component bitstream digest: AEE355E728BED157183D65B414803CA9422E59D42B06365E61DDF1ED5EC41D74
 Security component bitstream digest: 2B6E210B086BD75820ADA6C1935D194AC0A08400AAFC1F9EC757DC0A2A0B2980
-Fabric component bitstream digest: B96DF5D161480BB53B44C024451626D21C606032938DEB56C365AE8A9DDFC663
+Fabric component bitstream digest: 915132205F58725EE11E49398D696695D294172347D0C0A8BE2A034669D0C0C0
 sNVM component bitstream digest: D72F718F70559F88DE6E74ED8428648FE377FB4F2178325D77A5D36B92665B28
-EOB component bitstream digest: 014FB7F05AE5130FEBA72026190BDFBD2E0AB4126E4C1AC341C4C8C1F51906ED
+EOB component bitstream digest: 5CD006BE4DECBEB44AA4F7EA1612453ADC01A90C377342CE2FCB1B263B48BD40
 =====================================================================
 DSN: 3AA001249A1C109E7752BC0ECA5D12A4
 =====================================================================
@@ -50,7 +50,7 @@ DSN: 3AA001249A1C109E7752BC0ECA5D12A4
 
 programmer 'ED997378' : device 'MPFS250T_ES' : Executing action PROGRAM PASSED.
 programmer 'ED997378' : Chain programming PASSED.
-Chain Programming Finished: Sun Nov 26 17:50:00 2023 (Elapsed time 00:00:57)
+Chain Programming Finished: Sat Jan  6 16:31:26 2024 (Elapsed time 00:00:57)
 
                         o - o - o - o - o - o
 

@@ -6,7 +6,7 @@
 <text>Family: PolarFireSoC</text>
 <text>Die: MPFS250T_ES</text>
 <text>Package: FCVG484</text>
-<text>Date: Mon Nov 27 09:12:52 2023
+<text>Date: Sat Jan  6 17:11:24 2024
 </text>
 <text>Report path: E:\MPFS_Projects\Dilithium_HW\designer\MPFS_ICICLE_KIT_BASE_DESIGN\Design_Initialization_Data_Report.xml</text>
 <section>
@@ -17557,7 +17557,7 @@ INFO: The PUFT timing numbers reflect the time elapsed between the assertion of 
  <cell>PLL_REF_FB</cell>
  <cell>0x8100008</cell>
  <cell>0x00000000</cell>
- <cell>0x00000500</cell>
+ <cell>0x00001900</cell>
  <cell>Yes</cell>
  <cell>N/A</cell>
 </row>
@@ -17581,7 +17581,7 @@ INFO: The PUFT timing numbers reflect the time elapsed between the assertion of 
  <cell>PLL_DIV_2_3</cell>
  <cell>0x8100014</cell>
  <cell>0x00000000</cell>
- <cell>0x18000900</cell>
+ <cell>0x17000900</cell>
  <cell>Yes</cell>
  <cell>N/A</cell>
 </row>
@@ -17629,7 +17629,7 @@ INFO: The PUFT timing numbers reflect the time elapsed between the assertion of 
  <cell>SSCG_REG_2</cell>
  <cell>0x810002C</cell>
  <cell>0x00000000</cell>
- <cell>0x000001E6</cell>
+ <cell>0x00000936</cell>
  <cell>Yes</cell>
  <cell>N/A</cell>
 </row>

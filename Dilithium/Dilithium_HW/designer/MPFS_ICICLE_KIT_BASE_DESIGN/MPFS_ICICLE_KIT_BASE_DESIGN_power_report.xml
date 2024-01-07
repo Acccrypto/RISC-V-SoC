@@ -21,7 +21,7 @@
 </row>
 <row>
  <cell>Date:</cell>
- <cell>Mon Nov 27 09:19:23 2023</cell>
+ <cell>Sat Jan  6 17:14:56 2024</cell>
 </row>
 <row>
  <cell>Version:</cell>
@@ -83,18 +83,18 @@
 </header>
 <row>
  <cell>Total Power</cell>
- <cell>  1847.995</cell>
+ <cell>  1843.229</cell>
  <cell>    100.0%</cell>
 </row>
 <row>
  <cell>Static Power</cell>
  <cell>   521.924</cell>
- <cell>     28.2%</cell>
+ <cell>     28.3%</cell>
 </row>
 <row>
  <cell>Dynamic Power</cell>
- <cell>  1326.071</cell>
- <cell>     71.8%</cell>
+ <cell>  1321.305</cell>
+ <cell>     71.7%</cell>
 </row>
 </table>
 <text></text>
@@ -108,45 +108,45 @@
 </header>
 <row>
  <cell>Rail VDD</cell>
- <cell>  1495.615</cell>
+ <cell>  1492.256</cell>
  <cell>     1.050</cell>
- <cell>  1424.395</cell>
+ <cell>  1421.196</cell>
 </row>
 <row>
  <cell>Rail VDDAUX</cell>
- <cell>    62.129</cell>
+ <cell>    61.707</cell>
  <cell>     2.500</cell>
- <cell>    24.852</cell>
+ <cell>    24.683</cell>
 </row>
 <row>
  <cell>Rail VDDI 3.3</cell>
- <cell>    16.065</cell>
+ <cell>    15.589</cell>
  <cell>     3.300</cell>
- <cell>     4.868</cell>
+ <cell>     4.724</cell>
 </row>
 <row>
  <cell>Rail VDDI 1.8</cell>
- <cell>     3.051</cell>
+ <cell>     2.962</cell>
  <cell>     1.800</cell>
- <cell>     1.695</cell>
+ <cell>     1.646</cell>
 </row>
 <row>
  <cell>Rail VDD18</cell>
- <cell>    24.637</cell>
+ <cell>    24.604</cell>
  <cell>     1.800</cell>
- <cell>    13.687</cell>
+ <cell>    13.669</cell>
 </row>
 <row>
  <cell>Rail VDDI 1.1</cell>
- <cell>   226.332</cell>
+ <cell>   226.283</cell>
  <cell>     1.100</cell>
- <cell>   205.756</cell>
+ <cell>   205.711</cell>
 </row>
 <row>
  <cell>Rail VDD25</cell>
- <cell>    20.166</cell>
+ <cell>    19.828</cell>
  <cell>     2.500</cell>
- <cell>     8.067</cell>
+ <cell>     7.931</cell>
 </row>
 </table>
 <text></text>
@@ -164,7 +164,7 @@
 </row>
 <row>
  <cell>REF_CLK_50MHz (register outputs)</cell>
- <cell>     0.003</cell>
+ <cell>     0.004</cell>
  <cell>      0.0%</cell>
 </row>
 <row>
@@ -234,13 +234,13 @@
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (clocks)</cell>
- <cell>    11.915</cell>
- <cell>      9.7%</cell>
+ <cell>    12.179</cell>
+ <cell>     10.3%</cell>
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (register outputs)</cell>
- <cell>    21.982</cell>
- <cell>     17.9%</cell>
+ <cell>    21.766</cell>
+ <cell>     18.4%</cell>
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (primary inputs)</cell>
@@ -249,8 +249,8 @@
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (combinational outputs)</cell>
- <cell>    88.292</cell>
- <cell>     72.0%</cell>
+ <cell>    84.078</cell>
+ <cell>     71.0%</cell>
 </row>
 <row>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0:OUT0 (set/reset nets)</cell>
@@ -323,28 +323,28 @@
 </header>
 <row>
  <cell>Type Net</cell>
- <cell>    57.955</cell>
- <cell>      3.1%</cell>
+ <cell>    55.083</cell>
+ <cell>      3.0%</cell>
 </row>
 <row>
  <cell>Type Gate</cell>
- <cell>  1223.902</cell>
- <cell>     66.2%</cell>
+ <cell>  1223.314</cell>
+ <cell>     66.4%</cell>
 </row>
 <row>
  <cell>Type I/O</cell>
- <cell>   369.381</cell>
+ <cell>   368.288</cell>
  <cell>     20.0%</cell>
 </row>
 <row>
  <cell>Type Memory</cell>
- <cell>     1.086</cell>
+ <cell>     1.053</cell>
  <cell>      0.1%</cell>
 </row>
 <row>
  <cell>Type Core Static</cell>
  <cell>   189.070</cell>
- <cell>     10.2%</cell>
+ <cell>     10.3%</cell>
 </row>
 <row>
  <cell>Type Other Rails Static</cell>
@@ -353,7 +353,7 @@
 </row>
 <row>
  <cell>Type DSP</cell>
- <cell>     6.151</cell>
+ <cell>     5.971</cell>
  <cell>      0.3%</cell>
 </row>
 </table>

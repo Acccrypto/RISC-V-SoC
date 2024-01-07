@@ -15,6 +15,7 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
 
 @N|Running in 64-bit mode
+File E:\MPFS_Projects\Kyber_HW\synthesis\synwork\MPFS_ICICLE_KIT_BASE_DESIGN_comp.srs changed - recompiling
 @W: BN108 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances: rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_38s_64s_0s_1s.
 @W: BN108 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances: slvdwc. Apply syn_hier to module using name v:caxi4interconnect_SlvDataWidthConverter_Z9.
 @W: BN108 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances: slvProtConv. Apply syn_hier to module using name v:caxi4interconnect_SlvProtocolConverter_Z11.
@@ -24,11 +25,11 @@ Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun
 @W: BN108 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances: mstrDWC. Apply syn_hier to module using name v:caxi4interconnect_MstrDataWidthConv_Z6.
 @W: BN108 :"e:\mpfs_projects\kyber_hw\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances: mstrCDC. Apply syn_hier to module using name v:caxi4interconnect_MstrClockDomainCrossing_Z7.
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 173MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Nov 26 17:38:21 2023
+# Sat Jan  6 16:16:40 2024
 
 ###########################################################]
